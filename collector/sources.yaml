@@ -231,16 +231,6 @@ sources:
     default_location: { name: "Port Washington Public Library", address: "Port Washington Public Library, Port Washington, NY" }
     enabled: true
 
-  - id: lib-riverhead
-    name: Riverhead Free Library
-    type: ics
-    url: https://www.riverheadlibrary.org/events/feed/ical
-    category: auto
-    filter: keywords
-    homepage: https://www.riverheadlibrary.org/
-    always_default_location: true
-    default_location: { name: "Riverhead Free Library", address: "Riverhead Free Library, Riverhead, NY" }
-    enabled: true
 
   - id: lib-lindenhurst
     name: Lindenhurst Memorial Library
@@ -286,16 +276,6 @@ sources:
     default_location: { name: "East Islip Public Library", address: "East Islip Public Library, East Islip, NY" }
     enabled: true
 
-  - id: lib-centralislip
-    name: Central Islip Public Library
-    type: ics
-    url: https://www.cilibrary.org/events/feed/ical
-    category: auto
-    filter: keywords
-    homepage: https://www.cilibrary.org/
-    always_default_location: true
-    default_location: { name: "Central Islip Public Library", address: "Central Islip Public Library, Central Islip, NY" }
-    enabled: true
 
   - id: manual
     name: NerdHang picks
