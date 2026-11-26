@@ -10,6 +10,14 @@
     "museum": "Museums",
     "other": "Other",
   };
+  // Small line icons, one per category.
+  const ICONS = {
+    "trains": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="13" rx="3"/><path d="M5 10h14M9 20l-2 2M15 20l2 2M8 16l-1 4h10l-1-4"/><circle cx="9" cy="13" r=".5"/><circle cx="15" cy="13" r=".5"/></svg>',
+    "ham-radio": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12v10M9 22h6M12 12l-4-9M12 12l4-9M8.5 4h7"/><path d="M5 8a8 8 0 0 0 0 8M19 8a8 8 0 0 1 0 8"/></svg>',
+    "computers": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4M7 9l2 2-2 2M11 13h4"/></svg>',
+    "museum": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 21h18"/></svg>',
+    "other": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>',
+  };
   const DEFAULT_LOC = { name: "Long Island, NY", lat: 40.79, lon: -73.13 };
   const store = {
     get(k, d) { try { return JSON.parse(localStorage.getItem("nh:" + k)) ?? d; } catch { return d; } },
@@ -27,7 +35,9 @@
 
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-  const color = (cat) => getComputedStyle(document.documentElement).getPropertyValue("--" + (CATEGORIES[cat] ? cat : "other")).trim();
+  const catOf = (e) => (CATEGORIES[e.category] ? e.category : "other");
+  const color = (cat) => `var(--${CATEGORIES[cat] ? cat : "other"})`;
+  const solid = (cat) => getComputedStyle(document.documentElement).getPropertyValue("--" + (CATEGORIES[cat] ? cat : "other")).trim();
 
   // ---------- dates ----------
   // All-day events are "YYYY-MM-DD" with an inclusive end; timed ones are ISO with offset.
@@ -85,14 +95,15 @@
       const s = startOf(e);
       const m = fmtDate(s, { month: "long", year: "numeric" });
       if (m !== month) { html += `<h2 class="month-head">${esc(m)}</h2>`; month = m; }
-      const cat = CATEGORIES[e.category] ? e.category : "other";
-      const dist = e._miles != null ? ` · ${Math.round(e._miles)} mi` : "";
-      html += `<article class="ev" tabindex="0" data-id="${esc(e.id)}" style="border-left-color:${color(cat)}">
+      const cat = catOf(e);
+      const dist = e._miles != null ? `<div class="dist"><b>${Math.round(e._miles)}</b>miles</div>` : "";
+      html += `<article class="ev" tabindex="0" data-id="${esc(e.id)}" style="--c:${color(cat)}">
         <div class="when"><div class="dow">${esc(fmtDate(s, { weekday: "short" }))}</div>
           <div class="day">${s.getDate()}</div><div class="mon">${esc(fmtDate(s, { month: "short" }))}</div></div>
-        <div><h3>${esc(e.title)}</h3>
-          <div class="meta"><span class="tag" style="background:${color(cat)}">${esc(CATEGORIES[cat])}</span>${esc(whenText(e))}${esc(dist)}</div>
-          <div class="meta">${esc(placeText(e))}</div></div>
+        <div class="body"><h3>${esc(e.title)}</h3>
+          <div class="meta"><span class="tag">${ICONS[cat]}${esc(CATEGORIES[cat])}</span><span>${esc(whenText(e))}</span></div>
+          <div class="meta">${esc(placeText(e))}${e._miles != null ? `<span class="mi-inline"> · ${Math.round(e._miles)} mi</span>` : ""}</div></div>
+        ${dist}
       </article>`;
     }
     el.innerHTML = html;
@@ -100,8 +111,8 @@
 
   function renderMonth(events) {
     const data = events.map((e) => {
-      const cat = CATEGORIES[e.category] ? e.category : "other";
-      const ev = { id: e.id, title: e.title, backgroundColor: color(cat), borderColor: color(cat), allDay: e.all_day };
+      const cat = catOf(e);
+      const ev = { id: e.id, title: e.title, backgroundColor: solid(cat), borderColor: solid(cat), allDay: e.all_day };
       if (e.all_day) {
         ev.start = e.start;
         const end = parseDay(e.end); end.setDate(end.getDate() + 1); // FullCalendar end is exclusive
@@ -136,6 +147,10 @@
     });
     if (state.view === "list") renderList(events); else renderMonth(events);
     state.visible = events;
+    const next = events.find((e) => startOf(e) >= new Date(new Date().setHours(0, 0, 0, 0)));
+    $("next-up").textContent = next
+      ? `${fmtDate(startOf(next), { weekday: "short", month: "short", day: "numeric" }).toUpperCase()}  ${next.title}`
+      : "No events nearby yet";
   }
 
   // ---------- event details ----------
@@ -148,17 +163,21 @@
     const map = e.location.lat != null
       ? `https://www.openstreetmap.org/?mlat=${e.location.lat}&mlon=${e.location.lon}#map=15/${e.location.lat}/${e.location.lon}`
       : "";
+    const cat = catOf(e);
+    $("detail-body").style.setProperty("--c", color(cat));
     $("detail-body").innerHTML = `
-      <h2>${esc(e.title)}</h2>
-      <div class="row">${esc(whenText(e))}</div>
-      <div class="row">${esc(place)}${esc(dist)}</div>
-      ${e.description ? `<div class="row desc">${esc(e.description)}</div>` : ""}
-      <div class="row meta">From ${esc(e.source_name)}</div>
-      <div class="actions">
-        ${e.url ? `<a class="btn" href="${esc(e.url)}" target="_blank" rel="noopener">Event page</a>` : ""}
-        ${map ? `<a class="btn" href="${esc(map)}" target="_blank" rel="noopener">Map</a>` : ""}
-        <a class="btn" href="${esc(googleLink(e))}" target="_blank" rel="noopener">Add to Google Calendar</a>
-        <a class="btn" href="#" data-ics="${esc(e.id)}">Download .ics</a>
+      <div class="detail-head"><span class="tag">${ICONS[cat]}${esc(CATEGORIES[cat])}</span><h2>${esc(e.title)}</h2></div>
+      <div class="detail-body">
+        <div class="row"><span class="k">When</span><span>${esc(whenText(e))}</span></div>
+        <div class="row"><span class="k">Where</span><span>${esc(place)}${esc(dist)}</span></div>
+        ${e.description ? `<div class="row"><span class="k">About</span><span class="desc">${esc(e.description)}</span></div>` : ""}
+        <div class="row"><span class="k">Source</span><span>${esc(e.source_name)}</span></div>
+        <div class="actions">
+          ${e.url ? `<a class="btn primary" href="${esc(e.url)}" target="_blank" rel="noopener">Event page</a>` : ""}
+          ${map ? `<a class="btn" href="${esc(map)}" target="_blank" rel="noopener">Map</a>` : ""}
+          <a class="btn" href="${esc(googleLink(e))}" target="_blank" rel="noopener">Add to Google Calendar</a>
+          <a class="btn" href="#" data-ics="${esc(e.id)}">Download .ics</a>
+        </div>
       </div>`;
     $("detail").showModal();
   }
@@ -229,7 +248,6 @@
     const webcal = feed.href.replace(/^https?:/, "webcal:");
     $("sub-webcal").href = webcal;
     $("sub-google").href = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(webcal);
-    $("sub-webcal").title = $("sub-google").title = "Every event, updated daily (not filtered by distance)";
   }
 
   // ---------- location ----------
@@ -262,7 +280,8 @@
   }
 
   function alertMsg(msg) {
-    $("list-view").insertAdjacentHTML("afterbegin", `<p class="empty">${esc(msg)}</p>`);
+    document.querySelectorAll(".notice").forEach((n) => n.remove());
+    $("list-view").insertAdjacentHTML("beforebegin", `<p class="notice" role="status">${esc(msg)}</p>`);
   }
 
   // ---------- wiring ----------
@@ -270,11 +289,13 @@
     const cats = $("cats");
     for (const [key, label] of Object.entries(CATEGORIES)) {
       cats.insertAdjacentHTML("beforeend",
-        `<label><input type="checkbox" value="${key}" ${state.cats.includes(key) ? "checked" : ""}>
-          <span class="dot" style="background:${color(key)}"></span>${esc(label)}</label>`);
+        `<button type="button" class="chip" data-cat="${key}" aria-pressed="${state.cats.includes(key)}" style="--c:${color(key)}">${ICONS[key]}${esc(label)}</button>`);
     }
-    cats.addEventListener("change", () => {
-      state.cats = [...cats.querySelectorAll("input:checked")].map((i) => i.value);
+    cats.addEventListener("click", (ev) => {
+      const b = ev.target.closest(".chip");
+      if (!b) return;
+      b.setAttribute("aria-pressed", String(b.getAttribute("aria-pressed") !== "true"));
+      state.cats = [...cats.querySelectorAll('.chip[aria-pressed="true"]')].map((c) => c.dataset.cat);
       store.set("cats", state.cats); render();
     });
     $("radius").value = String(state.radius);
@@ -289,7 +310,8 @@
     });
     $("list-view").addEventListener("click", (ev) => { const a = ev.target.closest(".ev"); if (a) showDetail(a.dataset.id); });
     $("list-view").addEventListener("keydown", (ev) => { const a = ev.target.closest(".ev"); if (a && ev.key === "Enter") showDetail(a.dataset.id); });
-    $("dl-ics").addEventListener("click", (ev) => { ev.preventDefault(); download("nerdhang-events.ics", buildIcs(state.visible || [])); });
+    $("dl-ics").addEventListener("click", (ev) => { ev.preventDefault(); download("nerdhang-events.ics", buildIcs(state.visible || [])); ev.target.closest("details").open = false; });
+    document.addEventListener("click", (ev) => { const m = document.querySelector(".menu"); if (m.open && !m.contains(ev.target)) m.open = false; });
     $("detail").addEventListener("click", (ev) => {
       const a = ev.target.closest("[data-ics]");
       if (a) { ev.preventDefault(); const e = state.events.find((x) => x.id === a.dataset.ics); download("event.ics", buildIcs([e])); }

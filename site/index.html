@@ -9,13 +9,19 @@
 </head>
 <body>
   <header class="top">
-    <div class="brand">
-      <h1>NerdHang</h1>
-      <p class="tagline">Train shows, hamfests, computer shows and museum events near you</p>
+    <div class="top-inner">
+      <div class="brand">
+        <svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="7" width="26" height="16" rx="3"/><path d="M8 27l3-4M24 27l-3-4M3 15h26"/><circle cx="10" cy="19" r="1.6"/><circle cx="22" cy="19" r="1.6"/><path d="M16 7V3m-4 1l4-1 4 1"/></svg>
+        <div>
+          <h1>Nerd<span>Hang</span></h1>
+          <p class="tagline">Train shows · Hamfests · Computer shows · Museum events</p>
+        </div>
+      </div>
+      <div class="board" aria-live="polite"><span class="board-label">Next up</span> <span id="next-up">…</span></div>
     </div>
   </header>
 
-  <section class="controls" aria-label="Filters">
+  <section class="panel controls" aria-label="Filters">
     <div class="control location">
       <span class="label">Near</span>
       <strong id="loc-name">Finding your location…</strong>
@@ -35,9 +41,7 @@
         <option value="0">Anywhere</option>
       </select>
     </div>
-    <fieldset class="control cats" id="cats">
-      <legend class="label">Show</legend>
-    </fieldset>
+    <div class="control cats" id="cats" role="group" aria-label="Categories"></div>
     <div class="control views" role="tablist" aria-label="View">
       <button type="button" role="tab" data-view="list" class="active" aria-selected="true">List</button>
       <button type="button" role="tab" data-view="month" aria-selected="false">Calendar</button>
@@ -46,9 +50,15 @@
 
   <section class="export" aria-label="Add to your calendar">
     <span id="count" class="count"></span>
-    <a id="dl-ics" href="#" class="btn">Download these events (.ics)</a>
-    <a id="sub-google" href="#" class="btn" target="_blank" rel="noopener">Subscribe in Google Calendar</a>
-    <a id="sub-webcal" href="#" class="btn">Subscribe (Apple / Outlook)</a>
+    <details class="menu">
+      <summary class="btn primary">Add to my calendar ▾</summary>
+      <div class="menu-items">
+        <a id="dl-ics" href="#">Download these events (.ics)</a>
+        <a id="sub-google" href="#" target="_blank" rel="noopener">Subscribe in Google Calendar</a>
+        <a id="sub-webcal" href="#">Subscribe in Apple / Outlook</a>
+        <p class="menu-note">Subscriptions include every event and update daily.</p>
+      </div>
+    </details>
   </section>
 
   <main>
