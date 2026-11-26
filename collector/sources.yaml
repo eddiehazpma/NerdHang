@@ -4,9 +4,13 @@
 #   name:      shown on the site
 #   type:      "ics" (a calendar feed URL). More types will be added.
 #   url:       the feed address
-#   category:  trains | ham-radio | computers | museum
+#   category:  trains | ham-radio | computers | museum, or "auto" to pick
+#              from collector/keywords.yaml
+#   filter:    "keywords" keeps only events matching collector/keywords.yaml
+#              (use for libraries, towns and news calendars)
 #   homepage:  link shown next to events from this source
 #   default_location: used when an event has no usable location
+#   always_default_location: ignore the feed's LOCATION (e.g. room names)
 #   location_hints: if an event title contains the key, use that place
 #   exclude_titles: optional pattern; events whose title matches are skipped
 #   enabled:   set to false to pause a source without deleting it
@@ -54,6 +58,243 @@ sources:
     default_location:
       name: LIMARC
       address: Hicksville, NY
+    enabled: true
+
+  # ---- General community calendars: only keyword matches are kept ----
+
+  - id: li-press
+    name: Long Island Press events
+    type: ics
+    url: https://events.longislandpress.com/?ical=1
+    category: auto
+    filter: keywords
+    homepage: https://events.longislandpress.com/
+    enabled: true
+
+  - id: cradle-of-aviation
+    name: Cradle of Aviation Museum
+    type: ics_links
+    url: https://www.cradleofaviation.org/plan_your_visit/event_calendar.html
+    link_pattern: 'href="([^"]*/event_calendar\.html/ical/[^"]+)"'
+    max_links: 40
+    category: museum
+    homepage: https://www.cradleofaviation.org/
+    always_default_location: true
+    default_location:
+      name: Cradle of Aviation Museum
+      address: "Charles Lindbergh Blvd, Garden City, NY 11530"
+    enabled: true
+
+  # Public libraries on the LibraryMarket platform (feed at /events/feed/ical).
+  # The feed's LOCATION is a room name, so the library's town is used instead.
+
+  - id: lib-brentwood
+    name: Brentwood Public Library
+    type: ics
+    url: https://brentwood.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://brentwood.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Brentwood Public Library", address: "Brentwood Public Library, Brentwood, NY" }
+    enabled: true
+
+  - id: lib-farmingdale
+    name: Farmingdale Public Library
+    type: ics
+    url: https://farmingdale.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://farmingdale.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Farmingdale Public Library", address: "Farmingdale Public Library, Farmingdale, NY" }
+    enabled: true
+
+  - id: lib-emmaclark
+    name: Emma S. Clark Memorial Library
+    type: ics
+    url: https://emmaclark.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://emmaclark.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Emma S. Clark Memorial Library", address: "Emma S. Clark Memorial Library, Setauket, NY" }
+    enabled: true
+
+  - id: lib-longbeach
+    name: Long Beach Public Library
+    type: ics
+    url: https://longbeachpl.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://longbeachpl.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Long Beach Public Library", address: "Long Beach Public Library, Long Beach, NY" }
+    enabled: true
+
+  - id: lib-sachem
+    name: Sachem Public Library
+    type: ics
+    url: https://sachem.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://sachem.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Sachem Public Library", address: "Sachem Public Library, Holbrook, NY" }
+    enabled: true
+
+  - id: lib-islip
+    name: Islip Public Library
+    type: ics
+    url: https://islip.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://islip.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Islip Public Library", address: "Islip Public Library, Islip, NY" }
+    enabled: true
+
+  - id: lib-comsewogue
+    name: Comsewogue Public Library
+    type: ics
+    url: https://comsewogue.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://comsewogue.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Comsewogue Public Library", address: "Comsewogue Public Library, Port Jefferson Station, NY" }
+    enabled: true
+
+  - id: lib-portjeff
+    name: Port Jefferson Free Library
+    type: ics
+    url: https://portjeff.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://portjeff.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Port Jefferson Free Library", address: "Port Jefferson Free Library, Port Jefferson, NY" }
+    enabled: true
+
+  - id: lib-massapequa
+    name: Massapequa Public Library
+    type: ics
+    url: https://massapequa.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://massapequa.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Massapequa Public Library", address: "Massapequa Public Library, Massapequa, NY" }
+    enabled: true
+
+  - id: lib-levittown
+    name: Levittown Public Library
+    type: ics
+    url: https://levittown.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://levittown.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Levittown Public Library", address: "Levittown Public Library, Levittown, NY" }
+    enabled: true
+
+  - id: lib-syosset
+    name: Syosset Public Library
+    type: ics
+    url: https://syosset.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://syosset.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Syosset Public Library", address: "Syosset Public Library, Syosset, NY" }
+    enabled: true
+
+  - id: lib-manhasset
+    name: Manhasset Public Library
+    type: ics
+    url: https://manhasset.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://manhasset.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Manhasset Public Library", address: "Manhasset Public Library, Manhasset, NY" }
+    enabled: true
+
+  - id: lib-portwashington
+    name: Port Washington Public Library
+    type: ics
+    url: https://portwashington.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://portwashington.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Port Washington Public Library", address: "Port Washington Public Library, Port Washington, NY" }
+    enabled: true
+
+  - id: lib-riverhead
+    name: Riverhead Free Library
+    type: ics
+    url: https://www.riverheadlibrary.org/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://www.riverheadlibrary.org/
+    always_default_location: true
+    default_location: { name: "Riverhead Free Library", address: "Riverhead Free Library, Riverhead, NY" }
+    enabled: true
+
+  - id: lib-lindenhurst
+    name: Lindenhurst Memorial Library
+    type: ics
+    url: https://www.lindenhurstlibrary.org/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://www.lindenhurstlibrary.org/
+    always_default_location: true
+    default_location: { name: "Lindenhurst Memorial Library", address: "Lindenhurst Memorial Library, Lindenhurst, NY" }
+    enabled: true
+
+  - id: lib-amityville
+    name: Amityville Public Library
+    type: ics
+    url: https://www.amityvillepubliclibrary.org/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://www.amityvillepubliclibrary.org/
+    always_default_location: true
+    default_location: { name: "Amityville Public Library", address: "Amityville Public Library, Amityville, NY" }
+    enabled: true
+
+  - id: lib-commack
+    name: Commack Public Library
+    type: ics
+    url: https://commack.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://commack.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Commack Public Library", address: "Commack Public Library, Commack, NY" }
+    enabled: true
+
+  - id: lib-eastislip
+    name: East Islip Public Library
+    type: ics
+    url: https://eastislip.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://eastislip.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "East Islip Public Library", address: "East Islip Public Library, East Islip, NY" }
+    enabled: true
+
+  - id: lib-centralislip
+    name: Central Islip Public Library
+    type: ics
+    url: https://www.cilibrary.org/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://www.cilibrary.org/
+    always_default_location: true
+    default_location: { name: "Central Islip Public Library", address: "Central Islip Public Library, Central Islip, NY" }
     enabled: true
 
   - id: manual
