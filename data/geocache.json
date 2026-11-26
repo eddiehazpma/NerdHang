@@ -72,15 +72,32 @@
  ],
  "arcadia community center (at huntington drive & holly ave), 365 campus drive, arcadia, ca, 91007": null,
  "ballroom at the phoenix, 1661 mill road, upper chichester, pennsylvania, 19061": null,
+ "brentwood public library, brentwood, ny": null,
+ "brentwood, ny": [
+  40.782634,
+  -73.2566332
+ ],
+ "charles lindbergh blvd, garden city, ny 11530": [
+  40.7271175,
+  -73.6044605
+ ],
  "columbia heights, mn, 55421": [
   45.0460458,
   -93.2517802
  ],
  "dover lodge of elks #184, 282 durham road, dover, new hampshire, 03820": null,
  "faith lutheran church hall, 2740 fuller ave ne, grand rapids, mi, 49505": null,
+ "farmingdale public library, farmingdale, ny": [
+  40.7285764,
+  -73.4604067
+ ],
  "hicksville, ny": [
   40.7695303,
   -73.5293246
+ ],
+ "holbrook, ny": [
+  40.799376,
+  -73.0697738
  ],
  "john p. murzyn hall, 530 mill street ne, columbia heights, mn, 55421": null,
  "knights of columbus hall, 2320 hatfield rd, pearland, texas, 77581": null,
@@ -97,6 +114,10 @@
   40.7525401,
   -73.5410751
  ],
+ "levittown public library, levittown, ny": [
+  40.7233333,
+  -73.5297222
+ ],
  "netherwood park church, 5101 indian school rd ne, albuquerque, new mexico, 87110": [
   35.1023903,
   -106.5877669
@@ -109,6 +130,11 @@
  "orlando\u2019s, 4300 hoffmeister ave, saint louis, missouri, 63125": null,
  "pittsburgh shrine center, 1877 shriners way, cheswick, pa, 15024": null,
  "polish-american social club, 343 nw prima vista blvd, port saint lucie, florida, 34983": null,
+ "port washington public library, port washington, ny": [
+  40.8319463,
+  -73.6968479
+ ],
+ "sachem public library, holbrook, ny": null,
  "sayville, ny": [
   40.745349,
   -73.0885161
@@ -116,6 +142,10 @@
  "shoreline senior center, 18560 1st avenue ne, shoreline, washington, 98155": [
   47.7640738,
   -122.3285899
+ ],
+ "syosset public library, syosset, ny": [
+  40.7987691,
+  -73.5021128
  ],
  "vfw post 5408, 4764 cobb parkway nw, acworth, georgia, 30101": null,
  "wilson county fairgrounds, \"made in tennessee bldg\" \u2022 945 e baddour pkwy, lebanon, tennessee, 37087": null,

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T00:52:19+00:00",
+ "generated_at": "2026-11-26T01:09:42+00:00",
  "sources": {
   "rmli": {
    "ok": true,
@@ -16,6 +16,82 @@
   "limarc": {
    "ok": true,
    "count": 27
+  },
+  "li-press": {
+   "ok": true,
+   "count": 0
+  },
+  "cradle-of-aviation": {
+   "ok": true,
+   "count": 3
+  },
+  "lib-brentwood": {
+   "ok": true,
+   "count": 1
+  },
+  "lib-farmingdale": {
+   "ok": true,
+   "count": 1
+  },
+  "lib-emmaclark": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-longbeach": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-sachem": {
+   "ok": true,
+   "count": 2
+  },
+  "lib-islip": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-comsewogue": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-portjeff": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-massapequa": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-levittown": {
+   "ok": true,
+   "count": 1
+  },
+  "lib-syosset": {
+   "ok": true,
+   "count": 1
+  },
+  "lib-manhasset": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-portwashington": {
+   "ok": true,
+   "count": 1
+  },
+  "lib-lindenhurst": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-amityville": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-commack": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-eastislip": {
+   "ok": true,
+   "count": 0
   },
   "manual": {
    "ok": true,
@@ -41,6 +117,44 @@
    "description": "",
    "source_name": "Railroad Museum of Long Island",
    "id": "2f23b0d398c89f48"
+  },
+  {
+   "source_id": "cradle-of-aviation",
+   "source_uid": "d5e0610a-78e6-4e62-a0f9-718ada1a7c67@2026-11-29T06:00:00-05:00",
+   "title": "Thanksgiving Weekend at the Cradle of Aviation Museum",
+   "start": "2026-11-29T06:00:00-05:00",
+   "end": "2026-11-29T06:00:01-05:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Cradle of Aviation Museum",
+    "address": "Charles Lindbergh Blvd, Garden City, NY 11530",
+    "lat": 40.7271175,
+    "lon": -73.6044605
+   },
+   "url": "https://www.cradleofaviation.org/",
+   "description": "<b>Spend Thanksgiving weekend at the Museum! Learn about NASA's Voyager spacecraft, enjoy a free hands-on craft activity, and take in a planetarium show.</b> Friday - Sunday, November 27 - 29 Museum Hours: 10 am - 5 pm Activity: 12 pm - 4 pm <b>Celebrating Voyager</b> This November, NASA's Voyager 1 reaches a remarkable milestone, traveling more than one light-day from Earth! Launched in 1977, Voyager 1 has traveled beyond our solar system into interstellar space and is now the most distant huma",
+   "source_name": "Cradle of Aviation Museum",
+   "id": "23ddfb5820c3e716"
+  },
+  {
+   "source_id": "lib-levittown",
+   "source_uid": "26823@2026-12-03T00:30:00+00:00",
+   "title": "LIMARC Meeting",
+   "start": "2026-12-03T00:30:00+00:00",
+   "end": "2026-12-03T03:00:00+00:00",
+   "all_day": false,
+   "category": "ham-radio",
+   "location": {
+    "name": "Levittown Public Library",
+    "address": "Levittown Public Library, Levittown, NY",
+    "lat": 40.7233333,
+    "lon": -73.5297222
+   },
+   "url": "https://levittown.librarycalendar.com/event/hold-limarc-meeting-26823",
+   "description": "Monthly meeting of the Long Island Mobile Amateur Radio Club - LIMARC",
+   "source_name": "Levittown Public Library",
+   "id": "62af2fe59d13b13c"
   },
   {
    "source_id": "tca",
@@ -79,6 +193,25 @@
    "description": "",
    "source_name": "Railroad Museum of Long Island",
    "id": "6fc49ea72730ffee"
+  },
+  {
+   "source_id": "cradle-of-aviation",
+   "source_uid": "fda084b9-e4a9-4c48-a5d8-15d4e5ad3b43@2026-12-05T10:00:00-05:00",
+   "title": "Festival of Games",
+   "start": "2026-12-05T10:00:00-05:00",
+   "end": "2026-12-06T10:00:00-05:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Cradle of Aviation Museum",
+    "address": "Charles Lindbergh Blvd, Garden City, NY 11530",
+    "lat": 40.7271175,
+    "lon": -73.6044605
+   },
+   "url": "https://www.cradleofaviation.org/",
+   "description": "<b>Festival of Games: A Holiday Shopping & Gaming Event</b> Cradle-Con and Long Island Retro Gaming Expo are proud to present Festival of Games – a holiday-themed extravaganza of shopping and gaming experiences. Join us on Saturday, December 5th, and Sunday, December 6th, from 10:00 am to 5:00 pm, and shop a variety of local small businesses for retro video games, toys, comics, and collectibles, and enjoy a slew of unique retro gaming experiences. Admission includes free unlimited gameplay on ov",
+   "source_name": "Cradle of Aviation Museum",
+   "id": "fe0c6486bdbad080"
   },
   {
    "source_id": "rmli",
@@ -347,6 +480,25 @@
    "id": "58a078e013833446"
   },
   {
+   "source_id": "cradle-of-aviation",
+   "source_uid": "54c03bca-e0e5-469a-ae3c-f79c42760fed@2026-12-18T17:30:00-05:00",
+   "title": "A Very Grinchy Pajama Party",
+   "start": "2026-12-18T17:30:00-05:00",
+   "end": "2026-12-18T21:00:00-05:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Cradle of Aviation Museum",
+    "address": "Charles Lindbergh Blvd, Garden City, NY 11530",
+    "lat": 40.7271175,
+    "lon": -73.6044605
+   },
+   "url": "https://www.cradleofaviation.org/",
+   "description": "<b>Join us on Friday, December 18th, for a Very Grinchy Pajama Party!</b> Wear your favorite pajamas and enjoy a festive evening of holiday cheer, activities, and a screening of The Grinch (2018). <b>5:30 pm</b> Doors Open <b>5:30 pm – 7:00 pm</b> Activities & Meet the Grinch • More details to come <b>7:00 pm</b> Watch The Grinch (2018) Grab your hot chocolate and cookies (nut-free) and meet in the theater for The Grinch (2018)—where a grumpy green grouch tries to stop Christmas until Cindy-Lou ",
+   "source_name": "Cradle of Aviation Museum",
+   "id": "539f3e099fbf3110"
+  },
+  {
    "source_id": "tca",
    "source_uid": "27888-1797670800-1797688800@www.tcatrains.org@2026-12-19T09:00:00-05:00",
    "title": "Western Division October Monthly TCA Train Meet",
@@ -423,6 +575,25 @@
    "id": "357afc548efc917e"
   },
   {
+   "source_id": "lib-syosset",
+   "source_uid": "56381@2027-01-15T23:30:00+00:00",
+   "title": "Retro Gaming Night at Syosset Public Library",
+   "start": "2027-01-15T23:30:00+00:00",
+   "end": "2027-01-16T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
+   },
+   "url": "https://syosset.librarycalendar.com/event/retro-gaming-night-syosset-public-library-56381",
+   "description": "Join us for an evening of retro arcade and board games hosted by LI-Retro Gaming and Game Master Games! Sure to be something for everyone to enjoy.",
+   "source_name": "Syosset Public Library",
+   "id": "10529f5aec8785b0"
+  },
+  {
    "source_id": "tca",
    "source_uid": "27797-1800172800-1800190800@www.tcatrains.org@2027-01-17T08:00:00-05:00",
    "title": "TCA Atlantic Division Train Meet",
@@ -459,6 +630,25 @@
    "description": "• Opens to TCA Members at 9:00 AM• Opens to the Public at 10:00 AM• Closes at 2:00 PM Table Holder Setup Time: • Friday, January 22: 4–7 PM • Saturday, January 23: 7–9 AM Admission Fees:• Southern Division Members—No Charge• $8 per adult & $5 per veteran w/IDFree for children 12 and under with a paying parent Table Reservation Fees Southern Division Members: • 1 to 3 tables – $30 per table • 4 or more tables – $25 per table Other TCA Members: • above prices plus $15 per table Free Parking Food &",
    "source_name": "Train Collectors Association",
    "id": "7950d8939670fb70"
+  },
+  {
+   "source_id": "lib-sachem",
+   "source_uid": "208761@2027-01-25T23:00:00+00:00",
+   "title": "How to Choose and Use Your Telescope (In Person)",
+   "start": "2027-01-25T23:00:00+00:00",
+   "end": "2027-01-26T01:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Sachem Public Library",
+    "address": "Sachem Public Library, Holbrook, NY",
+    "lat": 40.799376,
+    "lon": -73.0697738
+   },
+   "url": "https://sachem.librarycalendar.com/event/how-choose-and-use-your-telescope-person-208761",
+   "description": "Daniel Higgins, owner of AstroWorld Telescopes, will provide an overview on how to select and use the telescope that best suites your needs. Children and teens accompanied by an adult are permitted.",
+   "source_name": "Sachem Public Library",
+   "id": "ce1f382c98dcda39"
   },
   {
    "source_id": "tca",
@@ -499,6 +689,44 @@
    "id": "8e749e38b1b54f22"
   },
   {
+   "source_id": "lib-brentwood",
+   "source_uid": "149095@2027-02-17T19:00:00+00:00",
+   "title": "Retro Gaming with Mr. Po and Mr. Oh",
+   "start": "2027-02-17T19:00:00+00:00",
+   "end": "2027-02-17T20:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Brentwood Public Library",
+    "address": "Brentwood Public Library, Brentwood, NY",
+    "lat": 40.782634,
+    "lon": -73.2566332
+   },
+   "url": "https://brentwood.librarycalendar.com/event/retro-gaming-mr-po-and-mr-oh-149095",
+   "description": "Try some retro games from the old times with Mr. Po and Mr. Oh from the Wii U, Wii, PS2 and more.",
+   "source_name": "Brentwood Public Library",
+   "id": "1a2c254ce4e6f4ac"
+  },
+  {
+   "source_id": "lib-portwashington",
+   "source_uid": "123395@2027-02-27T19:00:00+00:00",
+   "title": "Museum of Technology",
+   "start": "2027-02-27T19:00:00+00:00",
+   "end": "2027-02-27T21:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Port Washington Public Library",
+    "address": "Port Washington Public Library, Port Washington, NY",
+    "lat": 40.8319463,
+    "lon": -73.6968479
+   },
+   "url": "https://portwashington.librarycalendar.com/event/hold-old-tech-showcase-123395",
+   "description": "Families and people of all ages are invited to explore the technology of years gone by. This hands-on program will feature items such as vintage computers, old telephones and cell phones, manual typewriter, cameras, cassette players, radios, video games, and more. Are you nostalgic for old tech? Join us to revisit the technology you grew up with and take a trip down memory lane at our museum of technology.",
+   "source_name": "Port Washington Public Library",
+   "id": "ac73a7fe7051288d"
+  },
+  {
    "source_id": "tca",
    "source_uid": "27800-1804406400-1804424400@www.tcatrains.org@2027-03-07T08:00:00-05:00",
    "title": "TCA Atlantic Division Train Meet",
@@ -535,6 +763,25 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "4bbf755e7bda5da3"
+  },
+  {
+   "source_id": "lib-farmingdale",
+   "source_uid": "29687@2027-03-11T00:00:00+00:00",
+   "title": "Library of Things: Telescope Training",
+   "start": "2027-03-11T00:00:00+00:00",
+   "end": "2027-03-11T01:30:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Farmingdale Public Library",
+    "address": "Farmingdale Public Library, Farmingdale, NY",
+    "lat": 40.7285764,
+    "lon": -73.4604067
+   },
+   "url": "https://farmingdale.librarycalendar.com/event/library-things-telescope-training-29687",
+   "description": "Discover how to use the Library of Things telescope to explore the Moon, planets, stars, and more! This hands-on session includes a demonstration, telescope practice, stargazing tips, and outdoor viewing, weather permitting.",
+   "source_name": "Farmingdale Public Library",
+   "id": "cbffc05e60cce033"
   },
   {
    "source_id": "limarc",
@@ -611,6 +858,25 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "fed2bd4cc77dcf86"
+  },
+  {
+   "source_id": "lib-sachem",
+   "source_uid": "209724@2027-04-20T23:00:00+00:00",
+   "title": "3D Printed Model Train",
+   "start": "2027-04-20T23:00:00+00:00",
+   "end": "2027-04-21T00:30:00+00:00",
+   "all_day": false,
+   "category": "trains",
+   "location": {
+    "name": "Sachem Public Library",
+    "address": "Sachem Public Library, Holbrook, NY",
+    "lat": 40.799376,
+    "lon": -73.0697738
+   },
+   "url": "https://sachem.librarycalendar.com/event/teen-program-tba-209724",
+   "description": "Build your own battery-powered model train featuring custom 3D-printed housings and functional electronics to run on real model train tracks!",
+   "source_name": "Sachem Public Library",
+   "id": "0498a3a995f358aa"
   },
   {
    "source_id": "tca",
