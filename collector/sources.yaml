@@ -8,6 +8,7 @@
 #   homepage:  link shown next to events from this source
 #   default_location: used when an event has no usable location
 #   location_hints: if an event title contains the key, use that place
+#   exclude_titles: optional pattern; events whose title matches are skipped
 #   enabled:   set to false to pause a source without deleting it
 
 sources:
@@ -48,6 +49,8 @@ sources:
     url: https://calendar.google.com/calendar/ical/limarc.org_as01tkgc77ij7p3n1urrct7348%40group.calendar.google.com/public/basic.ics
     category: ham-radio
     homepage: https://limarc.org/
+    # Skip on-air nets and business meetings; keep hamfests, swap meets, talks.
+    exclude_titles: '\bnets?\b|check-?in|info ne\b|swap-n-shop|board\s+[mn]eeting|ARES meeting'
     default_location:
       name: LIMARC
       address: Hicksville, NY

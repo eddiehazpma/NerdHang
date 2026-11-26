@@ -127,3 +127,33 @@ def test_full_run_writes_outputs_and_survives_a_broken_source(tmp_path, monkeypa
     build.run(today=START, geocode=False, out_dir=tmp_path, http_get=get)
     data2 = json.loads((tmp_path / "events.json").read_text())
     assert data2["sources"]["rmli"] == {"ok": False, "error": "HTTP 500", "count": 2}
+
+
+def test_exclude_titles_and_virtual_locations():
+    import yaml
+    limarc = next(s for s in yaml.safe_load(open("collector/sources.yaml"))["sources"] if s["id"] == "limarc")
+    events = parse_ics((FIX / "recurring.ics").read_bytes(), limarc, START, END)
+    titles = {e.title for e in events}
+    assert "TECH NET" not in titles
+    [talk] = [e for e in events if e.title == "Antenna Talk"]
+    assert talk.location.address == "Hicksville, NY"  # Zoom is not a place: falls back to the default
+    import re
+    pat = re.compile(limarc["exclude_titles"], re.I)
+    for t in ["Morning Drive-time Net", "Check-inNets", "LIMARC Board Neeting", "Info Ne followed by Swap-n-Shopt", "NC ARES Meeting"]:
+        assert pat.search(t), t
+    for t in ["LIMARC General Meeting", "Indoor Hamfest", "Spring Hamfest"]:
+        assert not pat.search(t), t
+
+
+def test_geocode_falls_back_to_town_when_venue_unknown(tmp_path):
+    from collector.geocode import query_variants
+    q = "Ballroom at the Phoenix, 1661 Mill Road, Upper Chichester, Pennsylvania, 19061, United States"
+    assert query_variants(q) == [
+        "Ballroom at the Phoenix, 1661 Mill Road, Upper Chichester, Pennsylvania, 19061",
+        "1661 Mill Road, Upper Chichester, Pennsylvania, 19061",
+        "Upper Chichester, Pennsylvania, 19061",
+    ]
+    known = {"Upper Chichester, Pennsylvania, 19061": (39.8, -75.4)}
+    geo = Geocoder(tmp_path / "c.json", lookup=lambda v: known.get(v))
+    assert geo(q) == (39.8, -75.4)
+    assert len(geo.cache) == 3  # each attempt cached, so the next run makes no requests

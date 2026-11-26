@@ -10,7 +10,9 @@ import recurring_ical_events
 from .models import Event, Location
 
 # A LOCATION this short or vague (e.g. "NY") is no use for a map.
-_VAGUE_LOCATION = re.compile(r"^\s*([A-Za-z]{2}|USA?|United States|TBD|TBA|online)?\s*$", re.I)
+_VAGUE_LOCATION = re.compile(r"^\s*([A-Za-z]{2}|USA?|United States|TBD|TBA)?\s*$", re.I)
+# On-air or online "locations" (repeater frequencies, Zoom) are not places.
+_VIRTUAL_LOCATION = re.compile(r"zoom|online|virtual|repeater|\bmhz\b|\b\d{2,3}\.\d{2,3}\b|^[^A-Za-z]*$", re.I)
 
 
 def _clean(text) -> str:
@@ -44,12 +46,13 @@ def _aware(dt: datetime) -> datetime:
 def parse_ics(text: str | bytes, source: dict, window_start: date, window_end: date) -> list[Event]:
     cal = icalendar.Calendar.from_ical(text)
     occurrences = recurring_ical_events.of(cal).between(window_start, window_end)
+    exclude = re.compile(source["exclude_titles"], re.I) if source.get("exclude_titles") else None
     events: list[Event] = []
     for comp in occurrences:
         if _clean(comp.get("STATUS")).upper() == "CANCELLED":
             continue
         title = _clean(comp.get("SUMMARY"))
-        if not title:
+        if not title or (exclude and exclude.search(title)):
             continue
         start = comp.decoded("DTSTART")
         end = comp.decoded("DTEND") if comp.get("DTEND") else None
@@ -67,7 +70,7 @@ def parse_ics(text: str | bytes, source: dict, window_start: date, window_end: d
 
         loc_text = _clean(comp.get("LOCATION")).replace("\\,", ",")
         location = Location()
-        if loc_text and not _VAGUE_LOCATION.match(loc_text):
+        if loc_text and not _VAGUE_LOCATION.match(loc_text) and not _VIRTUAL_LOCATION.search(loc_text):
             name, _, rest = loc_text.partition(",")
             location = Location(name=name.strip(), address=loc_text if rest else "")
         geo = comp.get("GEO")
