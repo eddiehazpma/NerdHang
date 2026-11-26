@@ -243,3 +243,28 @@ def test_retro_gaming_and_open_house_keywords():
     assert classify("Teen Video Game Night") is None
     assert classify("National Weather Service Open House") == "museum"
     assert classify("Fire Department Open House") is None
+
+
+def test_new_hobby_categories_and_fallback():
+    from collector.classify import classify, filter_events
+    from collector.models import Event
+    assert classify("Long Island Antiquarian Book & Paper Fair") == "records"
+    assert classify("Hamptons Record Fair") == "records"
+    assert classify("2600 Meeting") == "makers"
+    assert classify("Model Ship Building Club") == "makers"
+    assert classify("Audubon Bird Walk") == "outdoors"
+    assert classify("Metal Detecting 101") == "outdoors"
+    assert classify("Montauk Lighthouse Tour") == "outdoors"
+    assert classify("Farmers Market") == "fairs"
+    assert classify("New York Renaissance Faire") == "fairs"
+    assert classify("Polar Express Train Ride") == "trains"
+    assert classify("Kids Nature Walk for Toddlers") is None
+    assert classify("2600 Merrick Road Cleanup") is None
+
+    def ev(title):
+        return Event(source_id="m", source_uid=title, title=title, start=date(2027, 1, 2),
+                     end=date(2027, 1, 2), all_day=True, category="other")
+    src = {"id": "m", "category": "auto", "filter": "keywords", "fallback_category": "museum"}
+    kept = {e.title: e.category for e in filter_events(
+        [ev("Dickens in the Carriage Museum"), ev("MUSEUM CLOSED: Thanksgiving Day"), ev("Planetarium Show")], src)}
+    assert kept == {"Dickens in the Carriage Museum": "museum", "Planetarium Show": "museum"}

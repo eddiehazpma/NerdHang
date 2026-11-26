@@ -8,6 +8,10 @@
     "ham-radio": "Ham radio",
     "computers": "Computers & retro gaming",
     "museum": "Museums",
+    "makers": "Makers & hackers",
+    "records": "Records & books",
+    "outdoors": "Nature & tours",
+    "fairs": "Fairs & markets",
     "other": "Other",
   };
   // Small line icons, one per category.
@@ -16,8 +20,21 @@
     "ham-radio": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12v10M9 22h6M12 12l-4-9M12 12l4-9M8.5 4h7"/><path d="M5 8a8 8 0 0 0 0 8M19 8a8 8 0 0 1 0 8"/></svg>',
     "computers": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4M7 9l2 2-2 2M11 13h4"/></svg>',
     "museum": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 21h18"/></svg>',
+    "makers": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg>',
+    "records": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="M12 3a9 9 0 0 1 9 9"/></svg>',
+    "outdoors": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20l6-11 4 7 3-4 5 8z"/><circle cx="17" cy="6" r="2"/></svg>',
+    "fairs": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10l8-6 8 6M6 10v10h12V10M10 20v-5h4v5"/><path d="M12 4V1"/></svg>',
     "other": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>',
   };
+  // Saved category filter. Categories added after it was saved start switched on.
+  function savedCats() {
+    const all = Object.keys(CATEGORIES);
+    const cats = store.get("cats", all);
+    const known = store.get("knownCats", ["trains", "ham-radio", "computers", "museum", "other"]);
+    const fresh = all.filter((c) => !known.includes(c));
+    store.set("knownCats", all);
+    return [...cats.filter((c) => all.includes(c)), ...fresh];
+  }
   const DEFAULT_LOC = { name: "Long Island, NY", lat: 40.79, lon: -73.13 };
   const store = {
     get(k, d) { try { return JSON.parse(localStorage.getItem("nh:" + k)) ?? d; } catch { return d; } },
@@ -28,7 +45,7 @@
     events: [],
     loc: store.get("loc", null),
     radius: store.get("radius", 100),
-    cats: store.get("cats", Object.keys(CATEGORIES)),
+    cats: savedCats(),
     view: store.get("view", "list"),
   };
   let calendar = null;

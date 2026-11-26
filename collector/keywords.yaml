@@ -21,6 +21,10 @@ categories:
     - HO scale
     - O gauge
     - steam (train|locomotive|engine)
+    - (polar express|santa('s)? (train|express)|north pole express)
+    - (rail|train) (excursion|ride|tour)s?
+    - excursion trains?
+    - (rail|train)road (excursion|ride|tour)s?
   ham-radio:
     - ham radio
     - amateur radio
@@ -54,6 +58,59 @@ categories:
     - raspberry pi
     - arduino
     - hackathon
+  makers:
+    - makers?(space| ?faire| ?fair| ?night| ?meetup|s? club)
+    - hacker ?spaces?
+    - hackers?
+    - 2600 (meeting|meetup)s?
+    - lock ?picking
+    - (3-?D|three-?D) print\w*
+    - laser cut\w*
+    - soldering
+    - robotics?
+    - (model|scale) (ship|boat|airplane|aircraft|rocket|car|kit)s?( building)?
+    - ship ?models?
+    - model (building|makers|builders)
+    - model rocketry
+    - electronics (workshop|lab|club)
+  records:
+    - (vinyl|record|records|cd|music|lp) (fair|show|swap|sale|expo|convention|collecting)s?
+    - record (store|shop) day
+    - vinyl (collect\w*|records?|night|listening)
+    - listening (party|session)
+    - (book|books|paper|ephemera|postcard|comic|comics|map) (fair|show|swap|expo)s?
+    - (antiquarian|rare) books?
+    - ephemera
+    - comic ?cons?
+    - (stamp|coin|postcard|toy|vintage toy) (show|fair|club|collectors?)s?
+    - collectors'? (show|fair|expo)
+  outdoors:
+    - (bird|birding) (walk|watch|count|trip|hike|tour)\w*
+    - birding
+    - birdwatching
+    - audubon
+    - (nature|guided|seal|beach|night|owl|moonlight|full moon|history|historic|forest|winter) (walk|hike|prowl|stroll)s?
+    - (geology|geologic|rock|mineral|fossil|gem) (walk|hunt|show|sale|club|talk|program)s?
+    - geology
+    - minerals?
+    - fossils?
+    - metal detect\w*
+    - treasure hunt\w*
+    - beachcomb\w*
+    - lighthouse (tours?|open house|climb|visit)
+    - lighthouses
+    - (walking|boat|harbor|historic|ghost|lantern|behind[- ]the[- ]scenes|guided|garden|estate|mansion|bay|eco) tours?
+    - (boat|ferry|harbor|seal|whale|eco) (cruise|trip|excursion|watch)\w*
+    - excursions?
+    - seal (watch|walk)\w*
+    - naturalist
+    - preserve walk
+  fairs:
+    - farmers'? markets?
+    - (renaissance|medieval|ren) (faire|fair|festival)s?
+    - ren ?faire
+    - (flea|antique|antiques|vintage) (market|fair|show)s?
+    - (steampunk|pirate|viking|highland) (festival|fair|faire)s?
   museum:
     - planetarium
     - astronomy
@@ -70,7 +127,6 @@ categories:
     - Brookhaven (National )?Lab\w*
     - BNL
     - summer sundays
-    - lighthouse (tours?|open house|climb)
     - (aviation|air) (show|day)s?
 
 # Matching titles are dropped even if they matched above: kids' crafts,
@@ -91,4 +147,7 @@ exclude:
   - computer (basics|classes|class|cleanup)
   - beginners?
   - board games?
+  - closed
+  - little learners
+  - storytime\W.*
   - bingo
