@@ -1,0 +1,6 @@
+icalendar>=6.0
+recurring-ical-events>=3.0
+requests>=2.31
+PyYAML>=6.0
+python-dateutil>=2.8
+pytest>=8.0

@@ -1,0 +1,60 @@
+# Every place NerdHang pulls events from.
+# To add a source, copy an entry and change it. Fields:
+#   id:        short unique name (letters, numbers, dashes)
+#   name:      shown on the site
+#   type:      "ics" (a calendar feed URL). More types will be added.
+#   url:       the feed address
+#   category:  trains | ham-radio | computers | museum
+#   homepage:  link shown next to events from this source
+#   default_location: used when an event has no usable location
+#   location_hints: if an event title contains the key, use that place
+#   enabled:   set to false to pause a source without deleting it
+
+sources:
+  - id: rmli
+    name: Railroad Museum of Long Island
+    type: ics
+    url: https://www.rmli.org/events/?ical=1
+    category: trains
+    homepage: https://www.rmli.org/
+    default_location:
+      name: Railroad Museum of Long Island
+      address: 416 Griffing Ave, Riverhead, NY 11901
+    location_hints:
+      Greenport: { name: RMLI Greenport, address: "440 Fourth St, Greenport, NY 11944" }
+      Sayville: { name: Sayville, address: "Sayville, NY" }
+    enabled: true
+
+  - id: tca
+    name: Train Collectors Association
+    type: ics
+    url: https://www.tcatrains.org/events/list/?ical=1
+    category: trains
+    homepage: https://www.tcatrains.org/
+    enabled: true
+
+  - id: eastern-tca
+    name: TCA Eastern Division (York Train Fair)
+    type: ics
+    url: https://easterntca.com/future-meet-dates/?ical=1
+    category: trains
+    homepage: https://easterntca.com/
+    title_prefix: "York Train Meet: "
+    enabled: true
+
+  - id: limarc
+    name: Long Island Mobile Amateur Radio Club
+    type: ics
+    url: https://calendar.google.com/calendar/ical/limarc.org_as01tkgc77ij7p3n1urrct7348%40group.calendar.google.com/public/basic.ics
+    category: ham-radio
+    homepage: https://limarc.org/
+    default_location:
+      name: LIMARC
+      address: Hicksville, NY
+    enabled: true
+
+  - id: manual
+    name: NerdHang picks
+    type: manual
+    path: collector/manual_events.yaml
+    enabled: true
