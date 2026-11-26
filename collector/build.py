@@ -18,6 +18,7 @@ import requests
 import yaml
 
 from .classify import filter_events
+from .fetch_civicplus import parse_civicplus_rss
 from .fetch_ics import parse_ics
 from .geocode import USER_AGENT, Geocoder
 from .manual import load_manual
@@ -45,6 +46,10 @@ def _fetch_raw(source: dict, window_start: date, window_end: date, http_get=None
         resp = get(source["url"])
         resp.raise_for_status()
         return parse_ics(resp.content, source, window_start, window_end)
+    if kind == "civicplus_rss":
+        resp = get(source["url"])
+        resp.raise_for_status()
+        return parse_civicplus_rss(resp.content, source, window_start, window_end)
     if kind == "ics_links":
         # A listing page that links to one .ics file per event.
         resp = get(source["url"])

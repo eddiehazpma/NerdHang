@@ -277,6 +277,59 @@ sources:
     enabled: true
 
 
+  # Town and county calendars (CivicPlus). Mostly meetings and closures,
+  # so only keyword matches are kept: open houses, astronomy nights, train
+  # displays, retro gaming and so on.
+  - id: gov-nassau
+    name: Nassau County
+    type: civicplus_rss
+    url: https://www.nassaucountyny.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml
+    category: auto
+    filter: keywords
+    homepage: https://www.nassaucountyny.gov/calendar.aspx
+    default_location: { name: "Nassau County", address: "Mineola, NY" }
+    enabled: true
+
+  - id: gov-hempstead
+    name: Town of Hempstead
+    type: civicplus_rss
+    url: https://hempsteadny.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml
+    category: auto
+    filter: keywords
+    homepage: https://hempsteadny.gov/calendar.aspx
+    default_location: { name: "Town of Hempstead", address: "Hempstead, NY" }
+    enabled: true
+
+  - id: gov-brookhaven
+    name: Town of Brookhaven
+    type: civicplus_rss
+    url: https://www.brookhavenny.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml
+    category: auto
+    filter: keywords
+    homepage: https://www.brookhavenny.gov/calendar.aspx
+    default_location: { name: "Town of Brookhaven", address: "Farmingville, NY" }
+    enabled: true
+
+  - id: gov-smithtown
+    name: Town of Smithtown
+    type: civicplus_rss
+    url: https://www.smithtownny.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml
+    category: auto
+    filter: keywords
+    homepage: https://www.smithtownny.gov/calendar.aspx
+    default_location: { name: "Town of Smithtown", address: "Smithtown, NY" }
+    enabled: true
+
+  - id: gov-babylon
+    name: Town of Babylon
+    type: civicplus_rss
+    url: https://www.townofbabylonny.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml
+    category: auto
+    filter: keywords
+    homepage: https://www.townofbabylonny.gov/calendar.aspx
+    default_location: { name: "Town of Babylon", address: "Lindenhurst, NY" }
+    enabled: true
+
   - id: manual
     name: NerdHang picks
     type: manual
