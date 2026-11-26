@@ -59,3 +59,13 @@ New categories: **Makers & hackers** (makerspaces, 2600 meetings, 3D printing, r
 New feeds: South Fork Natural History Museum (SoFo), The Long Island Museum, Old Westbury Gardens, Planting Fields.
 
 Checked, no usable feed: Gregory Museum (school district page), 2600.com meetings (Wix page, no Long Island meeting listed), Theodore Roosevelt Audubon Center, Sands Point Preserve, Long Island Explorium, Long Island Greenbelt hikes, Seatuck, Peconic Land Trust, Fire Island Lighthouse, Vanderbilt Museum (blocks automated requests), LI Maker Space Meetup (no upcoming events), Hamptons Record Fair, Long Island Antiquarian Book & Paper Fair, NY Renaissance Faire (no 2027 dates yet).
+
+## The NerdHang inbox (mailing lists)
+
+Newsletters and calendar invites sent to the project's Gmail inbox are read on each daily run (`type: email` in sources.yaml, code in collector/fetch_email.py).
+
+- **Setup (once):** turn on 2-Step Verification for the inbox, create a Gmail app password, and add repository secrets `NERDHANG_EMAIL` (the address) and `NERDHANG_APP_PASSWORD` (the app password) under Settings > Secrets and variables > Actions. Without them the inbox is skipped.
+- The last 60 days of mail are read read-only; nothing is stored in the repo except the events found.
+- Calendar invites and .ics attachments are added as they are. Newsletter text is split into blocks; a block with a date and a NerdHang keyword in its title becomes an event.
+- Add a newsletter under `senders` (matched on the From address) to give it a display name and a default location, e.g. Nonsense NYC → New York, NY.
+- Friends can also forward an event invite to the inbox to get it on the site.

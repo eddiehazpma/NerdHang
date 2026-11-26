@@ -377,6 +377,21 @@ sources:
     default_location: { name: "Planting Fields", address: "1395 Planting Fields Road, Oyster Bay, NY 11771" }
     enabled: true
 
+  # The NerdHang inbox: newsletters and calendar invites sent to the project's
+  # Gmail address. Needs repository secrets NERDHANG_EMAIL and
+  # NERDHANG_APP_PASSWORD; skipped without them. Add a newsletter under
+  # `senders` to give its events a name and a default location.
+  - id: inbox
+    name: NerdHang inbox
+    type: email
+    days_back: 60
+    category: auto
+    senders:
+      - match: nonsensenyc
+        name: Nonsense NYC
+        default_location: { name: "New York City", address: "New York, NY" }
+    enabled: true
+
   - id: manual
     name: NerdHang picks
     type: manual
