@@ -38,6 +38,8 @@ jobs:
           # The NerdHang inbox (Settings > Secrets and variables > Actions).
           NERDHANG_EMAIL: ${{ secrets.NERDHANG_EMAIL }}
           NERDHANG_APP_PASSWORD: ${{ secrets.NERDHANG_APP_PASSWORD }}
+          # Area searches (optional).
+          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
         run: python -m collector.build
       - name: Save updated data
         if: github.event_name != 'pull_request'
