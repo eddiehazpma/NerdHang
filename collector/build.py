@@ -5,16 +5,19 @@ Usage:  python -m collector.build
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import math
 import re
 import sys
 from datetime import date, timedelta
 from pathlib import Path
+from urllib.parse import urljoin
 
 import requests
 import yaml
 
+from .classify import filter_events
 from .fetch_ics import parse_ics
 from .geocode import USER_AGENT, Geocoder
 from .manual import load_manual
@@ -30,14 +33,33 @@ def load_sources(path: Path = ROOT / "collector" / "sources.yaml") -> list[dict]
 
 
 def fetch_source(source: dict, window_start: date, window_end: date, http_get=None) -> list[Event]:
+    return filter_events(_fetch_raw(source, window_start, window_end, http_get), source)
+
+
+def _fetch_raw(source: dict, window_start: date, window_end: date, http_get=None) -> list[Event]:
     kind = source["type"]
     if kind == "manual":
         return load_manual(ROOT / source["path"], source, window_start, window_end)
+    get = http_get or (lambda url: requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30))
     if kind == "ics":
-        get = http_get or (lambda url: requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30))
         resp = get(source["url"])
         resp.raise_for_status()
         return parse_ics(resp.content, source, window_start, window_end)
+    if kind == "ics_links":
+        # A listing page that links to one .ics file per event.
+        resp = get(source["url"])
+        resp.raise_for_status()
+        links = []
+        for href in re.findall(source["link_pattern"], resp.text):
+            url = urljoin(source["url"], html.unescape(href))
+            if url not in links:
+                links.append(url)
+        events: list[Event] = []
+        for url in links[: source.get("max_links", 40)]:
+            r = get(url)
+            r.raise_for_status()
+            events.extend(parse_ics(r.content, source, window_start, window_end))
+        return events
     raise ValueError(f"unknown source type {kind!r}")
 
 

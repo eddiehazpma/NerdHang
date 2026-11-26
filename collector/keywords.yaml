@@ -1,0 +1,73 @@
+# Keyword rules for general calendars (libraries, towns, news sites) that
+# list every kind of event. Only events whose title (or description) matches
+# a category below are kept, and that category is assigned. Patterns are
+# regular expressions matched case-insensitively on whole words. They are
+# deliberately specific: "train" alone would pull in every bus-and-train trip
+# and book club, so we look for phrases like "model train" or "train show".
+
+categories:
+  trains:
+    - (model|toy|holiday|garden|miniature) trains?
+    - trains? (show|display|layout|meet|exhibit|expo|sale)
+    - model railroad\w*
+    - railroad (museum|history|club|show|display|heritage)
+    - railway (museum|history|society)
+    - garden railway
+    - LIRR history
+    - lionel
+    - locomotives?
+    - trolley museum
+    - railfans?
+    - HO scale
+    - O gauge
+    - steam (train|locomotive|engine)
+  ham-radio:
+    - ham radio
+    - amateur radio
+    - hamfests?
+    - ARRL
+    - radio club
+    - field day
+    - morse code
+    - shortwave
+    - VE (test|exam)\w*
+    - radio license
+  computers:
+    - vintage computers?
+    - retro ?computing
+    - retro ?gaming
+    - (computer|video ?game) (history|museum|show|festival|expo|swap)
+    - commodore
+    - atari
+    - arcade
+    - raspberry pi
+    - arduino
+    - hackathon
+  museum:
+    - planetarium
+    - astronomy
+    - telescopes?
+    - star party
+    - space (shuttle|flight|exploration|history)
+    - aviation history
+    - aircraft
+    - tesla
+    - science (museum|center)
+
+# Matching titles are dropped even if they matched above: kids' crafts,
+# day trips, classes for beginners, and other false friends.
+exclude:
+  - grades?
+  - tweens?
+  - teens?
+  - toddlers?
+  - preschool
+  - storytime
+  - months
+  - craft
+  - (bus|day) trip
+  - trip to
+  - book club
+  - underground railroad
+  - computer (basics|classes|class|cleanup)
+  - beginners?

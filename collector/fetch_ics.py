@@ -70,6 +70,8 @@ def parse_ics(text: str | bytes, source: dict, window_start: date, window_end: d
 
         loc_text = _clean(comp.get("LOCATION")).replace("\\,", ",")
         location = Location()
+        if source.get("always_default_location"):
+            loc_text = ""  # e.g. libraries put the room name here
         if loc_text and not _VAGUE_LOCATION.match(loc_text) and not _VIRTUAL_LOCATION.search(loc_text):
             name, _, rest = loc_text.partition(",")
             location = Location(name=name.strip(), address=loc_text if rest else "")

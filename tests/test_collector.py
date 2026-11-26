@@ -157,3 +157,52 @@ def test_geocode_falls_back_to_town_when_venue_unknown(tmp_path):
     geo = Geocoder(tmp_path / "c.json", lookup=lambda v: known.get(v))
     assert geo(q) == (39.8, -75.4)
     assert len(geo.cache) == 3  # each attempt cached, so the next run makes no requests
+
+
+@pytest.mark.parametrize("title,desc,expected", [
+    ("Model Train Display", "", "trains"),
+    ("LIRR History Talk", "", "trains"),
+    ("Intro to Amateur Radio", "", "ham-radio"),
+    ("Retro Gaming Night at Syosset Public Library", "", "computers"),
+    ("Planetarium Show", "", "museum"),
+    ("How to Choose and Use Your Telescope (In Person)", "", "museum"),
+    ("Holiday Open House", "Come see the model trains running!", "trains"),
+    ("Dog Training 101", "", None),
+    ("Knitting Circle", "", None),
+    ("Computer Basics I", "", None),
+    ("CHIP Chat: Computer Classes for Beginners", "", None),
+    ("On-Your-Own Train Trip to NYC (off-site)", "", None),
+    ("New York Botanical Gardens: Holiday Train Show Bus Trip", "", None),
+    ("Highway to Freedom: The Maritime Underground Railroad (Zoom)", "", None),
+    ("Point Lookout Book Club: The Last Train to Key West", "", None),
+    ("3D Printed Model Train", "", "trains"),
+    ("Retro Gaming (Grades 6-12)", "", None),
+    ("TEEN: Maker Studio", "", None),
+])
+def test_classify(title, desc, expected):
+    from collector.classify import classify
+    assert classify(title, desc) == expected
+
+
+def test_keyword_filter_on_general_calendar():
+    from collector.classify import filter_events
+    events = [_ev("lib", "Knitting Circle", date(2027, 1, 5)), _ev("lib", "Lionel Model Train Workshop", date(2027, 1, 6)),
+              _ev("lib", "Ham Radio Licensing Session", date(2027, 1, 7))]
+    out = filter_events(events, {"filter": "keywords", "category": "auto"})
+    assert [(e.title, e.category) for e in out] == [("Lionel Model Train Workshop", "trains"), ("Ham Radio Licensing Session", "ham-radio")]
+    # A specialist source without a filter keeps everything and its category.
+    assert len(filter_events(events, {"category": "trains"})) == 3
+
+
+def test_ics_links_source_and_always_default_location():
+    src = {"id": "museum", "type": "ics_links", "category": "museum", "url": "https://m.example/cal.html",
+           "link_pattern": r'href="([^"]*/ical/[^"]+)"', "always_default_location": True,
+           "default_location": {"name": "The Museum", "address": "1 Main St, Garden City, NY"}}
+    page = FakeResp(b'<a href="/ical/1">a</a> <a href="/ical/1">dup</a> <a href="https://m.example/ical/2">b</a>')
+    page.text = page.content.decode()
+    pages = {"https://m.example/cal.html": page,
+             "https://m.example/ical/1": FakeResp((FIX / "eastern_tca.ics").read_bytes()),
+             "https://m.example/ical/2": FakeResp((FIX / "rmli.ics").read_bytes())}
+    events = build.fetch_source(src, START, END, http_get=lambda u: pages[u])
+    assert len(events) == 3  # 1 from the first link, 2 upcoming from the second; duplicate link fetched once
+    assert {e.location.name for e in events} == {"The Museum"}
