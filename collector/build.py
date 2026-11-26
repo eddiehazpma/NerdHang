@@ -21,6 +21,7 @@ from .classify import filter_events
 from .fetch_civicplus import parse_civicplus_rss
 from .fetch_email import SkipSource, fetch_email
 from .fetch_ics import parse_ics
+from .fetch_web import fetch_search
 from .geocode import USER_AGENT, Geocoder
 from .manual import load_manual
 from .models import Event
@@ -49,6 +50,8 @@ def _fetch_raw(source: dict, window_start: date, window_end: date, http_get=None
         return parse_ics(resp.content, source, window_start, window_end)
     if kind == "email":
         return fetch_email(source, window_start, window_end)
+    if kind == "search":
+        return fetch_search(source, window_start, window_end, get)
     if kind == "civicplus_rss":
         resp = get(source["url"])
         resp.raise_for_status()

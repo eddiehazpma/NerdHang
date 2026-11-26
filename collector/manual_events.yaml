@@ -21,3 +21,13 @@ events:
       address: 1401 N Shoreline Blvd, Mountain View, CA 94043
     url: https://vcfed.org/
     source_note: Vintage Computer Federation
+
+  - title: New York International Antiquarian Book Fair 2027
+    start: 2027-04-15
+    end: 2027-04-18
+    category: records
+    location:
+      name: Park Avenue Armory
+      address: 643 Park Avenue, New York, NY 10065
+    url: https://www.nyantiquarianbookfair.com/
+    source_note: ABAA New York International Antiquarian Book Fair
