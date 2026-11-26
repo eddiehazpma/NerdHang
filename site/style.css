@@ -29,20 +29,20 @@ a { color: var(--ink); text-decoration-color: var(--pink); text-decoration-thick
 /* ---------- Header: black leopard with a pink leopard tape strip ---------- */
 .top { background: #111 url(leopard-dark.svg) repeat; color: #fff; position: relative; border-bottom: 4px solid #111; }
 .top::after { content: ""; position: absolute; left: 0; right: 0; bottom: -18px; height: 14px; background: url(leopard-pink.svg) repeat; background-size: 120px; transform: rotate(-.6deg); border-block: 2px solid #111; z-index: 2; }
-.top-inner { max-width: 1040px; margin: 0 auto; padding: 22px 18px 30px; display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: center; justify-content: space-between; }
+.top-inner { max-width: 1040px; margin: 0 auto; padding: 12px 18px 20px; display: flex; flex-wrap: nowrap; gap: 10px 24px; align-items: center; justify-content: space-between; }
 .brand { display: flex; gap: 12px; align-items: center; }
-.logo { width: 46px; height: 46px; fill: none; stroke: var(--pink); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; flex: none; filter: drop-shadow(2px 2px 0 #000); }
+.logo { width: 34px; height: 34px; fill: none; stroke: var(--pink); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; flex: none; filter: drop-shadow(2px 2px 0 #000); }
 .logo circle { fill: var(--pink); stroke: none; }
-.top h1 { margin: 0; font-family: var(--display); font-weight: 400; font-size: 56px; line-height: .9; letter-spacing: 1px; text-shadow: 3px 3px 0 #000; }
+.top h1 { margin: 0; font-family: var(--display); font-weight: 400; font-size: 40px; line-height: .9; letter-spacing: 1px; text-shadow: 2px 2px 0 #000; }
 .top h1 span { color: var(--pink); }
-.tagline { margin: 6px 0 0; display: inline-block; font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 1px; background: #fff; color: #111; padding: 2px 8px; transform: rotate(-1deg); }
-.board { font-family: var(--display); font-size: 22px; letter-spacing: 1px; line-height: 1.1; background: var(--acid); color: #111; border: 2.5px solid #111; box-shadow: 4px 4px 0 #000; padding: 8px 14px; max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transform: rotate(1deg); text-transform: uppercase; }
-.board-label { background: #111; color: var(--acid); padding: 1px 7px; margin-right: 8px; font-size: 18px; letter-spacing: 1.5px; }
+.tagline { white-space: nowrap; margin: 4px 0 0; display: inline-block; font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 1px; background: #fff; color: #111; padding: 2px 8px; transform: rotate(-1deg); }
+.board { flex: 0 1 auto; min-width: 0; font-family: var(--display); font-size: 19px; letter-spacing: 1px; line-height: 1.1; background: var(--acid); color: #111; border: 2.5px solid #111; box-shadow: 4px 4px 0 #000; padding: 6px 12px; max-width: 560px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transform: rotate(1deg); text-transform: uppercase; }
+.board-label { background: #111; color: var(--acid); padding: 1px 7px; margin-right: 8px; font-size: 16px; letter-spacing: 1.5px; }
 
 /* ---------- Layout ---------- */
 .controls, .export, main, footer { max-width: 1040px; margin-left: auto; margin-right: auto; }
 .panel { background: var(--paper); border: 2.5px solid var(--line); box-shadow: var(--shadow); }
-.controls { margin-top: 34px; padding: 14px 16px; display: flex; flex-wrap: wrap; gap: 12px 22px; align-items: center; width: calc(100% - 32px); }
+.controls { margin-top: 30px; padding: 14px 16px; display: flex; flex-wrap: wrap; gap: 12px 22px; align-items: center; width: calc(100% - 32px); }
 .control { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .label { font-family: var(--display); font-size: 20px; letter-spacing: 1px; line-height: 1; color: var(--ink); }
 .location strong { font-weight: 700; background: linear-gradient(transparent 60%, var(--pink) 60%); padding: 0 2px; }
@@ -138,8 +138,11 @@ footer { font-size: 14px; padding: 24px 16px 40px; margin-top: 10px; border-top:
 footer::before { content: ""; position: absolute; left: 16px; top: -10px; width: 90px; height: 16px; background: url(leopard-pink.svg); background-size: 90px; border: 2px solid var(--line); transform: rotate(-3deg); }
 
 @media (max-width: 680px) {
+  .top-inner { flex-wrap: wrap; padding: 22px 18px 30px; gap: 14px 24px; }
   .top h1 { font-size: 44px; }
-  .board { width: 100%; transform: rotate(.5deg); }
+  .logo { width: 46px; height: 46px; }
+  .tagline { white-space: normal; }
+  .board { width: 100%; max-width: none; transform: rotate(.5deg); font-size: 22px; padding: 8px 14px; }
   .controls { gap: 10px 14px; }
   .views { margin-left: 0; }
   .ev { grid-template-columns: 64px 1fr; }
