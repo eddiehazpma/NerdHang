@@ -1,0 +1,27 @@
+name: Probe feeds (temporary)
+on:
+  push:
+    branches: ["probe/**"]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: |
+          python - <<'PY'
+          import requests
+          from datetime import date
+          from collector.fetch_web import parse_jsonld_events
+          from collector.geocode import USER_AGENT
+          for u in ["https://thebookfairies.org/calendar/", "https://longislandmuseum.org/event/pagesandpictures/", "https://rmli.org/events/", "https://www.cradleofaviation.org/plan_your_visit/event_calendar.html"]:
+              r = requests.get(u, headers={"User-Agent": USER_AGENT}, timeout=30)
+              evs = parse_jsonld_events(r.text, {"id": "t"}, u, date(2026, 1, 1), date(2028, 1, 1))
+              print(u, r.status_code, len(evs))
+              for e in evs[:5]: print("   ", e.start, "|", e.title, "|", e.location.address)
+          PY
+      - run: python -m collector.build 2>&1 | grep -E "book-fairies|search|manual|inbox|wrote|FAILED"
