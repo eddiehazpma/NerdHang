@@ -277,6 +277,121 @@ sources:
     enabled: true
 
 
+  # Town and county calendars (CivicPlus). Mostly meetings and closures,
+  # so only keyword matches are kept: open houses, astronomy nights, train
+  # displays, retro gaming and so on.
+  - id: gov-nassau
+    name: Nassau County
+    type: civicplus_rss
+    url: https://www.nassaucountyny.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml
+    category: auto
+    filter: keywords
+    homepage: https://www.nassaucountyny.gov/calendar.aspx
+    default_location: { name: "Nassau County", address: "Mineola, NY" }
+    enabled: true
+
+  - id: gov-hempstead
+    name: Town of Hempstead
+    type: civicplus_rss
+    url: https://hempsteadny.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml
+    category: auto
+    filter: keywords
+    homepage: https://hempsteadny.gov/calendar.aspx
+    default_location: { name: "Town of Hempstead", address: "Hempstead, NY" }
+    enabled: true
+
+  - id: gov-brookhaven
+    name: Town of Brookhaven
+    type: civicplus_rss
+    url: https://www.brookhavenny.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml
+    category: auto
+    filter: keywords
+    homepage: https://www.brookhavenny.gov/calendar.aspx
+    default_location: { name: "Town of Brookhaven", address: "Farmingville, NY" }
+    enabled: true
+
+  - id: gov-smithtown
+    name: Town of Smithtown
+    type: civicplus_rss
+    url: https://www.smithtownny.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml
+    category: auto
+    filter: keywords
+    homepage: https://www.smithtownny.gov/calendar.aspx
+    default_location: { name: "Town of Smithtown", address: "Smithtown, NY" }
+    enabled: true
+
+  - id: gov-babylon
+    name: Town of Babylon
+    type: civicplus_rss
+    url: https://www.townofbabylonny.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml
+    category: auto
+    filter: keywords
+    homepage: https://www.townofbabylonny.gov/calendar.aspx
+    default_location: { name: "Town of Babylon", address: "Lindenhurst, NY" }
+    enabled: true
+
+  # Museums, nature centers and estates. Keyword-classified; museums and
+  # nature centers keep their other events under a fallback category.
+  - id: sofo
+    name: South Fork Natural History Museum (SoFo)
+    type: ics
+    url: https://sofo.org/?ical=1
+    category: auto
+    filter: keywords
+    fallback_category: outdoors
+    homepage: https://sofo.org/calendar/
+    default_location: { name: "SoFo", address: "377 Bridgehampton/Sag Harbor Turnpike, Bridgehampton, NY 11932" }
+    enabled: true
+
+  - id: li-museum
+    name: The Long Island Museum
+    type: ics
+    url: https://longislandmuseum.org/?ical=1
+    category: auto
+    filter: keywords
+    fallback_category: museum
+    exclude_titles: '(?i)stitch|art making|\bball\b|disco|sound journey'
+    homepage: https://longislandmuseum.org/
+    default_location: { name: "The Long Island Museum", address: "1200 Route 25A, Stony Brook, NY 11790" }
+    enabled: true
+
+  - id: old-westbury-gardens
+    name: Old Westbury Gardens
+    type: ics
+    url: https://www.oldwestburygardens.org/?ical=1
+    category: auto
+    filter: keywords
+    max_days: 14
+    homepage: https://www.oldwestburygardens.org/
+    default_location: { name: "Old Westbury Gardens", address: "71 Old Westbury Road, Old Westbury, NY 11568" }
+    enabled: true
+
+  - id: planting-fields
+    name: Planting Fields Foundation
+    type: ics
+    url: https://plantingfields.org/?ical=1
+    category: auto
+    filter: keywords
+    max_days: 14
+    homepage: https://plantingfields.org/
+    default_location: { name: "Planting Fields", address: "1395 Planting Fields Road, Oyster Bay, NY 11771" }
+    enabled: true
+
+  # The NerdHang inbox: newsletters and calendar invites sent to the project's
+  # Gmail address. Needs repository secrets NERDHANG_EMAIL and
+  # NERDHANG_APP_PASSWORD; skipped without them. Add a newsletter under
+  # `senders` to give its events a name and a default location.
+  - id: inbox
+    name: NerdHang inbox
+    type: email
+    days_back: 60
+    category: auto
+    senders:
+      - match: nonsensenyc
+        name: Nonsense NYC
+        default_location: { name: "New York City", address: "New York, NY" }
+    enabled: true
+
   - id: manual
     name: NerdHang picks
     type: manual

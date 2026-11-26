@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:calendarEvent="https://www.civicplus.com/rss/calendarEvent">
+<channel><title>Town Calendar</title>
+<item>
+  <title>Home for the Holidays Pet Adoption Program</title>
+  <link>https://hempsteadny.gov/Calendar.aspx?EID=1653</link>
+  <description>&lt;strong&gt;Event dates:&lt;/strong&gt; November 22, 2026 - January 3, 2027</description>
+  <calendarEvent:EventDates>November 22, 2026 - January 3, 2027</calendarEvent:EventDates>
+  <calendarEvent:EventTimes>12:00 AM - 11:59 PM</calendarEvent:EventTimes>
+  <calendarEvent:Location>3320 Beltagh AvenueWantagh, NY 11793</calendarEvent:Location>
+</item>
+<item>
+  <title>Holiday Model Train Display</title>
+  <link>https://hempsteadny.gov/Calendar.aspx?EID=1700</link>
+  <description>&lt;strong&gt;Event date:&lt;/strong&gt; December 5, 2026 &lt;br&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;See the trains run.</description>
+  <calendarEvent:EventDates> December 5, 2026 </calendarEvent:EventDates>
+  <calendarEvent:EventTimes>10:00 AM - 2:00 PM</calendarEvent:EventTimes>
+  <calendarEvent:Location>3320 Beltagh AvenueWantagh, NY 11793</calendarEvent:Location>
+</item>
+<item>
+  <title>Town Offices Closed - Thanksgiving Day</title>
+  <link>https://www.townofbabylonny.gov/Calendar.aspx?EID=3249</link>
+  <description>x</description>
+  <calendarEvent:EventDates> November 26, 2026 </calendarEvent:EventDates>
+  <calendarEvent:EventTimes>12:00 AM - 11:59 PM</calendarEvent:EventTimes>
+</item>
+</channel></rss>

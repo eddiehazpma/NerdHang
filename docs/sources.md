@@ -45,3 +45,27 @@ Researched 2026-11-25. Test area: Long Island, NY. "Feed" means the source publi
 ## Sources you can add
 
 Send any club, museum or show site you know, especially Long Island clubs, and I'll add it to the right tier.
+
+## Added 2026-11-26: town and county calendars, retro gaming, open houses
+
+- **CivicPlus calendar RSS** (`type: civicplus_rss`): Nassau County, Town of Hempstead, Brookhaven, Smithtown, Babylon. Keyword-filtered, so meetings and office closures are dropped.
+- **Keywords**: computer/electronics flea markets and swap meets, retro gaming (retro games, classic arcade, pinball, LAN parties, chiptune), and science/tech open houses (labs, BNL, observatories, National Weather Service, lighthouse tours, air shows). Modern gaming nights (Mario Kart, Switch tournaments) and board games are not included.
+- **Checked, no usable feed**: LI Herald (calendar widget, no export), Newsday (articles only), News12 Long Island (no feed), theholyblack.com and orderoftheholyblack.com (no events pages), City of Long Beach (events are images and PDFs), North Hempstead, Islip, Oyster Bay (feed empty), Huntington (time.ly, no public export found), Suffolk County (blocks automated requests), BNL and NY State Parks (JavaScript pages). These are candidates for the submit-an-event form.
+
+## Added 2026-11-26: more hobbies
+
+New categories: **Makers & hackers** (makerspaces, 2600 meetings, 3D printing, robotics, model ship and model kit building), **Records & collecting** (record and vinyl fairs, listening clubs, book, paper and ephemera fairs, coin, stamp and comic shows), **Nature & tours** (bird walks, nature walks, geology and mineral clubs, metal detecting, treasure hunts, lighthouse, boat and walking tours, excursions), **Fairs & markets** (farmers markets, Renaissance faires, flea and antique markets). Special train rides (Polar Express, Santa trains, rail excursions) go under Trains. These new categories only match on the event title, and kids'/family events are skipped.
+
+New feeds: South Fork Natural History Museum (SoFo), The Long Island Museum, Old Westbury Gardens, Planting Fields.
+
+Checked, no usable feed: Gregory Museum (school district page), 2600.com meetings (Wix page, no Long Island meeting listed), Theodore Roosevelt Audubon Center, Sands Point Preserve, Long Island Explorium, Long Island Greenbelt hikes, Seatuck, Peconic Land Trust, Fire Island Lighthouse, Vanderbilt Museum (blocks automated requests), LI Maker Space Meetup (no upcoming events), Hamptons Record Fair, Long Island Antiquarian Book & Paper Fair, NY Renaissance Faire (no 2027 dates yet).
+
+## The NerdHang inbox (mailing lists)
+
+Newsletters and calendar invites sent to the project's Gmail inbox are read on each daily run (`type: email` in sources.yaml, code in collector/fetch_email.py).
+
+- **Setup (once):** turn on 2-Step Verification for the inbox, create a Gmail app password, and add repository secrets `NERDHANG_EMAIL` (the address) and `NERDHANG_APP_PASSWORD` (the app password) under Settings > Secrets and variables > Actions. Without them the inbox is skipped.
+- The last 60 days of mail are read read-only; nothing is stored in the repo except the events found.
+- Calendar invites and .ics attachments are added as they are. Newsletter text is split into blocks; a block with a date and a NerdHang keyword in its title becomes an event.
+- Add a newsletter under `senders` (matched on the From address) to give it a display name and a default location, e.g. Nonsense NYC → New York, NY.
+- Friends can also forward an event invite to the inbox to get it on the site.

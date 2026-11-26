@@ -18,6 +18,8 @@ import requests
 import yaml
 
 from .classify import filter_events
+from .fetch_civicplus import parse_civicplus_rss
+from .fetch_email import SkipSource, fetch_email
 from .fetch_ics import parse_ics
 from .geocode import USER_AGENT, Geocoder
 from .manual import load_manual
@@ -45,6 +47,12 @@ def _fetch_raw(source: dict, window_start: date, window_end: date, http_get=None
         resp = get(source["url"])
         resp.raise_for_status()
         return parse_ics(resp.content, source, window_start, window_end)
+    if kind == "email":
+        return fetch_email(source, window_start, window_end)
+    if kind == "civicplus_rss":
+        resp = get(source["url"])
+        resp.raise_for_status()
+        return parse_civicplus_rss(resp.content, source, window_start, window_end)
     if kind == "ics_links":
         # A listing page that links to one .ics file per event.
         resp = get(source["url"])
@@ -125,6 +133,10 @@ def run(today: date | None = None, geocode: bool = True, out_dir: Path = DATA, h
             events = fetch_source(source, window_start, window_end, http_get)
             status[source["id"]] = {"ok": True, "count": len(events)}
             print(f"{source['id']}: {len(events)} events")
+        except SkipSource as why:
+            status[source["id"]] = {"ok": True, "count": 0, "skipped": str(why)}
+            print(f"{source['id']}: skipped ({why})")
+            continue
         except Exception as exc:  # one broken site must not stop the rest
             failures += 1
             events = [e for e in previous.get(source["id"], []) if e.start_date >= window_start]
@@ -146,7 +158,8 @@ def run(today: date | None = None, geocode: bool = True, out_dir: Path = DATA, h
     write_ics(final, out_dir / "nerdhang.ics")
     print(f"wrote {len(final)} events ({len(all_events) - len(final)} duplicates removed)")
     # Fail the run only if every source failed, so a single flaky site is not an alarm.
-    return 1 if failures and failures == len(status) else 0
+    tried = sum(1 for s in status.values() if not s.get("skipped"))
+    return 1 if failures and failures == tried else 0
 
 
 def main() -> None:
