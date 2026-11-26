@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T01:17:17+00:00",
+ "generated_at": "2026-11-26T01:53:53+00:00",
  "sources": {
   "rmli": {
    "ok": true,
@@ -39,7 +39,7 @@
   },
   "lib-longbeach": {
    "ok": true,
-   "count": 0
+   "count": 14
   },
   "lib-sachem": {
    "ok": true,
@@ -87,9 +87,29 @@
   },
   "lib-commack": {
    "ok": true,
-   "count": 0
+   "count": 8
   },
   "lib-eastislip": {
+   "ok": true,
+   "count": 0
+  },
+  "gov-nassau": {
+   "ok": true,
+   "count": 0
+  },
+  "gov-hempstead": {
+   "ok": true,
+   "count": 0
+  },
+  "gov-brookhaven": {
+   "ok": true,
+   "count": 0
+  },
+  "gov-smithtown": {
+   "ok": true,
+   "count": 0
+  },
+  "gov-babylon": {
    "ok": true,
    "count": 0
   },
@@ -120,7 +140,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "a4cf906e-dde7-4185-9584-c05ae63f039a@2026-11-29T06:00:00-05:00",
+   "source_uid": "9ff2dbe0-cd08-42e9-82a9-2e9a7ab11571@2026-11-29T06:00:00-05:00",
    "title": "Thanksgiving Weekend at the Cradle of Aviation Museum",
    "start": "2026-11-29T06:00:00-05:00",
    "end": "2026-11-29T06:00:01-05:00",
@@ -135,7 +155,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Spend Thanksgiving weekend at the Museum! Learn about NASA's Voyager spacecraft, enjoy a free hands-on craft activity, and take in a planetarium show.</b> Friday - Sunday, November 27 - 29 Museum Hours: 10 am - 5 pm Activity: 12 pm - 4 pm <b>Celebrating Voyager</b> This November, NASA's Voyager 1 reaches a remarkable milestone, traveling more than one light-day from Earth! Launched in 1977, Voyager 1 has traveled beyond our solar system into interstellar space and is now the most distant huma",
    "source_name": "Cradle of Aviation Museum",
-   "id": "e92169b0d7d5e31a"
+   "id": "e9a5ff08a73fb05b"
   },
   {
    "source_id": "lib-levittown",
@@ -196,7 +216,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "003b1869-9b1d-441f-b797-c5a1a59077e6@2026-12-05T10:00:00-05:00",
+   "source_uid": "8d055605-9cb2-4e73-a258-530b6e596872@2026-12-05T10:00:00-05:00",
    "title": "Festival of Games",
    "start": "2026-12-05T10:00:00-05:00",
    "end": "2026-12-06T10:00:00-05:00",
@@ -211,7 +231,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Festival of Games: A Holiday Shopping & Gaming Event</b> Cradle-Con and Long Island Retro Gaming Expo are proud to present Festival of Games – a holiday-themed extravaganza of shopping and gaming experiences. Join us on Saturday, December 5th, and Sunday, December 6th, from 10:00 am to 5:00 pm, and shop a variety of local small businesses for retro video games, toys, comics, and collectibles, and enjoy a slew of unique retro gaming experiences. Admission includes free unlimited gameplay on ov",
    "source_name": "Cradle of Aviation Museum",
-   "id": "ed592239066dd0a5"
+   "id": "aa3b4594e694c3f1"
   },
   {
    "source_id": "rmli",
@@ -481,7 +501,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "e70e6786-d035-47ae-8665-3aefa80d0147@2026-12-18T17:30:00-05:00",
+   "source_uid": "e115c7a2-3ee7-4386-8d33-641f2f971220@2026-12-18T17:30:00-05:00",
    "title": "A Very Grinchy Pajama Party",
    "start": "2026-12-18T17:30:00-05:00",
    "end": "2026-12-18T21:00:00-05:00",
@@ -496,7 +516,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Join us on Friday, December 18th, for a Very Grinchy Pajama Party!</b> Wear your favorite pajamas and enjoy a festive evening of holiday cheer, activities, and a screening of The Grinch (2018). <b>5:30 pm</b> Doors Open <b>5:30 pm – 7:00 pm</b> Activities & Meet the Grinch • More details to come <b>7:00 pm</b> Watch The Grinch (2018) Grab your hot chocolate and cookies (nut-free) and meet in the theater for The Grinch (2018)—where a grumpy green grouch tries to stop Christmas until Cindy-Lou ",
    "source_name": "Cradle of Aviation Museum",
-   "id": "c336b2b7a1dbceae"
+   "id": "9f7d41c4e4ab148e"
   },
   {
    "source_id": "tca",
@@ -936,6 +956,25 @@
    "id": "e7a932c6c67c74bc"
   },
   {
+   "source_id": "lib-longbeach",
+   "source_uid": "123344@2027-05-29T04:00:00+00:00",
+   "title": "Library Closed - Memorial Day Weekend",
+   "start": "2027-05-29T04:00:00+00:00",
+   "end": "2027-05-31T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-memorial-day-weekend-123344",
+   "description": "All locations will be closed for Memorial Day Weekend (Saturday through Monday). Please note that the Sunday of Memorial Day Weekend is the start of our Summer Sundays closure. Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend. Bring your book to the beach or boardwalk and enjoy our beautiful city!",
+   "source_name": "Long Beach Public Library",
+   "id": "2e24baab6a6d059e"
+  },
+  {
    "source_id": "tca",
    "source_uid": "27794-1812182400-1812200400@www.tcatrains.org@2027-06-05T08:00:00-04:00",
    "title": "TCA Keystone Division Summer Meet",
@@ -953,6 +992,25 @@
    "description": "Opens 8 a.m. for Keystone MembersOpens 9 a.m. for Public",
    "source_name": "Train Collectors Association",
    "id": "438bb01e5ccc55d1"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "137377@2027-06-06T04:00:00+00:00",
+   "title": "Library Closed - Summer Sundays",
+   "start": "2027-06-06T04:00:00+00:00",
+   "end": "2027-06-06T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137377",
+   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
+   "source_name": "Long Beach Public Library",
+   "id": "787f47512827528a"
   },
   {
    "source_id": "limarc",
@@ -974,6 +1032,63 @@
    "id": "f61b8899c1cbc08e"
   },
   {
+   "source_id": "lib-longbeach",
+   "source_uid": "137378@2027-06-13T04:00:00+00:00",
+   "title": "Library Closed - Summer Sundays",
+   "start": "2027-06-13T04:00:00+00:00",
+   "end": "2027-06-13T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137378",
+   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
+   "source_name": "Long Beach Public Library",
+   "id": "e4a5d74699f43075"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "137380@2027-06-27T04:00:00+00:00",
+   "title": "Library Closed - Summer Sundays",
+   "start": "2027-06-27T04:00:00+00:00",
+   "end": "2027-06-27T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137380",
+   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
+   "source_name": "Long Beach Public Library",
+   "id": "d601d9db2941637c"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "137381@2027-07-04T04:00:00+00:00",
+   "title": "Library Closed - Summer Sundays",
+   "start": "2027-07-04T04:00:00+00:00",
+   "end": "2027-07-04T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137381",
+   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
+   "source_name": "Long Beach Public Library",
+   "id": "0b77315bcc5c3d15"
+  },
+  {
    "source_id": "limarc",
    "source_uid": "5f78nobg8oo5csc5d07b76li4q@google.com@2027-07-10T08:00:00-04:00",
    "title": "VE Test Session",
@@ -991,6 +1106,44 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "4ee3201f8b963a52"
+  },
+  {
+   "source_id": "lib-commack",
+   "source_uid": "107@2027-07-11T04:00:00+00:00",
+   "title": "Library Closed",
+   "start": "2027-07-11T04:00:00+00:00",
+   "end": "2027-07-11T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Commack Public Library",
+    "address": "Commack Public Library, Commack, NY",
+    "lat": 40.8290049,
+    "lon": -73.2937839
+   },
+   "url": "https://commack.librarycalendar.com/event/library-closed-107",
+   "description": "The Library is closed on Summer Sundays.",
+   "source_name": "Commack Public Library",
+   "id": "852dea377d90802d"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "137382@2027-07-11T04:00:00+00:00",
+   "title": "Library Closed - Summer Sundays",
+   "start": "2027-07-11T04:00:00+00:00",
+   "end": "2027-07-11T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137382",
+   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
+   "source_name": "Long Beach Public Library",
+   "id": "e2820cb547e0875a"
   },
   {
    "source_id": "limarc",
@@ -1012,6 +1165,82 @@
    "id": "e276b35848698f37"
   },
   {
+   "source_id": "lib-commack",
+   "source_uid": "108@2027-07-18T04:00:00+00:00",
+   "title": "Library Closed",
+   "start": "2027-07-18T04:00:00+00:00",
+   "end": "2027-07-18T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Commack Public Library",
+    "address": "Commack Public Library, Commack, NY",
+    "lat": 40.8290049,
+    "lon": -73.2937839
+   },
+   "url": "https://commack.librarycalendar.com/event/library-closed-108",
+   "description": "The Library is closed on Summer Sundays.",
+   "source_name": "Commack Public Library",
+   "id": "54fac9ebeb099ee9"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "137383@2027-07-18T04:00:00+00:00",
+   "title": "Library Closed - Summer Sundays",
+   "start": "2027-07-18T04:00:00+00:00",
+   "end": "2027-07-18T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137383",
+   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
+   "source_name": "Long Beach Public Library",
+   "id": "1a6c99373f6d026f"
+  },
+  {
+   "source_id": "lib-commack",
+   "source_uid": "109@2027-07-25T04:00:00+00:00",
+   "title": "Library Closed",
+   "start": "2027-07-25T04:00:00+00:00",
+   "end": "2027-07-25T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Commack Public Library",
+    "address": "Commack Public Library, Commack, NY",
+    "lat": 40.8290049,
+    "lon": -73.2937839
+   },
+   "url": "https://commack.librarycalendar.com/event/library-closed-109",
+   "description": "The Library is closed on Summer Sundays.",
+   "source_name": "Commack Public Library",
+   "id": "0638e6b268575aa2"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "137384@2027-07-25T04:00:00+00:00",
+   "title": "Library Closed - Summer Sundays",
+   "start": "2027-07-25T04:00:00+00:00",
+   "end": "2027-07-25T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137384",
+   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
+   "source_name": "Long Beach Public Library",
+   "id": "02161fbb6deea0ab"
+  },
+  {
    "source_id": "manual",
    "source_uid": "VCF West 2027@2027-07-31",
    "title": "VCF West 2027",
@@ -1031,6 +1260,82 @@
    "id": "6d012fa2322a8875"
   },
   {
+   "source_id": "lib-commack",
+   "source_uid": "110@2027-08-01T04:00:00+00:00",
+   "title": "Library Closed",
+   "start": "2027-08-01T04:00:00+00:00",
+   "end": "2027-08-01T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Commack Public Library",
+    "address": "Commack Public Library, Commack, NY",
+    "lat": 40.8290049,
+    "lon": -73.2937839
+   },
+   "url": "https://commack.librarycalendar.com/event/library-closed-110",
+   "description": "The Library is closed on Summer Sundays.",
+   "source_name": "Commack Public Library",
+   "id": "5976c1831fdeba90"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "137385@2027-08-01T04:00:00+00:00",
+   "title": "Library Closed - Summer Sundays",
+   "start": "2027-08-01T04:00:00+00:00",
+   "end": "2027-08-01T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137385",
+   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
+   "source_name": "Long Beach Public Library",
+   "id": "787eccb261cab602"
+  },
+  {
+   "source_id": "lib-commack",
+   "source_uid": "111@2027-08-08T04:00:00+00:00",
+   "title": "Library Closed",
+   "start": "2027-08-08T04:00:00+00:00",
+   "end": "2027-08-08T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Commack Public Library",
+    "address": "Commack Public Library, Commack, NY",
+    "lat": 40.8290049,
+    "lon": -73.2937839
+   },
+   "url": "https://commack.librarycalendar.com/event/library-closed-111",
+   "description": "The Library is closed on Summer Sundays.",
+   "source_name": "Commack Public Library",
+   "id": "11225a68704f64f9"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "137386@2027-08-08T04:00:00+00:00",
+   "title": "Library Closed - Summer Sundays",
+   "start": "2027-08-08T04:00:00+00:00",
+   "end": "2027-08-08T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137386",
+   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
+   "source_name": "Long Beach Public Library",
+   "id": "42fe901867b057c5"
+  },
+  {
    "source_id": "limarc",
    "source_uid": "628102br2f1e300rr8nqgmope1@google.com@2027-08-11T19:00:00-04:00",
    "title": "LIMARC General Meeting",
@@ -1048,6 +1353,139 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "c541da840b217ba8"
+  },
+  {
+   "source_id": "lib-commack",
+   "source_uid": "112@2027-08-15T04:00:00+00:00",
+   "title": "Library Closed",
+   "start": "2027-08-15T04:00:00+00:00",
+   "end": "2027-08-15T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Commack Public Library",
+    "address": "Commack Public Library, Commack, NY",
+    "lat": 40.8290049,
+    "lon": -73.2937839
+   },
+   "url": "https://commack.librarycalendar.com/event/library-closed-112",
+   "description": "The Library is closed on Summer Sundays.",
+   "source_name": "Commack Public Library",
+   "id": "80744b45956093cf"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "137387@2027-08-15T04:00:00+00:00",
+   "title": "Library Closed - Summer Sundays",
+   "start": "2027-08-15T04:00:00+00:00",
+   "end": "2027-08-15T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137387",
+   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
+   "source_name": "Long Beach Public Library",
+   "id": "bec6297780e4638b"
+  },
+  {
+   "source_id": "lib-commack",
+   "source_uid": "113@2027-08-22T04:00:00+00:00",
+   "title": "Library Closed",
+   "start": "2027-08-22T04:00:00+00:00",
+   "end": "2027-08-22T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Commack Public Library",
+    "address": "Commack Public Library, Commack, NY",
+    "lat": 40.8290049,
+    "lon": -73.2937839
+   },
+   "url": "https://commack.librarycalendar.com/event/library-closed-113",
+   "description": "The Library is closed on Summer Sundays.",
+   "source_name": "Commack Public Library",
+   "id": "edb7814d8729c032"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "137388@2027-08-22T04:00:00+00:00",
+   "title": "Library Closed - Summer Sundays",
+   "start": "2027-08-22T04:00:00+00:00",
+   "end": "2027-08-22T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137388",
+   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
+   "source_name": "Long Beach Public Library",
+   "id": "9cc5672c96980efb"
+  },
+  {
+   "source_id": "lib-commack",
+   "source_uid": "114@2027-08-29T04:00:00+00:00",
+   "title": "Library Closed",
+   "start": "2027-08-29T04:00:00+00:00",
+   "end": "2027-08-29T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Commack Public Library",
+    "address": "Commack Public Library, Commack, NY",
+    "lat": 40.8290049,
+    "lon": -73.2937839
+   },
+   "url": "https://commack.librarycalendar.com/event/library-closed-114",
+   "description": "The Library is closed on Summer Sundays.",
+   "source_name": "Commack Public Library",
+   "id": "694d2d136f5d100e"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "137389@2027-08-29T04:00:00+00:00",
+   "title": "Library Closed - Summer Sundays",
+   "start": "2027-08-29T04:00:00+00:00",
+   "end": "2027-08-29T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137389",
+   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
+   "source_name": "Long Beach Public Library",
+   "id": "5f0827f8f207173e"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "123353@2027-09-04T04:00:00+00:00",
+   "title": "Library Closed-Labor Day Weekend",
+   "start": "2027-09-04T04:00:00+00:00",
+   "end": "2027-09-06T04:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-labor-day-weekend-123353",
+   "description": "All locations will be closed for Labor Day Weekend (Saturday through Monday). Please note that the Sunday of Labor Day Weekend is the end of our Summer Sundays closure. Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
+   "source_name": "Long Beach Public Library",
+   "id": "c7e0ca6171ec74b6"
   },
   {
    "source_id": "limarc",

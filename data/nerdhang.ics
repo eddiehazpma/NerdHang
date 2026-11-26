@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:Sayville Village Holiday Fair - Toy Train Outreach
 DTSTART;TZID=America/New_York:20261128T160000
 DTEND;TZID=America/New_York:20261128T200000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:2f23b0d398c89f48@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -20,8 +20,8 @@ BEGIN:VEVENT
 SUMMARY:Thanksgiving Weekend at the Cradle of Aviation Museum
 DTSTART;TZID=America/New_York:20261129T060000
 DTEND;TZID=America/New_York:20261129T060001
-DTSTAMP:20261126T011717Z
-UID:e92169b0d7d5e31a@nerdhang
+DTSTAMP:20261126T015353Z
+UID:e9a5ff08a73fb05b@nerdhang
 CATEGORIES:museum
 DESCRIPTION:<b>Spend Thanksgiving weekend at the Museum! Learn about NASA'
  s Voyager spacecraft\, enjoy a free hands-on craft activity\, and take in 
@@ -40,7 +40,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC Meeting
 DTSTART:20261203T003000Z
 DTEND:20261203T030000Z
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:62af2fe59d13b13c@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Monthly meeting of the Long Island Mobile Amateur Radio Club -
@@ -54,7 +54,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Terminus Chapter Meet
 DTSTART;TZID=America/New_York:20261204T120000
 DTEND;TZID=America/New_York:20261205T140000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:9d2ddbf788679ee4@nerdhang
 CATEGORIES:trains
 DESCRIPTION:ATLANTA TOY & MODEL TRAIN SHOW Show Times: Noon to 5 p.m. on F
@@ -72,7 +72,7 @@ BEGIN:VEVENT
 SUMMARY:Annual Member Appreciation Dinner - Birchwood of Polish Town
 DTSTART;TZID=America/New_York:20261205T170000
 DTEND;TZID=America/New_York:20261205T200000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:6fc49ea72730ffee@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -86,8 +86,8 @@ BEGIN:VEVENT
 SUMMARY:Festival of Games
 DTSTART;TZID=America/New_York:20261205T100000
 DTEND;TZID=America/New_York:20261206T100000
-DTSTAMP:20261126T011717Z
-UID:ed592239066dd0a5@nerdhang
+DTSTAMP:20261126T015353Z
+UID:aa3b4594e694c3f1@nerdhang
 CATEGORIES:museum
 DESCRIPTION:<b>Festival of Games: A Holiday Shopping & Gaming Event</b> Cr
  adle-Con and Long Island Retro Gaming Expo are proud to present Festival o
@@ -107,7 +107,7 @@ BEGIN:VEVENT
 SUMMARY:Open House with Santa at Riverhead
 DTSTART;TZID=America/New_York:20261205T113000
 DTEND;TZID=America/New_York:20261205T150000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:c5bdc0922ef216db@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -121,7 +121,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Gateway Chapter Beer and Brat Train Show
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T150000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:81055952a3093ede@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Swap meet for all scales and railroad-related items. **The fir
@@ -140,7 +140,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Palmetto Chapter Myrtle Beach SC Meet
 DTSTART;TZID=America/New_York:20261205T100000
 DTEND;TZID=America/New_York:20261206T160000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:4a61dfae8d421834@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Joint Meet w/the Grand Strand Model Railroaders at a new locat
@@ -162,7 +162,7 @@ BEGIN:VEVENT
 SUMMARY:Open House with Santa at Riverhead
 DTSTART;TZID=America/New_York:20261206T113000
 DTEND;TZID=America/New_York:20261206T150000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:6c6d3da3b72030f7@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -176,7 +176,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20261209T190000
 DTEND;TZID=America/New_York:20261209T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:ad30e9dfefabd06d@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -189,7 +189,7 @@ BEGIN:VEVENT
 SUMMARY:Open House with Santa at Greenport
 DTSTART;TZID=America/New_York:20261212T103000
 DTEND;TZID=America/New_York:20261212T140000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:ba3e774bb8e7d213@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -202,7 +202,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Keystone Division Winter Meet
 DTSTART;TZID=America/New_York:20261212T080000
 DTEND;TZID=America/New_York:20261212T130000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:092654260e7e7868@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Opens 8 a.m. for Keystone MembersOpens 9 a.m. for Public\n\nSo
@@ -217,7 +217,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Music City Chapter Meet
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T150000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:5e202dba8a2e967b@nerdhang
 CATEGORIES:trains
 DESCRIPTION:32nd Annual Christmas Toy Train Show Over 100 tables of TRAINS
@@ -233,7 +233,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Rio Grande Chapter December Show & Swap Meet
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T140000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:4a11e2e2618675df@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Model & Toy Train Meet with all gauges sold and traded. Pricin
@@ -251,7 +251,7 @@ BEGIN:VEVENT
 SUMMARY:Western Michigan Chapter Meet
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T140000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:d1a8fc27c1261906@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Train Collectors Association\n\nhttps://www.tcatrains.
@@ -265,7 +265,7 @@ BEGIN:VEVENT
 SUMMARY:Open House with Santa at Greenport
 DTSTART;TZID=America/New_York:20261213T103000
 DTEND;TZID=America/New_York:20261213T140000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:f5a4406f4ef02e8c@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -278,7 +278,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Fort Pitt Division Train Show & Sale
 DTSTART;TZID=America/New_York:20261213T090000
 DTEND;TZID=America/New_York:20261213T150000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:0f88f1460014702d@nerdhang
 CATEGORIES:trains
 DESCRIPTION:2026 Holiday Model Train Show & Sale! SUNDAY MEET! 7:30 a.m. 
@@ -297,7 +297,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Lakes & Pines Division Holiday Party
 DTSTART;TZID=America/New_York:20261213T120000
 DTEND;TZID=America/New_York:20261213T150000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:8b8328266b732432@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Open to only Lakes & Pines Division Members. Toy Trains of dif
@@ -318,7 +318,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Seattle Chapter Train Meet
 DTSTART;TZID=America/New_York:20261213T090000
 DTEND;TZID=America/New_York:20261213T120000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:58a078e013833446@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Doors open at 9:00 AM at the Shoreline Senior Center\n\nSource
@@ -333,8 +333,8 @@ BEGIN:VEVENT
 SUMMARY:A Very Grinchy Pajama Party
 DTSTART;TZID=America/New_York:20261218T173000
 DTEND;TZID=America/New_York:20261218T210000
-DTSTAMP:20261126T011717Z
-UID:c336b2b7a1dbceae@nerdhang
+DTSTAMP:20261126T015353Z
+UID:9f7d41c4e4ab148e@nerdhang
 CATEGORIES:museum
 DESCRIPTION:<b>Join us on Friday\, December 18th\, for a Very Grinchy Paja
  ma Party!</b> Wear your favorite pajamas and enjoy a festive evening of ho
@@ -354,7 +354,7 @@ BEGIN:VEVENT
 SUMMARY:Western Division October Monthly TCA Train Meet
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T140000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:829173fb4a1fd938@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Meet 10:00 AM to 2:00 PMSetup at 9:00 AM Plenty of free parkin
@@ -376,7 +376,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Lone Star Division Train Meet
 DTSTART;TZID=America/New_York:20270109T090000
 DTEND;TZID=America/New_York:20270109T160000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:b4ba93df5d15f145@nerdhang
 CATEGORIES:trains
 DESCRIPTION:9–10 AM: Members10 AM–4 PM: Public AdmissionMembers: $5Pub
@@ -391,7 +391,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270109T080000
 DTEND;TZID=America/New_York:20270109T093000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:a8e5cf1ff38e997f@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -404,7 +404,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270113T190000
 DTEND;TZID=America/New_York:20270113T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:357afc548efc917e@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -417,7 +417,7 @@ BEGIN:VEVENT
 SUMMARY:Retro Gaming Night at Syosset Public Library
 DTSTART:20270115T233000Z
 DTEND:20270116T013000Z
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:10529f5aec8785b0@nerdhang
 CATEGORIES:computers
 DESCRIPTION:Join us for an evening of retro arcade and board games hosted 
@@ -433,7 +433,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Atlantic Division Train Meet
 DTSTART;TZID=America/New_York:20270117T080000
 DTEND;TZID=America/New_York:20270117T130000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:1c7686b75a91552c@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Family Admission: $5 Food and Drink available for Purchase Ove
@@ -451,7 +451,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Southern Division Train Show
 DTSTART;TZID=America/New_York:20270123T090000
 DTEND;TZID=America/New_York:20270123T140000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:7950d8939670fb70@nerdhang
 CATEGORIES:trains
 DESCRIPTION:• Opens to TCA Members at 9:00 AM• Opens to the Public at 
@@ -472,7 +472,7 @@ BEGIN:VEVENT
 SUMMARY:How to Choose and Use Your Telescope (In Person)
 DTSTART:20270125T230000Z
 DTEND:20270126T010000Z
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:ce1f382c98dcda39@nerdhang
 CATEGORIES:museum
 DESCRIPTION:Daniel Higgins\, owner of AstroWorld Telescopes\, will provide
@@ -489,7 +489,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Keystone Division Early Spring Meet
 DTSTART;TZID=America/New_York:20270130T080000
 DTEND;TZID=America/New_York:20270130T130000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:8bb5a01c67eb5126@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Opens 8 a.m. for Keystone MembersOpens 9 a.m. for Public\n\nSo
@@ -505,7 +505,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270210T190000
 DTEND;TZID=America/New_York:20270210T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:8e749e38b1b54f22@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -518,7 +518,7 @@ BEGIN:VEVENT
 SUMMARY:Retro Gaming with Mr. Po and Mr. Oh
 DTSTART:20270217T190000Z
 DTEND:20270217T203000Z
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:1a2c254ce4e6f4ac@nerdhang
 CATEGORIES:computers
 DESCRIPTION:Try some retro games from the old times with Mr. Po and Mr. Oh
@@ -534,7 +534,7 @@ BEGIN:VEVENT
 SUMMARY:Museum of Technology
 DTSTART:20270227T190000Z
 DTEND:20270227T210000Z
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:ac73a7fe7051288d@nerdhang
 CATEGORIES:computers
 DESCRIPTION:Families and people of all ages are invited to explore the tec
@@ -554,7 +554,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Atlantic Division Train Meet
 DTSTART;TZID=America/New_York:20270307T080000
 DTEND;TZID=America/New_York:20270307T130000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:b9ac3010c3c8f6c0@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Family Admission: $5 Food and Drink available for Purchase Ove
@@ -572,7 +572,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270310T190000
 DTEND;TZID=America/New_York:20270310T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:4bbf755e7bda5da3@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -585,7 +585,7 @@ BEGIN:VEVENT
 SUMMARY:Library of Things: Telescope Training
 DTSTART:20270311T000000Z
 DTEND:20270311T013000Z
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:cbffc05e60cce033@nerdhang
 CATEGORIES:museum
 DESCRIPTION:Discover how to use the Library of Things telescope to explore
@@ -603,7 +603,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270313T080000
 DTEND;TZID=America/New_York:20270313T093000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:d0a48e2fc65f4a82@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -616,7 +616,7 @@ BEGIN:VEVENT
 SUMMARY:Vintage Computer Festival East 2027
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270405
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:cddb32263103f80d@nerdhang
 CATEGORIES:computers
 DESCRIPTION:Source: Vintage Computer Federation\n\nhttps://vcfed.org/event
@@ -630,7 +630,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Northern New England Chapter Meet
 DTSTART;TZID=America/New_York:20270403T100000
 DTEND;TZID=America/New_York:20270403T150000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:857e15a8782377dd@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Train show WITH ALL SCALES\, Exhibitor tables\, operating layo
@@ -650,7 +650,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270414T190000
 DTEND;TZID=America/New_York:20270414T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:fed2bd4cc77dcf86@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -663,7 +663,7 @@ BEGIN:VEVENT
 SUMMARY:3D Printed Model Train
 DTSTART:20270420T230000Z
 DTEND:20270421T003000Z
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:0498a3a995f358aa@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Build your own battery-powered model train featuring custom 3D
@@ -678,7 +678,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Eastern Division York Train Meet
 DTSTART;TZID=America/New_York:20270420T100000
 DTEND;TZID=America/New_York:20270424T160000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:482ea03760f5ea94@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Member Halls (Blue\, Red\, Silver\, & White): Members OnlyFrid
@@ -699,7 +699,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270508T080000
 DTEND;TZID=America/New_York:20270508T093000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:0f3eb0b0afce308c@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -712,7 +712,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270512T190000
 DTEND;TZID=America/New_York:20270512T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:e7a932c6c67c74bc@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -722,10 +722,29 @@ LOCATION:Levittown Hall\, 201 Levittown Pkwy\, Hicksville\, NY 11801\, USA
 URL:https://limarc.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Library Closed - Memorial Day Weekend
+DTSTART:20270529T040000Z
+DTEND:20270531T040000Z
+DTSTAMP:20261126T015353Z
+UID:2e24baab6a6d059e@nerdhang
+CATEGORIES:museum
+DESCRIPTION:All locations will be closed for Memorial Day Weekend (Saturda
+ y through Monday). Please note that the Sunday of Memorial Day Weekend is 
+ the start of our Summer Sundays closure. Our Sunday hours (1-5pm) resume t
+ he Sunday after Labor Day weekend. Bring your book to the beach or boardwa
+ lk and enjoy our beautiful city!\n\nSource: Long Beach Public Library\n\nh
+ ttps://longbeachpl.librarycalendar.com/event/library-closed-memorial-day-w
+ eekend-123344
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/library-closed-memorial-
+ day-weekend-123344
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:TCA Keystone Division Summer Meet
 DTSTART;TZID=America/New_York:20270605T080000
 DTEND;TZID=America/New_York:20270605T130000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:438bb01e5ccc55d1@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Opens 8 a.m. for Keystone MembersOpens 9 a.m. for Public\n\nSo
@@ -737,10 +756,29 @@ LOCATION:Lancaster Farm & Home Center\, 1383 Arcadia Rd\, Lancaster\, Penn
 URL:https://www.tcatrains.org/event/tca-keystone-division-summer-meet/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Library Closed - Summer Sundays
+DTSTART:20270606T040000Z
+DTEND:20270606T040000Z
+DTSTAMP:20261126T015353Z
+UID:787f47512827528a@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Main Library is closed on Sundays from Memorial Day throug
+ h Labor Day. We encourage you to bring your book to the beach or boardwalk
+  and enjoy our beautiful city! Please note that we are closed for the enti
+ rety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday h
+ ours (1-5pm) resume the Sunday after Labor Day weekend.\n\nSource: Long Be
+ ach Public Library\n\nhttps://longbeachpl.librarycalendar.com/event/librar
+ y-closed-summer-sundays-137377
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/library-closed-summer-su
+ ndays-137377
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270609T190000
 DTEND;TZID=America/New_York:20270609T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:f61b8899c1cbc08e@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -750,10 +788,67 @@ LOCATION:Levittown Hall\, 201 Levittown Pkwy\, Hicksville\, NY 11801\, USA
 URL:https://limarc.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Library Closed - Summer Sundays
+DTSTART:20270613T040000Z
+DTEND:20270613T040000Z
+DTSTAMP:20261126T015353Z
+UID:e4a5d74699f43075@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Main Library is closed on Sundays from Memorial Day throug
+ h Labor Day. We encourage you to bring your book to the beach or boardwalk
+  and enjoy our beautiful city! Please note that we are closed for the enti
+ rety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday h
+ ours (1-5pm) resume the Sunday after Labor Day weekend.\n\nSource: Long Be
+ ach Public Library\n\nhttps://longbeachpl.librarycalendar.com/event/librar
+ y-closed-summer-sundays-137378
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/library-closed-summer-su
+ ndays-137378
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed - Summer Sundays
+DTSTART:20270627T040000Z
+DTEND:20270627T040000Z
+DTSTAMP:20261126T015353Z
+UID:d601d9db2941637c@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Main Library is closed on Sundays from Memorial Day throug
+ h Labor Day. We encourage you to bring your book to the beach or boardwalk
+  and enjoy our beautiful city! Please note that we are closed for the enti
+ rety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday h
+ ours (1-5pm) resume the Sunday after Labor Day weekend.\n\nSource: Long Be
+ ach Public Library\n\nhttps://longbeachpl.librarycalendar.com/event/librar
+ y-closed-summer-sundays-137380
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/library-closed-summer-su
+ ndays-137380
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed - Summer Sundays
+DTSTART:20270704T040000Z
+DTEND:20270704T040000Z
+DTSTAMP:20261126T015353Z
+UID:0b77315bcc5c3d15@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Main Library is closed on Sundays from Memorial Day throug
+ h Labor Day. We encourage you to bring your book to the beach or boardwalk
+  and enjoy our beautiful city! Please note that we are closed for the enti
+ rety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday h
+ ours (1-5pm) resume the Sunday after Labor Day weekend.\n\nSource: Long Be
+ ach Public Library\n\nhttps://longbeachpl.librarycalendar.com/event/librar
+ y-closed-summer-sundays-137381
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/library-closed-summer-su
+ ndays-137381
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270710T080000
 DTEND;TZID=America/New_York:20270710T093000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:4ee3201f8b963a52@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -763,10 +858,43 @@ LOCATION:Levittown Hall\, 201 Levittown Pkwy\, Hicksville\, NY 11801\, USA
 URL:https://limarc.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Library Closed
+DTSTART:20270711T040000Z
+DTEND:20270711T040000Z
+DTSTAMP:20261126T015353Z
+UID:852dea377d90802d@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Library is closed on Summer Sundays.\n\nSource: Commack Pu
+ blic Library\n\nhttps://commack.librarycalendar.com/event/library-closed-1
+ 07
+GEO:40.8290049;-73.2937839
+LOCATION:Commack Public Library\, Commack\, NY
+URL:https://commack.librarycalendar.com/event/library-closed-107
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed - Summer Sundays
+DTSTART:20270711T040000Z
+DTEND:20270711T040000Z
+DTSTAMP:20261126T015353Z
+UID:e2820cb547e0875a@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Main Library is closed on Sundays from Memorial Day throug
+ h Labor Day. We encourage you to bring your book to the beach or boardwalk
+  and enjoy our beautiful city! Please note that we are closed for the enti
+ rety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday h
+ ours (1-5pm) resume the Sunday after Labor Day weekend.\n\nSource: Long Be
+ ach Public Library\n\nhttps://longbeachpl.librarycalendar.com/event/librar
+ y-closed-summer-sundays-137382
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/library-closed-summer-su
+ ndays-137382
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270714T190000
 DTEND;TZID=America/New_York:20270714T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:e276b35848698f37@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -776,10 +904,76 @@ LOCATION:Levittown Hall\, 201 Levittown Pkwy\, Hicksville\, NY 11801\, USA
 URL:https://limarc.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Library Closed
+DTSTART:20270718T040000Z
+DTEND:20270718T040000Z
+DTSTAMP:20261126T015353Z
+UID:54fac9ebeb099ee9@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Library is closed on Summer Sundays.\n\nSource: Commack Pu
+ blic Library\n\nhttps://commack.librarycalendar.com/event/library-closed-1
+ 08
+GEO:40.8290049;-73.2937839
+LOCATION:Commack Public Library\, Commack\, NY
+URL:https://commack.librarycalendar.com/event/library-closed-108
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed - Summer Sundays
+DTSTART:20270718T040000Z
+DTEND:20270718T040000Z
+DTSTAMP:20261126T015353Z
+UID:1a6c99373f6d026f@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Main Library is closed on Sundays from Memorial Day throug
+ h Labor Day. We encourage you to bring your book to the beach or boardwalk
+  and enjoy our beautiful city! Please note that we are closed for the enti
+ rety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday h
+ ours (1-5pm) resume the Sunday after Labor Day weekend.\n\nSource: Long Be
+ ach Public Library\n\nhttps://longbeachpl.librarycalendar.com/event/librar
+ y-closed-summer-sundays-137383
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/library-closed-summer-su
+ ndays-137383
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed
+DTSTART:20270725T040000Z
+DTEND:20270725T040000Z
+DTSTAMP:20261126T015353Z
+UID:0638e6b268575aa2@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Library is closed on Summer Sundays.\n\nSource: Commack Pu
+ blic Library\n\nhttps://commack.librarycalendar.com/event/library-closed-1
+ 09
+GEO:40.8290049;-73.2937839
+LOCATION:Commack Public Library\, Commack\, NY
+URL:https://commack.librarycalendar.com/event/library-closed-109
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed - Summer Sundays
+DTSTART:20270725T040000Z
+DTEND:20270725T040000Z
+DTSTAMP:20261126T015353Z
+UID:02161fbb6deea0ab@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Main Library is closed on Sundays from Memorial Day throug
+ h Labor Day. We encourage you to bring your book to the beach or boardwalk
+  and enjoy our beautiful city! Please note that we are closed for the enti
+ rety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday h
+ ours (1-5pm) resume the Sunday after Labor Day weekend.\n\nSource: Long Be
+ ach Public Library\n\nhttps://longbeachpl.librarycalendar.com/event/librar
+ y-closed-summer-sundays-137384
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/library-closed-summer-su
+ ndays-137384
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:VCF West 2027
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270802
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:6d012fa2322a8875@nerdhang
 CATEGORIES:computers
 DESCRIPTION:Source: Vintage Computer Federation\n\nhttps://vcfed.org/
@@ -789,10 +983,76 @@ LOCATION:Computer History Museum\, 1401 N Shoreline Blvd\, Mountain View\,
 URL:https://vcfed.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Library Closed
+DTSTART:20270801T040000Z
+DTEND:20270801T040000Z
+DTSTAMP:20261126T015353Z
+UID:5976c1831fdeba90@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Library is closed on Summer Sundays.\n\nSource: Commack Pu
+ blic Library\n\nhttps://commack.librarycalendar.com/event/library-closed-1
+ 10
+GEO:40.8290049;-73.2937839
+LOCATION:Commack Public Library\, Commack\, NY
+URL:https://commack.librarycalendar.com/event/library-closed-110
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed - Summer Sundays
+DTSTART:20270801T040000Z
+DTEND:20270801T040000Z
+DTSTAMP:20261126T015353Z
+UID:787eccb261cab602@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Main Library is closed on Sundays from Memorial Day throug
+ h Labor Day. We encourage you to bring your book to the beach or boardwalk
+  and enjoy our beautiful city! Please note that we are closed for the enti
+ rety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday h
+ ours (1-5pm) resume the Sunday after Labor Day weekend.\n\nSource: Long Be
+ ach Public Library\n\nhttps://longbeachpl.librarycalendar.com/event/librar
+ y-closed-summer-sundays-137385
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/library-closed-summer-su
+ ndays-137385
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed
+DTSTART:20270808T040000Z
+DTEND:20270808T040000Z
+DTSTAMP:20261126T015353Z
+UID:11225a68704f64f9@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Library is closed on Summer Sundays.\n\nSource: Commack Pu
+ blic Library\n\nhttps://commack.librarycalendar.com/event/library-closed-1
+ 11
+GEO:40.8290049;-73.2937839
+LOCATION:Commack Public Library\, Commack\, NY
+URL:https://commack.librarycalendar.com/event/library-closed-111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed - Summer Sundays
+DTSTART:20270808T040000Z
+DTEND:20270808T040000Z
+DTSTAMP:20261126T015353Z
+UID:42fe901867b057c5@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Main Library is closed on Sundays from Memorial Day throug
+ h Labor Day. We encourage you to bring your book to the beach or boardwalk
+  and enjoy our beautiful city! Please note that we are closed for the enti
+ rety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday h
+ ours (1-5pm) resume the Sunday after Labor Day weekend.\n\nSource: Long Be
+ ach Public Library\n\nhttps://longbeachpl.librarycalendar.com/event/librar
+ y-closed-summer-sundays-137386
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/library-closed-summer-su
+ ndays-137386
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270811T190000
 DTEND;TZID=America/New_York:20270811T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:c541da840b217ba8@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -802,10 +1062,127 @@ LOCATION:Levittown Hall\, 201 Levittown Pkwy\, Hicksville\, NY 11801\, USA
 URL:https://limarc.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Library Closed
+DTSTART:20270815T040000Z
+DTEND:20270815T040000Z
+DTSTAMP:20261126T015353Z
+UID:80744b45956093cf@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Library is closed on Summer Sundays.\n\nSource: Commack Pu
+ blic Library\n\nhttps://commack.librarycalendar.com/event/library-closed-1
+ 12
+GEO:40.8290049;-73.2937839
+LOCATION:Commack Public Library\, Commack\, NY
+URL:https://commack.librarycalendar.com/event/library-closed-112
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed - Summer Sundays
+DTSTART:20270815T040000Z
+DTEND:20270815T040000Z
+DTSTAMP:20261126T015353Z
+UID:bec6297780e4638b@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Main Library is closed on Sundays from Memorial Day throug
+ h Labor Day. We encourage you to bring your book to the beach or boardwalk
+  and enjoy our beautiful city! Please note that we are closed for the enti
+ rety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday h
+ ours (1-5pm) resume the Sunday after Labor Day weekend.\n\nSource: Long Be
+ ach Public Library\n\nhttps://longbeachpl.librarycalendar.com/event/librar
+ y-closed-summer-sundays-137387
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/library-closed-summer-su
+ ndays-137387
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed
+DTSTART:20270822T040000Z
+DTEND:20270822T040000Z
+DTSTAMP:20261126T015353Z
+UID:edb7814d8729c032@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Library is closed on Summer Sundays.\n\nSource: Commack Pu
+ blic Library\n\nhttps://commack.librarycalendar.com/event/library-closed-1
+ 13
+GEO:40.8290049;-73.2937839
+LOCATION:Commack Public Library\, Commack\, NY
+URL:https://commack.librarycalendar.com/event/library-closed-113
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed - Summer Sundays
+DTSTART:20270822T040000Z
+DTEND:20270822T040000Z
+DTSTAMP:20261126T015353Z
+UID:9cc5672c96980efb@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Main Library is closed on Sundays from Memorial Day throug
+ h Labor Day. We encourage you to bring your book to the beach or boardwalk
+  and enjoy our beautiful city! Please note that we are closed for the enti
+ rety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday h
+ ours (1-5pm) resume the Sunday after Labor Day weekend.\n\nSource: Long Be
+ ach Public Library\n\nhttps://longbeachpl.librarycalendar.com/event/librar
+ y-closed-summer-sundays-137388
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/library-closed-summer-su
+ ndays-137388
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed
+DTSTART:20270829T040000Z
+DTEND:20270829T040000Z
+DTSTAMP:20261126T015353Z
+UID:694d2d136f5d100e@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Library is closed on Summer Sundays.\n\nSource: Commack Pu
+ blic Library\n\nhttps://commack.librarycalendar.com/event/library-closed-1
+ 14
+GEO:40.8290049;-73.2937839
+LOCATION:Commack Public Library\, Commack\, NY
+URL:https://commack.librarycalendar.com/event/library-closed-114
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed - Summer Sundays
+DTSTART:20270829T040000Z
+DTEND:20270829T040000Z
+DTSTAMP:20261126T015353Z
+UID:5f0827f8f207173e@nerdhang
+CATEGORIES:museum
+DESCRIPTION:The Main Library is closed on Sundays from Memorial Day throug
+ h Labor Day. We encourage you to bring your book to the beach or boardwalk
+  and enjoy our beautiful city! Please note that we are closed for the enti
+ rety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday h
+ ours (1-5pm) resume the Sunday after Labor Day weekend.\n\nSource: Long Be
+ ach Public Library\n\nhttps://longbeachpl.librarycalendar.com/event/librar
+ y-closed-summer-sundays-137389
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/library-closed-summer-su
+ ndays-137389
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Closed-Labor Day Weekend
+DTSTART:20270904T040000Z
+DTEND:20270906T040000Z
+DTSTAMP:20261126T015353Z
+UID:c7e0ca6171ec74b6@nerdhang
+CATEGORIES:museum
+DESCRIPTION:All locations will be closed for Labor Day Weekend (Saturday t
+ hrough Monday). Please note that the Sunday of Labor Day Weekend is the en
+ d of our Summer Sundays closure. Our Sunday hours (1-5pm) resume the Sunda
+ y after Labor Day weekend.\n\nSource: Long Beach Public Library\n\nhttps:/
+ /longbeachpl.librarycalendar.com/event/library-closed-labor-day-weekend-12
+ 3353
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/library-closed-labor-day
+ -weekend-123353
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270908T190000
 DTEND;TZID=America/New_York:20270908T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:5e824c62c50acd51@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -818,7 +1195,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270911T080000
 DTEND;TZID=America/New_York:20270911T093000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:5ec22262e3573ca6@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -831,7 +1208,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Atlantic Division Train Meet
 DTSTART;TZID=America/New_York:20270919T080000
 DTEND;TZID=America/New_York:20270919T130000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:f53a3441ddd10312@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Family Admission: $5 Food and Drink available for Purchase Ove
@@ -849,7 +1226,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20271013T190000
 DTEND;TZID=America/New_York:20271013T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:d1b16da6525f011f@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -862,7 +1239,7 @@ BEGIN:VEVENT
 SUMMARY:York Train Meet: October 2027 Meet
 DTSTART;VALUE=DATE:20271019
 DTEND;VALUE=DATE:20271024
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:814dbe891f2476ba@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Presented by the Eastern Division\, Train Collectors Associati
@@ -883,7 +1260,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Atlantic Division Train Meet
 DTSTART;TZID=America/New_York:20271107T080000
 DTEND;TZID=America/New_York:20271107T130000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:cbc7827df264574e@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Family Admission: $5 Food and Drink available for Purchase Ove
@@ -901,7 +1278,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20271110T190000
 DTEND;TZID=America/New_York:20271110T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:f1205380d56aadb9@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -914,7 +1291,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20271113T080000
 DTEND;TZID=America/New_York:20271113T093000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:b36d1da3f5b83318@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -927,7 +1304,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20271208T190000
 DTEND;TZID=America/New_York:20271208T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:1b8bc1aa13fc13bd@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -940,7 +1317,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20280108T080000
 DTEND;TZID=America/New_York:20280108T093000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:34d3349c92317a61@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -953,7 +1330,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280112T190000
 DTEND;TZID=America/New_York:20280112T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:20b24f372de6ed8f@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -966,7 +1343,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280209T190000
 DTEND;TZID=America/New_York:20280209T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:ed9ce588e7e09c61@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -979,7 +1356,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280308T190000
 DTEND;TZID=America/New_York:20280308T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:344bdf9ba95c9947@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -992,7 +1369,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20280311T080000
 DTEND;TZID=America/New_York:20280311T093000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:b424fa32b4f7da9f@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1005,7 +1382,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280412T190000
 DTEND;TZID=America/New_York:20280412T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:96bbf2f2b81ecc87@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1018,7 +1395,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280510T190000
 DTEND;TZID=America/New_York:20280510T213000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:b1d9d355e62ff64c@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1031,7 +1408,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20280513T080000
 DTEND;TZID=America/New_York:20280513T093000
-DTSTAMP:20261126T011717Z
+DTSTAMP:20261126T015353Z
 UID:3a04428dcf643ff6@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
