@@ -6,7 +6,7 @@
   const CATEGORIES = {
     "trains": "Trains",
     "ham-radio": "Ham radio",
-    "computers": "Computers",
+    "computers": "Computers & retro gaming",
     "museum": "Museums",
     "other": "Other",
   };

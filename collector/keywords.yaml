@@ -36,10 +36,21 @@ categories:
     - vintage computers?
     - retro ?computing
     - retro ?gaming
-    - (computer|video ?game) (history|museum|show|festival|expo|swap)
+    - (computer|video ?game|gaming|game|electronics|tech) (history|museum|show|festival|expo|swap|swap meet|flea market|convention|con)s?
+    - computer festivals?
+    - swap ?meets?
+    - (electronics|computer|tech) (flea|swap|sale)
+    - retro (game|games|gaming|video games?|console|arcade)\w*
+    - classic (video games?|arcade|consoles?)
+    - video ?game (swap|expo|convention)s?
+    - (NES|SNES|famicom|sega genesis|atari 2600|pac-?man)
+    - pinball
     - commodore
     - atari
-    - arcade
+    - arcades?
+    - LAN party
+    - (8|16)-?bit
+    - chiptunes?
     - raspberry pi
     - arduino
     - hackathon
@@ -53,6 +64,14 @@ categories:
     - aircraft
     - tesla
     - science (museum|center)
+    # Government and lab open houses, only when about science or tech.
+    - (lab|laboratory|observatory|weather service|NOAA|coast guard|air (national )?guard|air station|power plant|water (treatment|pollution control)|radio station|fire ?boat) (open house|tours?|day)
+    - open house at (the )?(lab|laboratory|observatory|weather|NOAA|coast guard|air station|planetarium)
+    - Brookhaven (National )?Lab\w*
+    - BNL
+    - summer sundays
+    - lighthouse (tours?|open house|climb)
+    - (aviation|air) (show|day)s?
 
 # Matching titles are dropped even if they matched above: kids' crafts,
 # day trips, classes for beginners, and other false friends.
@@ -71,3 +90,5 @@ exclude:
   - underground railroad
   - computer (basics|classes|class|cleanup)
   - beginners?
+  - board games?
+  - bingo

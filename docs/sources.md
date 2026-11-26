@@ -45,3 +45,9 @@ Researched 2026-11-25. Test area: Long Island, NY. "Feed" means the source publi
 ## Sources you can add
 
 Send any club, museum or show site you know, especially Long Island clubs, and I'll add it to the right tier.
+
+## Added 2026-11-26: town and county calendars, retro gaming, open houses
+
+- **CivicPlus calendar RSS** (`type: civicplus_rss`): Nassau County, Town of Hempstead, Brookhaven, Smithtown, Babylon. Keyword-filtered, so meetings and office closures are dropped.
+- **Keywords**: computer/electronics flea markets and swap meets, retro gaming (retro games, classic arcade, pinball, LAN parties, chiptune), and science/tech open houses (labs, BNL, observatories, National Weather Service, lighthouse tours, air shows). Modern gaming nights (Mario Kart, Switch tournaments) and board games are not included.
+- **Checked, no usable feed**: LI Herald (calendar widget, no export), Newsday (articles only), News12 Long Island (no feed), theholyblack.com and orderoftheholyblack.com (no events pages), City of Long Beach (events are images and PDFs), North Hempstead, Islip, Oyster Bay (feed empty), Huntington (time.ly, no public export found), Suffolk County (blocks automated requests), BNL and NY State Parks (JavaScript pages). These are candidates for the submit-an-event form.

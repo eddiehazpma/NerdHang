@@ -206,3 +206,40 @@ def test_ics_links_source_and_always_default_location():
     events = build.fetch_source(src, START, END, http_get=lambda u: pages[u])
     assert len(events) == 3  # 1 from the first link, 2 upcoming from the second; duplicate link fetched once
     assert {e.location.name for e in events} == {"The Museum"}
+
+
+def test_civicplus_rss_parses_and_filters():
+    from collector.build import fetch_source
+    from collector.fetch_civicplus import parse_civicplus_rss
+
+    src = {"id": "gov-test", "name": "Town", "type": "civicplus_rss", "url": "https://x", "category": "auto",
+           "filter": "keywords", "default_location": {"name": "Town", "address": "Babylon, NY"}}
+    text = (FIX / "civicplus.xml").read_bytes()
+    events = parse_civicplus_rss(text, src, date(2026, 11, 1), date(2027, 3, 1))
+    titles = [e.title for e in events]
+    assert "Home for the Holidays Pet Adoption Program" not in titles  # 6 weeks long
+    train = next(e for e in events if "Train" in e.title)
+    assert not train.all_day and train.start.hour == 10 and train.end.hour == 14
+    assert train.location.address == "3320 Beltagh Avenue, Wantagh, NY 11793"
+    assert train.description == "See the trains run."
+    closed = next(e for e in events if "Closed" in e.title)
+    assert closed.all_day and closed.location.address == "Babylon, NY"
+
+    class Resp:
+        content = text
+        def raise_for_status(self): pass
+    kept = fetch_source(src, date(2026, 11, 1), date(2027, 3, 1), http_get=lambda url: Resp())
+    assert [e.title for e in kept] == ["Holiday Model Train Display"]
+    assert kept[0].category == "trains"
+
+
+def test_retro_gaming_and_open_house_keywords():
+    from collector.classify import classify
+    assert classify("Long Island Retro Gaming Expo") == "computers"
+    assert classify("VCF Tech Swap Meet") == "computers"
+    assert classify("Computer Flea Market") == "computers"
+    assert classify("Classic Video Games for Seniors") == "computers"
+    assert classify("Board Game Night for Adults") is None
+    assert classify("Teen Video Game Night") is None
+    assert classify("National Weather Service Open House") == "museum"
+    assert classify("Fire Department Open House") is None
