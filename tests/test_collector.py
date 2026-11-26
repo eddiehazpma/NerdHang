@@ -243,3 +243,90 @@ def test_retro_gaming_and_open_house_keywords():
     assert classify("Teen Video Game Night") is None
     assert classify("National Weather Service Open House") == "museum"
     assert classify("Fire Department Open House") is None
+
+
+def test_new_hobby_categories_and_fallback():
+    from collector.classify import classify, filter_events
+    from collector.models import Event
+    assert classify("Long Island Antiquarian Book & Paper Fair") == "records"
+    assert classify("Hamptons Record Fair") == "records"
+    assert classify("2600 Meeting") == "makers"
+    assert classify("Model Ship Building Club") == "makers"
+    assert classify("Audubon Bird Walk") == "outdoors"
+    assert classify("Metal Detecting 101") == "outdoors"
+    assert classify("Montauk Lighthouse Tour") == "outdoors"
+    assert classify("Farmers Market") == "fairs"
+    assert classify("New York Renaissance Faire") == "fairs"
+    assert classify("Polar Express Train Ride") == "trains"
+    assert classify("Kids Nature Walk for Toddlers") is None
+    assert classify("2600 Merrick Road Cleanup") is None
+
+    def ev(title):
+        return Event(source_id="m", source_uid=title, title=title, start=date(2027, 1, 2),
+                     end=date(2027, 1, 2), all_day=True, category="other")
+    src = {"id": "m", "category": "auto", "filter": "keywords", "fallback_category": "museum"}
+    kept = {e.title: e.category for e in filter_events(
+        [ev("Dickens in the Carriage Museum"), ev("MUSEUM CLOSED: Thanksgiving Day"), ev("Planetarium Show")], src)}
+    assert kept == {"Dickens in the Carriage Museum": "museum", "Planetarium Show": "museum"}
+
+
+NEWSLETTER = """Hi nerds, here's what's on this week.
+
+[MUSIC] Brooklyn Record Fair
+Sat Dec 12, 10am - 5pm
+@ Brooklyn Expo Center, 72 Noble Street, Brooklyn, NY
+Thousands of LPs, 45s and CDs. https://example.org/recordfair
+
+[ART] Painting the Town
+Fri Dec 11, 7pm
+Some Gallery, 10 Main St, Brooklyn
+https://example.org/art
+
+Vintage Computer Swap Meet - January 9
+Bring your old Apple IIs.
+
+View this email in your browser https://example.org/unsubscribe?u=123
+"""
+
+
+def _mail(body, sender="Nonsense NYC <list@nonsensenyc.com>", ics=None):
+    from email.message import EmailMessage
+    m = EmailMessage()
+    m["From"], m["Subject"], m["Date"] = sender, "This week", "Mon, 07 Dec 2026 09:00:00 -0500"
+    m["Message-ID"] = "<abc@example>"
+    m.set_content(body)
+    if ics:
+        m.add_attachment(ics, maintype="text", subtype="calendar", filename="invite.ics")
+    return m.as_bytes()
+
+
+def test_inbox_newsletter_parsing():
+    from collector.fetch_email import fetch_email
+    src = {"id": "inbox", "name": "NerdHang inbox", "type": "email", "category": "auto",
+           "senders": [{"match": "nonsensenyc", "name": "Nonsense NYC",
+                        "default_location": {"name": "New York City", "address": "New York, NY"}}]}
+    events = fetch_email(src, date(2026, 12, 1), date(2027, 6, 1), fetch_messages=lambda: [_mail(NEWSLETTER)])
+    by_title = {e.title: e for e in events}
+    assert set(by_title) == {"Brooklyn Record Fair", "Vintage Computer Swap Meet"}  # art night has no keyword
+    fair = by_title["Brooklyn Record Fair"]
+    assert fair.category == "records" and fair.source_name == "Nonsense NYC"
+    assert fair.start.hour == 10 and fair.start.day == 12 and fair.start.year == 2026
+    assert "72 Noble Street" in fair.location.address and fair.location.name == "Brooklyn Expo Center"
+    assert fair.url == "https://example.org/recordfair"
+    swap = by_title["Vintage Computer Swap Meet"]
+    assert swap.all_day and swap.start == date(2027, 1, 9)  # rolled into next year
+    assert swap.location.address == "New York, NY"  # sender default
+    assert "unsubscribe" not in " ".join(e.url + e.description for e in events)
+
+
+def test_inbox_calendar_invite_kept_and_skip_without_secrets(monkeypatch):
+    from collector.fetch_email import SkipSource, fetch_email
+    ics = (FIX / "rmli.ics").read_bytes()
+    src = {"id": "inbox", "name": "NerdHang inbox", "type": "email", "category": "auto"}
+    events = fetch_email(src, date(2020, 1, 1), date(2030, 1, 1),
+                         fetch_messages=lambda: [_mail("see attached", sender="Pal <pal@example.com>", ics=ics)])
+    assert events and all(e.source_name == "Pal" for e in events)
+    monkeypatch.delenv("NERDHANG_EMAIL", raising=False)
+    monkeypatch.delenv("NERDHANG_APP_PASSWORD", raising=False)
+    with pytest.raises(SkipSource):
+        fetch_email(src, date(2026, 1, 1), date(2027, 1, 1))
