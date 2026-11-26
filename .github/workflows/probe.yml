@@ -1,0 +1,27 @@
+name: Probe feeds (temporary)
+on:
+  push:
+    branches: ["probe/**"]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r collector/requirements.txt
+      - run: python -m collector.build || true
+      - run: |
+          python - <<'PY'
+          import json, collections
+          ev = json.load(open("data/events.json"))
+          evs = ev["events"] if isinstance(ev, dict) else ev
+          print("TOTAL", len(evs))
+          print(collections.Counter(e["source_id"] for e in evs))
+          print(collections.Counter(e["category"] for e in evs))
+          for e in evs:
+              if e["source_id"].startswith("gov-") or e["category"] == "computers":
+                  print(e["start"][:16], e["category"], e["source_id"], "|", e["title"], "|", e["location"]["address"], e["location"]["lat"])
+          PY
