@@ -1,5 +1,9 @@
 {
  "\"made in tennessee bldg\" \u2022 945 e baddour pkwy, lebanon, tennessee, 37087": null,
+ "1200 route 25a, stony brook, ny 11790": [
+  40.9302945,
+  -73.1151874
+ ],
  "1383 arcadia rd, lancaster, pennsylvania, 17601": [
   40.0701146,
   -76.3259076
@@ -89,7 +93,15 @@
   40.8290049,
   -73.2937839
  ],
+ "comsewogue public library, port jefferson station, ny": [
+  40.9238344,
+  -73.0532492
+ ],
  "dover lodge of elks #184, 282 durham road, dover, new hampshire, 03820": null,
+ "east islip public library, east islip, ny": [
+  40.7358333,
+  -73.1733333
+ ],
  "faith lutheran church hall, 2740 fuller ave ne, grand rapids, mi, 49505": null,
  "farmingdale public library, farmingdale, ny": [
   40.7285764,
@@ -126,6 +138,10 @@
   40.5889343,
   -73.6675057
  ],
+ "massapequa public library, massapequa, ny": [
+  40.6639871,
+  -73.4562533
+ ],
  "netherwood park church, 5101 indian school rd ne, albuquerque, new mexico, 87110": [
   35.1023903,
   -106.5877669
@@ -138,6 +154,10 @@
  "orlando\u2019s, 4300 hoffmeister ave, saint louis, missouri, 63125": null,
  "pittsburgh shrine center, 1877 shriners way, cheswick, pa, 15024": null,
  "polish-american social club, 343 nw prima vista blvd, port saint lucie, florida, 34983": null,
+ "port jefferson free library, port jefferson, ny": [
+  40.9469225,
+  -73.0664401
+ ],
  "port washington public library, port washington, ny": [
   40.8319463,
   -73.6968479
@@ -150,6 +170,14 @@
  "shoreline senior center, 18560 1st avenue ne, shoreline, washington, 98155": [
   47.7640738,
   -122.3285899
+ ],
+ "sofo": [
+  34.1023985,
+  -84.1399906
+ ],
+ "southampton": [
+  36.6959378,
+  -77.1586002
  ],
  "syosset public library, syosset, ny": [
   40.7987691,

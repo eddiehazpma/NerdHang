@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T19:44:47+00:00",
+ "generated_at": "2026-11-26T21:50:50+00:00",
  "sources": {
   "rmli": {
    "ok": true,
@@ -31,7 +31,7 @@
   },
   "lib-farmingdale": {
    "ok": true,
-   "count": 1
+   "count": 3
   },
   "lib-emmaclark": {
    "ok": true,
@@ -39,11 +39,11 @@
   },
   "lib-longbeach": {
    "ok": true,
-   "count": 14
+   "count": 1
   },
   "lib-sachem": {
    "ok": true,
-   "count": 2
+   "count": 5
   },
   "lib-islip": {
    "ok": true,
@@ -51,15 +51,15 @@
   },
   "lib-comsewogue": {
    "ok": true,
-   "count": 0
+   "count": 2
   },
   "lib-portjeff": {
    "ok": true,
-   "count": 0
+   "count": 3
   },
   "lib-massapequa": {
    "ok": true,
-   "count": 0
+   "count": 4
   },
   "lib-levittown": {
    "ok": true,
@@ -67,7 +67,7 @@
   },
   "lib-syosset": {
    "ok": true,
-   "count": 1
+   "count": 14
   },
   "lib-manhasset": {
    "ok": true,
@@ -75,7 +75,7 @@
   },
   "lib-portwashington": {
    "ok": true,
-   "count": 1
+   "count": 3
   },
   "lib-lindenhurst": {
    "ok": true,
@@ -87,11 +87,11 @@
   },
   "lib-commack": {
    "ok": true,
-   "count": 8
+   "count": 0
   },
   "lib-eastislip": {
    "ok": true,
-   "count": 0
+   "count": 6
   },
   "gov-nassau": {
    "ok": true,
@@ -113,12 +113,70 @@
    "ok": true,
    "count": 0
   },
+  "sofo": {
+   "ok": true,
+   "count": 2
+  },
+  "li-museum": {
+   "ok": true,
+   "count": 8
+  },
+  "old-westbury-gardens": {
+   "ok": true,
+   "count": 0
+  },
+  "planting-fields": {
+   "ok": true,
+   "count": 0
+  },
+  "inbox": {
+   "ok": true,
+   "count": 0
+  },
   "manual": {
    "ok": true,
    "count": 2
   }
  },
  "events": [
+  {
+   "source_id": "sofo",
+   "source_uid": "40463-1795773600-1795780800@sofo.org@2026-11-27T10:00:00-05:00",
+   "title": "Black Friday Beach Cleanup",
+   "start": "2026-11-27T10:00:00-05:00",
+   "end": "2026-11-27T12:00:00-05:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "Southampton",
+    "address": "",
+    "lat": 36.6959378,
+    "lon": -77.1586002
+   },
+   "url": "https://sofo.org/calendar/black-friday-beach-cleanup/",
+   "description": "Join SOFO for a beach cleanup this Black Friday! Spend the day after Thanksgiving outside and help protect our beaches and wildlife from accumulated trash! Rain or shine; severe weather cancels. Program Leader: Rebecca Rogers, SOFO Environmental Educator This FREE program is for all ages. Advanced reservations are required for all events. Sign Up Here!",
+   "source_name": "South Fork Natural History Museum (SoFo)",
+   "id": "7d8a42ca1a1a4343"
+  },
+  {
+   "source_id": "sofo",
+   "source_uid": "40466-1795824000-1795910399@sofo.org@2026-11-28",
+   "title": "SOFO’s Annual Thanksgiving Open House",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "all_day": true,
+   "category": "outdoors",
+   "location": {
+    "name": "SOFO",
+    "address": "",
+    "lat": 34.1023985,
+    "lon": -84.1399906
+   },
+   "url": "https://sofo.org/calendar/sofos-annual-thanksgiving-open-house/",
+   "description": "Free admission for all ages!",
+   "source_name": "South Fork Natural History Museum (SoFo)",
+   "id": "26e1d3c75d4bfce3"
+  },
   {
    "source_id": "rmli",
    "source_uid": "10472-1795881600-1795896000@www.rmli.org@2026-11-28T16:00:00-05:00",
@@ -139,8 +197,27 @@
    "id": "2f23b0d398c89f48"
   },
   {
+   "source_id": "li-museum",
+   "source_uid": "10000288-1795960800-1795968000@longislandmuseum.org@2026-11-29T14:00:00-05:00",
+   "title": "Dickens in the Carriage Museum",
+   "start": "2026-11-29T14:00:00-05:00",
+   "end": "2026-11-29T16:00:00-05:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "The Long Island Museum",
+    "address": "1200 Route 25A, Stony Brook, NY 11790",
+    "lat": 40.9302945,
+    "lon": -73.1151874
+   },
+   "url": "https://longislandmuseum.org/event/dickens-in-the-carriage-museum/2026-11-29/",
+   "description": "In celebration of the 30th Annual Charles Dickens Festival in Port Jefferson Village, stop by the Carriage Museum to meet roaming costumed street characters from the Dickensian era as they magically transform the galleries into London of a bygone century. Included with museum admission. In collaboration with the Port Jefferson Arts Council. Included with museum admission. No registration is required.",
+   "source_name": "The Long Island Museum",
+   "id": "479e6b102ee93625"
+  },
+  {
    "source_id": "cradle-of-aviation",
-   "source_uid": "3d76a77b-6b96-4233-a167-4e188ee53c56@2026-11-29T06:00:00-05:00",
+   "source_uid": "e10ac2ae-ef76-43aa-81a3-566ad7c6ea86@2026-11-29T06:00:00-05:00",
    "title": "Thanksgiving Weekend at the Cradle of Aviation Museum",
    "start": "2026-11-29T06:00:00-05:00",
    "end": "2026-11-29T06:00:01-05:00",
@@ -155,7 +232,26 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Spend Thanksgiving weekend at the Museum! Learn about NASA's Voyager spacecraft, enjoy a free hands-on craft activity, and take in a planetarium show.</b> Friday - Sunday, November 27 - 29 Museum Hours: 10 am - 5 pm Activity: 12 pm - 4 pm <b>Celebrating Voyager</b> This November, NASA's Voyager 1 reaches a remarkable milestone, traveling more than one light-day from Earth! Launched in 1977, Voyager 1 has traveled beyond our solar system into interstellar space and is now the most distant huma",
    "source_name": "Cradle of Aviation Museum",
-   "id": "0133147d6701f28a"
+   "id": "24367a232eb8b2f1"
+  },
+  {
+   "source_id": "lib-portjeff",
+   "source_uid": "35316@2026-12-03T17:00:00+00:00",
+   "title": "Historic Walking Tour with Ava",
+   "start": "2026-12-03T17:00:00+00:00",
+   "end": "2026-12-03T18:00:00+00:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "Port Jefferson Free Library",
+    "address": "Port Jefferson Free Library, Port Jefferson, NY",
+    "lat": 40.9469225,
+    "lon": -73.0664401
+   },
+   "url": "https://portjeff.librarycalendar.com/event/historic-walking-tour-ava-35316",
+   "description": "A guided group walking tour of Port Jefferson Village. Meet at the library and learn local history as you walk the village.",
+   "source_name": "Port Jefferson Free Library",
+   "id": "7e681e5dde908153"
   },
   {
    "source_id": "lib-levittown",
@@ -177,6 +273,25 @@
    "id": "62af2fe59d13b13c"
   },
   {
+   "source_id": "lib-syosset",
+   "source_uid": "43751@2026-12-03T23:00:00+00:00",
+   "title": "Long Island Coin club",
+   "start": "2026-12-03T23:00:00+00:00",
+   "end": "2026-12-04T02:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
+   },
+   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-43751",
+   "description": "All community group meetings must be open to the public as per New York State Education Law.",
+   "source_name": "Syosset Public Library",
+   "id": "8ad76425da4debb6"
+  },
+  {
    "source_id": "tca",
    "source_uid": "25820-1796385600-1796479200@www.tcatrains.org@2026-12-04T12:00:00-05:00",
    "title": "TCA Terminus Chapter Meet",
@@ -194,6 +309,25 @@
    "description": "ATLANTA TOY & MODEL TRAIN SHOW Show Times: Noon to 5 p.m. on Friday, December 4; 9 a.m. to 2 p.m. on Saturday, December 5 • Operating Train Layouts • Parts • Appraisals • New and Antique Toy & Model Trains • Over 100 Tables of Trains! TCA Members $10 each—Accompanying Spouses are FREE! General Public $10 per person. Children 17 and Under with accompanying adult: FREE!",
    "source_name": "Train Collectors Association",
    "id": "9d2ddbf788679ee4"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "138526@2026-12-04T00:00:00+00:00",
+   "title": "Vinyl Collectors Club",
+   "start": "2026-12-04T00:00:00+00:00",
+   "end": "2026-12-04T01:30:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/vinyl-collectors-club-long-beach-coffee-tee-138526",
+   "description": "This month we will not have our regular meeting, but will be attending the Forgotten Venues program, led by Darren Paltrowitz in the 2nd Floor Program Room at the Main Library. Step back in time and uncover the rich musical history of Freeport, Rockville Centre, Hempstead, Long Beach, and Island Park! Author, librarian, and Paltrocast host Darren Paltrowitz shares fascinating stories of the iconic artists and bands who once graced these local stages. Darren Paltrowitz is a New York-based podcast",
+   "source_name": "Long Beach Public Library",
+   "id": "136548606c7333f8"
   },
   {
    "source_id": "rmli",
@@ -216,7 +350,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "ca33e1f2-3f34-4407-baa1-65418f8b8ee8@2026-12-05T10:00:00-05:00",
+   "source_uid": "dd3f26a9-0bdc-475d-9c09-49d9c6583b4b@2026-12-05T10:00:00-05:00",
    "title": "Festival of Games",
    "start": "2026-12-05T10:00:00-05:00",
    "end": "2026-12-06T10:00:00-05:00",
@@ -231,7 +365,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Festival of Games: A Holiday Shopping & Gaming Event</b> Cradle-Con and Long Island Retro Gaming Expo are proud to present Festival of Games – a holiday-themed extravaganza of shopping and gaming experiences. Join us on Saturday, December 5th, and Sunday, December 6th, from 10:00 am to 5:00 pm, and shop a variety of local small businesses for retro video games, toys, comics, and collectibles, and enjoy a slew of unique retro gaming experiences. Admission includes free unlimited gameplay on ov",
    "source_name": "Cradle of Aviation Museum",
-   "id": "11e182abae62dbb2"
+   "id": "9035f39313e42264"
   },
   {
    "source_id": "rmli",
@@ -310,6 +444,25 @@
    "id": "6c6d3da3b72030f7"
   },
   {
+   "source_id": "li-museum",
+   "source_uid": "10000290-1796558400-1796576400@longislandmuseum.org@2026-12-06T12:00:00-05:00",
+   "title": "Winter Open House - FREE ADMISSION!",
+   "start": "2026-12-06T12:00:00-05:00",
+   "end": "2026-12-06T17:00:00-05:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "The Long Island Museum",
+    "address": "1200 Route 25A, Stony Brook, NY 11790",
+    "lat": 40.9302945,
+    "lon": -73.1151874
+   },
+   "url": "https://longislandmuseum.org/event/winter-open-house-2026/",
+   "description": "Take a break from holiday prep and visit our two fall exhibitions: Enduring Heart: Native American Long Island and American Palette: LIMarts Members’ Exhibition; step back in time in our Carriage Museum, and enjoy mini pop-up Gilded Age carriage tours, and learn about New York in the age of opulence. Admission is free for all! No registration is required.",
+   "source_name": "The Long Island Museum",
+   "id": "17f4a50e6aabfa34"
+  },
+  {
    "source_id": "limarc",
    "source_uid": "628102br2f1e300rr8nqgmope1@google.com@2026-12-09T19:00:00-05:00",
    "title": "LIMARC General Meeting",
@@ -327,6 +480,101 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "ad30e9dfefabd06d"
+  },
+  {
+   "source_id": "li-museum",
+   "source_uid": "10000295-1796929200-1796936400@longislandmuseum.org@2026-12-10T19:00:00-05:00",
+   "title": "FILM@LIM: Free Screening of The Muppet Christmas Carol",
+   "start": "2026-12-10T19:00:00-05:00",
+   "end": "2026-12-10T21:00:00-05:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "The Long Island Museum",
+    "address": "1200 Route 25A, Stony Brook, NY 11790",
+    "lat": 40.9302945,
+    "lon": -73.1151874
+   },
+   "url": "https://longislandmuseum.org/event/muppet-christmas-carol/",
+   "description": "Celebrate the magic of the holiday season with a free screening of the holiday classic: The Muppet Christmas Carol (1992)! Join Kermit, Miss Piggy, and the rest of the beloved Muppet gang as they bring Charles Dickens’s timeless tale of Ebenezer Scrooge to life in this heartwarming holiday classic. Filled with humor, memorable songs, and plenty of Christmas spirit, this festive film is perfect for the whole family. Gather your loved ones and enjoy a little holiday movie magic! Screenings are hel",
+   "source_name": "The Long Island Museum",
+   "id": "0fa5205206f4fdfb"
+  },
+  {
+   "source_id": "lib-eastislip",
+   "source_uid": "23030@2026-12-10T22:00:00+00:00",
+   "title": "Polar Express Party",
+   "start": "2026-12-10T22:00:00+00:00",
+   "end": "2026-12-10T23:00:00+00:00",
+   "all_day": false,
+   "category": "trains",
+   "location": {
+    "name": "East Islip Public Library",
+    "address": "East Islip Public Library, East Islip, NY",
+    "lat": 40.7358333,
+    "lon": -73.1733333
+   },
+   "url": "https://eastislip.librarycalendar.com/event/polar-express-party-23030",
+   "description": "All aboard for our annual Polar Express party! Celebrate the holiday season at this fun program based on the book.",
+   "source_name": "East Islip Public Library",
+   "id": "18eab5c2799fc1d0"
+  },
+  {
+   "source_id": "lib-eastislip",
+   "source_uid": "29923@2026-12-10T21:45:00+00:00",
+   "title": "Polar Express Party Volunteers",
+   "start": "2026-12-10T21:45:00+00:00",
+   "end": "2026-12-10T23:15:00+00:00",
+   "all_day": false,
+   "category": "trains",
+   "location": {
+    "name": "East Islip Public Library",
+    "address": "East Islip Public Library, East Islip, NY",
+    "lat": 40.7358333,
+    "lon": -73.1733333
+   },
+   "url": "https://eastislip.librarycalendar.com/event/polar-express-party-volunteers-29923",
+   "description": "Assist with our annual Polar Express party. Earn one and a half (1.5) service hours. Registration for volunteer opportunities begins on Tuesday, November 3 at 9:00 a.m. Call the Reference Desk at (631) 581-9200 ext. 5 to register.",
+   "source_name": "East Islip Public Library",
+   "id": "6a61a1a5ce0c03d6"
+  },
+  {
+   "source_id": "li-museum",
+   "source_uid": "10000234-1796997600-1797001200@longislandmuseum.org@2026-12-11T14:00:00+00:00",
+   "title": "America on Screen: Small Town Life",
+   "start": "2026-12-11T14:00:00+00:00",
+   "end": "2026-12-11T15:00:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "The Long Island Museum",
+    "address": "1200 Route 25A, Stony Brook, NY 11790",
+    "lat": 40.9302945,
+    "lon": -73.1151874
+   },
+   "url": "https://longislandmuseum.org/event/america-on-screen-small-town-life/",
+   "description": "Join us on select Friday afternoons for a special film series commemorating America’s 250th: Anniversary: America on Screen. Enjoy screenings of Smithsonian Channel programs that explore the people, places, and stories that shaped America. Small Town Life Small towns are the heart and soul of America. At the turn of the century, tightly knit communities embodied the pioneer spirit. Small-town heroes like Will Rogers and Jimmy Stewart capture the nation’s hearts. In reality, many are mired in pov",
+   "source_name": "The Long Island Museum",
+   "id": "3ce94e95b57af273"
+  },
+  {
+   "source_id": "li-museum",
+   "source_uid": "10000283-1797080400-1797085800@longislandmuseum.org@2026-12-12T13:00:00-05:00",
+   "title": "Artist Spotlight: David Bunn Martine",
+   "start": "2026-12-12T13:00:00-05:00",
+   "end": "2026-12-12T14:30:00-05:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "The Long Island Museum",
+    "address": "1200 Route 25A, Stony Brook, NY 11790",
+    "lat": 40.9302945,
+    "lon": -73.1151874
+   },
+   "url": "https://longislandmuseum.org/event/david-bunn-martine/",
+   "description": "Join us for a special artist talk with David Bunn Martine, a featured artist in Enduring Heart: Native American Long Island. A member of the Shinnecock/Montauk Nations and a descendant of the Nde Daa’i (Nednai) Chiricahua Apache, Martine will share insights into his artwork, creative process, and the stories and histories that inform his work. He will also present archival photographs from Long Island’s Native American communities, offering a deeper look at the people, traditions, and histories ",
+   "source_name": "The Long Island Museum",
+   "id": "afc7af589c68ba8e"
   },
   {
    "source_id": "rmli",
@@ -424,6 +672,25 @@
    "id": "d1a8fc27c1261906"
   },
   {
+   "source_id": "li-museum",
+   "source_uid": "10000296-1797170400-1797177600@longislandmuseum.org@2026-12-13T14:00:00-05:00",
+   "title": "Dickens in the Carriage Museum",
+   "start": "2026-12-13T14:00:00-05:00",
+   "end": "2026-12-13T16:00:00-05:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "The Long Island Museum",
+    "address": "1200 Route 25A, Stony Brook, NY 11790",
+    "lat": 40.9302945,
+    "lon": -73.1151874
+   },
+   "url": "https://longislandmuseum.org/event/dickens-in-the-carriage-museum/2026-12-13/",
+   "description": "In celebration of the 30th Annual Charles Dickens Festival in Port Jefferson Village, stop by the Carriage Museum to meet roaming costumed street characters from the Dickensian era as they magically transform the galleries into London of a bygone century. Included with museum admission. In collaboration with the Port Jefferson Arts Council. Included with museum admission. No registration is required.",
+   "source_name": "The Long Island Museum",
+   "id": "9a7414bd3ffb690a"
+  },
+  {
    "source_id": "rmli",
    "source_uid": "10512-1797157800-1797170400@www.rmli.org@2026-12-13T10:30:00-05:00",
    "title": "Open House with Santa at Greenport",
@@ -501,7 +768,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "1f490217-b8f1-4fe8-9a92-25ac17c5a595@2026-12-18T17:30:00-05:00",
+   "source_uid": "cd89f406-0685-4fad-95cf-9418fa26fec5@2026-12-18T17:30:00-05:00",
    "title": "A Very Grinchy Pajama Party",
    "start": "2026-12-18T17:30:00-05:00",
    "end": "2026-12-18T21:00:00-05:00",
@@ -516,7 +783,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Join us on Friday, December 18th, for a Very Grinchy Pajama Party!</b> Wear your favorite pajamas and enjoy a festive evening of holiday cheer, activities, and a screening of The Grinch (2018). <b>5:30 pm</b> Doors Open <b>5:30 pm – 7:00 pm</b> Activities & Meet the Grinch • More details to come <b>7:00 pm</b> Watch The Grinch (2018) Grab your hot chocolate and cookies (nut-free) and meet in the theater for The Grinch (2018)—where a grumpy green grouch tries to stop Christmas until Cindy-Lou ",
    "source_name": "Cradle of Aviation Museum",
-   "id": "d2ba3929f69276c0"
+   "id": "a94712a73299c30f"
   },
   {
    "source_id": "tca",
@@ -536,6 +803,63 @@
    "description": "Meet 10:00 AM to 2:00 PMSetup at 9:00 AM Plenty of free parking, over 40 tables for trading, a monthly display theme, operating train layouts in multiple gauges, a lively auction, membership opportunity drawings, and a free repair clinic. Pricing information: Admission is free for all TCA members who are current in their dues (show your membership card at the door and wear your name badge). Guests and the public may attend 1 meet per year at no charge but must join the club after that. Trading t",
    "source_name": "Train Collectors Association",
    "id": "829173fb4a1fd938"
+  },
+  {
+   "source_id": "lib-portjeff",
+   "source_uid": "34547@2026-12-21T23:30:00+00:00",
+   "title": "Holiday Movie: Polar Express",
+   "start": "2026-12-21T23:30:00+00:00",
+   "end": "2026-12-22T01:30:00+00:00",
+   "all_day": false,
+   "category": "trains",
+   "location": {
+    "name": "Port Jefferson Free Library",
+    "address": "Port Jefferson Free Library, Port Jefferson, NY",
+    "lat": 40.9469225,
+    "lon": -73.0664401
+   },
+   "url": "https://portjeff.librarycalendar.com/event/holiday-movie-polar-express-34547",
+   "description": "Get ready in the spirit with the Polar Express and some Hot Hot Hot Hot Chocolate. Registration is not required May not be suitable for those with food allergies.",
+   "source_name": "Port Jefferson Free Library",
+   "id": "b41c133da4ffd0c9"
+  },
+  {
+   "source_id": "lib-eastislip",
+   "source_uid": "30118@2026-12-29T00:00:00+00:00",
+   "title": "Suffolk Gem & Mineral Club",
+   "start": "2026-12-29T00:00:00+00:00",
+   "end": "2026-12-29T02:00:00+00:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "East Islip Public Library",
+    "address": "East Islip Public Library, East Islip, NY",
+    "lat": 40.7358333,
+    "lon": -73.1733333
+   },
+   "url": "https://eastislip.librarycalendar.com/event/suffolk-gem-mineral-club-30118",
+   "description": "",
+   "source_name": "East Islip Public Library",
+   "id": "411ae1827258f0a6"
+  },
+  {
+   "source_id": "lib-syosset",
+   "source_uid": "58627@2027-01-07T23:00:00+00:00",
+   "title": "Long Island Coin club",
+   "start": "2027-01-07T23:00:00+00:00",
+   "end": "2027-01-08T02:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
+   },
+   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58627",
+   "description": "All community group meetings must be open to the public as per New York State Education Law.",
+   "source_name": "Syosset Public Library",
+   "id": "d7b42257b1e7e312"
   },
   {
    "source_id": "tca",
@@ -595,6 +919,25 @@
    "id": "357afc548efc917e"
   },
   {
+   "source_id": "lib-comsewogue",
+   "source_uid": "43530@2027-01-14T00:00:00+00:00",
+   "title": "Intro to 3D Printing",
+   "start": "2027-01-14T00:00:00+00:00",
+   "end": "2027-01-14T01:00:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "Comsewogue Public Library",
+    "address": "Comsewogue Public Library, Port Jefferson Station, NY",
+    "lat": 40.9238344,
+    "lon": -73.0532492
+   },
+   "url": "https://comsewogue.librarycalendar.com/event/intro-3d-printing-43530",
+   "description": "Explore the basics of 3D printing and learn how to submit requests to our 3D printing service. Each attendee will select an object to be 3D printed after the program. You will be notified after the program when your item is ready to be picked up. This program will take place in The Space, the library's newest area for all things creative!",
+   "source_name": "Comsewogue Public Library",
+   "id": "463893bebd0311d3"
+  },
+  {
    "source_id": "lib-syosset",
    "source_uid": "56381@2027-01-15T23:30:00+00:00",
    "title": "Retro Gaming Night at Syosset Public Library",
@@ -631,6 +974,63 @@
    "description": "Family Admission: $5 Food and Drink available for Purchase Over 120 Tables of New and Old Trains & Train-Related Items For tables and Pricing, call: David Herman (856-745-8065) or Russ Keil (609-320-3957) Interactive Running Layout, Door Prizes, Fun for Adults & Kids!",
    "source_name": "Train Collectors Association",
    "id": "1c7686b75a91552c"
+  },
+  {
+   "source_id": "lib-massapequa",
+   "source_uid": "60811@2027-01-19T05:00:00+00:00",
+   "title": "Book Fair (Barbara Gannon)",
+   "start": "2027-01-19T05:00:00+00:00",
+   "end": "2027-01-29T05:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Massapequa Public Library",
+    "address": "Massapequa Public Library, Massapequa, NY",
+    "lat": 40.6639871,
+    "lon": -73.4562533
+   },
+   "url": "https://massapequa.librarycalendar.com/event/book-fair-barbara-gannon-60811",
+   "description": "Book Fair",
+   "source_name": "Massapequa Public Library",
+   "id": "ffc03e6a5b6153d0"
+  },
+  {
+   "source_id": "lib-portwashington",
+   "source_uid": "122156@2027-01-20T00:00:00+00:00",
+   "title": "RecordTrax Listening Party: \"Endings and Beginnings\"",
+   "start": "2027-01-20T00:00:00+00:00",
+   "end": "2027-01-20T02:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Port Washington Public Library",
+    "address": "Port Washington Public Library, Port Washington, NY",
+    "lat": 40.8319463,
+    "lon": -73.6968479
+   },
+   "url": "https://portwashington.librarycalendar.com/event/hold-recordtrax-listening-party-endings-and-beginnings-122156",
+   "description": "Join Tony Traguardo and Jack Warren for this month's meeting of \"Record Trax,\" the library's B.Y.O.M. (Bring Your Own Music) listening party! We invite you to bring two or three tracks (vinyl or CD) that you feel resonate with you, and will represent who you are to fellow music enthusiasts. The intention is for each month's selections to relate to a specific theme. To recognize the turning of the calendar into the New Year, the theme for this meeting is \"Endings and Beginnings\" (e.g.., Chicago's",
+   "source_name": "Port Washington Public Library",
+   "id": "31c707ecad255aef"
+  },
+  {
+   "source_id": "lib-eastislip",
+   "source_uid": "30027@2027-01-22T00:00:00+00:00",
+   "title": "Makerspace Night",
+   "start": "2027-01-22T00:00:00+00:00",
+   "end": "2027-01-22T01:00:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "East Islip Public Library",
+    "address": "East Islip Public Library, East Islip, NY",
+    "lat": 40.7358333,
+    "lon": -73.1733333
+   },
+   "url": "https://eastislip.librarycalendar.com/event/makerspace-night-30027",
+   "description": "One registration per child.",
+   "source_name": "East Islip Public Library",
+   "id": "cabc6275f8f82cac"
   },
   {
    "source_id": "tca",
@@ -671,6 +1071,44 @@
    "id": "ce1f382c98dcda39"
   },
   {
+   "source_id": "lib-massapequa",
+   "source_uid": "60812@2027-01-29T14:00:00+00:00",
+   "title": "Book Fair (Barbara Gannon)",
+   "start": "2027-01-29T14:00:00+00:00",
+   "end": "2027-01-29T22:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Massapequa Public Library",
+    "address": "Massapequa Public Library, Massapequa, NY",
+    "lat": 40.6639871,
+    "lon": -73.4562533
+   },
+   "url": "https://massapequa.librarycalendar.com/event/book-fair-barbara-gannon-60812",
+   "description": "",
+   "source_name": "Massapequa Public Library",
+   "id": "2697081251be0359"
+  },
+  {
+   "source_id": "lib-massapequa",
+   "source_uid": "52637@2027-01-30T14:00:00+00:00",
+   "title": "Book Fair (Barbara Gannon)",
+   "start": "2027-01-30T14:00:00+00:00",
+   "end": "2027-01-30T22:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Massapequa Public Library",
+    "address": "Massapequa Public Library, Massapequa, NY",
+    "lat": 40.6639871,
+    "lon": -73.4562533
+   },
+   "url": "https://massapequa.librarycalendar.com/event/book-fair-barbara-gannon-52637",
+   "description": "",
+   "source_name": "Massapequa Public Library",
+   "id": "b66602549b0899b1"
+  },
+  {
    "source_id": "tca",
    "source_uid": "27791-1801296000-1801314000@www.tcatrains.org@2027-01-30T08:00:00-05:00",
    "title": "TCA Keystone Division Early Spring Meet",
@@ -688,6 +1126,44 @@
    "description": "Opens 8 a.m. for Keystone MembersOpens 9 a.m. for Public",
    "source_name": "Train Collectors Association",
    "id": "8bb5a01c67eb5126"
+  },
+  {
+   "source_id": "lib-syosset",
+   "source_uid": "58628@2027-02-04T23:00:00+00:00",
+   "title": "Long Island Coin club",
+   "start": "2027-02-04T23:00:00+00:00",
+   "end": "2027-02-05T02:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
+   },
+   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58628",
+   "description": "All community group meetings must be open to the public as per New York State Education Law.",
+   "source_name": "Syosset Public Library",
+   "id": "f2752d36094a40e0"
+  },
+  {
+   "source_id": "lib-comsewogue",
+   "source_uid": "43531@2027-02-09T00:00:00+00:00",
+   "title": "Design a 3D Printed Bookmark",
+   "start": "2027-02-09T00:00:00+00:00",
+   "end": "2027-02-09T01:30:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "Comsewogue Public Library",
+    "address": "Comsewogue Public Library, Port Jefferson Station, NY",
+    "lat": 40.9238344,
+    "lon": -73.0532492
+   },
+   "url": "https://comsewogue.librarycalendar.com/event/design-3d-printed-bookmark-43531",
+   "description": "Learn the basics of 3D design software Tinkercad & customize a bookmark to be 3D printed. Comfort with computer use recommended. You will be notified after the program when your item is ready to be picked up. This program will take place in The Space, the library's newest area for all things creative!",
+   "source_name": "Comsewogue Public Library",
+   "id": "ee13b52a399a11e2"
   },
   {
    "source_id": "limarc",
@@ -709,6 +1185,82 @@
    "id": "8e749e38b1b54f22"
   },
   {
+   "source_id": "lib-portjeff",
+   "source_uid": "37702@2027-02-12T00:00:00+00:00",
+   "title": "3D Print Valentine Gnomes",
+   "start": "2027-02-12T00:00:00+00:00",
+   "end": "2027-02-12T01:00:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "Port Jefferson Free Library",
+    "address": "Port Jefferson Free Library, Port Jefferson, NY",
+    "lat": 40.9469225,
+    "lon": -73.0664401
+   },
+   "url": "https://portjeff.librarycalendar.com/event/3d-print-valentine-gnomes-37702",
+   "description": "Paint a gnome for your Valentine.",
+   "source_name": "Port Jefferson Free Library",
+   "id": "efbe370e32cfb552"
+  },
+  {
+   "source_id": "lib-eastislip",
+   "source_uid": "31149@2027-02-12T00:00:00+00:00",
+   "title": "Makerspace Night",
+   "start": "2027-02-12T00:00:00+00:00",
+   "end": "2027-02-12T01:00:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "East Islip Public Library",
+    "address": "East Islip Public Library, East Islip, NY",
+    "lat": 40.7358333,
+    "lon": -73.1733333
+   },
+   "url": "https://eastislip.librarycalendar.com/event/makerspace-night-31149",
+   "description": "One registration per child.",
+   "source_name": "East Islip Public Library",
+   "id": "12616029cda3253c"
+  },
+  {
+   "source_id": "lib-sachem",
+   "source_uid": "209099@2027-02-17T00:00:00+00:00",
+   "title": "3D Printed Snowflake Light",
+   "start": "2027-02-17T00:00:00+00:00",
+   "end": "2027-02-17T01:30:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "Sachem Public Library",
+    "address": "Sachem Public Library, Holbrook, NY",
+    "lat": 40.799376,
+    "lon": -73.0697738
+   },
+   "url": "https://sachem.librarycalendar.com/event/teen-program-tba-209099",
+   "description": "Build a custom glowing light display in the shape of a snowflake!",
+   "source_name": "Sachem Public Library",
+   "id": "cb63533fcd5e81f0"
+  },
+  {
+   "source_id": "lib-portwashington",
+   "source_uid": "122157@2027-02-17T00:00:00+00:00",
+   "title": "RecordTrax Listening Party: \"Love Songs\"",
+   "start": "2027-02-17T00:00:00+00:00",
+   "end": "2027-02-17T02:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Port Washington Public Library",
+    "address": "Port Washington Public Library, Port Washington, NY",
+    "lat": 40.8319463,
+    "lon": -73.6968479
+   },
+   "url": "https://portwashington.librarycalendar.com/event/copy-hold-recordtrax-listening-party-love-songs-122157",
+   "description": "Join Tony Traguardo and Jack Warren for this month's meeting of \"Record Trax,\" the library's B.Y.O.M. (Bring Your Own Music) listening party! We invite you to bring two or three tracks (vinyl or CD) that you feel resonate with you, and will represent who you are to fellow music enthusiasts. The intention is for each month's selections to relate to a specific theme. In recognition of Valentine's Day, this month's theme is \"Love Songs\"! The club's purpose is to promote musical exchange through lis",
+   "source_name": "Port Washington Public Library",
+   "id": "21ba5d34ead1846e"
+  },
+  {
    "source_id": "lib-brentwood",
    "source_uid": "149095@2027-02-17T19:00:00+00:00",
    "title": "Retro Gaming with Mr. Po and Mr. Oh",
@@ -728,6 +1280,44 @@
    "id": "1a2c254ce4e6f4ac"
   },
   {
+   "source_id": "lib-farmingdale",
+   "source_uid": "30979@2027-02-22T21:15:00+00:00",
+   "title": "Great Backyard Bird Count",
+   "start": "2027-02-22T21:15:00+00:00",
+   "end": "2027-02-22T22:00:00+00:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "Farmingdale Public Library",
+    "address": "Farmingdale Public Library, Farmingdale, NY",
+    "lat": 40.7285764,
+    "lon": -73.4604067
+   },
+   "url": "https://farmingdale.librarycalendar.com/event/great-backyard-bird-count-30979",
+   "description": "Gr. K-2 Discover the birds in your backyard, then create a birdseed ornament to hang outside and attract feathered friends!",
+   "source_name": "Farmingdale Public Library",
+   "id": "b0fb7a7b556ca970"
+  },
+  {
+   "source_id": "lib-farmingdale",
+   "source_uid": "30980@2027-02-24T21:15:00+00:00",
+   "title": "Great Backyard Bird Count",
+   "start": "2027-02-24T21:15:00+00:00",
+   "end": "2027-02-24T22:00:00+00:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "Farmingdale Public Library",
+    "address": "Farmingdale Public Library, Farmingdale, NY",
+    "lat": 40.7285764,
+    "lon": -73.4604067
+   },
+   "url": "https://farmingdale.librarycalendar.com/event/great-backyard-bird-count-30980",
+   "description": "Gr. 3-5 Discover the birds in your backyard, then create a birdseed ornament to hang outside and attract feathered friends!",
+   "source_name": "Farmingdale Public Library",
+   "id": "276739d03a415012"
+  },
+  {
    "source_id": "lib-portwashington",
    "source_uid": "123395@2027-02-27T19:00:00+00:00",
    "title": "Museum of Technology",
@@ -745,6 +1335,25 @@
    "description": "Families and people of all ages are invited to explore the technology of years gone by. This hands-on program will feature items such as vintage computers, old telephones and cell phones, manual typewriter, cameras, cassette players, radios, video games, and more. Are you nostalgic for old tech? Join us to revisit the technology you grew up with and take a trip down memory lane at our museum of technology.",
    "source_name": "Port Washington Public Library",
    "id": "ac73a7fe7051288d"
+  },
+  {
+   "source_id": "lib-syosset",
+   "source_uid": "58629@2027-03-04T23:00:00+00:00",
+   "title": "Long Island Coin club",
+   "start": "2027-03-04T23:00:00+00:00",
+   "end": "2027-03-05T02:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
+   },
+   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58629",
+   "description": "All community group meetings must be open to the public as per New York State Education Law.",
+   "source_name": "Syosset Public Library",
+   "id": "eac9c0b27b7f5ef4"
   },
   {
    "source_id": "tca",
@@ -821,6 +1430,63 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "d0a48e2fc65f4a82"
+  },
+  {
+   "source_id": "lib-eastislip",
+   "source_uid": "31633@2027-03-18T23:00:00+00:00",
+   "title": "Makerspace Night",
+   "start": "2027-03-18T23:00:00+00:00",
+   "end": "2027-03-19T00:00:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "East Islip Public Library",
+    "address": "East Islip Public Library, East Islip, NY",
+    "lat": 40.7358333,
+    "lon": -73.1733333
+   },
+   "url": "https://eastislip.librarycalendar.com/event/makerspace-night-31633",
+   "description": "One registration per child.",
+   "source_name": "East Islip Public Library",
+   "id": "b43cb54701996b11"
+  },
+  {
+   "source_id": "li-museum",
+   "source_uid": "10000291-1805545800-1805560200@longislandmuseum.org@2027-03-20T12:30:00-04:00",
+   "title": "Hawkins-Mount House Tours",
+   "start": "2027-03-20T12:30:00-04:00",
+   "end": "2027-03-20T16:30:00-04:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "The Long Island Museum",
+    "address": "1200 Route 25A, Stony Brook, NY 11790",
+    "lat": 40.9302945,
+    "lon": -73.1151874
+   },
+   "url": "https://longislandmuseum.org/event/hawkins-mount-house-tours-4/",
+   "description": "Step back in time with special tours of the historic Hawkins-Mount House! Discover the ancestral home of celebrated American genre painter William Sidney Mount, who created some of his most memorable paintings from an attic studio tucked inside this charming 18th-century homestead. Located at a historically significant crossroads along North Country Road in Stony Brook, the Hawkins-Mount House dates to around 1725 and has grown and evolved over the centuries. Rich in history and artistic inspira",
+   "source_name": "The Long Island Museum",
+   "id": "b1fe100da28c06d4"
+  },
+  {
+   "source_id": "lib-syosset",
+   "source_uid": "58630@2027-04-01T22:00:00+00:00",
+   "title": "Long Island Coin club",
+   "start": "2027-04-01T22:00:00+00:00",
+   "end": "2027-04-02T01:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
+   },
+   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58630",
+   "description": "All community group meetings must be open to the public as per New York State Education Law.",
+   "source_name": "Syosset Public Library",
+   "id": "77ea38b4e811d9b7"
   },
   {
    "source_id": "manual",
@@ -918,6 +1584,25 @@
    "id": "482ea03760f5ea94"
   },
   {
+   "source_id": "lib-syosset",
+   "source_uid": "58631@2027-05-06T22:00:00+00:00",
+   "title": "Long Island Coin club",
+   "start": "2027-05-06T22:00:00+00:00",
+   "end": "2027-05-07T01:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
+   },
+   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58631",
+   "description": "All community group meetings must be open to the public as per New York State Education Law.",
+   "source_name": "Syosset Public Library",
+   "id": "0ddec257d5d5f673"
+  },
+  {
    "source_id": "limarc",
    "source_uid": "5f78nobg8oo5csc5d07b76li4q@google.com@2027-05-08T08:00:00-04:00",
    "title": "VE Test Session",
@@ -956,23 +1641,23 @@
    "id": "e7a932c6c67c74bc"
   },
   {
-   "source_id": "lib-longbeach",
-   "source_uid": "123344@2027-05-29T04:00:00+00:00",
-   "title": "Library Closed - Memorial Day Weekend",
-   "start": "2027-05-29T04:00:00+00:00",
-   "end": "2027-05-31T04:00:00+00:00",
+   "source_id": "lib-syosset",
+   "source_uid": "58632@2027-06-03T22:00:00+00:00",
+   "title": "Long Island Coin club",
+   "start": "2027-06-03T22:00:00+00:00",
+   "end": "2027-06-04T01:00:00+00:00",
    "all_day": false,
-   "category": "museum",
+   "category": "records",
    "location": {
-    "name": "Long Beach Public Library",
-    "address": "Long Beach Public Library, Long Beach, NY",
-    "lat": 40.5889343,
-    "lon": -73.6675057
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
    },
-   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-memorial-day-weekend-123344",
-   "description": "All locations will be closed for Memorial Day Weekend (Saturday through Monday). Please note that the Sunday of Memorial Day Weekend is the start of our Summer Sundays closure. Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend. Bring your book to the beach or boardwalk and enjoy our beautiful city!",
-   "source_name": "Long Beach Public Library",
-   "id": "2e24baab6a6d059e"
+   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58632",
+   "description": "All community group meetings must be open to the public as per New York State Education Law.",
+   "source_name": "Syosset Public Library",
+   "id": "09c8b3c2f56870cd"
   },
   {
    "source_id": "tca",
@@ -994,25 +1679,6 @@
    "id": "438bb01e5ccc55d1"
   },
   {
-   "source_id": "lib-longbeach",
-   "source_uid": "137377@2027-06-06T04:00:00+00:00",
-   "title": "Library Closed - Summer Sundays",
-   "start": "2027-06-06T04:00:00+00:00",
-   "end": "2027-06-06T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Long Beach Public Library",
-    "address": "Long Beach Public Library, Long Beach, NY",
-    "lat": 40.5889343,
-    "lon": -73.6675057
-   },
-   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137377",
-   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
-   "source_name": "Long Beach Public Library",
-   "id": "787f47512827528a"
-  },
-  {
    "source_id": "limarc",
    "source_uid": "628102br2f1e300rr8nqgmope1@google.com@2027-06-09T19:00:00-04:00",
    "title": "LIMARC General Meeting",
@@ -1032,61 +1698,42 @@
    "id": "f61b8899c1cbc08e"
   },
   {
-   "source_id": "lib-longbeach",
-   "source_uid": "137378@2027-06-13T04:00:00+00:00",
-   "title": "Library Closed - Summer Sundays",
-   "start": "2027-06-13T04:00:00+00:00",
-   "end": "2027-06-13T04:00:00+00:00",
+   "source_id": "lib-syosset",
+   "source_uid": "58633@2027-07-01T22:00:00+00:00",
+   "title": "Long Island Coin club",
+   "start": "2027-07-01T22:00:00+00:00",
+   "end": "2027-07-02T01:00:00+00:00",
    "all_day": false,
-   "category": "museum",
+   "category": "records",
    "location": {
-    "name": "Long Beach Public Library",
-    "address": "Long Beach Public Library, Long Beach, NY",
-    "lat": 40.5889343,
-    "lon": -73.6675057
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
    },
-   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137378",
-   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
-   "source_name": "Long Beach Public Library",
-   "id": "e4a5d74699f43075"
+   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58633",
+   "description": "All community group meetings must be open to the public as per New York State Education Law.",
+   "source_name": "Syosset Public Library",
+   "id": "e69ac915198b7710"
   },
   {
-   "source_id": "lib-longbeach",
-   "source_uid": "137380@2027-06-27T04:00:00+00:00",
-   "title": "Library Closed - Summer Sundays",
-   "start": "2027-06-27T04:00:00+00:00",
-   "end": "2027-06-27T04:00:00+00:00",
+   "source_id": "li-museum",
+   "source_uid": "10000292-1815222600-1815237000@longislandmuseum.org@2027-07-10T12:30:00-04:00",
+   "title": "Hawkins-Mount House Tours",
+   "start": "2027-07-10T12:30:00-04:00",
+   "end": "2027-07-10T16:30:00-04:00",
    "all_day": false,
-   "category": "museum",
+   "category": "outdoors",
    "location": {
-    "name": "Long Beach Public Library",
-    "address": "Long Beach Public Library, Long Beach, NY",
-    "lat": 40.5889343,
-    "lon": -73.6675057
+    "name": "The Long Island Museum",
+    "address": "1200 Route 25A, Stony Brook, NY 11790",
+    "lat": 40.9302945,
+    "lon": -73.1151874
    },
-   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137380",
-   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
-   "source_name": "Long Beach Public Library",
-   "id": "d601d9db2941637c"
-  },
-  {
-   "source_id": "lib-longbeach",
-   "source_uid": "137381@2027-07-04T04:00:00+00:00",
-   "title": "Library Closed - Summer Sundays",
-   "start": "2027-07-04T04:00:00+00:00",
-   "end": "2027-07-04T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Long Beach Public Library",
-    "address": "Long Beach Public Library, Long Beach, NY",
-    "lat": 40.5889343,
-    "lon": -73.6675057
-   },
-   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137381",
-   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
-   "source_name": "Long Beach Public Library",
-   "id": "0b77315bcc5c3d15"
+   "url": "https://longislandmuseum.org/event/hawkins-mount-house-tours-3/",
+   "description": "Step back in time with special tours of the historic Hawkins-Mount House! Discover the ancestral home of celebrated American genre painter William Sidney Mount, who created some of his most memorable paintings from an attic studio tucked inside this charming 18th-century homestead. Located at a historically significant crossroads along North Country Road in Stony Brook, the Hawkins-Mount House dates to around 1725 and has grown and evolved over the centuries. Rich in history and artistic inspira",
+   "source_name": "The Long Island Museum",
+   "id": "82cacf422a1bee6d"
   },
   {
    "source_id": "limarc",
@@ -1108,44 +1755,6 @@
    "id": "4ee3201f8b963a52"
   },
   {
-   "source_id": "lib-commack",
-   "source_uid": "107@2027-07-11T04:00:00+00:00",
-   "title": "Library Closed",
-   "start": "2027-07-11T04:00:00+00:00",
-   "end": "2027-07-11T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Commack Public Library",
-    "address": "Commack Public Library, Commack, NY",
-    "lat": 40.8290049,
-    "lon": -73.2937839
-   },
-   "url": "https://commack.librarycalendar.com/event/library-closed-107",
-   "description": "The Library is closed on Summer Sundays.",
-   "source_name": "Commack Public Library",
-   "id": "852dea377d90802d"
-  },
-  {
-   "source_id": "lib-longbeach",
-   "source_uid": "137382@2027-07-11T04:00:00+00:00",
-   "title": "Library Closed - Summer Sundays",
-   "start": "2027-07-11T04:00:00+00:00",
-   "end": "2027-07-11T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Long Beach Public Library",
-    "address": "Long Beach Public Library, Long Beach, NY",
-    "lat": 40.5889343,
-    "lon": -73.6675057
-   },
-   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137382",
-   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
-   "source_name": "Long Beach Public Library",
-   "id": "e2820cb547e0875a"
-  },
-  {
    "source_id": "limarc",
    "source_uid": "628102br2f1e300rr8nqgmope1@google.com@2027-07-14T19:00:00-04:00",
    "title": "LIMARC General Meeting",
@@ -1163,82 +1772,6 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "e276b35848698f37"
-  },
-  {
-   "source_id": "lib-commack",
-   "source_uid": "108@2027-07-18T04:00:00+00:00",
-   "title": "Library Closed",
-   "start": "2027-07-18T04:00:00+00:00",
-   "end": "2027-07-18T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Commack Public Library",
-    "address": "Commack Public Library, Commack, NY",
-    "lat": 40.8290049,
-    "lon": -73.2937839
-   },
-   "url": "https://commack.librarycalendar.com/event/library-closed-108",
-   "description": "The Library is closed on Summer Sundays.",
-   "source_name": "Commack Public Library",
-   "id": "54fac9ebeb099ee9"
-  },
-  {
-   "source_id": "lib-longbeach",
-   "source_uid": "137383@2027-07-18T04:00:00+00:00",
-   "title": "Library Closed - Summer Sundays",
-   "start": "2027-07-18T04:00:00+00:00",
-   "end": "2027-07-18T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Long Beach Public Library",
-    "address": "Long Beach Public Library, Long Beach, NY",
-    "lat": 40.5889343,
-    "lon": -73.6675057
-   },
-   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137383",
-   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
-   "source_name": "Long Beach Public Library",
-   "id": "1a6c99373f6d026f"
-  },
-  {
-   "source_id": "lib-commack",
-   "source_uid": "109@2027-07-25T04:00:00+00:00",
-   "title": "Library Closed",
-   "start": "2027-07-25T04:00:00+00:00",
-   "end": "2027-07-25T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Commack Public Library",
-    "address": "Commack Public Library, Commack, NY",
-    "lat": 40.8290049,
-    "lon": -73.2937839
-   },
-   "url": "https://commack.librarycalendar.com/event/library-closed-109",
-   "description": "The Library is closed on Summer Sundays.",
-   "source_name": "Commack Public Library",
-   "id": "0638e6b268575aa2"
-  },
-  {
-   "source_id": "lib-longbeach",
-   "source_uid": "137384@2027-07-25T04:00:00+00:00",
-   "title": "Library Closed - Summer Sundays",
-   "start": "2027-07-25T04:00:00+00:00",
-   "end": "2027-07-25T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Long Beach Public Library",
-    "address": "Long Beach Public Library, Long Beach, NY",
-    "lat": 40.5889343,
-    "lon": -73.6675057
-   },
-   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137384",
-   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
-   "source_name": "Long Beach Public Library",
-   "id": "02161fbb6deea0ab"
   },
   {
    "source_id": "manual",
@@ -1260,80 +1793,23 @@
    "id": "6d012fa2322a8875"
   },
   {
-   "source_id": "lib-commack",
-   "source_uid": "110@2027-08-01T04:00:00+00:00",
-   "title": "Library Closed",
-   "start": "2027-08-01T04:00:00+00:00",
-   "end": "2027-08-01T04:00:00+00:00",
+   "source_id": "lib-syosset",
+   "source_uid": "58634@2027-08-05T22:00:00+00:00",
+   "title": "Long Island Coin club",
+   "start": "2027-08-05T22:00:00+00:00",
+   "end": "2027-08-06T01:00:00+00:00",
    "all_day": false,
-   "category": "museum",
+   "category": "records",
    "location": {
-    "name": "Commack Public Library",
-    "address": "Commack Public Library, Commack, NY",
-    "lat": 40.8290049,
-    "lon": -73.2937839
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
    },
-   "url": "https://commack.librarycalendar.com/event/library-closed-110",
-   "description": "The Library is closed on Summer Sundays.",
-   "source_name": "Commack Public Library",
-   "id": "5976c1831fdeba90"
-  },
-  {
-   "source_id": "lib-longbeach",
-   "source_uid": "137385@2027-08-01T04:00:00+00:00",
-   "title": "Library Closed - Summer Sundays",
-   "start": "2027-08-01T04:00:00+00:00",
-   "end": "2027-08-01T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Long Beach Public Library",
-    "address": "Long Beach Public Library, Long Beach, NY",
-    "lat": 40.5889343,
-    "lon": -73.6675057
-   },
-   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137385",
-   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
-   "source_name": "Long Beach Public Library",
-   "id": "787eccb261cab602"
-  },
-  {
-   "source_id": "lib-commack",
-   "source_uid": "111@2027-08-08T04:00:00+00:00",
-   "title": "Library Closed",
-   "start": "2027-08-08T04:00:00+00:00",
-   "end": "2027-08-08T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Commack Public Library",
-    "address": "Commack Public Library, Commack, NY",
-    "lat": 40.8290049,
-    "lon": -73.2937839
-   },
-   "url": "https://commack.librarycalendar.com/event/library-closed-111",
-   "description": "The Library is closed on Summer Sundays.",
-   "source_name": "Commack Public Library",
-   "id": "11225a68704f64f9"
-  },
-  {
-   "source_id": "lib-longbeach",
-   "source_uid": "137386@2027-08-08T04:00:00+00:00",
-   "title": "Library Closed - Summer Sundays",
-   "start": "2027-08-08T04:00:00+00:00",
-   "end": "2027-08-08T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Long Beach Public Library",
-    "address": "Long Beach Public Library, Long Beach, NY",
-    "lat": 40.5889343,
-    "lon": -73.6675057
-   },
-   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137386",
-   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
-   "source_name": "Long Beach Public Library",
-   "id": "42fe901867b057c5"
+   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58634",
+   "description": "All community group meetings must be open to the public as per New York State Education Law.",
+   "source_name": "Syosset Public Library",
+   "id": "a05e1488449a3969"
   },
   {
    "source_id": "limarc",
@@ -1355,137 +1831,23 @@
    "id": "c541da840b217ba8"
   },
   {
-   "source_id": "lib-commack",
-   "source_uid": "112@2027-08-15T04:00:00+00:00",
-   "title": "Library Closed",
-   "start": "2027-08-15T04:00:00+00:00",
-   "end": "2027-08-15T04:00:00+00:00",
+   "source_id": "lib-syosset",
+   "source_uid": "58635@2027-09-02T22:00:00+00:00",
+   "title": "Long Island Coin club",
+   "start": "2027-09-02T22:00:00+00:00",
+   "end": "2027-09-03T01:00:00+00:00",
    "all_day": false,
-   "category": "museum",
+   "category": "records",
    "location": {
-    "name": "Commack Public Library",
-    "address": "Commack Public Library, Commack, NY",
-    "lat": 40.8290049,
-    "lon": -73.2937839
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
    },
-   "url": "https://commack.librarycalendar.com/event/library-closed-112",
-   "description": "The Library is closed on Summer Sundays.",
-   "source_name": "Commack Public Library",
-   "id": "80744b45956093cf"
-  },
-  {
-   "source_id": "lib-longbeach",
-   "source_uid": "137387@2027-08-15T04:00:00+00:00",
-   "title": "Library Closed - Summer Sundays",
-   "start": "2027-08-15T04:00:00+00:00",
-   "end": "2027-08-15T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Long Beach Public Library",
-    "address": "Long Beach Public Library, Long Beach, NY",
-    "lat": 40.5889343,
-    "lon": -73.6675057
-   },
-   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137387",
-   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
-   "source_name": "Long Beach Public Library",
-   "id": "bec6297780e4638b"
-  },
-  {
-   "source_id": "lib-commack",
-   "source_uid": "113@2027-08-22T04:00:00+00:00",
-   "title": "Library Closed",
-   "start": "2027-08-22T04:00:00+00:00",
-   "end": "2027-08-22T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Commack Public Library",
-    "address": "Commack Public Library, Commack, NY",
-    "lat": 40.8290049,
-    "lon": -73.2937839
-   },
-   "url": "https://commack.librarycalendar.com/event/library-closed-113",
-   "description": "The Library is closed on Summer Sundays.",
-   "source_name": "Commack Public Library",
-   "id": "edb7814d8729c032"
-  },
-  {
-   "source_id": "lib-longbeach",
-   "source_uid": "137388@2027-08-22T04:00:00+00:00",
-   "title": "Library Closed - Summer Sundays",
-   "start": "2027-08-22T04:00:00+00:00",
-   "end": "2027-08-22T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Long Beach Public Library",
-    "address": "Long Beach Public Library, Long Beach, NY",
-    "lat": 40.5889343,
-    "lon": -73.6675057
-   },
-   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137388",
-   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
-   "source_name": "Long Beach Public Library",
-   "id": "9cc5672c96980efb"
-  },
-  {
-   "source_id": "lib-commack",
-   "source_uid": "114@2027-08-29T04:00:00+00:00",
-   "title": "Library Closed",
-   "start": "2027-08-29T04:00:00+00:00",
-   "end": "2027-08-29T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Commack Public Library",
-    "address": "Commack Public Library, Commack, NY",
-    "lat": 40.8290049,
-    "lon": -73.2937839
-   },
-   "url": "https://commack.librarycalendar.com/event/library-closed-114",
-   "description": "The Library is closed on Summer Sundays.",
-   "source_name": "Commack Public Library",
-   "id": "694d2d136f5d100e"
-  },
-  {
-   "source_id": "lib-longbeach",
-   "source_uid": "137389@2027-08-29T04:00:00+00:00",
-   "title": "Library Closed - Summer Sundays",
-   "start": "2027-08-29T04:00:00+00:00",
-   "end": "2027-08-29T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Long Beach Public Library",
-    "address": "Long Beach Public Library, Long Beach, NY",
-    "lat": 40.5889343,
-    "lon": -73.6675057
-   },
-   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-summer-sundays-137389",
-   "description": "The Main Library is closed on Sundays from Memorial Day through Labor Day. We encourage you to bring your book to the beach or boardwalk and enjoy our beautiful city! Please note that we are closed for the entirety of Memorial Day and Labor Day Weekends (Saturday-Monday) Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
-   "source_name": "Long Beach Public Library",
-   "id": "5f0827f8f207173e"
-  },
-  {
-   "source_id": "lib-longbeach",
-   "source_uid": "123353@2027-09-04T04:00:00+00:00",
-   "title": "Library Closed-Labor Day Weekend",
-   "start": "2027-09-04T04:00:00+00:00",
-   "end": "2027-09-06T04:00:00+00:00",
-   "all_day": false,
-   "category": "museum",
-   "location": {
-    "name": "Long Beach Public Library",
-    "address": "Long Beach Public Library, Long Beach, NY",
-    "lat": 40.5889343,
-    "lon": -73.6675057
-   },
-   "url": "https://longbeachpl.librarycalendar.com/event/library-closed-labor-day-weekend-123353",
-   "description": "All locations will be closed for Labor Day Weekend (Saturday through Monday). Please note that the Sunday of Labor Day Weekend is the end of our Summer Sundays closure. Our Sunday hours (1-5pm) resume the Sunday after Labor Day weekend.",
-   "source_name": "Long Beach Public Library",
-   "id": "c7e0ca6171ec74b6"
+   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58635",
+   "description": "All community group meetings must be open to the public as per New York State Education Law.",
+   "source_name": "Syosset Public Library",
+   "id": "e3ed053218bc775b"
   },
   {
    "source_id": "limarc",
@@ -1545,6 +1907,44 @@
    "id": "f53a3441ddd10312"
   },
   {
+   "source_id": "lib-sachem",
+   "source_uid": "209090@2027-10-05T23:00:00+00:00",
+   "title": "3D Printed Pull Copter",
+   "start": "2027-10-05T23:00:00+00:00",
+   "end": "2027-10-06T00:30:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "Sachem Public Library",
+    "address": "Sachem Public Library, Holbrook, NY",
+    "lat": 40.799376,
+    "lon": -73.0697738
+   },
+   "url": "https://sachem.librarycalendar.com/event/teen-program-tba-209090",
+   "description": "Build your own mechanical pull-copter featuring a custom 3D-printed launcher mechanism and high-flying rotor blades.",
+   "source_name": "Sachem Public Library",
+   "id": "066dadeb2564aebe"
+  },
+  {
+   "source_id": "lib-syosset",
+   "source_uid": "58636@2027-10-07T22:00:00+00:00",
+   "title": "Long Island Coin club",
+   "start": "2027-10-07T22:00:00+00:00",
+   "end": "2027-10-08T01:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
+   },
+   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58636",
+   "description": "All community group meetings must be open to the public as per New York State Education Law.",
+   "source_name": "Syosset Public Library",
+   "id": "99dd95217fedecaf"
+  },
+  {
    "source_id": "limarc",
    "source_uid": "628102br2f1e300rr8nqgmope1@google.com@2027-10-13T19:00:00-04:00",
    "title": "LIMARC General Meeting",
@@ -1581,6 +1981,25 @@
    "description": "Presented by the Eastern Division, Train Collectors Association (TCA)October 19–23, 2027 | York Expo Center, York, Pennsylvania Get ready for the October 2027 York Train Fair, the world’s largest model train event, proudly hosted by the Eastern Division of the Train Collectors Association (TCA). Held at the expansive York Expo Center, this multi-day celebration brings together train collectors, operators, dealers, and enthusiasts from across the country for an unforgettable week of trains, tradi",
    "source_name": "TCA Eastern Division (York Train Fair)",
    "id": "814dbe891f2476ba"
+  },
+  {
+   "source_id": "lib-syosset",
+   "source_uid": "58637@2027-11-04T22:00:00+00:00",
+   "title": "Long Island Coin club",
+   "start": "2027-11-04T22:00:00+00:00",
+   "end": "2027-11-05T01:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
+   },
+   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58637",
+   "description": "All community group meetings must be open to the public as per New York State Education Law.",
+   "source_name": "Syosset Public Library",
+   "id": "b0a721982aac6f84"
   },
   {
    "source_id": "tca",
@@ -1638,6 +2057,44 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "b36d1da3f5b83318"
+  },
+  {
+   "source_id": "lib-syosset",
+   "source_uid": "58638@2027-12-02T23:00:00+00:00",
+   "title": "Long Island Coin club",
+   "start": "2027-12-02T23:00:00+00:00",
+   "end": "2027-12-03T02:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
+   },
+   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58638",
+   "description": "All community group meetings must be open to the public as per New York State Education Law.",
+   "source_name": "Syosset Public Library",
+   "id": "24228ebfe2b461cc"
+  },
+  {
+   "source_id": "lib-sachem",
+   "source_uid": "209091@2027-12-08T00:00:00+00:00",
+   "title": "3D Printed Wind-Up Cars",
+   "start": "2027-12-08T00:00:00+00:00",
+   "end": "2027-12-08T01:30:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "Sachem Public Library",
+    "address": "Sachem Public Library, Holbrook, NY",
+    "lat": 40.799376,
+    "lon": -73.0697738
+   },
+   "url": "https://sachem.librarycalendar.com/event/teen-program-tba-209091",
+   "description": "Build your own mechanical wind-up car using simple gears and spring mechanisms to race across the floor.",
+   "source_name": "Sachem Public Library",
+   "id": "1f5e87fd01140df3"
   },
   {
    "source_id": "limarc",
