@@ -330,6 +330,53 @@ sources:
     default_location: { name: "Town of Babylon", address: "Lindenhurst, NY" }
     enabled: true
 
+  # Museums, nature centers and estates. Keyword-classified; museums and
+  # nature centers keep their other events under a fallback category.
+  - id: sofo
+    name: South Fork Natural History Museum (SoFo)
+    type: ics
+    url: https://sofo.org/?ical=1
+    category: auto
+    filter: keywords
+    fallback_category: outdoors
+    homepage: https://sofo.org/calendar/
+    default_location: { name: "SoFo", address: "377 Bridgehampton/Sag Harbor Turnpike, Bridgehampton, NY 11932" }
+    enabled: true
+
+  - id: li-museum
+    name: The Long Island Museum
+    type: ics
+    url: https://longislandmuseum.org/?ical=1
+    category: auto
+    filter: keywords
+    fallback_category: museum
+    exclude_titles: '(?i)stitch|art making|\bball\b|disco|sound journey'
+    homepage: https://longislandmuseum.org/
+    default_location: { name: "The Long Island Museum", address: "1200 Route 25A, Stony Brook, NY 11790" }
+    enabled: true
+
+  - id: old-westbury-gardens
+    name: Old Westbury Gardens
+    type: ics
+    url: https://www.oldwestburygardens.org/?ical=1
+    category: auto
+    filter: keywords
+    max_days: 14
+    homepage: https://www.oldwestburygardens.org/
+    default_location: { name: "Old Westbury Gardens", address: "71 Old Westbury Road, Old Westbury, NY 11568" }
+    enabled: true
+
+  - id: planting-fields
+    name: Planting Fields Foundation
+    type: ics
+    url: https://plantingfields.org/?ical=1
+    category: auto
+    filter: keywords
+    max_days: 14
+    homepage: https://plantingfields.org/
+    default_location: { name: "Planting Fields", address: "1395 Planting Fields Road, Oyster Bay, NY 11771" }
+    enabled: true
+
   - id: manual
     name: NerdHang picks
     type: manual
