@@ -8,7 +8,7 @@
 :root {
   --bg: #efe9dc; --paper: #fffaf0; --ink: #111; --muted: #55504a; --line: #111;
   --pink: #ff2e93; --pink-ink: #fff; --acid: #e6ff3d;
-  --trains: #ff5a1f; --ham-radio: #2d5bff; --computers: #00a86b; --museum: #9b3dff; --other: #444;
+  --trains: #ff2e93; --ham-radio: #2d5bff; --computers: #00a86b; --museum: #9b3dff; --other: #444;
   --shadow: 4px 4px 0 var(--ink); --shadow-sm: 3px 3px 0 var(--ink);
   --display: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
   --mono: "Space Mono", ui-monospace, Menlo, monospace;
