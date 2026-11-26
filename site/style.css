@@ -58,8 +58,6 @@ button.link { border: 0; background: none; color: var(--ink); padding: 0; text-d
 /* ---------- Category stickers ---------- */
 .cats { gap: 8px; }
 .chip { display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px 5px 9px; font-family: var(--display); font-size: 19px; letter-spacing: 1px; line-height: 1; border: 2px solid var(--line); background: var(--paper); color: var(--ink); box-shadow: var(--shadow-sm); transition: transform .08s; }
-.chip:nth-child(odd) { transform: rotate(-1.5deg); }
-.chip:nth-child(even) { transform: rotate(1.2deg); }
 .chip svg { width: 18px; height: 18px; color: var(--c); }
 .chip[aria-pressed="true"] { background: var(--c); color: #fff; }
 .chip[aria-pressed="true"] svg { color: #fff; }
