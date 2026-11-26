@@ -12,16 +12,25 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install -r requirements.txt
-      - run: python -m collector.build || true
-      - run: |
+      - env:
+          NERDHANG_EMAIL: ${{ secrets.NERDHANG_EMAIL }}
+          NERDHANG_APP_PASSWORD: ${{ secrets.NERDHANG_APP_PASSWORD }}
+        run: |
           python - <<'PY'
-          import json, collections
-          ev = json.load(open("data/events.json"))
-          evs = ev["events"] if isinstance(ev, dict) else ev
-          print("TOTAL", len(evs))
-          print(collections.Counter(e["source_id"] for e in evs))
-          print(collections.Counter(e["category"] for e in evs))
-          for e in sorted(evs, key=lambda e: e["category"]):
-              if e["category"] in ("makers","records","outdoors","fairs") or e["source_id"] in ("sofo","vanderbilt","li-museum","old-westbury-gardens","planting-fields"):
-                  print(e["start"][:10], e["category"], e["source_id"], "|", e["title"])
+          import email, collector.fetch_email as fe
+          from email import policy
+          from datetime import date, timedelta
+          import os
+          print("secrets present:", bool(os.environ.get("NERDHANG_EMAIL")), bool(os.environ.get("NERDHANG_APP_PASSWORD")))
+          user, pw = os.environ["NERDHANG_EMAIL"], os.environ["NERDHANG_APP_PASSWORD"].replace(" ", "")
+          msgs = fe._imap_messages(user, pw, 60, 300)
+          print("login ok; messages in last 60 days:", len(msgs))
+          for raw in msgs:
+              m = email.message_from_bytes(raw, policy=policy.default)
+              print("  from domain:", (m.get("From") or "").split("@")[-1].strip("> "))
+          import yaml
+          src = next(s for s in yaml.safe_load(open("collector/sources.yaml"))["sources"] if s["id"] == "inbox")
+          evs = fe.fetch_email(src, date.today() - timedelta(days=1), date.today() + timedelta(days=548), fetch_messages=lambda: msgs)
+          print("events found:", len(evs))
+          for e in evs: print("  ", e.start, e.category, "|", e.title, "|", e.location.address)
           PY

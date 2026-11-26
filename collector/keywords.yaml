@@ -99,7 +99,7 @@ categories:
     - beachcomb\w*
     - lighthouse (tours?|open house|climb|visit)
     - lighthouses
-    - (walking|boat|harbor|historic|ghost|lantern|behind[- ]the[- ]scenes|guided|garden|estate|mansion|bay|eco) tours?
+    - (walking|boat|harbor|historic|ghost|lantern|behind[- ]the[- ]scenes|guided|garden|estate|mansion|house|bay|eco) tours?
     - (boat|ferry|harbor|seal|whale|eco) (cruise|trip|excursion|watch)\w*
     - excursions?
     - seal (watch|walk)\w*
