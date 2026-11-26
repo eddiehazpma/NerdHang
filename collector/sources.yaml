@@ -377,6 +377,48 @@ sources:
     default_location: { name: "Planting Fields", address: "1395 Planting Fields Road, Oyster Bay, NY 11771" }
     enabled: true
 
+  # Book Fairies: monthly book fairs at their Hicksville book bank. Their site
+  # says the fairs serve schools and literacy organizations.
+  - id: book-fairies
+    name: The Book Fairies
+    type: ics
+    url: https://thebookfairies.org/?ical=1
+    category: records
+    homepage: https://thebookfairies.org/calendar/
+    always_default_location: true
+    default_location: { name: "Book Fairies Book Bank", address: "220 Miller Place, Hicksville, NY 11801" }
+    enabled: true
+
+  # Daily area searches: each topic + area is searched (Brave Search API),
+  # and result pages with schema.org Event data become events. Needs the
+  # BRAVE_SEARCH_API_KEY repository secret; skipped without it.
+  - id: search
+    name: Web search
+    type: search
+    category: auto
+    filter: keywords
+    areas: ["Long Island NY"]
+    topics:
+      - train show
+      - model train display
+      - hamfest
+      - vintage computer show
+      - retro gaming expo
+      - maker faire
+      - record fair
+      - antiquarian book fair
+      - book and paper fair
+      - ephemera show
+      - postcard show
+      - mineral show
+      - renaissance faire
+      - lighthouse tour
+      - bird walk
+    max_pages: 60
+    # Sites that block robots, forbid copying listings, or are social media.
+    skip_domains: 'facebook\.com|instagram\.com|x\.com|twitter\.com|tiktok\.com|youtube\.com|reddit\.com|eventbrite\.|arrl\.org|yelp\.com|tripadvisor\.'
+    enabled: true
+
   # The NerdHang inbox: newsletters and calendar invites sent to the project's
   # Gmail address. Needs repository secrets NERDHANG_EMAIL and
   # NERDHANG_APP_PASSWORD; skipped without them. Add a newsletter under

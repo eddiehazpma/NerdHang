@@ -69,3 +69,11 @@ Newsletters and calendar invites sent to the project's Gmail inbox are read on e
 - Calendar invites and .ics attachments are added as they are. Newsletter text is split into blocks; a block with a date and a NerdHang keyword in its title becomes an event.
 - Add a newsletter under `senders` (matched on the From address) to give it a display name and a default location, e.g. Nonsense NYC → New York, NY.
 - Friends can also forward an event invite to the inbox to get it on the site.
+
+## Added 2026-11-26: book fairs and area search
+
+- **The Book Fairies** (Hicksville) iCal feed: monthly book fairs. Their site says the fairs serve schools and literacy organizations.
+- **NY International Antiquarian Book Fair**, April 15–18, 2027, Park Avenue Armory (hand-added).
+- Pages & Pictures (Long Island Museum) already comes through the museum's feed each September.
+- **Area search** (`type: search`): searches each topic + area through the Brave Search API every day, then reads schema.org Event data from the result pages. Needs the `BRAVE_SEARCH_API_KEY` repository secret; skipped without it. Google's Custom Search API is closed to new sign-ups and shuts down on January 1, 2027, so it isn't used.
+- Not added: bookevents.nyc (its API is marked internal-only), Getman's Virtual Marketplace (online only, no location), the Gold Coast Book Fair and the LI Antiquarian Book & Paper Fair (no feed or 2027 date yet; the search may pick them up), Ephemera Society calendar (no feed; Ephemera 47 is March 18–21, 2027 but the venue isn't confirmed on the page).

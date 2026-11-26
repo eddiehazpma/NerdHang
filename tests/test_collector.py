@@ -330,3 +330,46 @@ def test_inbox_calendar_invite_kept_and_skip_without_secrets(monkeypatch):
     monkeypatch.delenv("NERDHANG_APP_PASSWORD", raising=False)
     with pytest.raises(SkipSource):
         fetch_email(src, date(2026, 1, 1), date(2027, 1, 1))
+
+
+EVENT_PAGE = """<html><head>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[
+ {"@type":"Event","name":"Long Island Antiquarian Book &amp; Paper Fair","startDate":"2027-03-14T10:00:00-04:00",
+  "endDate":"2027-03-14T16:00:00-04:00","eventStatus":"https://schema.org/EventScheduled",
+  "location":{"@type":"Place","name":"LIU Post","address":{"@type":"PostalAddress","streetAddress":"720 Northern Blvd",
+  "addressLocality":"Brookville","addressRegion":"NY","postalCode":"11548"}},"organizer":{"name":"LI Book Dealers"}},
+ {"@type":"Event","name":"Online Postcard Show","startDate":"2027-03-20","location":{"@type":"VirtualLocation","url":"https://x"}},
+ {"@type":"MusicEvent","name":"Jazz Night","startDate":"2027-03-21","location":"Blue Note, 131 W 3rd St, New York, NY"}
+]}</script></head><body></body></html>"""
+
+
+def test_jsonld_events_and_search(monkeypatch):
+    from collector.build import fetch_source
+    from collector.fetch_email import SkipSource
+    from collector.fetch_web import fetch_search, parse_jsonld_events
+
+    src = {"id": "search", "name": "Web search", "type": "search", "category": "auto", "filter": "keywords",
+           "topics": ["book fair"], "areas": ["Long Island NY"], "skip_domains": r"facebook\.com"}
+    evs = parse_jsonld_events(EVENT_PAGE, src, "https://example.org/fair", date(2027, 1, 1), date(2027, 12, 31))
+    assert sorted(e.title for e in evs) == ["Jazz Night", "Long Island Antiquarian Book & Paper Fair"]  # virtual dropped
+    fair = next(e for e in evs if "Book" in e.title)
+    assert fair.start.hour == 10 and fair.location.address == "720 Northern Blvd, Brookville, NY, 11548"
+    assert fair.source_name == "LI Book Dealers" and fair.url == "https://example.org/fair"
+
+    asked = []
+
+    def api_get(q):
+        asked.append(q)
+        return {"web": {"results": [{"url": "https://example.org/fair"}, {"url": "https://www.facebook.com/x"}]}}
+
+    class Resp:
+        status_code, text, headers = 200, EVENT_PAGE, {"content-type": "text/html"}
+    fetched = []
+    found = fetch_search(src, date(2027, 1, 1), date(2027, 12, 31),
+                         http_get=lambda u: fetched.append(u) or Resp(), api_get=api_get)
+    assert asked == ["book fair Long Island NY"] and fetched == ["https://example.org/fair"]
+    assert len(found) == 2
+
+    monkeypatch.delenv("BRAVE_SEARCH_API_KEY", raising=False)
+    with pytest.raises(SkipSource):
+        fetch_source(src, date(2027, 1, 1), date(2027, 12, 31), http_get=lambda u: Resp())

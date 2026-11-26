@@ -80,6 +80,9 @@ categories:
     - listening (party|session)
     - (book|books|paper|ephemera|postcard|comic|comics|map) (fair|show|swap|expo)s?
     - (antiquarian|rare) books?
+    - book (and|&) (art|paper|ephemera|print) (fair|show|sale)s?
+    - (book|paper|ephemera) (and|&) (paper|ephemera) (fair|show|market)s?
+    - (book|paper|ephemera) marketplace
     - ephemera
     - comic ?cons?
     - (stamp|coin|postcard|toy|vintage toy) (show|fair|club|collectors?)s?
