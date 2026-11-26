@@ -1,0 +1,23 @@
+# Events added by hand: big shows that rarely change, or sites with no feed.
+# Dates are YYYY-MM-DD. end is the last day (inclusive). Times are optional.
+
+events:
+  - title: Vintage Computer Festival East 2027
+    start: 2027-04-02
+    end: 2027-04-04
+    category: computers
+    location:
+      name: InfoAge Science History Museums
+      address: 2201 Marconi Rd, Wall Township, NJ 07719
+    url: https://vcfed.org/events/vintage-computer-festival-east
+    source_note: Vintage Computer Federation
+
+  - title: VCF West 2027
+    start: 2027-07-31
+    end: 2027-08-01
+    category: computers
+    location:
+      name: Computer History Museum
+      address: 1401 N Shoreline Blvd, Mountain View, CA 94043
+    url: https://vcfed.org/
+    source_note: Vintage Computer Federation
