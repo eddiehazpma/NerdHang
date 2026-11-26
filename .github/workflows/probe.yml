@@ -1,0 +1,22 @@
+name: Probe feeds (temporary)
+on:
+  push:
+    branches: ["probe/**"]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -r requirements.txt
+      - run: python -m collector.build
+      - run: |
+          python - <<'PY'
+          import json
+          d = json.load(open("data/events.json"))
+          print("SOURCES", json.dumps(d["sources"]))
+          for e in d["events"]:
+              if e["source_id"] not in ("tca", "limarc", "rmli"):
+                  print("EV", e["start"][:10], e["source_id"], e["category"], "|", e["title"][:70], "|", (e["location"]["address"] or "")[:40], e["location"]["lat"])
+          PY
