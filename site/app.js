@@ -9,7 +9,7 @@
     "computers": "Computers & retro gaming",
     "museum": "Museums",
     "makers": "Makers & hackers",
-    "records": "Records & books",
+    "records": "Records & collecting",
     "outdoors": "Nature & tours",
     "fairs": "Fairs & markets",
     "other": "Other",

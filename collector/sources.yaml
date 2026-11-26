@@ -343,17 +343,6 @@ sources:
     default_location: { name: "SoFo", address: "377 Bridgehampton/Sag Harbor Turnpike, Bridgehampton, NY 11932" }
     enabled: true
 
-  - id: vanderbilt
-    name: Vanderbilt Museum & Planetarium
-    type: ics
-    url: https://www.vanderbiltmuseum.org/upcoming-events/?ical=1
-    category: auto
-    filter: keywords
-    fallback_category: museum
-    homepage: https://www.vanderbiltmuseum.org/events/
-    default_location: { name: "Vanderbilt Museum", address: "180 Little Neck Road, Centerport, NY 11721" }
-    enabled: true
-
   - id: li-museum
     name: The Long Island Museum
     type: ics
@@ -361,6 +350,7 @@ sources:
     category: auto
     filter: keywords
     fallback_category: museum
+    exclude_titles: '(?i)stitch|art making|\bball\b|disco|sound journey'
     homepage: https://longislandmuseum.org/
     default_location: { name: "The Long Island Museum", address: "1200 Route 25A, Stony Brook, NY 11790" }
     enabled: true
@@ -371,6 +361,7 @@ sources:
     url: https://www.oldwestburygardens.org/?ical=1
     category: auto
     filter: keywords
+    max_days: 14
     homepage: https://www.oldwestburygardens.org/
     default_location: { name: "Old Westbury Gardens", address: "71 Old Westbury Road, Old Westbury, NY 11568" }
     enabled: true
@@ -381,6 +372,7 @@ sources:
     url: https://plantingfields.org/?ical=1
     category: auto
     filter: keywords
+    max_days: 14
     homepage: https://plantingfields.org/
     default_location: { name: "Planting Fields", address: "1395 Planting Fields Road, Oyster Bay, NY 11771" }
     enabled: true

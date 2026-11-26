@@ -129,10 +129,19 @@ categories:
     - summer sundays
     - (aviation|air) (show|day)s?
 
+# These categories use everyday words ("tour", "3D printing", "market"), so
+# they only count when they appear in the event title, not the description.
+title_only: [makers, records, outdoors, fairs]
+
 # Matching titles are dropped even if they matched above: kids' crafts,
 # day trips, classes for beginners, and other false friends.
 exclude:
   - grades?
+  - gr\.? ?\d\w*
+  - kids
+  - children'?s
+  - family
+  - (dog|pet)s?
   - tweens?
   - teens?
   - toddlers?

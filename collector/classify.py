@@ -21,24 +21,28 @@ def _rules(path: str = str(KEYWORDS)):
     data = yaml.safe_load(Path(path).read_text())
     cats = [(cat, _compile(words)) for cat, words in data["categories"].items()]
     exclude = _compile(data.get("exclude") or ["(?!x)x"])
-    return cats, exclude
+    title_only = set(data.get("title_only") or [])
+    return cats, exclude, title_only
 
 
 def classify(title: str, description: str = "") -> str | None:
     """Return the category for an event, or None if it isn't a NerdHang event.
     The title counts first, so a museum talk titled "Model Trains" is trains."""
-    cats, exclude = _rules()
-    for text in (title, f"{title} {description}"):
-        if exclude.search(title):
-            return None
-        for cat, pattern in cats:
-            if pattern.search(text):
-                return cat
+    cats, exclude, title_only = _rules()
+    if exclude.search(title):
+        return None
+    for cat, pattern in cats:
+        if pattern.search(title):
+            return cat
+    text = f"{title} {description}"
+    for cat, pattern in cats:
+        if cat not in title_only and pattern.search(text):
+            return cat
     return None
 
 
 def excluded(title: str) -> bool:
-    _, exclude = _rules()
+    _, exclude, _ = _rules()
     return bool(exclude.search(title))
 
 
@@ -48,7 +52,11 @@ def filter_events(events: list[Event], source: dict) -> list[Event]:
     calendar is all museum events) but still drops kids' crafts and the like."""
     keep = []
     fallback = source.get("fallback_category")
+    max_days = source.get("max_days")
     for e in events:
+        # Season-long listings ("self-guided tours, April to October") aren't events.
+        if max_days and (e.end - e.start).days > max_days:
+            continue
         cat = classify(e.title, e.description)
         if cat is None and fallback and not excluded(e.title):
             cat = fallback
