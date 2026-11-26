@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T01:09:42+00:00",
+ "generated_at": "2026-11-26T01:17:17+00:00",
  "sources": {
   "rmli": {
    "ok": true,
@@ -120,7 +120,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "d5e0610a-78e6-4e62-a0f9-718ada1a7c67@2026-11-29T06:00:00-05:00",
+   "source_uid": "a4cf906e-dde7-4185-9584-c05ae63f039a@2026-11-29T06:00:00-05:00",
    "title": "Thanksgiving Weekend at the Cradle of Aviation Museum",
    "start": "2026-11-29T06:00:00-05:00",
    "end": "2026-11-29T06:00:01-05:00",
@@ -135,7 +135,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Spend Thanksgiving weekend at the Museum! Learn about NASA's Voyager spacecraft, enjoy a free hands-on craft activity, and take in a planetarium show.</b> Friday - Sunday, November 27 - 29 Museum Hours: 10 am - 5 pm Activity: 12 pm - 4 pm <b>Celebrating Voyager</b> This November, NASA's Voyager 1 reaches a remarkable milestone, traveling more than one light-day from Earth! Launched in 1977, Voyager 1 has traveled beyond our solar system into interstellar space and is now the most distant huma",
    "source_name": "Cradle of Aviation Museum",
-   "id": "23ddfb5820c3e716"
+   "id": "e92169b0d7d5e31a"
   },
   {
    "source_id": "lib-levittown",
@@ -196,7 +196,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "fda084b9-e4a9-4c48-a5d8-15d4e5ad3b43@2026-12-05T10:00:00-05:00",
+   "source_uid": "003b1869-9b1d-441f-b797-c5a1a59077e6@2026-12-05T10:00:00-05:00",
    "title": "Festival of Games",
    "start": "2026-12-05T10:00:00-05:00",
    "end": "2026-12-06T10:00:00-05:00",
@@ -211,7 +211,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Festival of Games: A Holiday Shopping & Gaming Event</b> Cradle-Con and Long Island Retro Gaming Expo are proud to present Festival of Games – a holiday-themed extravaganza of shopping and gaming experiences. Join us on Saturday, December 5th, and Sunday, December 6th, from 10:00 am to 5:00 pm, and shop a variety of local small businesses for retro video games, toys, comics, and collectibles, and enjoy a slew of unique retro gaming experiences. Admission includes free unlimited gameplay on ov",
    "source_name": "Cradle of Aviation Museum",
-   "id": "fe0c6486bdbad080"
+   "id": "ed592239066dd0a5"
   },
   {
    "source_id": "rmli",
@@ -481,7 +481,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "54c03bca-e0e5-469a-ae3c-f79c42760fed@2026-12-18T17:30:00-05:00",
+   "source_uid": "e70e6786-d035-47ae-8665-3aefa80d0147@2026-12-18T17:30:00-05:00",
    "title": "A Very Grinchy Pajama Party",
    "start": "2026-12-18T17:30:00-05:00",
    "end": "2026-12-18T21:00:00-05:00",
@@ -496,7 +496,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Join us on Friday, December 18th, for a Very Grinchy Pajama Party!</b> Wear your favorite pajamas and enjoy a festive evening of holiday cheer, activities, and a screening of The Grinch (2018). <b>5:30 pm</b> Doors Open <b>5:30 pm – 7:00 pm</b> Activities & Meet the Grinch • More details to come <b>7:00 pm</b> Watch The Grinch (2018) Grab your hot chocolate and cookies (nut-free) and meet in the theater for The Grinch (2018)—where a grumpy green grouch tries to stop Christmas until Cindy-Lou ",
    "source_name": "Cradle of Aviation Museum",
-   "id": "539f3e099fbf3110"
+   "id": "c336b2b7a1dbceae"
   },
   {
    "source_id": "tca",
