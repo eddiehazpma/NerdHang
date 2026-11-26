@@ -1,0 +1,13 @@
+name: Probe feeds (temporary)
+on:
+  push:
+    branches: ["probe/**"]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests
+      - run: python tools/probe2.py
