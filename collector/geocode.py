@@ -4,6 +4,7 @@ most one request per second and asks for a descriptive User-Agent."""
 from __future__ import annotations
 
 import json
+import re
 import time
 from pathlib import Path
 from typing import Callable, Optional
@@ -31,6 +32,25 @@ def nominatim_lookup(query: str) -> Coords:
     return float(hits[0]["lat"]), float(hits[0]["lon"])
 
 
+_COUNTRY = re.compile(r",?\s*(united states( of america)?|usa)\s*$", re.I)
+
+
+def query_variants(query: str) -> list[str]:
+    q = _COUNTRY.sub("", " ".join(query.split())).strip(" ,")
+    parts = [p.strip() for p in q.split(",") if p.strip()]
+    variants = [q]
+    if len(parts) >= 3:
+        variants.append(", ".join(parts[1:]))   # drop the venue name
+    if len(parts) >= 2:
+        variants.append(", ".join(parts[-3:] if len(parts) >= 4 else parts[-2:]))  # town, state, ZIP
+    seen, out = set(), []
+    for v in variants:
+        if v and v.lower() not in seen:
+            seen.add(v.lower())
+            out.append(v)
+    return out
+
+
 class Geocoder:
     def __init__(self, cache_path: Path, lookup: Callable[[str], Coords] = nominatim_lookup, max_lookups: int = 200):
         self.cache_path = cache_path
@@ -42,6 +62,15 @@ class Geocoder:
         )
 
     def __call__(self, query: str) -> Coords:
+        """Try the full address, then without the venue name, then just the
+        town/state/ZIP. OpenStreetMap often doesn't know a hall's name."""
+        for variant in query_variants(query):
+            coords = self._lookup_one(variant)
+            if coords:
+                return coords
+        return None
+
+    def _lookup_one(self, query: str) -> Coords:
         key = " ".join(query.lower().split())
         if not key:
             return None
