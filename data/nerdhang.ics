@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:Black Friday Beach Cleanup
 DTSTART;TZID=America/New_York:20261127T100000
 DTEND;TZID=America/New_York:20261127T120000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:7d8a42ca1a1a4343@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:Join SOFO for a beach cleanup this Black Friday! Spend the day
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:SOFO’s Annual Thanksgiving Open House
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:26e1d3c75d4bfce3@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:Free admission for all ages!\n\nSource: South Fork Natural His
@@ -39,7 +39,7 @@ BEGIN:VEVENT
 SUMMARY:Sayville Village Holiday Fair - Toy Train Outreach
 DTSTART;TZID=America/New_York:20261128T160000
 DTEND;TZID=America/New_York:20261128T200000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:2f23b0d398c89f48@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -52,7 +52,7 @@ BEGIN:VEVENT
 SUMMARY:Dickens in the Carriage Museum
 DTSTART;TZID=America/New_York:20261129T140000
 DTEND;TZID=America/New_York:20261129T160000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:479e6b102ee93625@nerdhang
 CATEGORIES:museum
 DESCRIPTION:In celebration of the 30th Annual Charles Dickens Festival in 
@@ -72,8 +72,8 @@ BEGIN:VEVENT
 SUMMARY:Thanksgiving Weekend at the Cradle of Aviation Museum
 DTSTART;TZID=America/New_York:20261129T060000
 DTEND;TZID=America/New_York:20261129T060001
-DTSTAMP:20261126T215050Z
-UID:24367a232eb8b2f1@nerdhang
+DTSTAMP:20261126T222212Z
+UID:38b1d254c562c2e6@nerdhang
 CATEGORIES:museum
 DESCRIPTION:<b>Spend Thanksgiving weekend at the Museum! Learn about NASA'
  s Voyager spacecraft\, enjoy a free hands-on craft activity\, and take in 
@@ -92,7 +92,7 @@ BEGIN:VEVENT
 SUMMARY:Historic Walking Tour with Ava
 DTSTART:20261203T170000Z
 DTEND:20261203T180000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:7e681e5dde908153@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:A guided group walking tour of Port Jefferson Village. Meet at
@@ -108,7 +108,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC Meeting
 DTSTART:20261203T003000Z
 DTEND:20261203T030000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:62af2fe59d13b13c@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Monthly meeting of the Long Island Mobile Amateur Radio Club -
@@ -122,7 +122,7 @@ BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20261203T230000Z
 DTEND:20261204T020000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:8ad76425da4debb6@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -136,7 +136,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Terminus Chapter Meet
 DTSTART;TZID=America/New_York:20261204T120000
 DTEND;TZID=America/New_York:20261205T140000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:9d2ddbf788679ee4@nerdhang
 CATEGORIES:trains
 DESCRIPTION:ATLANTA TOY & MODEL TRAIN SHOW Show Times: Noon to 5 p.m. on F
@@ -154,7 +154,7 @@ BEGIN:VEVENT
 SUMMARY:Vinyl Collectors Club
 DTSTART:20261204T000000Z
 DTEND:20261204T013000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:136548606c7333f8@nerdhang
 CATEGORIES:records
 DESCRIPTION:This month we will not have our regular meeting\, but will be 
@@ -175,7 +175,7 @@ BEGIN:VEVENT
 SUMMARY:Annual Member Appreciation Dinner - Birchwood of Polish Town
 DTSTART;TZID=America/New_York:20261205T170000
 DTEND;TZID=America/New_York:20261205T200000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:6fc49ea72730ffee@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -189,8 +189,8 @@ BEGIN:VEVENT
 SUMMARY:Festival of Games
 DTSTART;TZID=America/New_York:20261205T100000
 DTEND;TZID=America/New_York:20261206T100000
-DTSTAMP:20261126T215050Z
-UID:9035f39313e42264@nerdhang
+DTSTAMP:20261126T222212Z
+UID:2e6a10727dbf1b5a@nerdhang
 CATEGORIES:museum
 DESCRIPTION:<b>Festival of Games: A Holiday Shopping & Gaming Event</b> Cr
  adle-Con and Long Island Retro Gaming Expo are proud to present Festival o
@@ -210,7 +210,7 @@ BEGIN:VEVENT
 SUMMARY:Open House with Santa at Riverhead
 DTSTART;TZID=America/New_York:20261205T113000
 DTEND;TZID=America/New_York:20261205T150000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:c5bdc0922ef216db@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -224,7 +224,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Gateway Chapter Beer and Brat Train Show
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T150000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:81055952a3093ede@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Swap meet for all scales and railroad-related items. **The fir
@@ -243,7 +243,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Palmetto Chapter Myrtle Beach SC Meet
 DTSTART;TZID=America/New_York:20261205T100000
 DTEND;TZID=America/New_York:20261206T160000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:4a61dfae8d421834@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Joint Meet w/the Grand Strand Model Railroaders at a new locat
@@ -262,10 +262,30 @@ URL:https://www.tcatrains.org/event/tca-palmetto-chapter-myrtle-beach-sc-m
  eet/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:December Book Fair
+DTSTART;TZID=America/New_York:20261206T093000
+DTEND;TZID=America/New_York:20261206T130000
+DTSTAMP:20261126T222212Z
+UID:a921ebc4b5ab1e8c@nerdhang
+CATEGORIES:records
+DESCRIPTION:[vc_row][vc_column][vc_column_text]Register For December Book 
+ Fair Book Fairies hosts monthly Book Fairs for schools and organizations s
+ upporting under-resourced areas across Long Island and New York City. Atte
+ ndees can hand pick an unlimited number of gently used\, high-interest\, a
+ ge-appropriate books to support literacy programming.*Schools must have Ti
+ tle I status or have at least 50% of their student body eligible to receiv
+ e free/reduced lunch. The books will be separated into the following c\n\n
+ Source: The Book Fairies\n\nhttps://thebookfairies.org/calendar-event/dece
+ mber-book-fair/
+GEO:40.7868013;-73.516173
+LOCATION:Book Fairies Book Bank\, 220 Miller Place\, Hicksville\, NY 11801
+URL:https://thebookfairies.org/calendar-event/december-book-fair/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Open House with Santa at Riverhead
 DTSTART;TZID=America/New_York:20261206T113000
 DTEND;TZID=America/New_York:20261206T150000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:6c6d3da3b72030f7@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -279,7 +299,7 @@ BEGIN:VEVENT
 SUMMARY:Winter Open House - FREE ADMISSION!
 DTSTART;TZID=America/New_York:20261206T120000
 DTEND;TZID=America/New_York:20261206T170000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:17f4a50e6aabfa34@nerdhang
 CATEGORIES:museum
 DESCRIPTION:Take a break from holiday prep and visit our two fall exhibiti
@@ -297,7 +317,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20261209T190000
 DTEND;TZID=America/New_York:20261209T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:ad30e9dfefabd06d@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -310,7 +330,7 @@ BEGIN:VEVENT
 SUMMARY:FILM@LIM: Free Screening of The Muppet Christmas Carol
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T210000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:0fa5205206f4fdfb@nerdhang
 CATEGORIES:museum
 DESCRIPTION:Celebrate the magic of the holiday season with a free screenin
@@ -330,7 +350,7 @@ BEGIN:VEVENT
 SUMMARY:Polar Express Party
 DTSTART:20261210T220000Z
 DTEND:20261210T230000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:18eab5c2799fc1d0@nerdhang
 CATEGORIES:trains
 DESCRIPTION:All aboard for our annual Polar Express party! Celebrate the h
@@ -345,7 +365,7 @@ BEGIN:VEVENT
 SUMMARY:Polar Express Party Volunteers
 DTSTART:20261210T214500Z
 DTEND:20261210T231500Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:6a61a1a5ce0c03d6@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Assist with our annual Polar Express party. Earn one and a hal
@@ -362,7 +382,7 @@ BEGIN:VEVENT
 SUMMARY:America on Screen: Small Town Life
 DTSTART:20261211T140000Z
 DTEND:20261211T150000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:3ce94e95b57af273@nerdhang
 CATEGORIES:museum
 DESCRIPTION:Join us on select Friday afternoons for a special film series 
@@ -382,7 +402,7 @@ BEGIN:VEVENT
 SUMMARY:Artist Spotlight: David Bunn Martine
 DTSTART;TZID=America/New_York:20261212T130000
 DTEND;TZID=America/New_York:20261212T143000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:afc7af589c68ba8e@nerdhang
 CATEGORIES:museum
 DESCRIPTION:Join us for a special artist talk with David Bunn Martine\, a 
@@ -402,7 +422,7 @@ BEGIN:VEVENT
 SUMMARY:Open House with Santa at Greenport
 DTSTART;TZID=America/New_York:20261212T103000
 DTEND;TZID=America/New_York:20261212T140000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:ba3e774bb8e7d213@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -415,7 +435,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Keystone Division Winter Meet
 DTSTART;TZID=America/New_York:20261212T080000
 DTEND;TZID=America/New_York:20261212T130000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:092654260e7e7868@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Opens 8 a.m. for Keystone MembersOpens 9 a.m. for Public\n\nSo
@@ -430,7 +450,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Music City Chapter Meet
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T150000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:5e202dba8a2e967b@nerdhang
 CATEGORIES:trains
 DESCRIPTION:32nd Annual Christmas Toy Train Show Over 100 tables of TRAINS
@@ -446,7 +466,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Rio Grande Chapter December Show & Swap Meet
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T140000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:4a11e2e2618675df@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Model & Toy Train Meet with all gauges sold and traded. Pricin
@@ -464,7 +484,7 @@ BEGIN:VEVENT
 SUMMARY:Western Michigan Chapter Meet
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T140000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:d1a8fc27c1261906@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Train Collectors Association\n\nhttps://www.tcatrains.
@@ -478,7 +498,7 @@ BEGIN:VEVENT
 SUMMARY:Dickens in the Carriage Museum
 DTSTART;TZID=America/New_York:20261213T140000
 DTEND;TZID=America/New_York:20261213T160000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:9a7414bd3ffb690a@nerdhang
 CATEGORIES:museum
 DESCRIPTION:In celebration of the 30th Annual Charles Dickens Festival in 
@@ -498,7 +518,7 @@ BEGIN:VEVENT
 SUMMARY:Open House with Santa at Greenport
 DTSTART;TZID=America/New_York:20261213T103000
 DTEND;TZID=America/New_York:20261213T140000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:f5a4406f4ef02e8c@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -511,7 +531,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Fort Pitt Division Train Show & Sale
 DTSTART;TZID=America/New_York:20261213T090000
 DTEND;TZID=America/New_York:20261213T150000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:0f88f1460014702d@nerdhang
 CATEGORIES:trains
 DESCRIPTION:2026 Holiday Model Train Show & Sale! SUNDAY MEET! 7:30 a.m. 
@@ -530,7 +550,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Lakes & Pines Division Holiday Party
 DTSTART;TZID=America/New_York:20261213T120000
 DTEND;TZID=America/New_York:20261213T150000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:8b8328266b732432@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Open to only Lakes & Pines Division Members. Toy Trains of dif
@@ -551,7 +571,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Seattle Chapter Train Meet
 DTSTART;TZID=America/New_York:20261213T090000
 DTEND;TZID=America/New_York:20261213T120000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:58a078e013833446@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Doors open at 9:00 AM at the Shoreline Senior Center\n\nSource
@@ -566,8 +586,8 @@ BEGIN:VEVENT
 SUMMARY:A Very Grinchy Pajama Party
 DTSTART;TZID=America/New_York:20261218T173000
 DTEND;TZID=America/New_York:20261218T210000
-DTSTAMP:20261126T215050Z
-UID:a94712a73299c30f@nerdhang
+DTSTAMP:20261126T222212Z
+UID:0e823f14a81ae0fb@nerdhang
 CATEGORIES:museum
 DESCRIPTION:<b>Join us on Friday\, December 18th\, for a Very Grinchy Paja
  ma Party!</b> Wear your favorite pajamas and enjoy a festive evening of ho
@@ -587,7 +607,7 @@ BEGIN:VEVENT
 SUMMARY:Western Division October Monthly TCA Train Meet
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T140000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:829173fb4a1fd938@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Meet 10:00 AM to 2:00 PMSetup at 9:00 AM Plenty of free parkin
@@ -609,7 +629,7 @@ BEGIN:VEVENT
 SUMMARY:Holiday Movie: Polar Express
 DTSTART:20261221T233000Z
 DTEND:20261222T013000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:b41c133da4ffd0c9@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Get ready in the spirit with the Polar Express and some Hot Ho
@@ -625,7 +645,7 @@ BEGIN:VEVENT
 SUMMARY:Suffolk Gem & Mineral Club
 DTSTART:20261229T000000Z
 DTEND:20261229T020000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:411ae1827258f0a6@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:Source: East Islip Public Library\n\nhttps://eastislip.library
@@ -639,7 +659,7 @@ BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20270107T230000Z
 DTEND:20270108T020000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:d7b42257b1e7e312@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -653,7 +673,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Lone Star Division Train Meet
 DTSTART;TZID=America/New_York:20270109T090000
 DTEND;TZID=America/New_York:20270109T160000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:b4ba93df5d15f145@nerdhang
 CATEGORIES:trains
 DESCRIPTION:9–10 AM: Members10 AM–4 PM: Public AdmissionMembers: $5Pub
@@ -668,7 +688,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270109T080000
 DTEND;TZID=America/New_York:20270109T093000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:a8e5cf1ff38e997f@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -678,10 +698,30 @@ LOCATION:Levittown Hall\, 201 Levittown Pkwy\, Hicksville\, NY 11801\, USA
 URL:https://limarc.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:January Book Fair
+DTSTART;TZID=America/New_York:20270110T093000
+DTEND;TZID=America/New_York:20270110T130000
+DTSTAMP:20261126T222212Z
+UID:e0fe6a025e9300bc@nerdhang
+CATEGORIES:records
+DESCRIPTION:[vc_row][vc_column][vc_column_text]Register For January Book F
+ air Book Fairies hosts monthly Book Fairs for schools and organizations su
+ pporting under-resourced areas across Long Island and New York City. Atten
+ dees can hand pick an unlimited number of gently used\, high-interest\, ag
+ e-appropriate books to support literacy programming.*Schools must have Tit
+ le I status or have at least 50% of their student body eligible to receive
+  free/reduced lunch. The books will be separated into the following ca\n\n
+ Source: The Book Fairies\n\nhttps://thebookfairies.org/calendar-event/janu
+ ary-book-fair/
+GEO:40.7868013;-73.516173
+LOCATION:Book Fairies Book Bank\, 220 Miller Place\, Hicksville\, NY 11801
+URL:https://thebookfairies.org/calendar-event/january-book-fair/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270113T190000
 DTEND;TZID=America/New_York:20270113T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:357afc548efc917e@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -694,7 +734,7 @@ BEGIN:VEVENT
 SUMMARY:Intro to 3D Printing
 DTSTART:20270114T000000Z
 DTEND:20270114T010000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:463893bebd0311d3@nerdhang
 CATEGORIES:makers
 DESCRIPTION:Explore the basics of 3D printing and learn how to submit requ
@@ -712,7 +752,7 @@ BEGIN:VEVENT
 SUMMARY:Retro Gaming Night at Syosset Public Library
 DTSTART:20270115T233000Z
 DTEND:20270116T013000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:10529f5aec8785b0@nerdhang
 CATEGORIES:computers
 DESCRIPTION:Join us for an evening of retro arcade and board games hosted 
@@ -728,7 +768,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Atlantic Division Train Meet
 DTSTART;TZID=America/New_York:20270117T080000
 DTEND;TZID=America/New_York:20270117T130000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:1c7686b75a91552c@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Family Admission: $5 Food and Drink available for Purchase Ove
@@ -746,7 +786,7 @@ BEGIN:VEVENT
 SUMMARY:Book Fair (Barbara Gannon)
 DTSTART:20270119T050000Z
 DTEND:20270129T050000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:ffc03e6a5b6153d0@nerdhang
 CATEGORIES:records
 DESCRIPTION:Book Fair\n\nSource: Massapequa Public Library\n\nhttps://mass
@@ -760,7 +800,7 @@ BEGIN:VEVENT
 SUMMARY:RecordTrax Listening Party: "Endings and Beginnings"
 DTSTART:20270120T000000Z
 DTEND:20270120T020000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:31c707ecad255aef@nerdhang
 CATEGORIES:records
 DESCRIPTION:Join Tony Traguardo and Jack Warren for this month's meeting o
@@ -782,7 +822,7 @@ BEGIN:VEVENT
 SUMMARY:Makerspace Night
 DTSTART:20270122T000000Z
 DTEND:20270122T010000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:cabc6275f8f82cac@nerdhang
 CATEGORIES:makers
 DESCRIPTION:One registration per child.\n\nSource: East Islip Public Libra
@@ -795,7 +835,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Southern Division Train Show
 DTSTART;TZID=America/New_York:20270123T090000
 DTEND;TZID=America/New_York:20270123T140000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:7950d8939670fb70@nerdhang
 CATEGORIES:trains
 DESCRIPTION:• Opens to TCA Members at 9:00 AM• Opens to the Public at 
@@ -816,7 +856,7 @@ BEGIN:VEVENT
 SUMMARY:How to Choose and Use Your Telescope (In Person)
 DTSTART:20270125T230000Z
 DTEND:20270126T010000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:ce1f382c98dcda39@nerdhang
 CATEGORIES:museum
 DESCRIPTION:Daniel Higgins\, owner of AstroWorld Telescopes\, will provide
@@ -833,7 +873,7 @@ BEGIN:VEVENT
 SUMMARY:Book Fair (Barbara Gannon)
 DTSTART:20270129T140000Z
 DTEND:20270129T220000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:2697081251be0359@nerdhang
 CATEGORIES:records
 DESCRIPTION:Source: Massapequa Public Library\n\nhttps://massapequa.librar
@@ -847,7 +887,7 @@ BEGIN:VEVENT
 SUMMARY:Book Fair (Barbara Gannon)
 DTSTART:20270130T140000Z
 DTEND:20270130T220000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:b66602549b0899b1@nerdhang
 CATEGORIES:records
 DESCRIPTION:Source: Massapequa Public Library\n\nhttps://massapequa.librar
@@ -861,7 +901,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Keystone Division Early Spring Meet
 DTSTART;TZID=America/New_York:20270130T080000
 DTEND;TZID=America/New_York:20270130T130000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:8bb5a01c67eb5126@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Opens 8 a.m. for Keystone MembersOpens 9 a.m. for Public\n\nSo
@@ -877,7 +917,7 @@ BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20270204T230000Z
 DTEND:20270205T020000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:f2752d36094a40e0@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -888,10 +928,30 @@ LOCATION:Syosset Public Library\, Syosset\, NY
 URL:https://syosset.librarycalendar.com/event/long-island-coin-club-58628
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:February Book Fair
+DTSTART;TZID=America/New_York:20270207T093000
+DTEND;TZID=America/New_York:20270207T130000
+DTSTAMP:20261126T222212Z
+UID:dfbcc222f3108663@nerdhang
+CATEGORIES:records
+DESCRIPTION:[vc_row][vc_column][vc_column_text]Register For February Book 
+ Fair Book Fairies hosts monthly Book Fairs for schools and organizations s
+ upporting under-resourced areas across Long Island and New York City. Atte
+ ndees can hand pick an unlimited number of gently used\, high-interest\, a
+ ge-appropriate books to support literacy programming.*Schools must have Ti
+ tle I status or have at least 50% of their student body eligible to receiv
+ e free/reduced lunch. The books will be separated into the following c\n\n
+ Source: The Book Fairies\n\nhttps://thebookfairies.org/calendar-event/febr
+ uary-book-fair/
+GEO:40.7868013;-73.516173
+LOCATION:Book Fairies Book Bank\, 220 Miller Place\, Hicksville\, NY 11801
+URL:https://thebookfairies.org/calendar-event/february-book-fair/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Design a 3D Printed Bookmark
 DTSTART:20270209T000000Z
 DTEND:20270209T013000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:ee13b52a399a11e2@nerdhang
 CATEGORIES:makers
 DESCRIPTION:Learn the basics of 3D design software Tinkercad & customize a
@@ -909,7 +969,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270210T190000
 DTEND;TZID=America/New_York:20270210T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:8e749e38b1b54f22@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -922,7 +982,7 @@ BEGIN:VEVENT
 SUMMARY:3D Print Valentine Gnomes
 DTSTART:20270212T000000Z
 DTEND:20270212T010000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:efbe370e32cfb552@nerdhang
 CATEGORIES:makers
 DESCRIPTION:Paint a gnome for your Valentine.\n\nSource: Port Jefferson Fr
@@ -937,7 +997,7 @@ BEGIN:VEVENT
 SUMMARY:Makerspace Night
 DTSTART:20270212T000000Z
 DTEND:20270212T010000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:12616029cda3253c@nerdhang
 CATEGORIES:makers
 DESCRIPTION:One registration per child.\n\nSource: East Islip Public Libra
@@ -950,7 +1010,7 @@ BEGIN:VEVENT
 SUMMARY:3D Printed Snowflake Light
 DTSTART:20270217T000000Z
 DTEND:20270217T013000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:cb63533fcd5e81f0@nerdhang
 CATEGORIES:makers
 DESCRIPTION:Build a custom glowing light display in the shape of a snowfla
@@ -964,7 +1024,7 @@ BEGIN:VEVENT
 SUMMARY:RecordTrax Listening Party: "Love Songs"
 DTSTART:20270217T000000Z
 DTEND:20270217T020000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:21ba5d34ead1846e@nerdhang
 CATEGORIES:records
 DESCRIPTION:Join Tony Traguardo and Jack Warren for this month's meeting o
@@ -985,7 +1045,7 @@ BEGIN:VEVENT
 SUMMARY:Retro Gaming with Mr. Po and Mr. Oh
 DTSTART:20270217T190000Z
 DTEND:20270217T203000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:1a2c254ce4e6f4ac@nerdhang
 CATEGORIES:computers
 DESCRIPTION:Try some retro games from the old times with Mr. Po and Mr. Oh
@@ -1001,7 +1061,7 @@ BEGIN:VEVENT
 SUMMARY:Great Backyard Bird Count
 DTSTART:20270222T211500Z
 DTEND:20270222T220000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:b0fb7a7b556ca970@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:Gr. K-2 Discover the birds in your backyard\, then create a bi
@@ -1017,7 +1077,7 @@ BEGIN:VEVENT
 SUMMARY:Great Backyard Bird Count
 DTSTART:20270224T211500Z
 DTEND:20270224T220000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:276739d03a415012@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:Gr. 3-5 Discover the birds in your backyard\, then create a bi
@@ -1033,7 +1093,7 @@ BEGIN:VEVENT
 SUMMARY:Museum of Technology
 DTSTART:20270227T190000Z
 DTEND:20270227T210000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:ac73a7fe7051288d@nerdhang
 CATEGORIES:computers
 DESCRIPTION:Families and people of all ages are invited to explore the tec
@@ -1053,7 +1113,7 @@ BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20270304T230000Z
 DTEND:20270305T020000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:eac9c0b27b7f5ef4@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -1067,7 +1127,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Atlantic Division Train Meet
 DTSTART;TZID=America/New_York:20270307T080000
 DTEND;TZID=America/New_York:20270307T130000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:b9ac3010c3c8f6c0@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Family Admission: $5 Food and Drink available for Purchase Ove
@@ -1085,7 +1145,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270310T190000
 DTEND;TZID=America/New_York:20270310T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:4bbf755e7bda5da3@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1098,7 +1158,7 @@ BEGIN:VEVENT
 SUMMARY:Library of Things: Telescope Training
 DTSTART:20270311T000000Z
 DTEND:20270311T013000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:cbffc05e60cce033@nerdhang
 CATEGORIES:museum
 DESCRIPTION:Discover how to use the Library of Things telescope to explore
@@ -1113,10 +1173,30 @@ URL:https://farmingdale.librarycalendar.com/event/library-things-telescope
  -training-29687
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:March Book Fair
+DTSTART;TZID=America/New_York:20270313T093000
+DTEND;TZID=America/New_York:20270313T130000
+DTSTAMP:20261126T222212Z
+UID:f67f1a22520927cf@nerdhang
+CATEGORIES:records
+DESCRIPTION:[vc_row][vc_column][vc_column_text]Register For March Book Fai
+ r Book Fairies hosts monthly Book Fairs for schools and organizations supp
+ orting under-resourced areas across Long Island and New York City. Attende
+ es can hand pick an unlimited number of gently used\, high-interest\, age-
+ appropriate books to support literacy programming.*Schools must have Title
+  I status or have at least 50% of their student body eligible to receive f
+ ree/reduced lunch. The books will be separated into the following cate\n\n
+ Source: The Book Fairies\n\nhttps://thebookfairies.org/calendar-event/marc
+ h-book-fair/
+GEO:40.7868013;-73.516173
+LOCATION:Book Fairies Book Bank\, 220 Miller Place\, Hicksville\, NY 11801
+URL:https://thebookfairies.org/calendar-event/march-book-fair/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270313T080000
 DTEND;TZID=America/New_York:20270313T093000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:d0a48e2fc65f4a82@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1129,7 +1209,7 @@ BEGIN:VEVENT
 SUMMARY:Makerspace Night
 DTSTART:20270318T230000Z
 DTEND:20270319T000000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:b43cb54701996b11@nerdhang
 CATEGORIES:makers
 DESCRIPTION:One registration per child.\n\nSource: East Islip Public Libra
@@ -1142,7 +1222,7 @@ BEGIN:VEVENT
 SUMMARY:Hawkins-Mount House Tours
 DTSTART;TZID=America/New_York:20270320T123000
 DTEND;TZID=America/New_York:20270320T163000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:b1fe100da28c06d4@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:Step back in time with special tours of the historic Hawkins-M
@@ -1162,7 +1242,7 @@ BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20270401T220000Z
 DTEND:20270402T010000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:77ea38b4e811d9b7@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -1176,7 +1256,7 @@ BEGIN:VEVENT
 SUMMARY:Vintage Computer Festival East 2027
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270405
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:cddb32263103f80d@nerdhang
 CATEGORIES:computers
 DESCRIPTION:Source: Vintage Computer Federation\n\nhttps://vcfed.org/event
@@ -1190,7 +1270,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Northern New England Chapter Meet
 DTSTART;TZID=America/New_York:20270403T100000
 DTEND;TZID=America/New_York:20270403T150000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:857e15a8782377dd@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Train show WITH ALL SCALES\, Exhibitor tables\, operating layo
@@ -1207,10 +1287,30 @@ URL:https://www.tcatrains.org/event/tca-northern-new-england-chapter-meet-
  8/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:April Book Fair
+DTSTART;TZID=America/New_York:20270411T093000
+DTEND;TZID=America/New_York:20270411T130000
+DTSTAMP:20261126T222212Z
+UID:21fb730755d0e1bc@nerdhang
+CATEGORIES:records
+DESCRIPTION:[vc_row][vc_column][vc_column_text]Register For April Book Fai
+ r Book Fairies hosts monthly Book Fairs for schools and organizations supp
+ orting under-resourced areas across Long Island and New York City. Attende
+ es can hand pick an unlimited number of gently used\, high-interest\, age-
+ appropriate books to support literacy programming.*Schools must have Title
+  I status or have at least 50% of their student body eligible to receive f
+ ree/reduced lunch. The books will be separated into the following cate\n\n
+ Source: The Book Fairies\n\nhttps://thebookfairies.org/calendar-event/apri
+ l-book-fair/
+GEO:40.7868013;-73.516173
+LOCATION:Book Fairies Book Bank\, 220 Miller Place\, Hicksville\, NY 11801
+URL:https://thebookfairies.org/calendar-event/april-book-fair/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270414T190000
 DTEND;TZID=America/New_York:20270414T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:fed2bd4cc77dcf86@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1220,10 +1320,23 @@ LOCATION:Levittown Hall\, 201 Levittown Pkwy\, Hicksville\, NY 11801\, USA
 URL:https://limarc.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:New York International Antiquarian Book Fair 2027
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270419
+DTSTAMP:20261126T222212Z
+UID:8b65e63f0fc2a294@nerdhang
+CATEGORIES:records
+DESCRIPTION:Source: ABAA New York International Antiquarian Book Fair\n\nh
+ ttps://www.nyantiquarianbookfair.com/
+GEO:40.7672334;-73.9655036
+LOCATION:Park Avenue Armory\, 643 Park Avenue\, New York\, NY 10065
+URL:https://www.nyantiquarianbookfair.com/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:3D Printed Model Train
 DTSTART:20270420T230000Z
 DTEND:20270421T003000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:0498a3a995f358aa@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Build your own battery-powered model train featuring custom 3D
@@ -1238,7 +1351,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Eastern Division York Train Meet
 DTSTART;TZID=America/New_York:20270420T100000
 DTEND;TZID=America/New_York:20270424T160000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:482ea03760f5ea94@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Member Halls (Blue\, Red\, Silver\, & White): Members OnlyFrid
@@ -1256,10 +1369,30 @@ URL:https://www.tcatrains.org/event/tca-eastern-division-york-train-meet-5
  /
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:May Book Fair
+DTSTART;TZID=America/New_York:20270502T093000
+DTEND;TZID=America/New_York:20270502T130000
+DTSTAMP:20261126T222212Z
+UID:1e4de340a9ef3958@nerdhang
+CATEGORIES:records
+DESCRIPTION:[vc_row][vc_column][vc_column_text]Register For May Book Fair 
+ Book Fairies hosts monthly Book Fairs for schools and organizations suppor
+ ting under-resourced areas across Long Island and New York City. Attendees
+  can hand pick an unlimited number of gently used\, high-interest\, age-ap
+ propriate books to support literacy programming.*Schools must have Title I
+  status or have at least 50% of their student body eligible to receive fre
+ e/reduced lunch. The books will be separated into the following catego\n\n
+ Source: The Book Fairies\n\nhttps://thebookfairies.org/calendar-event/may-
+ book-fair/
+GEO:40.7868013;-73.516173
+LOCATION:Book Fairies Book Bank\, 220 Miller Place\, Hicksville\, NY 11801
+URL:https://thebookfairies.org/calendar-event/may-book-fair/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20270506T220000Z
 DTEND:20270507T010000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:0ddec257d5d5f673@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -1273,7 +1406,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270508T080000
 DTEND;TZID=America/New_York:20270508T093000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:0f3eb0b0afce308c@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1286,7 +1419,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270512T190000
 DTEND;TZID=America/New_York:20270512T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:e7a932c6c67c74bc@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1299,7 +1432,7 @@ BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20270603T220000Z
 DTEND:20270604T010000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:09c8b3c2f56870cd@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -1313,7 +1446,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Keystone Division Summer Meet
 DTSTART;TZID=America/New_York:20270605T080000
 DTEND;TZID=America/New_York:20270605T130000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:438bb01e5ccc55d1@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Opens 8 a.m. for Keystone MembersOpens 9 a.m. for Public\n\nSo
@@ -1325,10 +1458,30 @@ LOCATION:Lancaster Farm & Home Center\, 1383 Arcadia Rd\, Lancaster\, Penn
 URL:https://www.tcatrains.org/event/tca-keystone-division-summer-meet/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:June Book Fair
+DTSTART;TZID=America/New_York:20270606T093000
+DTEND;TZID=America/New_York:20270606T130000
+DTSTAMP:20261126T222212Z
+UID:56eaf1d429963725@nerdhang
+CATEGORIES:records
+DESCRIPTION:[vc_row][vc_column][vc_column_text]Register For June Book Fair
+  Book Fairies hosts monthly Book Fairs for schools and organizations suppo
+ rting under-resourced areas across Long Island and New York City. Attendee
+ s can hand pick an unlimited number of gently used\, high-interest\, age-a
+ ppropriate books to support literacy programming.*Schools must have Title 
+ I status or have at least 50% of their student body eligible to receive fr
+ ee/reduced lunch. The books will be separated into the following categ\n\n
+ Source: The Book Fairies\n\nhttps://thebookfairies.org/calendar-event/june
+ -book-fair/
+GEO:40.7868013;-73.516173
+LOCATION:Book Fairies Book Bank\, 220 Miller Place\, Hicksville\, NY 11801
+URL:https://thebookfairies.org/calendar-event/june-book-fair/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270609T190000
 DTEND;TZID=America/New_York:20270609T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:f61b8899c1cbc08e@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1341,7 +1494,7 @@ BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20270701T220000Z
 DTEND:20270702T010000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:e69ac915198b7710@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -1355,7 +1508,7 @@ BEGIN:VEVENT
 SUMMARY:Hawkins-Mount House Tours
 DTSTART;TZID=America/New_York:20270710T123000
 DTEND;TZID=America/New_York:20270710T163000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:82cacf422a1bee6d@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:Step back in time with special tours of the historic Hawkins-M
@@ -1375,7 +1528,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270710T080000
 DTEND;TZID=America/New_York:20270710T093000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:4ee3201f8b963a52@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1388,7 +1541,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270714T190000
 DTEND;TZID=America/New_York:20270714T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:e276b35848698f37@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1401,7 +1554,7 @@ BEGIN:VEVENT
 SUMMARY:VCF West 2027
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270802
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:6d012fa2322a8875@nerdhang
 CATEGORIES:computers
 DESCRIPTION:Source: Vintage Computer Federation\n\nhttps://vcfed.org/
@@ -1414,7 +1567,7 @@ BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20270805T220000Z
 DTEND:20270806T010000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:a05e1488449a3969@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -1428,7 +1581,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270811T190000
 DTEND;TZID=America/New_York:20270811T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:c541da840b217ba8@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1441,7 +1594,7 @@ BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20270902T220000Z
 DTEND:20270903T010000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:e3ed053218bc775b@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -1455,7 +1608,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270908T190000
 DTEND;TZID=America/New_York:20270908T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:5e824c62c50acd51@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1468,7 +1621,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270911T080000
 DTEND;TZID=America/New_York:20270911T093000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:5ec22262e3573ca6@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1481,7 +1634,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Atlantic Division Train Meet
 DTSTART;TZID=America/New_York:20270919T080000
 DTEND;TZID=America/New_York:20270919T130000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:f53a3441ddd10312@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Family Admission: $5 Food and Drink available for Purchase Ove
@@ -1499,7 +1652,7 @@ BEGIN:VEVENT
 SUMMARY:3D Printed Pull Copter
 DTSTART:20271005T230000Z
 DTEND:20271006T003000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:066dadeb2564aebe@nerdhang
 CATEGORIES:makers
 DESCRIPTION:Build your own mechanical pull-copter featuring a custom 3D-pr
@@ -1514,7 +1667,7 @@ BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20271007T220000Z
 DTEND:20271008T010000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:99dd95217fedecaf@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -1528,7 +1681,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20271013T190000
 DTEND;TZID=America/New_York:20271013T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:d1b16da6525f011f@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1541,7 +1694,7 @@ BEGIN:VEVENT
 SUMMARY:York Train Meet: October 2027 Meet
 DTSTART;VALUE=DATE:20271019
 DTEND;VALUE=DATE:20271024
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:814dbe891f2476ba@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Presented by the Eastern Division\, Train Collectors Associati
@@ -1562,7 +1715,7 @@ BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20271104T220000Z
 DTEND:20271105T010000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:b0a721982aac6f84@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -1576,7 +1729,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Atlantic Division Train Meet
 DTSTART;TZID=America/New_York:20271107T080000
 DTEND;TZID=America/New_York:20271107T130000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:cbc7827df264574e@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Family Admission: $5 Food and Drink available for Purchase Ove
@@ -1594,7 +1747,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20271110T190000
 DTEND;TZID=America/New_York:20271110T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:f1205380d56aadb9@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1607,7 +1760,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20271113T080000
 DTEND;TZID=America/New_York:20271113T093000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:b36d1da3f5b83318@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1620,7 +1773,7 @@ BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20271202T230000Z
 DTEND:20271203T020000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:24228ebfe2b461cc@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -1634,7 +1787,7 @@ BEGIN:VEVENT
 SUMMARY:3D Printed Wind-Up Cars
 DTSTART:20271208T000000Z
 DTEND:20271208T013000Z
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:1f5e87fd01140df3@nerdhang
 CATEGORIES:makers
 DESCRIPTION:Build your own mechanical wind-up car using simple gears and s
@@ -1648,7 +1801,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20271208T190000
 DTEND;TZID=America/New_York:20271208T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:1b8bc1aa13fc13bd@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1661,7 +1814,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20280108T080000
 DTEND;TZID=America/New_York:20280108T093000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:34d3349c92317a61@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1674,7 +1827,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280112T190000
 DTEND;TZID=America/New_York:20280112T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:20b24f372de6ed8f@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1687,7 +1840,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280209T190000
 DTEND;TZID=America/New_York:20280209T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:ed9ce588e7e09c61@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1700,7 +1853,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280308T190000
 DTEND;TZID=America/New_York:20280308T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:344bdf9ba95c9947@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1713,7 +1866,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20280311T080000
 DTEND;TZID=America/New_York:20280311T093000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:b424fa32b4f7da9f@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1726,7 +1879,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280412T190000
 DTEND;TZID=America/New_York:20280412T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:96bbf2f2b81ecc87@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1739,7 +1892,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280510T190000
 DTEND;TZID=America/New_York:20280510T213000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:b1d9d355e62ff64c@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1752,7 +1905,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20280513T080000
 DTEND;TZID=America/New_York:20280513T093000
-DTSTAMP:20261126T215050Z
+DTSTAMP:20261126T222212Z
 UID:3a04428dcf643ff6@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar

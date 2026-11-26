@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T21:50:50+00:00",
+ "generated_at": "2026-11-26T22:22:12+00:00",
  "sources": {
   "rmli": {
    "ok": true,
@@ -129,13 +129,22 @@
    "ok": true,
    "count": 0
   },
+  "book-fairies": {
+   "ok": true,
+   "count": 7
+  },
+  "search": {
+   "ok": true,
+   "count": 0,
+   "skipped": "search key not set"
+  },
   "inbox": {
    "ok": true,
    "count": 0
   },
   "manual": {
    "ok": true,
-   "count": 2
+   "count": 3
   }
  },
  "events": [
@@ -217,7 +226,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "e10ac2ae-ef76-43aa-81a3-566ad7c6ea86@2026-11-29T06:00:00-05:00",
+   "source_uid": "1ee6348a-4b78-43ef-94eb-466e9939185c@2026-11-29T06:00:00-05:00",
    "title": "Thanksgiving Weekend at the Cradle of Aviation Museum",
    "start": "2026-11-29T06:00:00-05:00",
    "end": "2026-11-29T06:00:01-05:00",
@@ -232,7 +241,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Spend Thanksgiving weekend at the Museum! Learn about NASA's Voyager spacecraft, enjoy a free hands-on craft activity, and take in a planetarium show.</b> Friday - Sunday, November 27 - 29 Museum Hours: 10 am - 5 pm Activity: 12 pm - 4 pm <b>Celebrating Voyager</b> This November, NASA's Voyager 1 reaches a remarkable milestone, traveling more than one light-day from Earth! Launched in 1977, Voyager 1 has traveled beyond our solar system into interstellar space and is now the most distant huma",
    "source_name": "Cradle of Aviation Museum",
-   "id": "24367a232eb8b2f1"
+   "id": "38b1d254c562c2e6"
   },
   {
    "source_id": "lib-portjeff",
@@ -350,7 +359,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "dd3f26a9-0bdc-475d-9c09-49d9c6583b4b@2026-12-05T10:00:00-05:00",
+   "source_uid": "6cf2a7a6-b1de-4e5d-952c-4af9784639bc@2026-12-05T10:00:00-05:00",
    "title": "Festival of Games",
    "start": "2026-12-05T10:00:00-05:00",
    "end": "2026-12-06T10:00:00-05:00",
@@ -365,7 +374,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Festival of Games: A Holiday Shopping & Gaming Event</b> Cradle-Con and Long Island Retro Gaming Expo are proud to present Festival of Games – a holiday-themed extravaganza of shopping and gaming experiences. Join us on Saturday, December 5th, and Sunday, December 6th, from 10:00 am to 5:00 pm, and shop a variety of local small businesses for retro video games, toys, comics, and collectibles, and enjoy a slew of unique retro gaming experiences. Admission includes free unlimited gameplay on ov",
    "source_name": "Cradle of Aviation Museum",
-   "id": "9035f39313e42264"
+   "id": "2e6a10727dbf1b5a"
   },
   {
    "source_id": "rmli",
@@ -423,6 +432,25 @@
    "description": "Joint Meet w/the Grand Strand Model Railroaders at a new location: the North Shore Oceanfront Resort (info below) MEET HOURS:Saturday, December 5: 10 a.m. to 5 p.m.Sunday, December 6: 10 a.m. to 4 p.m. COST: $7 per person.Children Under 12 are FREE! TABLES: Regular Price: $35/tableTCA Member Discount: $30/table(Indicate that you are a TCA member and provide your TCA # on the application form) Come check out Palmetto’s hospitality table promoting TCA membership. We will have “white elephant” dona",
    "source_name": "Train Collectors Association",
    "id": "4a61dfae8d421834"
+  },
+  {
+   "source_id": "book-fairies",
+   "source_uid": "9909-1796549400-1796562000@thebookfairies.org@2026-12-06T09:30:00-05:00",
+   "title": "December Book Fair",
+   "start": "2026-12-06T09:30:00-05:00",
+   "end": "2026-12-06T13:00:00-05:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Book Fairies Book Bank",
+    "address": "220 Miller Place, Hicksville, NY 11801",
+    "lat": 40.7868013,
+    "lon": -73.516173
+   },
+   "url": "https://thebookfairies.org/calendar-event/december-book-fair/",
+   "description": "[vc_row][vc_column][vc_column_text]Register For December Book Fair Book Fairies hosts monthly Book Fairs for schools and organizations supporting under-resourced areas across Long Island and New York City. Attendees can hand pick an unlimited number of gently used, high-interest, age-appropriate books to support literacy programming.*Schools must have Title I status or have at least 50% of their student body eligible to receive free/reduced lunch. The books will be separated into the following c",
+   "source_name": "The Book Fairies",
+   "id": "a921ebc4b5ab1e8c"
   },
   {
    "source_id": "rmli",
@@ -768,7 +796,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "cd89f406-0685-4fad-95cf-9418fa26fec5@2026-12-18T17:30:00-05:00",
+   "source_uid": "8d41612a-fc65-4e95-aa5d-4f0df6639669@2026-12-18T17:30:00-05:00",
    "title": "A Very Grinchy Pajama Party",
    "start": "2026-12-18T17:30:00-05:00",
    "end": "2026-12-18T21:00:00-05:00",
@@ -783,7 +811,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Join us on Friday, December 18th, for a Very Grinchy Pajama Party!</b> Wear your favorite pajamas and enjoy a festive evening of holiday cheer, activities, and a screening of The Grinch (2018). <b>5:30 pm</b> Doors Open <b>5:30 pm – 7:00 pm</b> Activities & Meet the Grinch • More details to come <b>7:00 pm</b> Watch The Grinch (2018) Grab your hot chocolate and cookies (nut-free) and meet in the theater for The Grinch (2018)—where a grumpy green grouch tries to stop Christmas until Cindy-Lou ",
    "source_name": "Cradle of Aviation Museum",
-   "id": "a94712a73299c30f"
+   "id": "0e823f14a81ae0fb"
   },
   {
    "source_id": "tca",
@@ -898,6 +926,25 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "a8e5cf1ff38e997f"
+  },
+  {
+   "source_id": "book-fairies",
+   "source_uid": "10105-1799573400-1799586000@thebookfairies.org@2027-01-10T09:30:00-05:00",
+   "title": "January Book Fair",
+   "start": "2027-01-10T09:30:00-05:00",
+   "end": "2027-01-10T13:00:00-05:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Book Fairies Book Bank",
+    "address": "220 Miller Place, Hicksville, NY 11801",
+    "lat": 40.7868013,
+    "lon": -73.516173
+   },
+   "url": "https://thebookfairies.org/calendar-event/january-book-fair/",
+   "description": "[vc_row][vc_column][vc_column_text]Register For January Book Fair Book Fairies hosts monthly Book Fairs for schools and organizations supporting under-resourced areas across Long Island and New York City. Attendees can hand pick an unlimited number of gently used, high-interest, age-appropriate books to support literacy programming.*Schools must have Title I status or have at least 50% of their student body eligible to receive free/reduced lunch. The books will be separated into the following ca",
+   "source_name": "The Book Fairies",
+   "id": "e0fe6a025e9300bc"
   },
   {
    "source_id": "limarc",
@@ -1145,6 +1192,25 @@
    "description": "All community group meetings must be open to the public as per New York State Education Law.",
    "source_name": "Syosset Public Library",
    "id": "f2752d36094a40e0"
+  },
+  {
+   "source_id": "book-fairies",
+   "source_uid": "10109-1801992600-1802005200@thebookfairies.org@2027-02-07T09:30:00-05:00",
+   "title": "February Book Fair",
+   "start": "2027-02-07T09:30:00-05:00",
+   "end": "2027-02-07T13:00:00-05:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Book Fairies Book Bank",
+    "address": "220 Miller Place, Hicksville, NY 11801",
+    "lat": 40.7868013,
+    "lon": -73.516173
+   },
+   "url": "https://thebookfairies.org/calendar-event/february-book-fair/",
+   "description": "[vc_row][vc_column][vc_column_text]Register For February Book Fair Book Fairies hosts monthly Book Fairs for schools and organizations supporting under-resourced areas across Long Island and New York City. Attendees can hand pick an unlimited number of gently used, high-interest, age-appropriate books to support literacy programming.*Schools must have Title I status or have at least 50% of their student body eligible to receive free/reduced lunch. The books will be separated into the following c",
+   "source_name": "The Book Fairies",
+   "id": "dfbcc222f3108663"
   },
   {
    "source_id": "lib-comsewogue",
@@ -1413,6 +1479,25 @@
    "id": "cbffc05e60cce033"
   },
   {
+   "source_id": "book-fairies",
+   "source_uid": "10113-1804930200-1804942800@thebookfairies.org@2027-03-13T09:30:00-05:00",
+   "title": "March Book Fair",
+   "start": "2027-03-13T09:30:00-05:00",
+   "end": "2027-03-13T13:00:00-05:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Book Fairies Book Bank",
+    "address": "220 Miller Place, Hicksville, NY 11801",
+    "lat": 40.7868013,
+    "lon": -73.516173
+   },
+   "url": "https://thebookfairies.org/calendar-event/march-book-fair/",
+   "description": "[vc_row][vc_column][vc_column_text]Register For March Book Fair Book Fairies hosts monthly Book Fairs for schools and organizations supporting under-resourced areas across Long Island and New York City. Attendees can hand pick an unlimited number of gently used, high-interest, age-appropriate books to support literacy programming.*Schools must have Title I status or have at least 50% of their student body eligible to receive free/reduced lunch. The books will be separated into the following cate",
+   "source_name": "The Book Fairies",
+   "id": "f67f1a22520927cf"
+  },
+  {
    "source_id": "limarc",
    "source_uid": "5f78nobg8oo5csc5d07b76li4q@google.com@2027-03-13T08:00:00-05:00",
    "title": "VE Test Session",
@@ -1527,6 +1612,25 @@
    "id": "857e15a8782377dd"
   },
   {
+   "source_id": "book-fairies",
+   "source_uid": "10116-1807435800-1807448400@thebookfairies.org@2027-04-11T09:30:00-04:00",
+   "title": "April Book Fair",
+   "start": "2027-04-11T09:30:00-04:00",
+   "end": "2027-04-11T13:00:00-04:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Book Fairies Book Bank",
+    "address": "220 Miller Place, Hicksville, NY 11801",
+    "lat": 40.7868013,
+    "lon": -73.516173
+   },
+   "url": "https://thebookfairies.org/calendar-event/april-book-fair/",
+   "description": "[vc_row][vc_column][vc_column_text]Register For April Book Fair Book Fairies hosts monthly Book Fairs for schools and organizations supporting under-resourced areas across Long Island and New York City. Attendees can hand pick an unlimited number of gently used, high-interest, age-appropriate books to support literacy programming.*Schools must have Title I status or have at least 50% of their student body eligible to receive free/reduced lunch. The books will be separated into the following cate",
+   "source_name": "The Book Fairies",
+   "id": "21fb730755d0e1bc"
+  },
+  {
    "source_id": "limarc",
    "source_uid": "628102br2f1e300rr8nqgmope1@google.com@2027-04-14T19:00:00-04:00",
    "title": "LIMARC General Meeting",
@@ -1544,6 +1648,25 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "fed2bd4cc77dcf86"
+  },
+  {
+   "source_id": "manual",
+   "source_uid": "New York International Antiquarian Book Fair 2027@2027-04-15",
+   "title": "New York International Antiquarian Book Fair 2027",
+   "start": "2027-04-15",
+   "end": "2027-04-18",
+   "all_day": true,
+   "category": "records",
+   "location": {
+    "name": "Park Avenue Armory",
+    "address": "643 Park Avenue, New York, NY 10065",
+    "lat": 40.7672334,
+    "lon": -73.9655036
+   },
+   "url": "https://www.nyantiquarianbookfair.com/",
+   "description": "",
+   "source_name": "ABAA New York International Antiquarian Book Fair",
+   "id": "8b65e63f0fc2a294"
   },
   {
    "source_id": "lib-sachem",
@@ -1582,6 +1705,25 @@
    "description": "Member Halls (Blue, Red, Silver, & White): Members OnlyFriday: 9 a.m. to 4:30 p.m.Saturday: 9 a.m. to 4 p.m. Dealer & Display Halls (Orange & Purple)Friday: 9 a.m. to 6:00 p.m.Saturday: 9 a.m. to 4 p.m. Purple Hall Pre-Show—Also Open to the Public!Tuesday: 10:00 a.m. to 4:00 p.m.Wednesday: 8:30 a.m. to 4:00 p.m.Thursday: 8:30 a.m. to 4:00 p.m. Dealer & Display Halls (orange & purple) are open to the public on Friday and Saturday for $10 per day (children under 18 admitted FREE with paying adult)",
    "source_name": "Train Collectors Association",
    "id": "482ea03760f5ea94"
+  },
+  {
+   "source_id": "book-fairies",
+   "source_uid": "10119-1809250200-1809262800@thebookfairies.org@2027-05-02T09:30:00-04:00",
+   "title": "May Book Fair",
+   "start": "2027-05-02T09:30:00-04:00",
+   "end": "2027-05-02T13:00:00-04:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Book Fairies Book Bank",
+    "address": "220 Miller Place, Hicksville, NY 11801",
+    "lat": 40.7868013,
+    "lon": -73.516173
+   },
+   "url": "https://thebookfairies.org/calendar-event/may-book-fair/",
+   "description": "[vc_row][vc_column][vc_column_text]Register For May Book Fair Book Fairies hosts monthly Book Fairs for schools and organizations supporting under-resourced areas across Long Island and New York City. Attendees can hand pick an unlimited number of gently used, high-interest, age-appropriate books to support literacy programming.*Schools must have Title I status or have at least 50% of their student body eligible to receive free/reduced lunch. The books will be separated into the following catego",
+   "source_name": "The Book Fairies",
+   "id": "1e4de340a9ef3958"
   },
   {
    "source_id": "lib-syosset",
@@ -1677,6 +1819,25 @@
    "description": "Opens 8 a.m. for Keystone MembersOpens 9 a.m. for Public",
    "source_name": "Train Collectors Association",
    "id": "438bb01e5ccc55d1"
+  },
+  {
+   "source_id": "book-fairies",
+   "source_uid": "10122-1812274200-1812286800@thebookfairies.org@2027-06-06T09:30:00-04:00",
+   "title": "June Book Fair",
+   "start": "2027-06-06T09:30:00-04:00",
+   "end": "2027-06-06T13:00:00-04:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Book Fairies Book Bank",
+    "address": "220 Miller Place, Hicksville, NY 11801",
+    "lat": 40.7868013,
+    "lon": -73.516173
+   },
+   "url": "https://thebookfairies.org/calendar-event/june-book-fair/",
+   "description": "[vc_row][vc_column][vc_column_text]Register For June Book Fair Book Fairies hosts monthly Book Fairs for schools and organizations supporting under-resourced areas across Long Island and New York City. Attendees can hand pick an unlimited number of gently used, high-interest, age-appropriate books to support literacy programming.*Schools must have Title I status or have at least 50% of their student body eligible to receive free/reduced lunch. The books will be separated into the following categ",
+   "source_name": "The Book Fairies",
+   "id": "56eaf1d429963725"
   },
   {
    "source_id": "limarc",
