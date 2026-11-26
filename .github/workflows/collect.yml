@@ -6,12 +6,14 @@ on:
   workflow_dispatch: {}      # "Run workflow" button on the Actions tab
   push:
     branches: [main]
-    paths: ["collector/**", ".github/workflows/collect.yml"]
+    paths: ["collector/**", "site/**", ".github/workflows/collect.yml"]
   pull_request:
-    paths: ["collector/**", "tests/**"]
+    paths: ["collector/**", "tests/**", "site/**"]
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: collect-events
@@ -45,3 +47,29 @@ jobs:
             git commit -m "Update events $(date -u +%Y-%m-%d)"
             git push
           fi
+
+  # Publishes the website (site/ plus the fresh data) to GitHub Pages.
+  # GitHub Pages is free for public repositories, so this runs only when the
+  # repository is public. Pages must be set to "GitHub Actions" in
+  # Settings > Pages.
+  deploy:
+    needs: collect
+    if: github.event_name != 'pull_request' && github.event.repository.private == false
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main   # includes the data commit made by the collect job
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp -r site/. _site/
+          cp data/events.json data/nerdhang.ics _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

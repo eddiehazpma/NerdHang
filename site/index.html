@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NerdHang: train shows, hamfests, computer shows and museum events near you</title>
+  <meta name="description" content="Upcoming train shows, ham radio hamfests, vintage computer shows, special train displays and museum events near you.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <h1>NerdHang</h1>
+      <p class="tagline">Train shows, hamfests, computer shows and museum events near you</p>
+    </div>
+  </header>
+
+  <section class="controls" aria-label="Filters">
+    <div class="control location">
+      <span class="label">Near</span>
+      <strong id="loc-name">Finding your location…</strong>
+      <button type="button" id="loc-gps" class="link">Use my location</button>
+      <form id="loc-form" class="loc-form">
+        <input id="loc-input" type="text" placeholder="Town or ZIP" aria-label="Town or ZIP code" autocomplete="postal-code">
+        <button type="submit">Go</button>
+      </form>
+    </div>
+    <div class="control">
+      <label for="radius" class="label">Within</label>
+      <select id="radius">
+        <option value="25">25 miles</option>
+        <option value="50">50 miles</option>
+        <option value="100" selected>100 miles</option>
+        <option value="250">250 miles</option>
+        <option value="0">Anywhere</option>
+      </select>
+    </div>
+    <fieldset class="control cats" id="cats">
+      <legend class="label">Show</legend>
+    </fieldset>
+    <div class="control views" role="tablist" aria-label="View">
+      <button type="button" role="tab" data-view="list" class="active" aria-selected="true">List</button>
+      <button type="button" role="tab" data-view="month" aria-selected="false">Calendar</button>
+    </div>
+  </section>
+
+  <section class="export" aria-label="Add to your calendar">
+    <span id="count" class="count"></span>
+    <a id="dl-ics" href="#" class="btn">Download these events (.ics)</a>
+    <a id="sub-google" href="#" class="btn" target="_blank" rel="noopener">Subscribe in Google Calendar</a>
+    <a id="sub-webcal" href="#" class="btn">Subscribe (Apple / Outlook)</a>
+  </section>
+
+  <main>
+    <div id="list-view"></div>
+    <div id="month-view" hidden></div>
+  </main>
+
+  <dialog id="detail">
+    <form method="dialog"><button class="close" aria-label="Close">×</button></form>
+    <div id="detail-body"></div>
+  </dialog>
+
+  <footer>
+    <p>Events are gathered daily from club, museum and show calendars. Always check the organizer's page before you go.
+      <span id="updated"></span></p>
+    <p>Know an event or a club calendar we're missing? <a href="https://github.com/eddiehazpma/NerdHang/issues/new?title=Add%20source%3A%20&labels=source">Tell us</a>.</p>
+  </footer>
+
+  <script src="vendor/fullcalendar-6.1.22.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
