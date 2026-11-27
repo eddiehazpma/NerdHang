@@ -20,7 +20,7 @@ categories:
     - railfans?
     - HO scale
     - O gauge
-    - steam (train|locomotive|engine)
+    - steam (train|locomotive)s?
     - (polar express|santa('s)? (train|express)|north pole express)
     - (rail|train) (excursion|ride|tour)s?
     - excursion trains?
@@ -54,6 +54,20 @@ categories:
     - arcades?
     - LAN party
     - (8|16)-?bit
+    - dungeons (and|&) dragons
+    - D&D
+    - tabletop (rpg|role-?playing|gaming|games?)
+    - role-?playing games?
+    - magic:? the gathering
+    - warhammer
+    - pok[eé]mon (tcg|league)
+    - cosplay
+    - anime
+    - manga
+    - star (wars|trek)
+    - sci-?fi
+    - science fiction
+    - chess tournaments?
     - chiptunes?
     - raspberry pi
     - arduino
@@ -64,7 +78,7 @@ categories:
     - hackers?
     - 2600 (meeting|meetup)s?
     - lock ?picking
-    - (3-?D|three-?D) print\w*
+    - (3-?D|three-?D) print(ing|ers?)
     - laser cut\w*
     - soldering
     - robotics?
@@ -74,7 +88,8 @@ categories:
     - model rocketry
     - electronics (workshop|lab|club)
   records:
-    - (vinyl|record|records|cd|music|lp) (fair|show|swap|sale|expo|convention|collecting)s?
+    - (vinyl|record|records|cd|lp) (fair|show|swap|sale|expo|convention|collecting)s?
+    - music (fair|swap|expo|convention)s?
     - record (store|shop) day
     - vinyl (collect\w*|records?|night|listening)
     - listening (party|session)
@@ -124,6 +139,17 @@ categories:
     - aircraft
     - tesla
     - science (museum|center)
+    - NASA
+    - astronauts?
+    - apollo (program|mission|\d+)
+    - moon landing
+    - (solar|lunar) eclipse
+    - meteor showers?
+    - night sky
+    - titanic
+    - shipwrecks?
+    - submarines?
+    - (history|science) of (flight|aviation|computing|radio|television|the railroad|railroads)
     # Government and lab open houses, only when about science or tech.
     - (lab|laboratory|observatory|weather service|NOAA|coast guard|air (national )?guard|air station|power plant|water (treatment|pollution control)|radio station|fire ?boat) (open house|tours?|day)
     - open house at (the )?(lab|laboratory|observatory|weather|NOAA|coast guard|air station|planetarium)
@@ -132,9 +158,9 @@ categories:
     - summer sundays
     - (aviation|air) (show|day)s?
 
-# These categories use everyday words ("tour", "3D printing", "market"), so
-# they only count when they appear in the event title, not the description.
-title_only: [makers, records, outdoors, fairs]
+# Library descriptions mention all sorts of things, so most categories only
+# count when the words appear in the event title, not the description.
+title_only: [computers, makers, records, outdoors, fairs, museum]
 
 # Matching titles are dropped even if they matched above: kids' crafts,
 # day trips, classes for beginners, and other false friends.
@@ -160,6 +186,25 @@ exclude:
   - beginners?
   - board games?
   - closed
+  - youth
+  - trivia
+  - (athletes?|sports)
+  - (chef|cooking|tasting|recipe)
+  - \d+(st|nd|rd|th) ?- ?\d+(st|nd|rd|th)
+  - cancell?ed
+  - postponed
+  - movie
+  - film
+  - screening
+  - volunteers?
+  - community service
+  - waitlist
+  - school
+  - students?
+  - virtual
+  - (via|on) zoom
+  - zoom
+  - online
   - little learners
   - storytime\W.*
   - bingo

@@ -373,3 +373,13 @@ def test_jsonld_events_and_search(monkeypatch):
     monkeypatch.delenv("BRAVE_SEARCH_API_KEY", raising=False)
     with pytest.raises(SkipSource):
         fetch_source(src, date(2027, 1, 1), date(2027, 12, 31), http_get=lambda u: Resp())
+
+
+def test_limit_repeats_keeps_next_three():
+    from collector.build import limit_repeats
+    from collector.models import Event
+    evs = [Event(source_id="l", source_uid=str(d), title="Adult D&D!" if d % 2 else "adult d&d",
+                 start=date(2027, 1, d), end=date(2027, 1, d), all_day=True, category="computers")
+           for d in range(10, 1, -1)]
+    kept = limit_repeats(evs, 3)
+    assert [e.start.day for e in kept] == [2, 3, 4]
