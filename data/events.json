@@ -1,17 +1,19 @@
 {
- "generated_at": "2026-11-26T22:22:12+00:00",
+ "generated_at": "2026-11-27T19:33:51+00:00",
  "sources": {
   "rmli": {
    "ok": true,
    "count": 6
   },
   "tca": {
-   "ok": true,
+   "ok": false,
+   "error": "Content line could not be parsed into parts: '<!DOCTYPE html>': <!DOCTYPEhtml>",
    "count": 21
   },
   "eastern-tca": {
-   "ok": true,
-   "count": 2
+   "ok": false,
+   "error": "Content line could not be parsed into parts: '<!DOCTYPE html>': <!DOCTYPEhtml>",
+   "count": 1
   },
   "limarc": {
    "ok": true,
@@ -226,7 +228,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "1ee6348a-4b78-43ef-94eb-466e9939185c@2026-11-29T06:00:00-05:00",
+   "source_uid": "9300c482-c020-4623-b9f5-29a81b9ecb1c@2026-11-29T06:00:00-05:00",
    "title": "Thanksgiving Weekend at the Cradle of Aviation Museum",
    "start": "2026-11-29T06:00:00-05:00",
    "end": "2026-11-29T06:00:01-05:00",
@@ -241,7 +243,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Spend Thanksgiving weekend at the Museum! Learn about NASA's Voyager spacecraft, enjoy a free hands-on craft activity, and take in a planetarium show.</b> Friday - Sunday, November 27 - 29 Museum Hours: 10 am - 5 pm Activity: 12 pm - 4 pm <b>Celebrating Voyager</b> This November, NASA's Voyager 1 reaches a remarkable milestone, traveling more than one light-day from Earth! Launched in 1977, Voyager 1 has traveled beyond our solar system into interstellar space and is now the most distant huma",
    "source_name": "Cradle of Aviation Museum",
-   "id": "38b1d254c562c2e6"
+   "id": "21a9bd21006a292f"
   },
   {
    "source_id": "lib-portjeff",
@@ -359,7 +361,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "6cf2a7a6-b1de-4e5d-952c-4af9784639bc@2026-12-05T10:00:00-05:00",
+   "source_uid": "494cf385-40eb-4dce-a3ba-b32281ee2719@2026-12-05T10:00:00-05:00",
    "title": "Festival of Games",
    "start": "2026-12-05T10:00:00-05:00",
    "end": "2026-12-06T10:00:00-05:00",
@@ -374,7 +376,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Festival of Games: A Holiday Shopping & Gaming Event</b> Cradle-Con and Long Island Retro Gaming Expo are proud to present Festival of Games – a holiday-themed extravaganza of shopping and gaming experiences. Join us on Saturday, December 5th, and Sunday, December 6th, from 10:00 am to 5:00 pm, and shop a variety of local small businesses for retro video games, toys, comics, and collectibles, and enjoy a slew of unique retro gaming experiences. Admission includes free unlimited gameplay on ov",
    "source_name": "Cradle of Aviation Museum",
-   "id": "2e6a10727dbf1b5a"
+   "id": "1c174c1d58067e96"
   },
   {
    "source_id": "rmli",
@@ -796,7 +798,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "8d41612a-fc65-4e95-aa5d-4f0df6639669@2026-12-18T17:30:00-05:00",
+   "source_uid": "6cc8d453-e680-4e5d-82ed-1818b44996bc@2026-12-18T17:30:00-05:00",
    "title": "A Very Grinchy Pajama Party",
    "start": "2026-12-18T17:30:00-05:00",
    "end": "2026-12-18T21:00:00-05:00",
@@ -811,7 +813,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Join us on Friday, December 18th, for a Very Grinchy Pajama Party!</b> Wear your favorite pajamas and enjoy a festive evening of holiday cheer, activities, and a screening of The Grinch (2018). <b>5:30 pm</b> Doors Open <b>5:30 pm – 7:00 pm</b> Activities & Meet the Grinch • More details to come <b>7:00 pm</b> Watch The Grinch (2018) Grab your hot chocolate and cookies (nut-free) and meet in the theater for The Grinch (2018)—where a grumpy green grouch tries to stop Christmas until Cindy-Lou ",
    "source_name": "Cradle of Aviation Museum",
-   "id": "0e823f14a81ae0fb"
+   "id": "c536226caab16ed1"
   },
   {
    "source_id": "tca",
