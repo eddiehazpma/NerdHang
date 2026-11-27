@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:Black Friday Beach Cleanup
 DTSTART;TZID=America/New_York:20261127T100000
 DTEND;TZID=America/New_York:20261127T120000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:7d8a42ca1a1a4343@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:Join SOFO for a beach cleanup this Black Friday! Spend the day
@@ -22,10 +22,83 @@ LOCATION:Southampton
 URL:https://sofo.org/calendar/black-friday-beach-cleanup/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:3D Printing Innovators
+DTSTART:20261128T190000Z
+DTEND:20261128T194500Z
+DTSTAMP:20261127T235537Z
+UID:724c4e72a8f3dad8@nerdhang
+CATEGORIES:makers
+DESCRIPTION:3D printing fun for everyone! Bring the whole family to this a
+ ll-ages\, beginner-friendly workshop. You will learn how 3D printing works
+  to design a unique project. Because 3D prints take time to create\, your 
+ finished items will be ready for pickup within two weeks.\n\nSource: Quogu
+ e Library\n\nhttps://quogue.librarycalendar.com/event/3d-printing-innovato
+ rs-49049
+GEO:40.8189844;-72.5993501
+LOCATION:Quogue Library\, Quogue\, NY
+URL:https://quogue.librarycalendar.com/event/3d-printing-innovators-49049
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons and Dragons
+DTSTART:20261128T230000Z
+DTEND:20261129T010000Z
+DTSTAMP:20261127T235537Z
+UID:7ff8f675efbe0658@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Quogue Library's very own Dungeon Master\, Stephen Jordan invi
+ tes D&D newbies and experts to join the club! Use a pre-made character or 
+ make your own. Zoom link will be emailed to all registrants 24 hours prior
+  to program.\n\nSource: Quogue Library\n\nhttps://quogue.librarycalendar.c
+ om/event/dungeons-and-dragons-39797
+GEO:40.8189844;-72.5993501
+LOCATION:Quogue Library\, Quogue\, NY
+URL:https://quogue.librarycalendar.com/event/dungeons-and-dragons-39797
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Edward Sierra lecture "Silent Submarine Service: History & Recolle
+ ctions of a Navy Veteran"
+DTSTART;TZID=America/New_York:20261128T120000
+DTEND;TZID=America/New_York:20261128T133000
+DTSTAMP:20261127T235537Z
+UID:36d3bf8fda13858a@nerdhang
+CATEGORIES:museum
+DESCRIPTION:“Torpedo in the Water!” Edward A. Sierra vividly remembers
+  hearing those terrifying words loudly come across the speakers while subm
+ erged aboard a nuclear-powered fast attack submarine in the Mediterranean 
+ Sea. Ed joined the United States Navy at age 17\, having just graduated fr
+ om High School in Medford\, NY. Upon completion of an intense two-year Nav
+ al training program\, Ed reported to the Electrical Division onboard the U
+ .S.S. Billfish SSN-676. In this talk he reviews early submarine history an
+ d\n\nSource: Garden City Public Library\n\nhttps://gardencitypl.libcal.com
+ /event/17908409
+GEO:40.7237394;-73.6392638
+LOCATION:Garden City Public Library\, Garden City\, NY
+URL:https://gardencitypl.libcal.com/event/17908409
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monster of the Week: A Tabletop RPG
+DTSTART:20261128T170000Z
+DTEND:20261128T190000Z
+DTSTAMP:20261127T235537Z
+UID:2512b3affabcbfae@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Monster enthusiasts unite for this tabletop roleplaying game a
+ bout a secret team of heroes protecting the modern world from monsters. Th
+ e players will have to solve the mystery of the monster before they can de
+ feat it. Led by Game Master (and Librarian) River. No prior experience nec
+ essary. Must be able to attend all 5 sessions\, to keep a cohesive team.\n
+ \nSource: Emma S. Clark Memorial Library\n\nhttps://emmaclark.librarycalen
+ dar.com/event/monster-week-tabletop-rpg-61439
+GEO:40.9448735;-73.1119697
+LOCATION:Emma S. Clark Memorial Library\, Setauket\, NY
+URL:https://emmaclark.librarycalendar.com/event/monster-week-tabletop-rpg-
+ 61439
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SOFO’s Annual Thanksgiving Open House
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:26e1d3c75d4bfce3@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:Free admission for all ages!\n\nSource: South Fork Natural His
@@ -39,7 +112,7 @@ BEGIN:VEVENT
 SUMMARY:Sayville Village Holiday Fair - Toy Train Outreach
 DTSTART;TZID=America/New_York:20261128T160000
 DTEND;TZID=America/New_York:20261128T200000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:2f23b0d398c89f48@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -52,7 +125,7 @@ BEGIN:VEVENT
 SUMMARY:Dickens in the Carriage Museum
 DTSTART;TZID=America/New_York:20261129T140000
 DTEND;TZID=America/New_York:20261129T160000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:479e6b102ee93625@nerdhang
 CATEGORIES:museum
 DESCRIPTION:In celebration of the 30th Annual Charles Dickens Festival in 
@@ -69,11 +142,25 @@ URL:https://longislandmuseum.org/event/dickens-in-the-carriage-museum/2026
  -11-29/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons
+DTSTART:20261129T183000Z
+DTEND:20261129T200000Z
+DTSTAMP:20261127T235537Z
+UID:51cb4ef0dd173cb9@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Journey on a side quest story. See Khan for help to build your
+  character ahead of the program.\n\nSource: Port Jefferson Free Library\n
+ \nhttps://portjeff.librarycalendar.com/event/dungeons-dragons-35240
+GEO:40.9469225;-73.0664401
+LOCATION:Port Jefferson Free Library\, Port Jefferson\, NY
+URL:https://portjeff.librarycalendar.com/event/dungeons-dragons-35240
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Thanksgiving Weekend at the Cradle of Aviation Museum
 DTSTART;TZID=America/New_York:20261129T060000
 DTEND;TZID=America/New_York:20261129T060001
-DTSTAMP:20261127T193351Z
-UID:21a9bd21006a292f@nerdhang
+DTSTAMP:20261127T235537Z
+UID:95e5ab32165df220@nerdhang
 CATEGORIES:museum
 DESCRIPTION:<b>Spend Thanksgiving weekend at the Museum! Learn about NASA'
  s Voyager spacecraft\, enjoy a free hands-on craft activity\, and take in 
@@ -89,10 +176,144 @@ LOCATION:Cradle of Aviation Museum\, Charles Lindbergh Blvd\, Garden City
 URL:https://www.cradleofaviation.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Adult Program: Dungeons & Dragons
+DTSTART:20261130T223000Z
+DTEND:20261201T013000Z
+DTSTAMP:20261127T235537Z
+UID:6a001aaaabc8fad3@nerdhang
+CATEGORIES:computers
+DESCRIPTION:This program is a continuation from Sept - October.\n\nSource:
+  Levittown Public Library\n\nhttps://levittown.librarycalendar.com/event/a
+ dult-program-dungeons-dragons-36430
+GEO:40.7233333;-73.5297222
+LOCATION:Levittown Public Library\, Levittown\, NY
+URL:https://levittown.librarycalendar.com/event/adult-program-dungeons-dra
+ gons-36430
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anime Night for Adults
+DTSTART:20261130T230000Z
+DTEND:20261201T013000Z
+DTSTAMP:20261127T235537Z
+UID:85ec32fb9a92d645@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Watch and discuss your favorite anime\, discover new shows\, o
+ r just come for the camaraderie.\n\nSource: Brentwood Public Library\n\nht
+ tps://brentwood.librarycalendar.com/event/anime-night-adults-143526
+GEO:40.782634;-73.2566332
+LOCATION:Brentwood Public Library\, Brentwood\, NY
+URL:https://brentwood.librarycalendar.com/event/anime-night-adults-143526
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons (Adults)
+DTSTART:20261130T230000Z
+DTEND:20261201T013000Z
+DTSTAMP:20261127T235537Z
+UID:be506d55731a812e@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Join expert DM Jimmy for a D&D campaign involving mats\, minif
+ igs and higher-level characters. Bring your character from a previous camp
+ aign or create a new one prior to the first session.\n\nSource: Longwood P
+ ublic Library\n\nhttps://www.longwoodlibrary.org/event/dungeons-dragons-ad
+ ults-201558
+GEO:40.8820789;-72.9440591
+LOCATION:Longwood Public Library\, Middle Island\, NY
+URL:https://www.longwoodlibrary.org/event/dungeons-dragons-adults-201558
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Magic: The Gathering
+DTSTART:20261130T233000Z
+DTEND:20261201T011500Z
+DTSTAMP:20261127T235537Z
+UID:e3d4149e0cc7f239@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Magic: The Gathering Do you love playing the trading card game
+  Magic: The Gathering? Or perhaps you'd like to learn how to play\, or hav
+ e an interest in role playing games or the fantasy genre. If that's the ca
+ se\, then this program is for you! Don't worry if you don't have cards\, t
+ he library has cards for you to use. This program is for ages 12 & up.\n\n
+ Source: Long Beach Public Library\n\nhttps://longbeachpl.librarycalendar.c
+ om/event/magic-gathering-129880
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/magic-gathering-129880
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Guided Nature Hike at Hallock State Park Preserve
+DTSTART:20261201T150000Z
+DTEND:20261201T170000Z
+DTSTAMP:20261127T235537Z
+UID:b736789f4be50dfc@nerdhang
+CATEGORIES:outdoors
+DESCRIPTION:Explore the woods\, dunes\, beachfront\, and freshwater pond a
+ t Hallock State Park Preserve with author and naturalist Lee McAllister. Y
+ ou'll also learn the history of the property\, including a small battle th
+ at took place near the shore in the War of 1812. Details to know before yo
+ u go: - Hallock State Park Preserve is located at 6062 Sound Avenue\, Jame
+ sport\, NY 11947 - Be prepared to walk 3.5 miles over some uneven ground a
+ nd high bluffs. Please wear appropriate footwear and bring water. - Dress 
+ \n\nSource: Longwood Public Library\n\nhttps://www.longwoodlibrary.org/eve
+ nt/guided-nature-hike-hallock-state-park-preserve-195192
+GEO:40.8820789;-72.9440591
+LOCATION:Longwood Public Library\, Middle Island\, NY
+URL:https://www.longwoodlibrary.org/event/guided-nature-hike-hallock-state
+ -park-preserve-195192
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tabletop Game Days
+DTSTART:20261201T153000Z
+DTEND:20261201T200000Z
+DTSTAMP:20261127T235537Z
+UID:d433ed13261a2a41@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Tuesdays: 10:30 AM to 3:00 PM Join along or bring a group of f
+ riends. Players are welcome to bring their own cards and games.\n\nSource:
+  Levittown Public Library\n\nhttps://levittown.librarycalendar.com/event/t
+ abletop-game-days-28192
+GEO:40.7233333;-73.5297222
+LOCATION:Levittown Public Library\, Levittown\, NY
+URL:https://levittown.librarycalendar.com/event/tabletop-game-days-28192
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons
+DTSTART:20261202T230000Z
+DTEND:20261203T020000Z
+DTSTAMP:20261127T235537Z
+UID:1fb3af87d466d243@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Come play Dungeons & Dragons with some of the best game master
+ s on the island! Perfect for new and experienced players alike. Join toget
+ her to battle monsters\, discover lost ruins\, and triumph over evil! For 
+ grades 7-12.\n\nSource: East Islip Public Library\n\nhttps://eastislip.lib
+ rarycalendar.com/event/copy-dungeons-dragons-29447
+GEO:40.7358333;-73.1733333
+LOCATION:East Islip Public Library\, East Islip\, NY
+URL:https://eastislip.librarycalendar.com/event/copy-dungeons-dragons-2944
+ 7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vinyl Night at Buddha Belly Records
+DTSTART:20261202T220000Z
+DTEND:20261203T000000Z
+DTSTAMP:20261127T235537Z
+UID:9382abb989ad0c41@nerdhang
+CATEGORIES:records
+DESCRIPTION:Join librarian Peter any time between 5:00 - 7:00pm at Buddha 
+ Belly Records for the first of what will become a regular Vinyl Night! For
+  our first night\, we'll be chatting about the best record we ever got as 
+ a gift and listening to some of our favorites! Feel free to bring some to 
+ share! Space is limited.\n\nSource: Sayville Library\n\nhttps://www.sayvil
+ lelibrary.org/event/vinyl-night-buddha-belly-records-91337
+GEO:40.7358333;-73.08
+LOCATION:Sayville Library\, Sayville\, NY
+URL:https://www.sayvillelibrary.org/event/vinyl-night-buddha-belly-records
+ -91337
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Historic Walking Tour with Ava
 DTSTART:20261203T170000Z
 DTEND:20261203T180000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:7e681e5dde908153@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:A guided group walking tour of Port Jefferson Village. Meet at
@@ -108,7 +329,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC Meeting
 DTSTART:20261203T003000Z
 DTEND:20261203T030000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:62af2fe59d13b13c@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Monthly meeting of the Long Island Mobile Amateur Radio Club -
@@ -122,7 +343,7 @@ BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20261203T230000Z
 DTEND:20261204T020000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:8ad76425da4debb6@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -133,10 +354,78 @@ LOCATION:Syosset Public Library\, Syosset\, NY
 URL:https://syosset.librarycalendar.com/event/long-island-coin-club-43751
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Nature Walk / Guided Hike: Stillwell Woods
+DTSTART;TZID=America/New_York:20261203T100000
+DTEND;TZID=America/New_York:20261203T113000
+DTSTAMP:20261127T235537Z
+UID:ada963db433aa9db@nerdhang
+CATEGORIES:outdoors
+DESCRIPTION:Led by naturalist and author Lee McAllister. Please wear appro
+ priate attire and footwear\, this is a moderate intensity\, longer hike of
+  3 - 3.5 miles\, with some hills. This is an off-site event. Meet at Still
+ well Woods Main Parking Lot (25 S Woods Rd\, Woodbury\, NY 11797) Registra
+ tion: Wantagh Public Library Cardholders: Thursday\, November 12th\, 2026 
+ Out of District Cardholders: Thursday\, November 19th\, 2026\n\nSource: Wa
+ ntagh Public Library\n\nhttps://wantaghlibrary.libcal.com/event/17021375
+GEO:40.6741399;-73.5112102
+LOCATION:Wantagh Public Library\, Wantagh\, NY
+URL:https://wantaghlibrary.libcal.com/event/17021375
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Adult: Manga Club
+DTSTART:20261203T233000Z
+DTEND:20261204T003000Z
+DTSTAMP:20261127T235537Z
+UID:0fdf3739691d809e@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Welcome to a new twist on a manga club! We're doing things a b
+ it differently this time around by reading the light novel adaptations of 
+ some popular manga! You don't have to have read the manga or seen the anim
+ e to participate or read the light novels! In December\, we will read the 
+ first volume of the light novel adaptation of The Summer Hikaru Died. Plea
+ se contact the teen department for information on how to pick up your copy
+ !\n\nSource: Hampton Bays Public Library\n\nhttps://hamptonbays.librarycal
+ endar.com/event/new-adult-movie-club-50071
+GEO:40.8729677;-72.520505
+LOCATION:Hampton Bays Public Library\, Hampton Bays\, NY
+URL:https://hamptonbays.librarycalendar.com/event/new-adult-movie-club-500
+ 71
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adult Dungeons & Dragons (In-Person)
+DTSTART:20261204T223000Z
+DTEND:20261205T013000Z
+DTSTAMP:20261127T235537Z
+UID:8a9d56efe50ff093@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Adult adventurers of all skill levels are invited to play Dung
+ eons & Dragons 5th Edition run by the Quest Masters Guild.\n\nSource: Sach
+ em Public Library\n\nhttps://sachem.librarycalendar.com/event/adult-dungeo
+ ns-dragons-person-155143
+GEO:40.799376;-73.0697738
+LOCATION:Sachem Public Library\, Holbrook\, NY
+URL:https://sachem.librarycalendar.com/event/adult-dungeons-dragons-person
+ -155143
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:D&D: One Shot Wonder
+DTSTART:20261204T223000Z
+DTEND:20261204T233000Z
+DTSTAMP:20261127T235537Z
+UID:886f9fab41aad1b9@nerdhang
+CATEGORIES:computers
+DESCRIPTION:DM James is bringing a new adventure every week! Registration 
+ Required. 10 player max.\n\nSource: Hampton Bays Public Library\n\nhttps:/
+ /hamptonbays.librarycalendar.com/event/dd-one-shot-wonder-50072
+GEO:40.8729677;-72.520505
+LOCATION:Hampton Bays Public Library\, Hampton Bays\, NY
+URL:https://hamptonbays.librarycalendar.com/event/dd-one-shot-wonder-50072
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:TCA Terminus Chapter Meet
 DTSTART;TZID="UTC-05:00":20261204T120000
 DTEND;TZID="UTC-05:00":20261205T140000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:9d2ddbf788679ee4@nerdhang
 CATEGORIES:trains
 DESCRIPTION:ATLANTA TOY & MODEL TRAIN SHOW Show Times: Noon to 5 p.m. on F
@@ -154,7 +443,7 @@ BEGIN:VEVENT
 SUMMARY:Vinyl Collectors Club
 DTSTART:20261204T000000Z
 DTEND:20261204T013000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:136548606c7333f8@nerdhang
 CATEGORIES:records
 DESCRIPTION:This month we will not have our regular meeting\, but will be 
@@ -175,7 +464,7 @@ BEGIN:VEVENT
 SUMMARY:Annual Member Appreciation Dinner - Birchwood of Polish Town
 DTSTART;TZID=America/New_York:20261205T170000
 DTEND;TZID=America/New_York:20261205T200000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:6fc49ea72730ffee@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -186,11 +475,27 @@ LOCATION:Railroad Museum of Long Island\, 416 Griffing Ave\, Riverhead\, N
 URL:https://www.rmli.org/event/annual_member_appreciation_dinner/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dungeons and Dragons
+DTSTART:20261205T230000Z
+DTEND:20261206T010000Z
+DTSTAMP:20261127T235537Z
+UID:d3a3ce46c18606c3@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Quogue Library's very own Dungeon Master\, Stephen Jordan invi
+ tes D&D newbies and experts to join the club! Use a pre-made character or 
+ make your own. Zoom link will be emailed to all registrants 24 hours prior
+  to program.\n\nSource: Quogue Library\n\nhttps://quogue.librarycalendar.c
+ om/event/dungeons-and-dragons-39798
+GEO:40.8189844;-72.5993501
+LOCATION:Quogue Library\, Quogue\, NY
+URL:https://quogue.librarycalendar.com/event/dungeons-and-dragons-39798
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Festival of Games
 DTSTART;TZID=America/New_York:20261205T100000
 DTEND;TZID=America/New_York:20261206T100000
-DTSTAMP:20261127T193351Z
-UID:1c174c1d58067e96@nerdhang
+DTSTAMP:20261127T235537Z
+UID:3f7cc47e81e138c3@nerdhang
 CATEGORIES:museum
 DESCRIPTION:<b>Festival of Games: A Holiday Shopping & Gaming Event</b> Cr
  adle-Con and Long Island Retro Gaming Expo are proud to present Festival o
@@ -207,10 +512,44 @@ LOCATION:Cradle of Aviation Museum\, Charles Lindbergh Blvd\, Garden City
 URL:https://www.cradleofaviation.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Magic: The Gathering: The Gathering
+DTSTART:20261205T190000Z
+DTEND:20261205T220000Z
+DTSTAMP:20261127T235537Z
+UID:b8834cda252f666c@nerdhang
+CATEGORIES:computers
+DESCRIPTION:For teens and adults\; In the Casual Commander format (C1-C2 l
+ evel decks)\, players of all skills are welcome\, including anyone looking
+  to get into Magic: The Gathering! Drop in\, bring your deck(s) or use one
+  provided by the library\, learn\, play and eat snacks!\n\nSource: Gold Co
+ ast Public Library\n\nhttps://goldcoast.librarycalendar.com/event/magic-ga
+ thering-gathering-19252
+GEO:40.8358047;-73.6224555
+LOCATION:Gold Coast Public Library\, Glen Head\, NY
+URL:https://goldcoast.librarycalendar.com/event/magic-gathering-gathering-
+ 19252
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Next-Level 3D Printing
+DTSTART:20261205T180000Z
+DTEND:20261205T190000Z
+DTSTAMP:20261127T235537Z
+UID:e427af8807ea2cdc@nerdhang
+CATEGORIES:makers
+DESCRIPTION:Take your skills to the next level with our intermediate 3D pr
+ inting workshop! This course moves beyond the basics to focus on practical
+  and elevated design for makers ready to explore how much 3D printers have
+  to offer. All ages are welcome.\n\nSource: Quogue Library\n\nhttps://quog
+ ue.librarycalendar.com/event/next-level-3d-printing-50131
+GEO:40.8189844;-72.5993501
+LOCATION:Quogue Library\, Quogue\, NY
+URL:https://quogue.librarycalendar.com/event/next-level-3d-printing-50131
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Open House with Santa at Riverhead
 DTSTART;TZID=America/New_York:20261205T113000
 DTEND;TZID=America/New_York:20261205T150000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:c5bdc0922ef216db@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -224,7 +563,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Gateway Chapter Beer and Brat Train Show
 DTSTART;TZID="UTC-05:00":20261205T090000
 DTEND;TZID="UTC-05:00":20261205T150000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:81055952a3093ede@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Swap meet for all scales and railroad-related items. **The fir
@@ -243,7 +582,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Palmetto Chapter Myrtle Beach SC Meet
 DTSTART;TZID="UTC-05:00":20261205T100000
 DTEND;TZID="UTC-05:00":20261206T160000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:4a61dfae8d421834@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Joint Meet w/the Grand Strand Model Railroaders at a new locat
@@ -262,10 +601,26 @@ URL:https://www.tcatrains.org/event/tca-palmetto-chapter-myrtle-beach-sc-m
  eet/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Welcome Winter
+DTSTART:20261205T180000Z
+DTEND:20261205T210000Z
+DTSTAMP:20261127T235537Z
+UID:522f57686a62ad1b@nerdhang
+CATEGORIES:trains
+DESCRIPTION:All Ages - Family Program Join us for our annual celebration w
+ ith Crafts\, Family Gingerbread House Decorating\, Games\, Karaoke\, Lette
+ rs to Santa\, Tasty Treats\, Trackless Train Rides\, & More!\n\nSource: Sa
+ yville Library\n\nhttps://www.sayvillelibrary.org/event/copy-welcome-winte
+ r-71424
+GEO:40.7358333;-73.08
+LOCATION:Sayville Library\, Sayville\, NY
+URL:https://www.sayvillelibrary.org/event/copy-welcome-winter-71424
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:December Book Fair
 DTSTART;TZID=America/New_York:20261206T093000
 DTEND;TZID=America/New_York:20261206T130000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:a921ebc4b5ab1e8c@nerdhang
 CATEGORIES:records
 DESCRIPTION:[vc_row][vc_column][vc_column_text]Register For December Book 
@@ -285,7 +640,7 @@ BEGIN:VEVENT
 SUMMARY:Open House with Santa at Riverhead
 DTSTART;TZID=America/New_York:20261206T113000
 DTEND;TZID=America/New_York:20261206T150000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:6c6d3da3b72030f7@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -299,7 +654,7 @@ BEGIN:VEVENT
 SUMMARY:Winter Open House - FREE ADMISSION!
 DTSTART;TZID=America/New_York:20261206T120000
 DTEND;TZID=America/New_York:20261206T170000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:17f4a50e6aabfa34@nerdhang
 CATEGORIES:museum
 DESCRIPTION:Take a break from holiday prep and visit our two fall exhibiti
@@ -314,10 +669,177 @@ LOCATION:The Long Island Museum\, 1200 Route 25A\, Stony Brook\, NY 11790
 URL:https://longislandmuseum.org/event/winter-open-house-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Anime Night for Adults
+DTSTART:20261207T230000Z
+DTEND:20261208T013000Z
+DTSTAMP:20261127T235537Z
+UID:7077f24b0bb4e502@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Watch and discuss your favorite anime\, discover new shows\, o
+ r just come for the camaraderie.\n\nSource: Brentwood Public Library\n\nht
+ tps://brentwood.librarycalendar.com/event/anime-night-adults-146679
+GEO:40.782634;-73.2566332
+LOCATION:Brentwood Public Library\, Brentwood\, NY
+URL:https://brentwood.librarycalendar.com/event/anime-night-adults-146679
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons - Winter Campaign with DM Eric
+DTSTART:20261207T233000Z
+DTEND:20261208T013000Z
+DTSTAMP:20261127T235537Z
+UID:739dca5aab6b3165@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Sign up once and continue on your quest for 3 months. DM Eric 
+ will guide your way through this fun and exciting adventure. Adventures la
+ st for 3 months\, when you register\, please make sure you can come to all
+  dates. Registration for SSD residents begins November 24\, all others one
+  week later if available. Disclaimer - All children under 12 must have a p
+ arent/guardian in the building at all times. - If you arrive more than 10 
+ minutes past the stated start time of the program\, your spot may be giv\n
+ \nSource: Syosset Public Library\n\nhttps://syosset.librarycalendar.com/ev
+ ent/dungeons-dragons-winter-campaign-dm-eric-61795
+GEO:40.7987691;-73.5021128
+LOCATION:Syosset Public Library\, Syosset\, NY
+URL:https://syosset.librarycalendar.com/event/dungeons-dragons-winter-camp
+ aign-dm-eric-61795
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Introduction to Magic: The Gathering (In Person)
+DTSTART:20261207T233000Z
+DTEND:20261208T010000Z
+DTSTAMP:20261127T235537Z
+UID:b5a85d99bd87cc12@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Studio classes are limited to Adult Sachem Cardholders Only\, 
+ unless otherwise noted. Registered adults may be accompanied by a teen age
+  16 or above. Learn how to play the popular trading card game Magic: The G
+ athering (MTG) as well as make some custom accessories. Registration Requi
+ red. $5 Materials Fee.\n\nSource: Sachem Public Library\n\nhttps://sachem.
+ librarycalendar.com/event/introduction-magic-gathering-person-206104
+GEO:40.799376;-73.0697738
+LOCATION:Sachem Public Library\, Holbrook\, NY
+URL:https://sachem.librarycalendar.com/event/introduction-magic-gathering-
+ person-206104
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Magic: The Gathering
+DTSTART:20261207T233000Z
+DTEND:20261208T011500Z
+DTSTAMP:20261127T235537Z
+UID:996a3241f8506285@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Magic: The Gathering Do you love playing the trading card game
+  Magic: The Gathering? Or perhaps you'd like to learn how to play\, or hav
+ e an interest in role playing games or the fantasy genre. If that's the ca
+ se\, then this program is for you! Don't worry if you don't have cards\, t
+ he library has cards for you to use. This program is for ages 12 & up.\n\n
+ Source: Long Beach Public Library\n\nhttps://longbeachpl.librarycalendar.c
+ om/event/magic-gathering-139709
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/magic-gathering-139709
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3-D Printer Class Evening
+DTSTART:20261208T013000Z
+DTEND:20261208T023000Z
+DTSTAMP:20261127T235537Z
+UID:eada1f7502ef5ed2@nerdhang
+CATEGORIES:makers
+DESCRIPTION:Class laptops are available for the first 9 people. The class 
+ is intended for adults\, however\, children are more than welcome to atten
+ d with a parent or guardian present.\n\nSource: Oceanside Library\n\nhttps
+ ://oceansidepl.librarycalendar.com/event/3-d-printer-class-evening-42882
+GEO:40.6415414;-73.6384997
+LOCATION:Oceanside Library\, Oceanside\, NY
+URL:https://oceansidepl.librarycalendar.com/event/3-d-printer-class-evenin
+ g-42882
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons for Adults "New Campaign"
+DTSTART;TZID=America/New_York:20261208T180000
+DTEND;TZID=America/New_York:20261208T193000
+DTSTAMP:20261127T235537Z
+UID:93db6025b04339ad@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Seeking adventurers for an adult Dungeons & Dragons game. All 
+ skill levels welcome! Hosted by local Dungeon Master Peter M.\n\nSource: F
+ ranklin Square Public Library\n\nhttps://franklinsquarepl.libcal.com/event
+ /17906873
+GEO:40.700236;-73.676448
+LOCATION:Franklin Square Public Library\, Franklin Square\, NY
+URL:https://franklinsquarepl.libcal.com/event/17906873
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Magic the Gathering: Commander
+DTSTART:20261208T220000Z
+DTEND:20261208T233000Z
+DTSTAMP:20261127T235537Z
+UID:31783d1455c7935b@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Bring a deck or borrow a ready commander deck to duel.\n\nSour
+ ce: Port Jefferson Free Library\n\nhttps://portjeff.librarycalendar.com/ev
+ ent/magic-gathering-commander-35333
+GEO:40.9469225;-73.0664401
+LOCATION:Port Jefferson Free Library\, Port Jefferson\, NY
+URL:https://portjeff.librarycalendar.com/event/magic-gathering-commander-3
+ 5333
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Magic: The Gathering 101
+DTSTART:20261208T203000Z
+DTEND:20261208T213000Z
+DTSTAMP:20261127T235537Z
+UID:df7dfe0355ed6008@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Come play Magic: The Gathering with friends\, whether you've b
+ een playing for years or you want to learn! Feel free to bring your own de
+ ck or use one of our pre–built ones!\n\nSource: Hampton Bays Public Libr
+ ary\n\nhttps://hamptonbays.librarycalendar.com/event/magic-gathering-101-5
+ 0076
+GEO:40.8729677;-72.520505
+LOCATION:Hampton Bays Public Library\, Hampton Bays\, NY
+URL:https://hamptonbays.librarycalendar.com/event/magic-gathering-101-5007
+ 6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tabletop Game Days
+DTSTART:20261208T153000Z
+DTEND:20261208T200000Z
+DTSTAMP:20261127T235537Z
+UID:58429c268417068f@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Tuesdays: 10:30 AM to 3:00 PM Join along or bring a group of f
+ riends. Players are welcome to bring their own cards and games.\n\nSource:
+  Levittown Public Library\n\nhttps://levittown.librarycalendar.com/event/t
+ abletop-game-days-28193
+GEO:40.7233333;-73.5297222
+LOCATION:Levittown Public Library\, Levittown\, NY
+URL:https://levittown.librarycalendar.com/event/tabletop-game-days-28193
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:D&D for Adults
+DTSTART:20261209T010000Z
+DTEND:20261209T030000Z
+DTSTAMP:20261127T235537Z
+UID:9557edb40effc6f7@nerdhang
+CATEGORIES:computers
+DESCRIPTION:The Oceanside Public Library is pleased to bring its patrons t
+ he opportunity to participate in the TTRPG\, Tabletop Role play game\, Dun
+ geons and Dragons. We look forward to creating a welcoming and creative sp
+ ace for traveling\, heist\, adventures\, and wherever your campaign leads 
+ you in the Oceanside Public Library's Civic Center's Community Rooms every
+  2nd and 4th Tuesday of the Month. For ages 18 +.\n\nSource: Oceanside Lib
+ rary\n\nhttps://oceansidepl.librarycalendar.com/event/dd-adults-24282
+GEO:40.6415414;-73.6384997
+LOCATION:Oceanside Library\, Oceanside\, NY
+URL:https://oceansidepl.librarycalendar.com/event/dd-adults-24282
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20261209T190000
 DTEND;TZID=America/New_York:20261209T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:ad30e9dfefabd06d@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -327,30 +849,46 @@ LOCATION:Levittown Hall\, 201 Levittown Pkwy\, Hicksville\, NY 11801\, USA
 URL:https://limarc.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FILM@LIM: Free Screening of The Muppet Christmas Carol
-DTSTART;TZID=America/New_York:20261210T190000
-DTEND;TZID=America/New_York:20261210T210000
-DTSTAMP:20261127T193351Z
-UID:0fa5205206f4fdfb@nerdhang
-CATEGORIES:museum
-DESCRIPTION:Celebrate the magic of the holiday season with a free screenin
- g of the holiday classic: The Muppet Christmas Carol (1992)! Join Kermit\,
-  Miss Piggy\, and the rest of the beloved Muppet gang as they bring Charle
- s Dickens’s timeless tale of Ebenezer Scrooge to life in this heartwarmi
- ng holiday classic. Filled with humor\, memorable songs\, and plenty of Ch
- ristmas spirit\, this festive film is perfect for the whole family. Gather
-  your loved ones and enjoy a little holiday movie magic! Screenings are he
- l\n\nSource: The Long Island Museum\n\nhttps://longislandmuseum.org/event/
- muppet-christmas-carol/
-GEO:40.9302945;-73.1151874
-LOCATION:The Long Island Museum\, 1200 Route 25A\, Stony Brook\, NY 11790
-URL:https://longislandmuseum.org/event/muppet-christmas-carol/
+SUMMARY:NEW YORK BOTANICAL GARDEN HOLIDAY TRAIN SHOW
+DTSTART:20261209T140000Z
+DTEND:20261209T210000Z
+DTSTAMP:20261127T235537Z
+UID:449a32dff24d6f8e@nerdhang
+CATEGORIES:trains
+DESCRIPTION:NEW YORK BOTANICAL GARDEN HOLIDAY TRAIN SHOW Wednesday\, Decem
+ ber 9\, 2026 9:00am Depart King Kullen Cutchogue/4:00pm Depart NYBG Regist
+ ration required. Fee: $60 (non-refundable) Join us on a trip to the New Yo
+ rk Botanical Garden's Holiday Train Show. Be transported to a winter wonde
+ rland as model trains zip through an enchanting display of more than 175 l
+ andmarks including the Statue of Liberty\, Brooklyn Bridge\, and Rockefell
+ er Center\, each delightfully re-created from natural materials-birch bar
+ \n\nSource: Cutchogue-New Suffolk Free Library\n\nhttps://cutchogue.librar
+ ycalendar.com/event/new-york-botanical-garden-holiday-train-show-79726
+GEO:41.0091205;-72.4857223
+LOCATION:Cutchogue-New Suffolk Free Library\, Cutchogue\, NY
+URL:https://cutchogue.librarycalendar.com/event/new-york-botanical-garden-
+ holiday-train-show-79726
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anime Club
+DTSTART;TZID=America/New_York:20261210T170000
+DTEND;TZID=America/New_York:20261210T180000
+DTSTAMP:20261127T235537Z
+UID:778ec6ab5e097e24@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Calling all Otakus\, come hang out to talk about all things an
+ ime and manga. Activities\, crafts and refreshments will be provided.\n\nS
+ ource: John Jermain Memorial Library\n\nhttps://johnjermain.libcal.com/eve
+ nt/18020048
+GEO:40.9974902;-72.2963635
+LOCATION:John Jermain Memorial Library\, Sag Harbor\, NY
+URL:https://johnjermain.libcal.com/event/18020048
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Polar Express Party
 DTSTART:20261210T220000Z
 DTEND:20261210T230000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:18eab5c2799fc1d0@nerdhang
 CATEGORIES:trains
 DESCRIPTION:All aboard for our annual Polar Express party! Celebrate the h
@@ -362,27 +900,10 @@ LOCATION:East Islip Public Library\, East Islip\, NY
 URL:https://eastislip.librarycalendar.com/event/polar-express-party-23030
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Polar Express Party Volunteers
-DTSTART:20261210T214500Z
-DTEND:20261210T231500Z
-DTSTAMP:20261127T193351Z
-UID:6a61a1a5ce0c03d6@nerdhang
-CATEGORIES:trains
-DESCRIPTION:Assist with our annual Polar Express party. Earn one and a hal
- f (1.5) service hours. Registration for volunteer opportunities begins on 
- Tuesday\, November 3 at 9:00 a.m. Call the Reference Desk at (631) 581-920
- 0 ext. 5 to register.\n\nSource: East Islip Public Library\n\nhttps://east
- islip.librarycalendar.com/event/polar-express-party-volunteers-29923
-GEO:40.7358333;-73.1733333
-LOCATION:East Islip Public Library\, East Islip\, NY
-URL:https://eastislip.librarycalendar.com/event/polar-express-party-volunt
- eers-29923
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:America on Screen: Small Town Life
 DTSTART:20261211T140000Z
 DTEND:20261211T150000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:3ce94e95b57af273@nerdhang
 CATEGORIES:museum
 DESCRIPTION:Join us on select Friday afternoons for a special film series 
@@ -399,10 +920,37 @@ LOCATION:The Long Island Museum\, 1200 Route 25A\, Stony Brook\, NY 11790
 URL:https://longislandmuseum.org/event/america-on-screen-small-town-life/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:D&D: One Shot Wonder
+DTSTART:20261211T223000Z
+DTEND:20261211T233000Z
+DTSTAMP:20261127T235537Z
+UID:f35d43963a9166fe@nerdhang
+CATEGORIES:computers
+DESCRIPTION:DM James is bringing a new adventure every week! Registration 
+ Required. 10 player max.\n\nSource: Hampton Bays Public Library\n\nhttps:/
+ /hamptonbays.librarycalendar.com/event/dd-one-shot-wonder-50073
+GEO:40.8729677;-72.520505
+LOCATION:Hampton Bays Public Library\, Hampton Bays\, NY
+URL:https://hamptonbays.librarycalendar.com/event/dd-one-shot-wonder-50073
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TableTop Game Night
+DTSTART:20261211T230000Z
+DTEND:20261212T014500Z
+DTSTAMP:20261127T235537Z
+UID:9246a795eccbfd66@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Source: Levittown Public Library\n\nhttps://levittown.libraryc
+ alendar.com/event/tabletop-game-nights-30496
+GEO:40.7233333;-73.5297222
+LOCATION:Levittown Public Library\, Levittown\, NY
+URL:https://levittown.librarycalendar.com/event/tabletop-game-nights-30496
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Artist Spotlight: David Bunn Martine
 DTSTART;TZID=America/New_York:20261212T130000
 DTEND;TZID=America/New_York:20261212T143000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:afc7af589c68ba8e@nerdhang
 CATEGORIES:museum
 DESCRIPTION:Join us for a special artist talk with David Bunn Martine\, a 
@@ -419,10 +967,26 @@ LOCATION:The Long Island Museum\, 1200 Route 25A\, Stony Brook\, NY 11790
 URL:https://longislandmuseum.org/event/david-bunn-martine/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dungeons and Dragons
+DTSTART:20261212T230000Z
+DTEND:20261213T010000Z
+DTSTAMP:20261127T235537Z
+UID:4551c4840838c416@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Quogue Library's very own Dungeon Master\, Stephen Jordan invi
+ tes D&D newbies and experts to join the club! Use a pre-made character or 
+ make your own. Zoom link will be emailed to all registrants 24 hours prior
+  to program.\n\nSource: Quogue Library\n\nhttps://quogue.librarycalendar.c
+ om/event/dungeons-and-dragons-39799
+GEO:40.8189844;-72.5993501
+LOCATION:Quogue Library\, Quogue\, NY
+URL:https://quogue.librarycalendar.com/event/dungeons-and-dragons-39799
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Open House with Santa at Greenport
 DTSTART;TZID=America/New_York:20261212T103000
 DTEND;TZID=America/New_York:20261212T140000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:ba3e774bb8e7d213@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -435,7 +999,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Keystone Division Winter Meet
 DTSTART;TZID="UTC-05:00":20261212T080000
 DTEND;TZID="UTC-05:00":20261212T130000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:092654260e7e7868@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Opens 8 a.m. for Keystone MembersOpens 9 a.m. for Public\n\nSo
@@ -450,7 +1014,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Music City Chapter Meet
 DTSTART;TZID="UTC-05:00":20261212T090000
 DTEND;TZID="UTC-05:00":20261212T150000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:5e202dba8a2e967b@nerdhang
 CATEGORIES:trains
 DESCRIPTION:32nd Annual Christmas Toy Train Show Over 100 tables of TRAINS
@@ -466,7 +1030,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Rio Grande Chapter December Show & Swap Meet
 DTSTART;TZID="UTC-05:00":20261212T090000
 DTEND;TZID="UTC-05:00":20261212T140000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:4a11e2e2618675df@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Model & Toy Train Meet with all gauges sold and traded. Pricin
@@ -484,7 +1048,7 @@ BEGIN:VEVENT
 SUMMARY:Western Michigan Chapter Meet
 DTSTART;TZID="UTC-05:00":20261212T100000
 DTEND;TZID="UTC-05:00":20261212T140000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:d1a8fc27c1261906@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Train Collectors Association\n\nhttps://www.tcatrains.
@@ -498,7 +1062,7 @@ BEGIN:VEVENT
 SUMMARY:Dickens in the Carriage Museum
 DTSTART;TZID=America/New_York:20261213T140000
 DTEND;TZID=America/New_York:20261213T160000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:9a7414bd3ffb690a@nerdhang
 CATEGORIES:museum
 DESCRIPTION:In celebration of the 30th Annual Charles Dickens Festival in 
@@ -518,7 +1082,7 @@ BEGIN:VEVENT
 SUMMARY:Open House with Santa at Greenport
 DTSTART;TZID=America/New_York:20261213T103000
 DTEND;TZID=America/New_York:20261213T140000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:f5a4406f4ef02e8c@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Source: Railroad Museum of Long Island\n\nhttps://www.rmli.org
@@ -531,7 +1095,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Fort Pitt Division Train Show & Sale
 DTSTART;TZID="UTC-05:00":20261213T090000
 DTEND;TZID="UTC-05:00":20261213T150000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:0f88f1460014702d@nerdhang
 CATEGORIES:trains
 DESCRIPTION:2026 Holiday Model Train Show & Sale! SUNDAY MEET! 7:30 a.m. 
@@ -550,7 +1114,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Lakes & Pines Division Holiday Party
 DTSTART;TZID="UTC-05:00":20261213T120000
 DTEND;TZID="UTC-05:00":20261213T150000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:8b8328266b732432@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Open to only Lakes & Pines Division Members. Toy Trains of dif
@@ -571,7 +1135,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Seattle Chapter Train Meet
 DTSTART;TZID="UTC-05:00":20261213T090000
 DTEND;TZID="UTC-05:00":20261213T120000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:58a078e013833446@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Doors open at 9:00 AM at the Shoreline Senior Center\n\nSource
@@ -583,11 +1147,134 @@ LOCATION:Shoreline Senior Center\, 18560 1st Avenue NE\, Shoreline\, Washi
 URL:https://www.tcatrains.org/event/tca-seattle-chapter-train-meet-31/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Adult Program: Dungeons & Dragons
+DTSTART:20261214T223000Z
+DTEND:20261215T013000Z
+DTSTAMP:20261127T235537Z
+UID:c7f754222b796ecb@nerdhang
+CATEGORIES:computers
+DESCRIPTION:This program is a continuation from Sept - October.\n\nSource:
+  Levittown Public Library\n\nhttps://levittown.librarycalendar.com/event/a
+ dult-program-dungeons-dragons-36432
+GEO:40.7233333;-73.5297222
+LOCATION:Levittown Public Library\, Levittown\, NY
+URL:https://levittown.librarycalendar.com/event/adult-program-dungeons-dra
+ gons-36432
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anime Night for Adults
+DTSTART:20261214T230000Z
+DTEND:20261215T013000Z
+DTSTAMP:20261127T235537Z
+UID:38b3e024dd70c021@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Watch and discuss your favorite anime\, discover new shows\, o
+ r just come for the camaraderie.\n\nSource: Brentwood Public Library\n\nht
+ tps://brentwood.librarycalendar.com/event/anime-night-adults-146680
+GEO:40.782634;-73.2566332
+LOCATION:Brentwood Public Library\, Brentwood\, NY
+URL:https://brentwood.librarycalendar.com/event/anime-night-adults-146680
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons
+DTSTART:20261214T230000Z
+DTEND:20261215T020000Z
+DTSTAMP:20261127T235537Z
+UID:087fed93e608b2ff@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Come play Dungeons & Dragons with some of the best game master
+ s on the island! Perfect for new and experienced players alike. Join toget
+ her to battle monsters\, discover lost ruins\, and triumph over evil! For 
+ grades 7-12.\n\nSource: East Islip Public Library\n\nhttps://eastislip.lib
+ rarycalendar.com/event/dungeons-dragons-29448
+GEO:40.7358333;-73.1733333
+LOCATION:East Islip Public Library\, East Islip\, NY
+URL:https://eastislip.librarycalendar.com/event/dungeons-dragons-29448
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons (Adults)
+DTSTART:20261214T230000Z
+DTEND:20261215T013000Z
+DTSTAMP:20261127T235537Z
+UID:cedc8733053bf6a7@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Join expert DM Jimmy for a D&D campaign involving mats\, minif
+ igs and higher-level characters. Bring your character from a previous camp
+ aign or create a new one prior to the first session.\n\nSource: Longwood P
+ ublic Library\n\nhttps://www.longwoodlibrary.org/event/dungeons-dragons-ad
+ ults-201559
+GEO:40.8820789;-72.9440591
+LOCATION:Longwood Public Library\, Middle Island\, NY
+URL:https://www.longwoodlibrary.org/event/dungeons-dragons-adults-201559
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adult Dungeons & Dragons
+DTSTART:20261215T230000Z
+DTEND:20261216T013000Z
+DTSTAMP:20261127T235537Z
+UID:5f398c3d86192ca8@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Dungeons & Dragons with the Quest Masters Guild: Adventurers n
+ eeded! Fight monsters and collect treasure in fun fantasy worlds\, filled 
+ with danger and magic. Perfect for new or experienced players. Your quest 
+ begins at the Commack Public Library. When you register\, you are signed u
+ p for the entire series.\n\nSource: Commack Public Library\n\nhttps://comm
+ ack.librarycalendar.com/event/adult-dungeons-dragons-10872
+GEO:40.8290049;-73.2937839
+LOCATION:Commack Public Library\, Commack\, NY
+URL:https://commack.librarycalendar.com/event/adult-dungeons-dragons-10872
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tabletop Game Days
+DTSTART:20261215T153000Z
+DTEND:20261215T200000Z
+DTSTAMP:20261127T235537Z
+UID:7777ddc14f76bd7a@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Tuesdays: 10:30 AM to 3:00 PM Join along or bring a group of f
+ riends. Players are welcome to bring their own cards and games.\n\nSource:
+  Levittown Public Library\n\nhttps://levittown.librarycalendar.com/event/t
+ abletop-game-days-28194
+GEO:40.7233333;-73.5297222
+LOCATION:Levittown Public Library\, Levittown\, NY
+URL:https://levittown.librarycalendar.com/event/tabletop-game-days-28194
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adult Dungeons and Dragons
+DTSTART:20261216T233000Z
+DTEND:20261217T014500Z
+DTSTAMP:20261127T235537Z
+UID:c382f08805ba29d9@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Source: Massapequa Public Library\n\nhttps://massapequa.librar
+ ycalendar.com/event/adult-dungeons-and-dragons-60279
+GEO:40.6639871;-73.4562533
+LOCATION:Massapequa Public Library\, Massapequa\, NY
+URL:https://massapequa.librarycalendar.com/event/adult-dungeons-and-dragon
+ s-60279
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:D&D Dice Paint + Ice Cream Night
+DTSTART:20261217T223000Z
+DTEND:20261218T003000Z
+DTSTAMP:20261127T235537Z
+UID:5a21c54e98ae9fee@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Have you ever wanted to learn how D&D dice get painted AND rol
+ l for ice cream toppings? Learn how with our resident dice goblin\, Rhiann
+ on!\n\nSource: Hampton Bays Public Library\n\nhttps://hamptonbays.libraryc
+ alendar.com/event/dd-dice-paint-ice-cream-night-50079
+GEO:40.8729677;-72.520505
+LOCATION:Hampton Bays Public Library\, Hampton Bays\, NY
+URL:https://hamptonbays.librarycalendar.com/event/dd-dice-paint-ice-cream-
+ night-50079
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:A Very Grinchy Pajama Party
 DTSTART;TZID=America/New_York:20261218T173000
 DTEND;TZID=America/New_York:20261218T210000
-DTSTAMP:20261127T193351Z
-UID:c536226caab16ed1@nerdhang
+DTSTAMP:20261127T235537Z
+UID:760f9a2dc35eae29@nerdhang
 CATEGORIES:museum
 DESCRIPTION:<b>Join us on Friday\, December 18th\, for a Very Grinchy Paja
  ma Party!</b> Wear your favorite pajamas and enjoy a festive evening of ho
@@ -604,10 +1291,71 @@ LOCATION:Cradle of Aviation Museum\, Charles Lindbergh Blvd\, Garden City
 URL:https://www.cradleofaviation.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Adult Dungeons & Dragons (In-Person)
+DTSTART:20261218T223000Z
+DTEND:20261219T013000Z
+DTSTAMP:20261127T235537Z
+UID:570314dd7600e274@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Adult adventurers of all skill levels are invited to play Dung
+ eons & Dragons 5th Edition run by the Quest Masters Guild.\n\nSource: Sach
+ em Public Library\n\nhttps://sachem.librarycalendar.com/event/adult-dungeo
+ ns-dragons-person-155144
+GEO:40.799376;-73.0697738
+LOCATION:Sachem Public Library\, Holbrook\, NY
+URL:https://sachem.librarycalendar.com/event/adult-dungeons-dragons-person
+ -155144
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:D&D: One Shot Wonder
+DTSTART:20261218T223000Z
+DTEND:20261218T233000Z
+DTSTAMP:20261127T235537Z
+UID:deb5d60203b255b5@nerdhang
+CATEGORIES:computers
+DESCRIPTION:DM James is bringing a new adventure every week! Registration 
+ Required. 10 player max.\n\nSource: Hampton Bays Public Library\n\nhttps:/
+ /hamptonbays.librarycalendar.com/event/dd-one-shot-wonder-50074
+GEO:40.8729677;-72.520505
+LOCATION:Hampton Bays Public Library\, Hampton Bays\, NY
+URL:https://hamptonbays.librarycalendar.com/event/dd-one-shot-wonder-50074
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons
+DTSTART:20261219T170000Z
+DTEND:20261219T200000Z
+DTSTAMP:20261127T235537Z
+UID:f356d61765553f0b@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Transform yourself into a powerful hero and join us for an epi
+ c journey of mystery and magic where you can meet fellow adventurers\, bat
+ tle monsters\, and win treasure. Beginner friendly. This program is for ad
+ ults only. Bring a pen and paper. CMOR Cardholders only\, space is limited
+ .\n\nSource: Center Moriches Free Public Library\n\nhttps://centermoriches
+ .librarycalendar.com/event/dungeons-dragons-16153
+GEO:40.8004106;-72.7882914
+LOCATION:Center Moriches Free Public Library\, Center Moriches\, NY
+URL:https://centermoriches.librarycalendar.com/event/dungeons-dragons-1615
+ 3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Long Island Chess Tournament
+DTSTART;TZID=America/New_York:20261219T103000
+DTEND;TZID=America/New_York:20261219T143000
+DTSTAMP:20261127T235537Z
+UID:c7bfe9d218848901@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Source: Island Park Public Library\n\nhttps://islandparklibrar
+ y.libcal.com/event/17833631
+GEO:40.6022222;-73.6561111
+LOCATION:Island Park Public Library\, Island Park\, NY
+URL:https://islandparklibrary.libcal.com/event/17833631
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Western Division October Monthly TCA Train Meet
 DTSTART;TZID="UTC-05:00":20261219T090000
 DTEND;TZID="UTC-05:00":20261219T140000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:829173fb4a1fd938@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Meet 10:00 AM to 2:00 PMSetup at 9:00 AM Plenty of free parkin
@@ -626,26 +1374,174 @@ URL:https://www.tcatrains.org/event/western-division-october-monthly-tca-t
  rain-meet-2/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Holiday Movie: Polar Express
+SUMMARY:3rd Annual Polar Express Night
 DTSTART:20261221T233000Z
-DTEND:20261222T013000Z
-DTSTAMP:20261127T193351Z
-UID:b41c133da4ffd0c9@nerdhang
+DTEND:20261222T014500Z
+DTSTAMP:20261127T235537Z
+UID:f1f707488b6c80fe@nerdhang
 CATEGORIES:trains
-DESCRIPTION:Get ready in the spirit with the Polar Express and some Hot Ho
- t Hot Hot Chocolate. Registration is not required May not be suitable for 
- those with food allergies.\n\nSource: Port Jefferson Free Library\n\nhttps
- ://portjeff.librarycalendar.com/event/holiday-movie-polar-express-34547
+DESCRIPTION:Join us for our Third Annual Polar Express Night! Come dressed
+  in your favorite pajamas and enjoy a cozy evening with hot chocolate and 
+ a special screening of The Polar Express.\n\nSource: Hampton Bays Public L
+ ibrary\n\nhttps://hamptonbays.librarycalendar.com/event/3rd-annual-polar-e
+ xpress-night-50112
+GEO:40.8729677;-72.520505
+LOCATION:Hampton Bays Public Library\, Hampton Bays\, NY
+URL:https://hamptonbays.librarycalendar.com/event/3rd-annual-polar-express
+ -night-50112
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adult Program: Dungeons & Dragons
+DTSTART:20261221T223000Z
+DTEND:20261222T013000Z
+DTSTAMP:20261127T235537Z
+UID:4961d377a69aa8c8@nerdhang
+CATEGORIES:computers
+DESCRIPTION:This program is a continuation from Sept - October.\n\nSource:
+  Levittown Public Library\n\nhttps://levittown.librarycalendar.com/event/a
+ dult-program-dungeons-dragons-36433
+GEO:40.7233333;-73.5297222
+LOCATION:Levittown Public Library\, Levittown\, NY
+URL:https://levittown.librarycalendar.com/event/adult-program-dungeons-dra
+ gons-36433
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons and Dragons Adult
+DTSTART:20261221T230000Z
+DTEND:20261222T010000Z
+DTSTAMP:20261127T235537Z
+UID:66cc81ffb479c48b@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Journey through a one-shot story. Veteran or novice\, all are 
+ welcome to create a character and bring a fantasy world to life. Every ses
+ sion is unique\, so feel free to attend one or both!\n\nSource: Port Jeffe
+ rson Free Library\n\nhttps://portjeff.librarycalendar.com/event/dungeons-a
+ nd-dragons-adult-33947
 GEO:40.9469225;-73.0664401
 LOCATION:Port Jefferson Free Library\, Port Jefferson\, NY
-URL:https://portjeff.librarycalendar.com/event/holiday-movie-polar-express
- -34547
+URL:https://portjeff.librarycalendar.com/event/dungeons-and-dragons-adult-
+ 33947
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3-D Printer Hands-On Help & Live Demos
+DTSTART:20261222T000000Z
+DTEND:20261222T020000Z
+DTSTAMP:20261127T235537Z
+UID:ec3975462de3da80@nerdhang
+CATEGORIES:makers
+DESCRIPTION:Bring your questions and see or participate in a hands-on demo
+ . This is a drop-in style workshop\, no registration is required. For the 
+ regular 3D printer class\, held on the 1st Monday of the month\, please cl
+ ick here.\n\nSource: Oceanside Library\n\nhttps://oceansidepl.librarycalen
+ dar.com/event/3-d-printer-hands-help-live-demos-50806
+GEO:40.6415414;-73.6384997
+LOCATION:Oceanside Library\, Oceanside\, NY
+URL:https://oceansidepl.librarycalendar.com/event/3-d-printer-hands-help-l
+ ive-demos-50806
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons for Adults "New Campaign"
+DTSTART;TZID=America/New_York:20261222T180000
+DTEND;TZID=America/New_York:20261222T193000
+DTSTAMP:20261127T235537Z
+UID:aa5a1de4c193aa5e@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Seeking adventurers for an adult Dungeons & Dragons game. All 
+ skill levels welcome! Hosted by local Dungeon Master Peter M.\n\nSource: F
+ ranklin Square Public Library\n\nhttps://franklinsquarepl.libcal.com/event
+ /17906874
+GEO:40.700236;-73.676448
+LOCATION:Franklin Square Public Library\, Franklin Square\, NY
+URL:https://franklinsquarepl.libcal.com/event/17906874
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Manga/Anime Club
+DTSTART:20261222T210000Z
+DTEND:20261222T220000Z
+DTSTAMP:20261127T235537Z
+UID:2efc0cb29fb18b3e@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Join Ms. Lois and other teens to hang out to watch Anime and t
+ alk about your favorite Manga/Anime series.\n\nSource: Uniondale Public Li
+ brary\n\nhttps://uniondale.librarycalendar.com/event/copy-mangaanime-club-
+ 15687
+GEO:40.7061793;-73.5928575
+LOCATION:Uniondale Public Library\, Uniondale\, NY
+URL:https://uniondale.librarycalendar.com/event/copy-mangaanime-club-15687
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3D Printing Innovators
+DTSTART:20261226T190000Z
+DTEND:20261226T194500Z
+DTSTAMP:20261127T235537Z
+UID:b879742119968b32@nerdhang
+CATEGORIES:makers
+DESCRIPTION:3D printing fun for everyone! Bring the whole family to this a
+ ll-ages\, beginner-friendly workshop. Learn how 3D printing works and desi
+ gn a unique project. Because 3D prints take time to create\, your finished
+  items will be ready for pickup within two weeks.\n\nSource: Quogue Librar
+ y\n\nhttps://quogue.librarycalendar.com/event/3d-printing-innovators-49053
+GEO:40.8189844;-72.5993501
+LOCATION:Quogue Library\, Quogue\, NY
+URL:https://quogue.librarycalendar.com/event/3d-printing-innovators-49053
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons
+DTSTART:20261227T183000Z
+DTEND:20261227T200000Z
+DTSTAMP:20261127T235537Z
+UID:2783707464208343@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Journey on a side quest story. See Khan for help to build your
+  character ahead of the program.\n\nSource: Port Jefferson Free Library\n
+ \nhttps://portjeff.librarycalendar.com/event/dungeons-dragons-35241
+GEO:40.9469225;-73.0664401
+LOCATION:Port Jefferson Free Library\, Port Jefferson\, NY
+URL:https://portjeff.librarycalendar.com/event/dungeons-dragons-35241
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Magic: The Gathering
+DTSTART:20261228T233000Z
+DTEND:20261229T011500Z
+DTSTAMP:20261127T235537Z
+UID:6fad69e057e5f380@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Magic: The Gathering Do you love playing the trading card game
+  Magic: The Gathering? Or perhaps you'd like to learn how to play\, or hav
+ e an interest in role playing games or the fantasy genre. If that's the ca
+ se\, then this program is for you! Don't worry if you don't have cards\, t
+ he library has cards for you to use. This program is for ages 12 & up.\n\n
+ Source: Long Beach Public Library\n\nhttps://longbeachpl.librarycalendar.c
+ om/event/magic-gathering-139710
+GEO:40.5889343;-73.6675057
+LOCATION:Long Beach Public Library\, Long Beach\, NY
+URL:https://longbeachpl.librarycalendar.com/event/magic-gathering-139710
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Under the Dome: A Planetarium Adventure Session 2
+DTSTART;TZID=America/New_York:20261228T130000
+DTEND;TZID=America/New_York:20261228T135000
+DTSTAMP:20261127T235537Z
+UID:4cb77eb000708a2c@nerdhang
+CATEGORIES:museum
+DESCRIPTION:Ages Grades 4-8 ONLY! Event Description Get ready for an out-o
+ f-this-world adventure! Join us Under the Dome for an exciting planetarium
+  experience where we’ll explore the wonders of space\, discover amazing 
+ celestial sights\, and journey through the universe. This program will be 
+ held at Newbridge Road Elementary School Registration *Please be mindful o
+ f the grade limits\, you will be removed if you are outside the grade limi
+ ts NBPL registration begins on Monday\, December 21st at 10 AM Out of Dist
+ \n\nSource: North Bellmore Public Library\n\nhttps://northbellmorelibrary.
+ libcal.com/event/17864010
+GEO:40.6892935;-73.5369169
+LOCATION:North Bellmore Public Library\, North Bellmore\, NY
+URL:https://northbellmorelibrary.libcal.com/event/17864010
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Suffolk Gem & Mineral Club
 DTSTART:20261229T000000Z
 DTEND:20261229T020000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:411ae1827258f0a6@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:Source: East Islip Public Library\n\nhttps://eastislip.library
@@ -656,10 +1552,74 @@ URL:https://eastislip.librarycalendar.com/event/suffolk-gem-mineral-club-3
  0118
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Anime Night: Omamori
+DTSTART:20261231T000000Z
+DTEND:20261231T010000Z
+DTSTAMP:20261127T235537Z
+UID:0a91defed24131a7@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Watch anime and make a paper good luck charm!\n\nSource: Sache
+ m Public Library\n\nhttps://sachem.librarycalendar.com/event/anime-night-o
+ mamori-205433
+GEO:40.799376;-73.0697738
+LOCATION:Sachem Public Library\, Holbrook\, NY
+URL:https://sachem.librarycalendar.com/event/anime-night-omamori-205433
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3-D Printer Class Evening
+DTSTART:20270105T013000Z
+DTEND:20270105T023000Z
+DTSTAMP:20261127T235537Z
+UID:c9a57a766a80a0bd@nerdhang
+CATEGORIES:makers
+DESCRIPTION:Class laptops are available for the first 9 people. The class 
+ is intended for adults\, however\, children are more than welcome to atten
+ d with a parent or guardian present.\n\nSource: Oceanside Library\n\nhttps
+ ://oceansidepl.librarycalendar.com/event/3-d-printer-class-evening-42883
+GEO:40.6415414;-73.6384997
+LOCATION:Oceanside Library\, Oceanside\, NY
+URL:https://oceansidepl.librarycalendar.com/event/3-d-printer-class-evenin
+ g-42883
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adult Dungeons & Dragons (Jan-April)
+DTSTART:20270105T230000Z
+DTEND:20270106T013000Z
+DTSTAMP:20261127T235537Z
+UID:ff414a8d584bc899@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Dungeons & Dragons with the Quest Masters Guild: Adventurers n
+ eeded! Fight monsters and collect treasure in fun fantasy worlds\, filled 
+ with danger and magic. Perfect for new or experienced players. Your quest 
+ begins at the Commack Public Library. When you register\, you are signed u
+ p for the entire series (January - April).\n\nSource: Commack Public Libra
+ ry\n\nhttps://commack.librarycalendar.com/event/adult-dungeons-dragons-jan
+ -april-14248
+GEO:40.8290049;-73.2937839
+LOCATION:Commack Public Library\, Commack\, NY
+URL:https://commack.librarycalendar.com/event/adult-dungeons-dragons-jan-a
+ pril-14248
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:D&D Mini Paint Night
+DTSTART:20270107T233000Z
+DTEND:20270108T003000Z
+DTSTAMP:20261127T235537Z
+UID:16ae81d18e118116@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Paint your own D&D tabletop mini figure!\n\nSource: Hampton Ba
+ ys Public Library\n\nhttps://hamptonbays.librarycalendar.com/event/dd-mini
+ -paint-night-51856
+GEO:40.8729677;-72.520505
+LOCATION:Hampton Bays Public Library\, Hampton Bays\, NY
+URL:https://hamptonbays.librarycalendar.com/event/dd-mini-paint-night-5185
+ 6
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20270107T230000Z
 DTEND:20270108T020000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:d7b42257b1e7e312@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -670,10 +1630,26 @@ LOCATION:Syosset Public Library\, Syosset\, NY
 URL:https://syosset.librarycalendar.com/event/long-island-coin-club-58627
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Adult Dungeons & Dragons (In-Person)
+DTSTART:20270108T223000Z
+DTEND:20270109T013000Z
+DTSTAMP:20261127T235537Z
+UID:dbd1374aaa7a3f24@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Adult adventurers of all skill levels are invited to play Dung
+ eons & Dragons 5th Edition run by the Quest Masters Guild.\n\nSource: Sach
+ em Public Library\n\nhttps://sachem.librarycalendar.com/event/adult-dungeo
+ ns-dragons-person-193579
+GEO:40.799376;-73.0697738
+LOCATION:Sachem Public Library\, Holbrook\, NY
+URL:https://sachem.librarycalendar.com/event/adult-dungeons-dragons-person
+ -193579
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:TCA Lone Star Division Train Meet
 DTSTART;TZID="UTC-05:00":20270109T090000
 DTEND;TZID="UTC-05:00":20270109T160000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:b4ba93df5d15f145@nerdhang
 CATEGORIES:trains
 DESCRIPTION:9–10 AM: Members10 AM–4 PM: Public AdmissionMembers: $5Pub
@@ -688,7 +1664,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270109T080000
 DTEND;TZID=America/New_York:20270109T093000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:a8e5cf1ff38e997f@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -701,7 +1677,7 @@ BEGIN:VEVENT
 SUMMARY:January Book Fair
 DTSTART;TZID=America/New_York:20270110T093000
 DTEND;TZID=America/New_York:20270110T130000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:e0fe6a025e9300bc@nerdhang
 CATEGORIES:records
 DESCRIPTION:[vc_row][vc_column][vc_column_text]Register For January Book F
@@ -718,10 +1694,95 @@ LOCATION:Book Fairies Book Bank\, 220 Miller Place\, Hicksville\, NY 11801
 URL:https://thebookfairies.org/calendar-event/january-book-fair/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons - Winter Campaign with DM Eric
+DTSTART:20270111T233000Z
+DTEND:20270112T013000Z
+DTSTAMP:20261127T235537Z
+UID:1ffbe3caf43768a1@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Sign up once and continue on your quest for 3 months. DM Eric 
+ will guide your way through this fun and exciting adventure. Adventures la
+ st for 3 months\, when you register\, please make sure you can come to all
+  dates. Registration for SSD residents begins November 24\, all others one
+  week later if available. Disclaimer - All children under 12 must have a p
+ arent/guardian in the building at all times. - If you arrive more than 10 
+ minutes past the stated start time of the program\, your spot may be giv\n
+ \nSource: Syosset Public Library\n\nhttps://syosset.librarycalendar.com/ev
+ ent/dungeons-dragons-winter-campaign-dm-eric-61796
+GEO:40.7987691;-73.5021128
+LOCATION:Syosset Public Library\, Syosset\, NY
+URL:https://syosset.librarycalendar.com/event/dungeons-dragons-winter-camp
+ aign-dm-eric-61796
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:D&D Dice Paint Night
+DTSTART:20270112T000000Z
+DTEND:20270112T010000Z
+DTSTAMP:20261127T235537Z
+UID:954f012398573284@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Learn to paint D&D dice!\n\nSource: Hampton Bays Public Librar
+ y\n\nhttps://hamptonbays.librarycalendar.com/event/dd-dice-paint-night-518
+ 60
+GEO:40.8729677;-72.520505
+LOCATION:Hampton Bays Public Library\, Hampton Bays\, NY
+URL:https://hamptonbays.librarycalendar.com/event/dd-dice-paint-night-5186
+ 0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons
+DTSTART:20270112T233000Z
+DTEND:20270113T010000Z
+DTSTAMP:20261127T235537Z
+UID:b9cc77c89a9ebdc1@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Join us for a new adventure! Work together to battle monsters 
+ and solve fantastical mysteries.\n\nSource: Levittown Public Library\n\nht
+ tps://levittown.librarycalendar.com/event/hold-dd-29579
+GEO:40.7233333;-73.5297222
+LOCATION:Levittown Public Library\, Levittown\, NY
+URL:https://levittown.librarycalendar.com/event/hold-dd-29579
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Magic: The Gathering 101
+DTSTART:20270112T203000Z
+DTEND:20270112T213000Z
+DTSTAMP:20261127T235537Z
+UID:077096c64c2ca721@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Come play Magic: The Gathering with friends\, whether you've b
+ een playing for years or you want to learn! Feel free to bring your own de
+ ck or use one of our pre–built ones!\n\nSource: Hampton Bays Public Libr
+ ary\n\nhttps://hamptonbays.librarycalendar.com/event/magic-gathering-101-5
+ 1803
+GEO:40.8729677;-72.520505
+LOCATION:Hampton Bays Public Library\, Hampton Bays\, NY
+URL:https://hamptonbays.librarycalendar.com/event/magic-gathering-101-5180
+ 3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:D&D for Adults
+DTSTART:20270113T010000Z
+DTEND:20270113T030000Z
+DTSTAMP:20261127T235537Z
+UID:157482a20aa5472e@nerdhang
+CATEGORIES:computers
+DESCRIPTION:The Oceanside Public Library is pleased to bring its patrons t
+ he opportunity to participate in the TTRPG\, Tabletop Role play game\, Dun
+ geons and Dragons. We look forward to creating a welcoming and creative sp
+ ace for traveling\, heist\, adventures\, and wherever your campaign leads 
+ you in the Oceanside Public Library's Civic Center's Community Rooms every
+  2nd and 4th Tuesday of the Month. For ages 18 +.\n\nSource: Oceanside Lib
+ rary\n\nhttps://oceansidepl.librarycalendar.com/event/dd-adults-24283
+GEO:40.6415414;-73.6384997
+LOCATION:Oceanside Library\, Oceanside\, NY
+URL:https://oceansidepl.librarycalendar.com/event/dd-adults-24283
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270113T190000
 DTEND;TZID=America/New_York:20270113T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:357afc548efc917e@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -731,10 +1792,25 @@ LOCATION:Levittown Hall\, 201 Levittown Pkwy\, Hicksville\, NY 11801\, USA
 URL:https://limarc.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Anime Club
+DTSTART;TZID=America/New_York:20270114T170000
+DTEND;TZID=America/New_York:20270114T180000
+DTSTAMP:20261127T235537Z
+UID:7820efdfa7b0a4e0@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Calling all Otakus\, come hang out to talk about all things an
+ ime and manga. Activities\, crafts and refreshments will be provided.\n\nS
+ ource: John Jermain Memorial Library\n\nhttps://johnjermain.libcal.com/eve
+ nt/18020049
+GEO:40.9974902;-72.2963635
+LOCATION:John Jermain Memorial Library\, Sag Harbor\, NY
+URL:https://johnjermain.libcal.com/event/18020049
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Intro to 3D Printing
 DTSTART:20270114T000000Z
 DTEND:20270114T010000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:463893bebd0311d3@nerdhang
 CATEGORIES:makers
 DESCRIPTION:Explore the basics of 3D printing and learn how to submit requ
@@ -752,7 +1828,7 @@ BEGIN:VEVENT
 SUMMARY:Retro Gaming Night at Syosset Public Library
 DTSTART:20270115T233000Z
 DTEND:20270116T013000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:10529f5aec8785b0@nerdhang
 CATEGORIES:computers
 DESCRIPTION:Join us for an evening of retro arcade and board games hosted 
@@ -765,10 +1841,26 @@ URL:https://syosset.librarycalendar.com/event/retro-gaming-night-syosset-p
  ublic-library-56381
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons
+DTSTART;TZID=America/New_York:20270116T103000
+DTEND;TZID=America/New_York:20270116T120000
+DTSTAMP:20261127T235537Z
+UID:3d03154abd4acca6@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Grades 4 through 8. (Adults 18 may not attend.) Learn about th
+ is classic TRPG (tabletop role-playing game)\, then join a campaign with o
+ ur own DM (“Dungeon Master”) and other players in the months ahead! Re
+ gistration required\, online or by phone.\n\nSource: Island Park Public Li
+ brary\n\nhttps://islandparklibrary.libcal.com/event/18029193
+GEO:40.6022222;-73.6561111
+LOCATION:Island Park Public Library\, Island Park\, NY
+URL:https://islandparklibrary.libcal.com/event/18029193
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:TCA Atlantic Division Train Meet
 DTSTART;TZID="UTC-05:00":20270117T080000
 DTEND;TZID="UTC-05:00":20270117T130000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:1c7686b75a91552c@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Family Admission: $5 Food and Drink available for Purchase Ove
@@ -783,10 +1875,43 @@ LOCATION:Ballroom at the Phoenix\, 1661 Mill Road\, Upper Chichester\, Pen
 URL:https://www.tcatrains.org/event/tca-atlantic-division-train-meet-9/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Adult Dungeons and Dragons
+DTSTART:20270118T230000Z
+DTEND:20270119T010000Z
+DTSTAMP:20261127T235537Z
+UID:d483889ff97cb082@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Veterans and novices are welcome. Create a character and bring
+  a fantasy world to life. Each session is unique so attend one or both ses
+ sions.\n\nSource: Port Jefferson Free Library\n\nhttps://portjeff.libraryc
+ alendar.com/event/adult-dungeons-and-dragons-37828
+GEO:40.9469225;-73.0664401
+LOCATION:Port Jefferson Free Library\, Port Jefferson\, NY
+URL:https://portjeff.librarycalendar.com/event/adult-dungeons-and-dragons-
+ 37828
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3-D Printer Hands-On Help & Live Demos
+DTSTART:20270119T000000Z
+DTEND:20270119T020000Z
+DTSTAMP:20261127T235537Z
+UID:a7140a176fd884f1@nerdhang
+CATEGORIES:makers
+DESCRIPTION:Bring your questions and see or participate in a hands-on demo
+ . This is a drop-in style workshop\, no registration is required. For the 
+ regular 3D printer class\, held on the 1st Monday of the month\, please cl
+ ick here.\n\nSource: Oceanside Library\n\nhttps://oceansidepl.librarycalen
+ dar.com/event/3-d-printer-hands-help-live-demos-50807
+GEO:40.6415414;-73.6384997
+LOCATION:Oceanside Library\, Oceanside\, NY
+URL:https://oceansidepl.librarycalendar.com/event/3-d-printer-hands-help-l
+ ive-demos-50807
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Book Fair (Barbara Gannon)
 DTSTART:20270119T050000Z
 DTEND:20270129T050000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:ffc03e6a5b6153d0@nerdhang
 CATEGORIES:records
 DESCRIPTION:Book Fair\n\nSource: Massapequa Public Library\n\nhttps://mass
@@ -797,10 +1922,24 @@ URL:https://massapequa.librarycalendar.com/event/book-fair-barbara-gannon-
  60811
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons
+DTSTART:20270119T233000Z
+DTEND:20270120T010000Z
+DTSTAMP:20261127T235537Z
+UID:392b3a2fe0bbd636@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Join us for a new adventure! Work together to battle monsters 
+ and solve fantastical mysteries.\n\nSource: Levittown Public Library\n\nht
+ tps://levittown.librarycalendar.com/event/hold-dd-29580
+GEO:40.7233333;-73.5297222
+LOCATION:Levittown Public Library\, Levittown\, NY
+URL:https://levittown.librarycalendar.com/event/hold-dd-29580
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:RecordTrax Listening Party: "Endings and Beginnings"
 DTSTART:20270120T000000Z
 DTEND:20270120T020000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:31c707ecad255aef@nerdhang
 CATEGORIES:records
 DESCRIPTION:Join Tony Traguardo and Jack Warren for this month's meeting o
@@ -819,10 +1958,75 @@ URL:https://portwashington.librarycalendar.com/event/hold-recordtrax-liste
  ning-party-endings-and-beginnings-122156
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Anime Night: Anime Journaling
+DTSTART:20270121T000000Z
+DTEND:20270121T010000Z
+DTSTAMP:20261127T235537Z
+UID:b5ffc30ea97d6a8e@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Use old magazines and craft supplies to start a journal about 
+ your favorite anime and manga!\n\nSource: Sachem Public Library\n\nhttps:/
+ /sachem.librarycalendar.com/event/anime-night-anime-journaling-208855
+GEO:40.799376;-73.0697738
+LOCATION:Sachem Public Library\, Holbrook\, NY
+URL:https://sachem.librarycalendar.com/event/anime-night-anime-journaling-
+ 208855
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons
+DTSTART:20270122T223000Z
+DTEND:20270123T013000Z
+DTSTAMP:20261127T235537Z
+UID:329f9fcce5e8d557@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Dungeons & Dragons is a collaborative experience that inspires
+  creativity. This program is for someone who has never seen a twenty sided
+  die or for someone who knows the game like the back of their hand. D & D 
+ is about fun\, making new friendships\, learning new things and fostering 
+ a good-inviting-community. All players are welcome to join professional Ga
+ me Master Jimmy.\n\nSource: Sayville Library\n\nhttps://www.sayvillelibrar
+ y.org/event/dungeons-dragons-95045
+GEO:40.7358333;-73.08
+LOCATION:Sayville Library\, Sayville\, NY
+URL:https://www.sayvillelibrary.org/event/dungeons-dragons-95045
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons and Dragons: How-To Play
+DTSTART:20270122T000000Z
+DTEND:20270122T010000Z
+DTSTAMP:20261127T235537Z
+UID:aa7ab62cafa64e8f@nerdhang
+CATEGORIES:computers
+DESCRIPTION:For grades 6-12\; This is not a Campaign or a One-Shot Learn t
+ he rules of Dungeons and Dragons! What is a d20? What does "advantage" mea
+ n? And\, we'll build your first character! Use it in any campaign or sessi
+ on you would like.\n\nSource: Gold Coast Public Library\n\nhttps://goldcoa
+ st.librarycalendar.com/event/dungeons-and-dragons-learn-how-play-and-build
+ -character-19256
+GEO:40.8358047;-73.6224555
+LOCATION:Gold Coast Public Library\, Glen Head\, NY
+URL:https://goldcoast.librarycalendar.com/event/dungeons-and-dragons-learn
+ -how-play-and-build-character-19256
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Great South Bay Audubon Society
+DTSTART:20270122T000000Z
+DTEND:20270122T014500Z
+DTSTAMP:20261127T235537Z
+UID:5ddc0b997d3eecae@nerdhang
+CATEGORIES:outdoors
+DESCRIPTION:Membership Meeting\n\nSource: Sayville Library\n\nhttps://www.
+ sayvillelibrary.org/event/great-south-bay-audubon-society-92922
+GEO:40.7358333;-73.08
+LOCATION:Sayville Library\, Sayville\, NY
+URL:https://www.sayvillelibrary.org/event/great-south-bay-audubon-society-
+ 92922
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Makerspace Night
 DTSTART:20270122T000000Z
 DTEND:20270122T010000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:cabc6275f8f82cac@nerdhang
 CATEGORIES:makers
 DESCRIPTION:One registration per child.\n\nSource: East Islip Public Libra
@@ -832,10 +2036,44 @@ LOCATION:East Islip Public Library\, East Islip\, NY
 URL:https://eastislip.librarycalendar.com/event/makerspace-night-30027
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Manga/Anime Club
+DTSTART:20270122T210000Z
+DTEND:20270122T220000Z
+DTSTAMP:20261127T235537Z
+UID:f0b4a61ab54e55a2@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Join Ms. Lois and other teens to hang out to watch Anime and t
+ alk about your favorite Manga/Anime series. New day of the week from 2026
+ \n\nSource: Uniondale Public Library\n\nhttps://uniondale.librarycalendar.
+ com/event/mangaanime-club-librarian-lois-new-day-18767
+GEO:40.7061793;-73.5928575
+LOCATION:Uniondale Public Library\, Uniondale\, NY
+URL:https://uniondale.librarycalendar.com/event/mangaanime-club-librarian-
+ lois-new-day-18767
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Magic: The Gathering: The Gathering
+DTSTART:20270123T190000Z
+DTEND:20270123T220000Z
+DTSTAMP:20261127T235537Z
+UID:9ca2d9331a7632be@nerdhang
+CATEGORIES:computers
+DESCRIPTION:For teens and adults\; In the Casual Commander format (C1-C2 l
+ evel decks)\, players of all skills are welcome\, including anyone looking
+  to get into Magic: The Gathering! Drop in\, bring your deck(s) or use one
+  provided by the library\, learn\, play and eat snacks!\n\nSource: Gold Co
+ ast Public Library\n\nhttps://goldcoast.librarycalendar.com/event/copy-mag
+ ic-gathering-gathering-19253
+GEO:40.8358047;-73.6224555
+LOCATION:Gold Coast Public Library\, Glen Head\, NY
+URL:https://goldcoast.librarycalendar.com/event/copy-magic-gathering-gathe
+ ring-19253
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:TCA Southern Division Train Show
 DTSTART;TZID="UTC-05:00":20270123T090000
 DTEND;TZID="UTC-05:00":20270123T140000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:7950d8939670fb70@nerdhang
 CATEGORIES:trains
 DESCRIPTION:• Opens to TCA Members at 9:00 AM• Opens to the Public at 
@@ -856,7 +2094,7 @@ BEGIN:VEVENT
 SUMMARY:How to Choose and Use Your Telescope (In Person)
 DTSTART:20270125T230000Z
 DTEND:20270126T010000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:ce1f382c98dcda39@nerdhang
 CATEGORIES:museum
 DESCRIPTION:Daniel Higgins\, owner of AstroWorld Telescopes\, will provide
@@ -870,10 +2108,60 @@ URL:https://sachem.librarycalendar.com/event/how-choose-and-use-your-teles
  cope-person-208761
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons
+DTSTART:20270126T233000Z
+DTEND:20270127T010000Z
+DTSTAMP:20261127T235537Z
+UID:a0f37039bba21bd8@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Join us for a new adventure! Work together to battle monsters 
+ and solve fantastical mysteries.\n\nSource: Levittown Public Library\n\nht
+ tps://levittown.librarycalendar.com/event/hold-dd-29581
+GEO:40.7233333;-73.5297222
+LOCATION:Levittown Public Library\, Levittown\, NY
+URL:https://levittown.librarycalendar.com/event/hold-dd-29581
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:D&D for Adults
+DTSTART:20270127T010000Z
+DTEND:20270127T030000Z
+DTSTAMP:20261127T235537Z
+UID:b6a6680f33984a19@nerdhang
+CATEGORIES:computers
+DESCRIPTION:The Oceanside Public Library is pleased to bring its patrons t
+ he opportunity to participate in the TTRPG\, Tabletop Role play game\, Dun
+ geons and Dragons. We look forward to creating a welcoming and creative sp
+ ace for traveling\, heist\, adventures\, and wherever your campaign leads 
+ you in the Oceanside Public Library's Civic Center's Community Rooms every
+  2nd and 4th Tuesday of the Month. For ages 18 +.\n\nSource: Oceanside Lib
+ rary\n\nhttps://oceansidepl.librarycalendar.com/event/dd-adults-24284
+GEO:40.6415414;-73.6384997
+LOCATION:Oceanside Library\, Oceanside\, NY
+URL:https://oceansidepl.librarycalendar.com/event/dd-adults-24284
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vinyl Night at Buddha Belly Records
+DTSTART:20270127T220000Z
+DTEND:20270128T000000Z
+DTSTAMP:20261127T235537Z
+UID:e332a9ace26050cd@nerdhang
+CATEGORIES:records
+DESCRIPTION:Join librarian Peter any time between 5:00 - 7:00pm at Buddha 
+ Belly Records for our regular Vinyl Night! This session we'll be discussin
+ g our top 5 favorite albums of all time and listening to some of our favor
+ ites! Feel free to bring some to share! Space is limited.\n\nSource: Sayvi
+ lle Library\n\nhttps://www.sayvillelibrary.org/event/vinyl-night-buddha-be
+ lly-records-94064
+GEO:40.7358333;-73.08
+LOCATION:Sayville Library\, Sayville\, NY
+URL:https://www.sayvillelibrary.org/event/vinyl-night-buddha-belly-records
+ -94064
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Book Fair (Barbara Gannon)
 DTSTART:20270129T140000Z
 DTEND:20270129T220000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:2697081251be0359@nerdhang
 CATEGORIES:records
 DESCRIPTION:Source: Massapequa Public Library\n\nhttps://massapequa.librar
@@ -884,10 +2172,48 @@ URL:https://massapequa.librarycalendar.com/event/book-fair-barbara-gannon-
  60812
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons
+DTSTART:20270129T223000Z
+DTEND:20270130T013000Z
+DTSTAMP:20261127T235537Z
+UID:601f9dc60ad139c0@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Dungeons & Dragons is a collaborative experience that inspires
+  creativity. This program is for someone who has never seen a twenty sided
+  die or for someone who knows the game like the back of their hand. D & D 
+ is about fun\, making new friendships\, learning new things and fostering 
+ a good-inviting-community. All players are welcome to join professional Ga
+ me Master Jimmy.\n\nSource: Sayville Library\n\nhttps://www.sayvillelibrar
+ y.org/event/dungeons-dragons-95046
+GEO:40.7358333;-73.08
+LOCATION:Sayville Library\, Sayville\, NY
+URL:https://www.sayvillelibrary.org/event/dungeons-dragons-95046
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sandwiched In with Eco-Photo Explorers - Shackleton's Shipwreck
+DTSTART:20270129T170000Z
+DTEND:20270129T183000Z
+DTSTAMP:20261127T235537Z
+UID:86ec81423f39ac25@nerdhang
+CATEGORIES:museum
+DESCRIPTION:Antarctica represented the last great adventure in the golden 
+ age of exploration during the early parts of the 20th century. Three years
+  after Robert Scott became the first to reach the South Pole\, Ernest Shac
+ kleton launched a futile expedition to trek across the continent in 1914. 
+ In this program\, Eco-Photo Explorers will examine the story of this legen
+ dary journey\, which was famously halted when the expedition ship Enduranc
+ e became trapped in ice forcing the crew to survive the harsh Antarctic\n
+ \nSource: Port Washington Public Library\n\nhttps://portwashington.library
+ calendar.com/event/sandwiched-114016
+GEO:40.8319463;-73.6968479
+LOCATION:Port Washington Public Library\, Port Washington\, NY
+URL:https://portwashington.librarycalendar.com/event/sandwiched-114016
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Book Fair (Barbara Gannon)
 DTSTART:20270130T140000Z
 DTEND:20270130T220000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:b66602549b0899b1@nerdhang
 CATEGORIES:records
 DESCRIPTION:Source: Massapequa Public Library\n\nhttps://massapequa.librar
@@ -901,7 +2227,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Keystone Division Early Spring Meet
 DTSTART;TZID="UTC-05:00":20270130T080000
 DTEND;TZID="UTC-05:00":20270130T130000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:8bb5a01c67eb5126@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Opens 8 a.m. for Keystone MembersOpens 9 a.m. for Public\n\nSo
@@ -914,10 +2240,26 @@ URL:https://www.tcatrains.org/event/tca-keystone-division-early-spring-mee
  t/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:3-D Printer Class Evening
+DTSTART:20270202T013000Z
+DTEND:20270202T023000Z
+DTSTAMP:20261127T235537Z
+UID:edcb91b913052c10@nerdhang
+CATEGORIES:makers
+DESCRIPTION:Class laptops are available for the first 9 people. The class 
+ is intended for adults\, however\, children are more than welcome to atten
+ d with a parent or guardian present.\n\nSource: Oceanside Library\n\nhttps
+ ://oceansidepl.librarycalendar.com/event/3-d-printer-class-evening-42884
+GEO:40.6415414;-73.6384997
+LOCATION:Oceanside Library\, Oceanside\, NY
+URL:https://oceansidepl.librarycalendar.com/event/3-d-printer-class-evenin
+ g-42884
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Long Island Coin club
 DTSTART:20270204T230000Z
 DTEND:20270205T020000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:f2752d36094a40e0@nerdhang
 CATEGORIES:records
 DESCRIPTION:All community group meetings must be open to the public as per
@@ -928,10 +2270,28 @@ LOCATION:Syosset Public Library\, Syosset\, NY
 URL:https://syosset.librarycalendar.com/event/long-island-coin-club-58628
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons
+DTSTART:20270205T223000Z
+DTEND:20270206T013000Z
+DTSTAMP:20261127T235537Z
+UID:603debf853b67a97@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Dungeons & Dragons is a collaborative experience that inspires
+  creativity. This program is for someone who has never seen a twenty sided
+  die or for someone who knows the game like the back of their hand. D & D 
+ is about fun\, making new friendships\, learning new things and fostering 
+ a good-inviting-community. All players are welcome to join professional Ga
+ me Master Jimmy.\n\nSource: Sayville Library\n\nhttps://www.sayvillelibrar
+ y.org/event/dungeons-dragons-95047
+GEO:40.7358333;-73.08
+LOCATION:Sayville Library\, Sayville\, NY
+URL:https://www.sayvillelibrary.org/event/dungeons-dragons-95047
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:February Book Fair
 DTSTART;TZID=America/New_York:20270207T093000
 DTEND;TZID=America/New_York:20270207T130000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:dfbcc222f3108663@nerdhang
 CATEGORIES:records
 DESCRIPTION:[vc_row][vc_column][vc_column_text]Register For February Book 
@@ -948,28 +2308,30 @@ LOCATION:Book Fairies Book Bank\, 220 Miller Place\, Hicksville\, NY 11801
 URL:https://thebookfairies.org/calendar-event/february-book-fair/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Design a 3D Printed Bookmark
-DTSTART:20270209T000000Z
-DTEND:20270209T013000Z
-DTSTAMP:20261127T193351Z
-UID:ee13b52a399a11e2@nerdhang
-CATEGORIES:makers
-DESCRIPTION:Learn the basics of 3D design software Tinkercad & customize a
-  bookmark to be 3D printed. Comfort with computer use recommended. You wil
- l be notified after the program when your item is ready to be picked up. T
- his program will take place in The Space\, the library's newest area for a
- ll things creative!\n\nSource: Comsewogue Public Library\n\nhttps://comsew
- ogue.librarycalendar.com/event/design-3d-printed-bookmark-43531
-GEO:40.9238344;-73.0532492
-LOCATION:Comsewogue Public Library\, Port Jefferson Station\, NY
-URL:https://comsewogue.librarycalendar.com/event/design-3d-printed-bookmar
- k-43531
+SUMMARY:Get Birding!
+DTSTART;TZID=America/New_York:20270208T130000
+DTEND;TZID=America/New_York:20270208T140000
+DTSTAMP:20261127T235537Z
+UID:d62d825e157ec395@nerdhang
+CATEGORIES:outdoors
+DESCRIPTION:Doug Cioffi and Marina Horan lead a talk about birding while s
+ howing award winning bird photographs taken by Doug for the Floral Park Ce
+ ntennial Gardens and Bird Sanctuary. This program is an annual gift to the
+  Library from Doug and Marina. They are big supporters of the Library\, th
+ e Gardens and the Great American Bird Count. Please support them with your
+  attendance! Register on line at the Reference Desk\, or call 516 326-6330
+  beginning December 28th. If you feel you may have difficulty using th\n\n
+ Source: Floral Park Public Library\n\nhttps://floralparklibrary.libcal.com
+ /event/18077871
+GEO:40.7252297;-73.7064372
+LOCATION:Floral Park Public Library\, Floral Park\, NY
+URL:https://floralparklibrary.libcal.com/event/18077871
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270210T190000
 DTEND;TZID=America/New_York:20270210T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:8e749e38b1b54f22@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -979,25 +2341,45 @@ LOCATION:Levittown Hall\, 201 Levittown Pkwy\, Hicksville\, NY 11801\, USA
 URL:https://limarc.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:3D Print Valentine Gnomes
-DTSTART:20270212T000000Z
-DTEND:20270212T010000Z
-DTSTAMP:20261127T193351Z
-UID:efbe370e32cfb552@nerdhang
-CATEGORIES:makers
-DESCRIPTION:Paint a gnome for your Valentine.\n\nSource: Port Jefferson Fr
- ee Library\n\nhttps://portjeff.librarycalendar.com/event/3d-print-valentin
- e-gnomes-37702
-GEO:40.9469225;-73.0664401
-LOCATION:Port Jefferson Free Library\, Port Jefferson\, NY
-URL:https://portjeff.librarycalendar.com/event/3d-print-valentine-gnomes-3
- 7702
+SUMMARY:Anime Club
+DTSTART;TZID=America/New_York:20270211T170000
+DTEND;TZID=America/New_York:20270211T180000
+DTSTAMP:20261127T235537Z
+UID:60e557f2c466a1f4@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Calling all Otakus\, come hang out to talk about all things an
+ ime and manga. Activities\, crafts and refreshments will be provided.\n\nS
+ ource: John Jermain Memorial Library\n\nhttps://johnjermain.libcal.com/eve
+ nt/18020050
+GEO:40.9974902;-72.2963635
+LOCATION:John Jermain Memorial Library\, Sag Harbor\, NY
+URL:https://johnjermain.libcal.com/event/18020050
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Great Backyard Bird Count
+DTSTART:20270212T050000Z
+DTEND:20270212T050000Z
+DTSTAMP:20261127T235537Z
+UID:52b3bf896f943a2a@nerdhang
+CATEGORIES:outdoors
+DESCRIPTION:Join us in the Great Backyard Bird Count\, a global citizen sc
+ ience project! For four days in February\, everyone is invited to spend ti
+ me in their favorite places watching and counting as many birds as they ca
+ n find and reporting them. You don’t even have to go outside - you can c
+ ount the birds you see on your feeder while looking out the window! Pick u
+ p the Great Backyard Bird Count packets at the library starting February 1
+ . Tally sheets from the Bird Counting Packet should be returned to the l\n
+ \nSource: Longwood Public Library\n\nhttps://www.longwoodlibrary.org/event
+ /great-backyard-bird-count-188547
+GEO:40.8820789;-72.9440591
+LOCATION:Longwood Public Library\, Middle Island\, NY
+URL:https://www.longwoodlibrary.org/event/great-backyard-bird-count-188547
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Makerspace Night
 DTSTART:20270212T000000Z
 DTEND:20270212T010000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:12616029cda3253c@nerdhang
 CATEGORIES:makers
 DESCRIPTION:One registration per child.\n\nSource: East Islip Public Libra
@@ -1007,24 +2389,156 @@ LOCATION:East Islip Public Library\, East Islip\, NY
 URL:https://eastislip.librarycalendar.com/event/makerspace-night-31149
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:3D Printed Snowflake Light
-DTSTART:20270217T000000Z
-DTEND:20270217T013000Z
-DTSTAMP:20261127T193351Z
-UID:cb63533fcd5e81f0@nerdhang
+SUMMARY:Dungeons & Dragons
+DTSTART;TZID=America/New_York:20270213T103000
+DTEND;TZID=America/New_York:20270213T120000
+DTSTAMP:20261127T235537Z
+UID:755ea9c3fc2d705a@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Grades 4 through 8. (Adults 18 may not attend.) Learn about th
+ is classic TRPG (tabletop role-playing game)\, then join a campaign with o
+ ur own DM (“Dungeon Master”) and other players in the months ahead! Re
+ gistration required\, online or by phone.\n\nSource: Island Park Public Li
+ brary\n\nhttps://islandparklibrary.libcal.com/event/18031947
+GEO:40.6022222;-73.6561111
+LOCATION:Island Park Public Library\, Island Park\, NY
+URL:https://islandparklibrary.libcal.com/event/18031947
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Great Backyard Bird Count
+DTSTART:20270213T050000Z
+DTEND:20270213T050000Z
+DTSTAMP:20261127T235537Z
+UID:e8bdeab7802470c1@nerdhang
+CATEGORIES:outdoors
+DESCRIPTION:Join us in the Great Backyard Bird Count\, a global citizen sc
+ ience project! For four days in February\, everyone is invited to spend ti
+ me in their favorite places watching and counting as many birds as they ca
+ n find and reporting them. You don’t even have to go outside - you can c
+ ount the birds you see on your feeder while looking out the window! Pick u
+ p the Great Backyard Bird Count packets at the library starting February 1
+ . Tally sheets from the Bird Counting Packet should be returned to the l\n
+ \nSource: Longwood Public Library\n\nhttps://www.longwoodlibrary.org/event
+ /great-backyard-bird-count-188548
+GEO:40.8820789;-72.9440591
+LOCATION:Longwood Public Library\, Middle Island\, NY
+URL:https://www.longwoodlibrary.org/event/great-backyard-bird-count-188548
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Great Backyard Bird Count
+DTSTART:20270214T050000Z
+DTEND:20270214T050000Z
+DTSTAMP:20261127T235537Z
+UID:da0bbbb7a35f6fe6@nerdhang
+CATEGORIES:outdoors
+DESCRIPTION:Join us in the Great Backyard Bird Count\, a global citizen sc
+ ience project! For four days in February\, everyone is invited to spend ti
+ me in their favorite places watching and counting as many birds as they ca
+ n find and reporting them. You don’t even have to go outside - you can c
+ ount the birds you see on your feeder while looking out the window! Pick u
+ p the Great Backyard Bird Count packets at the library starting February 1
+ . Tally sheets from the Bird Counting Packet should be returned to the l\n
+ \nSource: Longwood Public Library\n\nhttps://www.longwoodlibrary.org/event
+ /great-backyard-bird-count-188550
+GEO:40.8820789;-72.9440591
+LOCATION:Longwood Public Library\, Middle Island\, NY
+URL:https://www.longwoodlibrary.org/event/great-backyard-bird-count-188550
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adult Dungeons and Dragons
+DTSTART:20270215T230000Z
+DTEND:20270216T010000Z
+DTSTAMP:20261127T235537Z
+UID:9d095371c89727e5@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Veterans and novices are welcome. Create a character and bring
+  a fantasy world to life. Each session is unique so attend one or both ses
+ sions.\n\nSource: Port Jefferson Free Library\n\nhttps://portjeff.libraryc
+ alendar.com/event/adult-dungeons-and-dragons-37829
+GEO:40.9469225;-73.0664401
+LOCATION:Port Jefferson Free Library\, Port Jefferson\, NY
+URL:https://portjeff.librarycalendar.com/event/adult-dungeons-and-dragons-
+ 37829
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dungeons & Dragons - Winter Campaign with DM Eric
+DTSTART:20270215T233000Z
+DTEND:20270216T013000Z
+DTSTAMP:20261127T235537Z
+UID:39573936def969b6@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Sign up once and continue on your quest for 3 months. DM Eric 
+ will guide your way through this fun and exciting adventure. Adventures la
+ st for 3 months\, when you register\, please make sure you can come to all
+  dates. Registration for SSD residents begins November 24\, all others one
+  week later if available. Disclaimer - All children under 12 must have a p
+ arent/guardian in the building at all times. - If you arrive more than 10 
+ minutes past the stated start time of the program\, your spot may be giv\n
+ \nSource: Syosset Public Library\n\nhttps://syosset.librarycalendar.com/ev
+ ent/dungeons-dragons-winter-campaign-dm-eric-61797
+GEO:40.7987691;-73.5021128
+LOCATION:Syosset Public Library\, Syosset\, NY
+URL:https://syosset.librarycalendar.com/event/dungeons-dragons-winter-camp
+ aign-dm-eric-61797
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3-D Printer Hands-On Help & Live Demos
+DTSTART:20270216T000000Z
+DTEND:20270216T020000Z
+DTSTAMP:20261127T235537Z
+UID:9363e0175243ea24@nerdhang
 CATEGORIES:makers
-DESCRIPTION:Build a custom glowing light display in the shape of a snowfla
- ke!\n\nSource: Sachem Public Library\n\nhttps://sachem.librarycalendar.com
- /event/teen-program-tba-209099
-GEO:40.799376;-73.0697738
-LOCATION:Sachem Public Library\, Holbrook\, NY
-URL:https://sachem.librarycalendar.com/event/teen-program-tba-209099
+DESCRIPTION:Bring your questions and see or participate in a hands-on demo
+ . This is a drop-in style workshop\, no registration is required. For the 
+ regular 3D printer class\, held on the 1st Monday of the month\, please cl
+ ick here.\n\nSource: Oceanside Library\n\nhttps://oceansidepl.librarycalen
+ dar.com/event/3-d-printer-hands-help-live-demos-50808
+GEO:40.6415414;-73.6384997
+LOCATION:Oceanside Library\, Oceanside\, NY
+URL:https://oceansidepl.librarycalendar.com/event/3-d-printer-hands-help-l
+ ive-demos-50808
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adult Dungeons & Dragons (Jan-April)
+DTSTART:20270216T230000Z
+DTEND:20270217T013000Z
+DTSTAMP:20261127T235537Z
+UID:7b1e145a8e28a143@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Dungeons & Dragons with the Quest Masters Guild: Adventurers n
+ eeded! Fight monsters and collect treasure in fun fantasy worlds\, filled 
+ with danger and magic. Perfect for new or experienced players. Your quest 
+ begins at the Commack Public Library. When you register\, you are signed u
+ p for the entire series (January - April).\n\nSource: Commack Public Libra
+ ry\n\nhttps://commack.librarycalendar.com/event/adult-dungeons-dragons-jan
+ -april-14249
+GEO:40.8290049;-73.2937839
+LOCATION:Commack Public Library\, Commack\, NY
+URL:https://commack.librarycalendar.com/event/adult-dungeons-dragons-jan-a
+ pril-14249
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Magic: The Gathering 101
+DTSTART:20270216T203000Z
+DTEND:20270216T213000Z
+DTSTAMP:20261127T235537Z
+UID:20501f0764d97667@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Come play Magic: The Gathering with friends\, whether you've b
+ een playing for years or you want to learn! Feel free to bring your own de
+ ck or use one of our pre–built ones!\n\nSource: Hampton Bays Public Libr
+ ary\n\nhttps://hamptonbays.librarycalendar.com/event/magic-gathering-101-5
+ 1804
+GEO:40.8729677;-72.520505
+LOCATION:Hampton Bays Public Library\, Hampton Bays\, NY
+URL:https://hamptonbays.librarycalendar.com/event/magic-gathering-101-5180
+ 4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RecordTrax Listening Party: "Love Songs"
 DTSTART:20270217T000000Z
 DTEND:20270217T020000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:21ba5d34ead1846e@nerdhang
 CATEGORIES:records
 DESCRIPTION:Join Tony Traguardo and Jack Warren for this month's meeting o
@@ -1045,7 +2559,7 @@ BEGIN:VEVENT
 SUMMARY:Retro Gaming with Mr. Po and Mr. Oh
 DTSTART:20270217T190000Z
 DTEND:20270217T203000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:1a2c254ce4e6f4ac@nerdhang
 CATEGORIES:computers
 DESCRIPTION:Try some retro games from the old times with Mr. Po and Mr. Oh
@@ -1058,10 +2572,59 @@ URL:https://brentwood.librarycalendar.com/event/retro-gaming-mr-po-and-mr-
  oh-149095
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Anime Night: Isekai
+DTSTART:20270218T000000Z
+DTEND:20270218T010000Z
+DTSTAMP:20261127T235537Z
+UID:fc77c66a8ecf1ca2@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Hang out and watch an isekai anime!\n\nSource: Sachem Public L
+ ibrary\n\nhttps://sachem.librarycalendar.com/event/anime-night-isekai-2113
+ 82
+GEO:40.799376;-73.0697738
+LOCATION:Sachem Public Library\, Holbrook\, NY
+URL:https://sachem.librarycalendar.com/event/anime-night-isekai-211382
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Great South Bay Audubon Society
+DTSTART:20270219T000000Z
+DTEND:20270219T014500Z
+DTSTAMP:20261127T235537Z
+UID:87a512f584f0b5f5@nerdhang
+CATEGORIES:outdoors
+DESCRIPTION:Membership Meeting\n\nSource: Sayville Library\n\nhttps://www.
+ sayvillelibrary.org/event/great-south-bay-audubon-society-92923
+GEO:40.7358333;-73.08
+LOCATION:Sayville Library\, Sayville\, NY
+URL:https://www.sayvillelibrary.org/event/great-south-bay-audubon-society-
+ 92923
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon Walk at Downs Farm
+DTSTART:20270220T213000Z
+DTEND:20270220T223000Z
+DTSTAMP:20261127T235537Z
+UID:e6f63f1c64e46ecb@nerdhang
+CATEGORIES:outdoors
+DESCRIPTION:FULL MOON WALK AT DOWN'S FARM Saturday\, February 20\, 4:30pm 
+ Registration required. Fee: $5 Join the library and Group for the East End
+  for a magical evening under the full moon at Downs Farm in Cutchogue! Enj
+ oy a guided walk through the natural beauty of the North Fork as we explor
+ e the sights and sounds of the evening landscape. Discover the wonders of 
+ the local environment\, connect with nature\, and experience the peaceful 
+ beauty of the outdoors by moonlight. All are welcome to enjoy this speci\n
+ \nSource: Cutchogue-New Suffolk Free Library\n\nhttps://cutchogue.libraryc
+ alendar.com/event/full-moon-walk-downs-farm-83756
+GEO:41.0091205;-72.4857223
+LOCATION:Cutchogue-New Suffolk Free Library\, Cutchogue\, NY
+URL:https://cutchogue.librarycalendar.com/event/full-moon-walk-downs-farm-
+ 83756
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Great Backyard Bird Count
 DTSTART:20270222T211500Z
 DTEND:20270222T220000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:b0fb7a7b556ca970@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:Gr. K-2 Discover the birds in your backyard\, then create a bi
@@ -1074,10 +2637,31 @@ URL:https://farmingdale.librarycalendar.com/event/great-backyard-bird-coun
  t-30979
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:WALKING TOUR OF DIKE SYSTEM
+DTSTART:20270222T190000Z
+DTEND:20270222T203000Z
+DTSTAMP:20261127T235537Z
+UID:762d5087967b283a@nerdhang
+CATEGORIES:outdoors
+DESCRIPTION:WALKING TOUR OF DIKE SYSTEM Monday\, February 22 at 2:00pm Reg
+ istration required. Fee: $10 Long Island’s East End farms operate within
+  a unique micro-climate that balances soil and water. Join us at Salt Air 
+ Farm in Cutchogue to walk the longest dike system on our beautiful East En
+ d\, created in the 1940s. Along the way\, learn from farmer Prudence Wickh
+ am Heston how this unique system works\, why it is important to their farm
+ \, and the challenges (and joys) of farming in a seaside environment. Meet
+  \n\nSource: Cutchogue-New Suffolk Free Library\n\nhttps://cutchogue.libra
+ rycalendar.com/event/walking-tour-dike-system-84050
+GEO:41.0091205;-72.4857223
+LOCATION:Cutchogue-New Suffolk Free Library\, Cutchogue\, NY
+URL:https://cutchogue.librarycalendar.com/event/walking-tour-dike-system-8
+ 4050
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Great Backyard Bird Count
 DTSTART:20270224T211500Z
 DTEND:20270224T220000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:276739d03a415012@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:Gr. 3-5 Discover the birds in your backyard\, then create a bi
@@ -1090,44 +2674,45 @@ URL:https://farmingdale.librarycalendar.com/event/great-backyard-bird-coun
  t-30980
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Museum of Technology
-DTSTART:20270227T190000Z
-DTEND:20270227T210000Z
-DTSTAMP:20261127T193351Z
-UID:ac73a7fe7051288d@nerdhang
+SUMMARY:Manga/Anime Club
+DTSTART:20270226T210000Z
+DTEND:20270226T220000Z
+DTSTAMP:20261127T235537Z
+UID:52a9289c51b8414e@nerdhang
 CATEGORIES:computers
-DESCRIPTION:Families and people of all ages are invited to explore the tec
- hnology of years gone by. This hands-on program will feature items such as
-  vintage computers\, old telephones and cell phones\, manual typewriter\, 
- cameras\, cassette players\, radios\, video games\, and more. Are you nost
- algic for old tech? Join us to revisit the technology you grew up with and
-  take a trip down memory lane at our museum of technology.\n\nSource: Port
-  Washington Public Library\n\nhttps://portwashington.librarycalendar.com/e
- vent/hold-old-tech-showcase-123395
-GEO:40.8319463;-73.6968479
-LOCATION:Port Washington Public Library\, Port Washington\, NY
-URL:https://portwashington.librarycalendar.com/event/hold-old-tech-showcas
- e-123395
+DESCRIPTION:Join Ms. Lois and other teens to hang out to watch Anime and t
+ alk about your favorite Manga/Anime series.\n\nSource: Uniondale Public Li
+ brary\n\nhttps://uniondale.librarycalendar.com/event/mangaanime-club-libra
+ rian-lois-new-day-18768
+GEO:40.7061793;-73.5928575
+LOCATION:Uniondale Public Library\, Uniondale\, NY
+URL:https://uniondale.librarycalendar.com/event/mangaanime-club-librarian-
+ lois-new-day-18768
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Long Island Coin club
-DTSTART:20270304T230000Z
-DTEND:20270305T020000Z
-DTSTAMP:20261127T193351Z
-UID:eac9c0b27b7f5ef4@nerdhang
-CATEGORIES:records
-DESCRIPTION:All community group meetings must be open to the public as per
-  New York State Education Law.\n\nSource: Syosset Public Library\n\nhttps:
- //syosset.librarycalendar.com/event/long-island-coin-club-58629
-GEO:40.7987691;-73.5021128
-LOCATION:Syosset Public Library\, Syosset\, NY
-URL:https://syosset.librarycalendar.com/event/long-island-coin-club-58629
+SUMMARY:Adult Dungeons & Dragons (Jan-April)
+DTSTART:20270302T230000Z
+DTEND:20270303T013000Z
+DTSTAMP:20261127T235537Z
+UID:e8e67792001ff4a0@nerdhang
+CATEGORIES:computers
+DESCRIPTION:Dungeons & Dragons with the Quest Masters Guild: Adventurers n
+ eeded! Fight monsters and collect treasure in fun fantasy worlds\, filled 
+ with danger and magic. Perfect for new or experienced players. Your quest 
+ begins at the Commack Public Library. When you register\, you are signed u
+ p for the entire series (January - April).\n\nSource: Commack Public Libra
+ ry\n\nhttps://commack.librarycalendar.com/event/adult-dungeons-dragons-jan
+ -april-14250
+GEO:40.8290049;-73.2937839
+LOCATION:Commack Public Library\, Commack\, NY
+URL:https://commack.librarycalendar.com/event/adult-dungeons-dragons-jan-a
+ pril-14250
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TCA Atlantic Division Train Meet
 DTSTART;TZID="UTC-05:00":20270307T080000
 DTEND;TZID="UTC-05:00":20270307T130000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:b9ac3010c3c8f6c0@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Family Admission: $5 Food and Drink available for Purchase Ove
@@ -1145,7 +2730,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270310T190000
 DTEND;TZID=America/New_York:20270310T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:4bbf755e7bda5da3@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1158,7 +2743,7 @@ BEGIN:VEVENT
 SUMMARY:Library of Things: Telescope Training
 DTSTART:20270311T000000Z
 DTEND:20270311T013000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:cbffc05e60cce033@nerdhang
 CATEGORIES:museum
 DESCRIPTION:Discover how to use the Library of Things telescope to explore
@@ -1176,7 +2761,7 @@ BEGIN:VEVENT
 SUMMARY:March Book Fair
 DTSTART;TZID=America/New_York:20270313T093000
 DTEND;TZID=America/New_York:20270313T130000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:f67f1a22520927cf@nerdhang
 CATEGORIES:records
 DESCRIPTION:[vc_row][vc_column][vc_column_text]Register For March Book Fai
@@ -1196,7 +2781,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270313T080000
 DTEND;TZID=America/New_York:20270313T093000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:d0a48e2fc65f4a82@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1209,7 +2794,7 @@ BEGIN:VEVENT
 SUMMARY:Makerspace Night
 DTSTART:20270318T230000Z
 DTEND:20270319T000000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:b43cb54701996b11@nerdhang
 CATEGORIES:makers
 DESCRIPTION:One registration per child.\n\nSource: East Islip Public Libra
@@ -1222,7 +2807,7 @@ BEGIN:VEVENT
 SUMMARY:Hawkins-Mount House Tours
 DTSTART;TZID=America/New_York:20270320T123000
 DTEND;TZID=America/New_York:20270320T163000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:b1fe100da28c06d4@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:Step back in time with special tours of the historic Hawkins-M
@@ -1239,24 +2824,10 @@ LOCATION:The Long Island Museum\, 1200 Route 25A\, Stony Brook\, NY 11790
 URL:https://longislandmuseum.org/event/hawkins-mount-house-tours-4/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Long Island Coin club
-DTSTART:20270401T220000Z
-DTEND:20270402T010000Z
-DTSTAMP:20261127T193351Z
-UID:77ea38b4e811d9b7@nerdhang
-CATEGORIES:records
-DESCRIPTION:All community group meetings must be open to the public as per
-  New York State Education Law.\n\nSource: Syosset Public Library\n\nhttps:
- //syosset.librarycalendar.com/event/long-island-coin-club-58630
-GEO:40.7987691;-73.5021128
-LOCATION:Syosset Public Library\, Syosset\, NY
-URL:https://syosset.librarycalendar.com/event/long-island-coin-club-58630
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Vintage Computer Festival East 2027
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270405
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:cddb32263103f80d@nerdhang
 CATEGORIES:computers
 DESCRIPTION:Source: Vintage Computer Federation\n\nhttps://vcfed.org/event
@@ -1270,7 +2841,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Northern New England Chapter Meet
 DTSTART;TZID="UTC-04:00":20270403T100000
 DTEND;TZID="UTC-04:00":20270403T150000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:857e15a8782377dd@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Train show WITH ALL SCALES\, Exhibitor tables\, operating layo
@@ -1290,7 +2861,7 @@ BEGIN:VEVENT
 SUMMARY:April Book Fair
 DTSTART;TZID=America/New_York:20270411T093000
 DTEND;TZID=America/New_York:20270411T130000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:21fb730755d0e1bc@nerdhang
 CATEGORIES:records
 DESCRIPTION:[vc_row][vc_column][vc_column_text]Register For April Book Fai
@@ -1310,7 +2881,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270414T190000
 DTEND;TZID=America/New_York:20270414T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:fed2bd4cc77dcf86@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1323,7 +2894,7 @@ BEGIN:VEVENT
 SUMMARY:New York International Antiquarian Book Fair 2027
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270419
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:8b65e63f0fc2a294@nerdhang
 CATEGORIES:records
 DESCRIPTION:Source: ABAA New York International Antiquarian Book Fair\n\nh
@@ -1336,7 +2907,7 @@ BEGIN:VEVENT
 SUMMARY:3D Printed Model Train
 DTSTART:20270420T230000Z
 DTEND:20270421T003000Z
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:0498a3a995f358aa@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Build your own battery-powered model train featuring custom 3D
@@ -1351,7 +2922,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Eastern Division York Train Meet
 DTSTART;TZID="UTC-04:00":20270420T100000
 DTEND;TZID="UTC-04:00":20270424T160000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:482ea03760f5ea94@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Member Halls (Blue\, Red\, Silver\, & White): Members OnlyFrid
@@ -1369,10 +2940,29 @@ URL:https://www.tcatrains.org/event/tca-eastern-division-york-train-meet-5
  /
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:George Lucas & the Creation of Star Wars!
+DTSTART;TZID=America/New_York:20270427T180000
+DTEND;TZID=America/New_York:20270427T193000
+DTSTAMP:20261127T235537Z
+UID:8bee6c07c2fd88c7@nerdhang
+CATEGORIES:computers
+DESCRIPTION:2027 is the 50th anniversary of this sci-fi classic! Featuring
+  rare footage\, this program traces the surprising\, inspiring life of Sta
+ r Wars creator George Lucas. Designed for casual and die-hard fans of all 
+ ages\, this multimedia program explores Lucas’ inspirations for the seri
+ es\; follows the backstage drama behind all his films leading up to the or
+ iginal Star Wars\; and shows clips from the forgotten films that influence
+ d Lucas' classic.\n\nSource: Hillside Public Library\n\nhttps://hillsideli
+ brary.libcal.com/event/17583380
+GEO:40.7344446;-73.6882302
+LOCATION:Hillside Public Library\, New Hyde Park\, NY
+URL:https://hillsidelibrary.libcal.com/event/17583380
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:May Book Fair
 DTSTART;TZID=America/New_York:20270502T093000
 DTEND;TZID=America/New_York:20270502T130000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:1e4de340a9ef3958@nerdhang
 CATEGORIES:records
 DESCRIPTION:[vc_row][vc_column][vc_column_text]Register For May Book Fair 
@@ -1389,24 +2979,10 @@ LOCATION:Book Fairies Book Bank\, 220 Miller Place\, Hicksville\, NY 11801
 URL:https://thebookfairies.org/calendar-event/may-book-fair/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Long Island Coin club
-DTSTART:20270506T220000Z
-DTEND:20270507T010000Z
-DTSTAMP:20261127T193351Z
-UID:0ddec257d5d5f673@nerdhang
-CATEGORIES:records
-DESCRIPTION:All community group meetings must be open to the public as per
-  New York State Education Law.\n\nSource: Syosset Public Library\n\nhttps:
- //syosset.librarycalendar.com/event/long-island-coin-club-58631
-GEO:40.7987691;-73.5021128
-LOCATION:Syosset Public Library\, Syosset\, NY
-URL:https://syosset.librarycalendar.com/event/long-island-coin-club-58631
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270508T080000
 DTEND;TZID=America/New_York:20270508T093000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:0f3eb0b0afce308c@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1419,7 +2995,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270512T190000
 DTEND;TZID=America/New_York:20270512T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:e7a932c6c67c74bc@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1429,24 +3005,10 @@ LOCATION:Levittown Hall\, 201 Levittown Pkwy\, Hicksville\, NY 11801\, USA
 URL:https://limarc.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Long Island Coin club
-DTSTART:20270603T220000Z
-DTEND:20270604T010000Z
-DTSTAMP:20261127T193351Z
-UID:09c8b3c2f56870cd@nerdhang
-CATEGORIES:records
-DESCRIPTION:All community group meetings must be open to the public as per
-  New York State Education Law.\n\nSource: Syosset Public Library\n\nhttps:
- //syosset.librarycalendar.com/event/long-island-coin-club-58632
-GEO:40.7987691;-73.5021128
-LOCATION:Syosset Public Library\, Syosset\, NY
-URL:https://syosset.librarycalendar.com/event/long-island-coin-club-58632
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:TCA Keystone Division Summer Meet
 DTSTART;TZID="UTC-04:00":20270605T080000
 DTEND;TZID="UTC-04:00":20270605T130000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:438bb01e5ccc55d1@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Opens 8 a.m. for Keystone MembersOpens 9 a.m. for Public\n\nSo
@@ -1461,7 +3023,7 @@ BEGIN:VEVENT
 SUMMARY:June Book Fair
 DTSTART;TZID=America/New_York:20270606T093000
 DTEND;TZID=America/New_York:20270606T130000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:56eaf1d429963725@nerdhang
 CATEGORIES:records
 DESCRIPTION:[vc_row][vc_column][vc_column_text]Register For June Book Fair
@@ -1481,7 +3043,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270609T190000
 DTEND;TZID=America/New_York:20270609T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:f61b8899c1cbc08e@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1491,24 +3053,10 @@ LOCATION:Levittown Hall\, 201 Levittown Pkwy\, Hicksville\, NY 11801\, USA
 URL:https://limarc.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Long Island Coin club
-DTSTART:20270701T220000Z
-DTEND:20270702T010000Z
-DTSTAMP:20261127T193351Z
-UID:e69ac915198b7710@nerdhang
-CATEGORIES:records
-DESCRIPTION:All community group meetings must be open to the public as per
-  New York State Education Law.\n\nSource: Syosset Public Library\n\nhttps:
- //syosset.librarycalendar.com/event/long-island-coin-club-58633
-GEO:40.7987691;-73.5021128
-LOCATION:Syosset Public Library\, Syosset\, NY
-URL:https://syosset.librarycalendar.com/event/long-island-coin-club-58633
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Hawkins-Mount House Tours
 DTSTART;TZID=America/New_York:20270710T123000
 DTEND;TZID=America/New_York:20270710T163000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:82cacf422a1bee6d@nerdhang
 CATEGORIES:outdoors
 DESCRIPTION:Step back in time with special tours of the historic Hawkins-M
@@ -1528,7 +3076,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270710T080000
 DTEND;TZID=America/New_York:20270710T093000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:4ee3201f8b963a52@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1541,7 +3089,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270714T190000
 DTEND;TZID=America/New_York:20270714T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:e276b35848698f37@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1554,7 +3102,7 @@ BEGIN:VEVENT
 SUMMARY:VCF West 2027
 DTSTART;VALUE=DATE:20270731
 DTEND;VALUE=DATE:20270802
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:6d012fa2322a8875@nerdhang
 CATEGORIES:computers
 DESCRIPTION:Source: Vintage Computer Federation\n\nhttps://vcfed.org/
@@ -1564,24 +3112,10 @@ LOCATION:Computer History Museum\, 1401 N Shoreline Blvd\, Mountain View\,
 URL:https://vcfed.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Long Island Coin club
-DTSTART:20270805T220000Z
-DTEND:20270806T010000Z
-DTSTAMP:20261127T193351Z
-UID:a05e1488449a3969@nerdhang
-CATEGORIES:records
-DESCRIPTION:All community group meetings must be open to the public as per
-  New York State Education Law.\n\nSource: Syosset Public Library\n\nhttps:
- //syosset.librarycalendar.com/event/long-island-coin-club-58634
-GEO:40.7987691;-73.5021128
-LOCATION:Syosset Public Library\, Syosset\, NY
-URL:https://syosset.librarycalendar.com/event/long-island-coin-club-58634
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270811T190000
 DTEND;TZID=America/New_York:20270811T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:c541da840b217ba8@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1591,24 +3125,10 @@ LOCATION:Levittown Hall\, 201 Levittown Pkwy\, Hicksville\, NY 11801\, USA
 URL:https://limarc.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Long Island Coin club
-DTSTART:20270902T220000Z
-DTEND:20270903T010000Z
-DTSTAMP:20261127T193351Z
-UID:e3ed053218bc775b@nerdhang
-CATEGORIES:records
-DESCRIPTION:All community group meetings must be open to the public as per
-  New York State Education Law.\n\nSource: Syosset Public Library\n\nhttps:
- //syosset.librarycalendar.com/event/long-island-coin-club-58635
-GEO:40.7987691;-73.5021128
-LOCATION:Syosset Public Library\, Syosset\, NY
-URL:https://syosset.librarycalendar.com/event/long-island-coin-club-58635
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20270908T190000
 DTEND;TZID=America/New_York:20270908T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:5e824c62c50acd51@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1621,7 +3141,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20270911T080000
 DTEND;TZID=America/New_York:20270911T093000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:5ec22262e3573ca6@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1634,7 +3154,7 @@ BEGIN:VEVENT
 SUMMARY:TCA Atlantic Division Train Meet
 DTSTART;TZID="UTC-04:00":20270919T080000
 DTEND;TZID="UTC-04:00":20270919T130000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:f53a3441ddd10312@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Family Admission: $5 Food and Drink available for Purchase Ove
@@ -1649,39 +3169,10 @@ LOCATION:Ballroom at the Phoenix\, 1661 Mill Road\, Upper Chichester\, Pen
 URL:https://www.tcatrains.org/event/tca-atlantic-division-train-meet-11/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:3D Printed Pull Copter
-DTSTART:20271005T230000Z
-DTEND:20271006T003000Z
-DTSTAMP:20261127T193351Z
-UID:066dadeb2564aebe@nerdhang
-CATEGORIES:makers
-DESCRIPTION:Build your own mechanical pull-copter featuring a custom 3D-pr
- inted launcher mechanism and high-flying rotor blades.\n\nSource: Sachem P
- ublic Library\n\nhttps://sachem.librarycalendar.com/event/teen-program-tba
- -209090
-GEO:40.799376;-73.0697738
-LOCATION:Sachem Public Library\, Holbrook\, NY
-URL:https://sachem.librarycalendar.com/event/teen-program-tba-209090
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Long Island Coin club
-DTSTART:20271007T220000Z
-DTEND:20271008T010000Z
-DTSTAMP:20261127T193351Z
-UID:99dd95217fedecaf@nerdhang
-CATEGORIES:records
-DESCRIPTION:All community group meetings must be open to the public as per
-  New York State Education Law.\n\nSource: Syosset Public Library\n\nhttps:
- //syosset.librarycalendar.com/event/long-island-coin-club-58636
-GEO:40.7987691;-73.5021128
-LOCATION:Syosset Public Library\, Syosset\, NY
-URL:https://syosset.librarycalendar.com/event/long-island-coin-club-58636
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20271013T190000
 DTEND;TZID=America/New_York:20271013T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:d1b16da6525f011f@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1694,7 +3185,7 @@ BEGIN:VEVENT
 SUMMARY:York Train Meet: October 2027 Meet
 DTSTART;VALUE=DATE:20271019
 DTEND;VALUE=DATE:20271024
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:814dbe891f2476ba@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Presented by the Eastern Division\, Train Collectors Associati
@@ -1712,24 +3203,10 @@ LOCATION:York Expo Center\, 334 Carlisle Ave\, York\, PA\, 17404\, United
 URL:https://easterntca.com/event/october-2027-meet/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Long Island Coin club
-DTSTART:20271104T220000Z
-DTEND:20271105T010000Z
-DTSTAMP:20261127T193351Z
-UID:b0a721982aac6f84@nerdhang
-CATEGORIES:records
-DESCRIPTION:All community group meetings must be open to the public as per
-  New York State Education Law.\n\nSource: Syosset Public Library\n\nhttps:
- //syosset.librarycalendar.com/event/long-island-coin-club-58637
-GEO:40.7987691;-73.5021128
-LOCATION:Syosset Public Library\, Syosset\, NY
-URL:https://syosset.librarycalendar.com/event/long-island-coin-club-58637
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:TCA Atlantic Division Train Meet
 DTSTART;TZID="UTC-05:00":20271107T080000
 DTEND;TZID="UTC-05:00":20271107T130000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:cbc7827df264574e@nerdhang
 CATEGORIES:trains
 DESCRIPTION:Family Admission: $5 Food and Drink available for Purchase Ove
@@ -1747,7 +3224,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20271110T190000
 DTEND;TZID=America/New_York:20271110T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:f1205380d56aadb9@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1760,7 +3237,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20271113T080000
 DTEND;TZID=America/New_York:20271113T093000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:b36d1da3f5b83318@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1770,38 +3247,10 @@ LOCATION:Levittown Hall\, 201 Levittown Pkwy\, Hicksville\, NY 11801\, USA
 URL:https://limarc.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Long Island Coin club
-DTSTART:20271202T230000Z
-DTEND:20271203T020000Z
-DTSTAMP:20261127T193351Z
-UID:24228ebfe2b461cc@nerdhang
-CATEGORIES:records
-DESCRIPTION:All community group meetings must be open to the public as per
-  New York State Education Law.\n\nSource: Syosset Public Library\n\nhttps:
- //syosset.librarycalendar.com/event/long-island-coin-club-58638
-GEO:40.7987691;-73.5021128
-LOCATION:Syosset Public Library\, Syosset\, NY
-URL:https://syosset.librarycalendar.com/event/long-island-coin-club-58638
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:3D Printed Wind-Up Cars
-DTSTART:20271208T000000Z
-DTEND:20271208T013000Z
-DTSTAMP:20261127T193351Z
-UID:1f5e87fd01140df3@nerdhang
-CATEGORIES:makers
-DESCRIPTION:Build your own mechanical wind-up car using simple gears and s
- pring mechanisms to race across the floor.\n\nSource: Sachem Public Librar
- y\n\nhttps://sachem.librarycalendar.com/event/teen-program-tba-209091
-GEO:40.799376;-73.0697738
-LOCATION:Sachem Public Library\, Holbrook\, NY
-URL:https://sachem.librarycalendar.com/event/teen-program-tba-209091
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20271208T190000
 DTEND;TZID=America/New_York:20271208T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:1b8bc1aa13fc13bd@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1814,7 +3263,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20280108T080000
 DTEND;TZID=America/New_York:20280108T093000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:34d3349c92317a61@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1827,7 +3276,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280112T190000
 DTEND;TZID=America/New_York:20280112T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:20b24f372de6ed8f@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1840,7 +3289,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280209T190000
 DTEND;TZID=America/New_York:20280209T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:ed9ce588e7e09c61@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1853,7 +3302,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280308T190000
 DTEND;TZID=America/New_York:20280308T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:344bdf9ba95c9947@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1866,7 +3315,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20280311T080000
 DTEND;TZID=America/New_York:20280311T093000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:b424fa32b4f7da9f@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1879,7 +3328,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280412T190000
 DTEND;TZID=America/New_York:20280412T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:96bbf2f2b81ecc87@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1892,7 +3341,7 @@ BEGIN:VEVENT
 SUMMARY:LIMARC General Meeting
 DTSTART;TZID=America/New_York:20280510T190000
 DTEND;TZID=America/New_York:20280510T213000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:b1d9d355e62ff64c@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar
@@ -1905,7 +3354,7 @@ BEGIN:VEVENT
 SUMMARY:VE Test Session
 DTSTART;TZID=America/New_York:20280513T080000
 DTEND;TZID=America/New_York:20280513T093000
-DTSTAMP:20261127T193351Z
+DTSTAMP:20261127T235537Z
 UID:3a04428dcf643ff6@nerdhang
 CATEGORIES:ham-radio
 DESCRIPTION:Source: Long Island Mobile Amateur Radio Club\n\nhttps://limar

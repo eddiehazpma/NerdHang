@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T19:33:51+00:00",
+ "generated_at": "2026-11-27T23:55:37+00:00",
  "sources": {
   "rmli": {
    "ok": true,
@@ -29,7 +29,7 @@
   },
   "lib-brentwood": {
    "ok": true,
-   "count": 1
+   "count": 4
   },
   "lib-farmingdale": {
    "ok": true,
@@ -37,15 +37,15 @@
   },
   "lib-emmaclark": {
    "ok": true,
-   "count": 0
+   "count": 2
   },
   "lib-longbeach": {
    "ok": true,
-   "count": 1
+   "count": 4
   },
   "lib-sachem": {
    "ok": true,
-   "count": 5
+   "count": 9
   },
   "lib-islip": {
    "ok": true,
@@ -53,11 +53,11 @@
   },
   "lib-comsewogue": {
    "ok": true,
-   "count": 2
+   "count": 1
   },
   "lib-portjeff": {
    "ok": true,
-   "count": 3
+   "count": 7
   },
   "lib-massapequa": {
    "ok": true,
@@ -65,11 +65,11 @@
   },
   "lib-levittown": {
    "ok": true,
-   "count": 1
+   "count": 11
   },
   "lib-syosset": {
    "ok": true,
-   "count": 14
+   "count": 7
   },
   "lib-manhasset": {
    "ok": true,
@@ -89,11 +89,191 @@
   },
   "lib-commack": {
    "ok": true,
-   "count": 0
+   "count": 4
   },
   "lib-eastislip": {
    "ok": true,
+   "count": 7
+  },
+  "lib-babylon": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-baldwin": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-centermoriches": {
+   "ok": true,
+   "count": 1
+  },
+  "lib-coldspringharbor": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-copiague": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-cutchogue": {
+   "ok": true,
+   "count": 3
+  },
+  "lib-easthampton": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-elwood": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-goldcoast": {
+   "ok": true,
+   "count": 3
+  },
+  "lib-hamptonbays": {
+   "ok": true,
+   "count": 11
+  },
+  "lib-mineola": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-montauk": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-oceanside": {
+   "ok": true,
+   "count": 9
+  },
+  "lib-quogue": {
+   "ok": true,
    "count": 6
+  },
+  "lib-southcountry": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-southold": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-uniondale": {
+   "ok": true,
+   "count": 3
+  },
+  "lib-harborfields": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-jericho": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-longwood": {
+   "ok": true,
+   "count": 6
+  },
+  "lib-sayville": {
+   "ok": true,
+   "count": 8
+  },
+  "lib-wyandanch": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-bryant": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-eastmeadow": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-elmont": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-floralpark": {
+   "ok": true,
+   "count": 1
+  },
+  "lib-franklinsquare": {
+   "ok": true,
+   "count": 2
+  },
+  "lib-freeport": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-gardencity": {
+   "ok": true,
+   "count": 1
+  },
+  "lib-glencove": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-greatneck": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-hempstead": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-hicksville": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-hillside": {
+   "ok": true,
+   "count": 1
+  },
+  "lib-huntington": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-hewlettwoodmere": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-islandpark": {
+   "ok": true,
+   "count": 4
+  },
+  "lib-johnjermain": {
+   "ok": true,
+   "count": 3
+  },
+  "lib-lakeview": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-northbellmore": {
+   "ok": true,
+   "count": 1
+  },
+  "lib-plainedge": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-rockvillecentre": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-seacliff": {
+   "ok": true,
+   "count": 0
+  },
+  "lib-wantagh": {
+   "ok": true,
+   "count": 1
+  },
+  "lib-westbury": {
+   "ok": true,
+   "count": 0
   },
   "gov-nassau": {
    "ok": true,
@@ -121,7 +301,7 @@
   },
   "li-museum": {
    "ok": true,
-   "count": 8
+   "count": 7
   },
   "old-westbury-gardens": {
    "ok": true,
@@ -168,6 +348,82 @@
    "description": "Join SOFO for a beach cleanup this Black Friday! Spend the day after Thanksgiving outside and help protect our beaches and wildlife from accumulated trash! Rain or shine; severe weather cancels. Program Leader: Rebecca Rogers, SOFO Environmental Educator This FREE program is for all ages. Advanced reservations are required for all events. Sign Up Here!",
    "source_name": "South Fork Natural History Museum (SoFo)",
    "id": "7d8a42ca1a1a4343"
+  },
+  {
+   "source_id": "lib-quogue",
+   "source_uid": "49049@2026-11-28T19:00:00+00:00",
+   "title": "3D Printing Innovators",
+   "start": "2026-11-28T19:00:00+00:00",
+   "end": "2026-11-28T19:45:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "Quogue Library",
+    "address": "Quogue Library, Quogue, NY",
+    "lat": 40.8189844,
+    "lon": -72.5993501
+   },
+   "url": "https://quogue.librarycalendar.com/event/3d-printing-innovators-49049",
+   "description": "3D printing fun for everyone! Bring the whole family to this all-ages, beginner-friendly workshop. You will learn how 3D printing works to design a unique project. Because 3D prints take time to create, your finished items will be ready for pickup within two weeks.",
+   "source_name": "Quogue Library",
+   "id": "724c4e72a8f3dad8"
+  },
+  {
+   "source_id": "lib-quogue",
+   "source_uid": "39797@2026-11-28T23:00:00+00:00",
+   "title": "Dungeons and Dragons",
+   "start": "2026-11-28T23:00:00+00:00",
+   "end": "2026-11-29T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Quogue Library",
+    "address": "Quogue Library, Quogue, NY",
+    "lat": 40.8189844,
+    "lon": -72.5993501
+   },
+   "url": "https://quogue.librarycalendar.com/event/dungeons-and-dragons-39797",
+   "description": "Quogue Library's very own Dungeon Master, Stephen Jordan invites D&D newbies and experts to join the club! Use a pre-made character or make your own. Zoom link will be emailed to all registrants 24 hours prior to program.",
+   "source_name": "Quogue Library",
+   "id": "7ff8f675efbe0658"
+  },
+  {
+   "source_id": "lib-gardencity",
+   "source_uid": "LibCal-21254-17908409@2026-11-28T12:00:00-05:00",
+   "title": "Edward Sierra lecture \"Silent Submarine Service: History & Recollections of a Navy Veteran\"",
+   "start": "2026-11-28T12:00:00-05:00",
+   "end": "2026-11-28T13:30:00-05:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Garden City Public Library",
+    "address": "Garden City Public Library, Garden City, NY",
+    "lat": 40.7237394,
+    "lon": -73.6392638
+   },
+   "url": "https://gardencitypl.libcal.com/event/17908409",
+   "description": "“Torpedo in the Water!” Edward A. Sierra vividly remembers hearing those terrifying words loudly come across the speakers while submerged aboard a nuclear-powered fast attack submarine in the Mediterranean Sea. Ed joined the United States Navy at age 17, having just graduated from High School in Medford, NY. Upon completion of an intense two-year Naval training program, Ed reported to the Electrical Division onboard the U.S.S. Billfish SSN-676. In this talk he reviews early submarine history and",
+   "source_name": "Garden City Public Library",
+   "id": "36d3bf8fda13858a"
+  },
+  {
+   "source_id": "lib-emmaclark",
+   "source_uid": "61439@2026-11-28T17:00:00+00:00",
+   "title": "Monster of the Week: A Tabletop RPG",
+   "start": "2026-11-28T17:00:00+00:00",
+   "end": "2026-11-28T19:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Emma S. Clark Memorial Library",
+    "address": "Emma S. Clark Memorial Library, Setauket, NY",
+    "lat": 40.9448735,
+    "lon": -73.1119697
+   },
+   "url": "https://emmaclark.librarycalendar.com/event/monster-week-tabletop-rpg-61439",
+   "description": "Monster enthusiasts unite for this tabletop roleplaying game about a secret team of heroes protecting the modern world from monsters. The players will have to solve the mystery of the monster before they can defeat it. Led by Game Master (and Librarian) River. No prior experience necessary. Must be able to attend all 5 sessions, to keep a cohesive team.",
+   "source_name": "Emma S. Clark Memorial Library",
+   "id": "2512b3affabcbfae"
   },
   {
    "source_id": "sofo",
@@ -227,8 +483,27 @@
    "id": "479e6b102ee93625"
   },
   {
+   "source_id": "lib-portjeff",
+   "source_uid": "35240@2026-11-29T18:30:00+00:00",
+   "title": "Dungeons & Dragons",
+   "start": "2026-11-29T18:30:00+00:00",
+   "end": "2026-11-29T20:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Port Jefferson Free Library",
+    "address": "Port Jefferson Free Library, Port Jefferson, NY",
+    "lat": 40.9469225,
+    "lon": -73.0664401
+   },
+   "url": "https://portjeff.librarycalendar.com/event/dungeons-dragons-35240",
+   "description": "Journey on a side quest story. See Khan for help to build your character ahead of the program.",
+   "source_name": "Port Jefferson Free Library",
+   "id": "51cb4ef0dd173cb9"
+  },
+  {
    "source_id": "cradle-of-aviation",
-   "source_uid": "9300c482-c020-4623-b9f5-29a81b9ecb1c@2026-11-29T06:00:00-05:00",
+   "source_uid": "0a7e6bc8-3d50-40e4-8648-94bf8597e96d@2026-11-29T06:00:00-05:00",
    "title": "Thanksgiving Weekend at the Cradle of Aviation Museum",
    "start": "2026-11-29T06:00:00-05:00",
    "end": "2026-11-29T06:00:01-05:00",
@@ -243,7 +518,159 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Spend Thanksgiving weekend at the Museum! Learn about NASA's Voyager spacecraft, enjoy a free hands-on craft activity, and take in a planetarium show.</b> Friday - Sunday, November 27 - 29 Museum Hours: 10 am - 5 pm Activity: 12 pm - 4 pm <b>Celebrating Voyager</b> This November, NASA's Voyager 1 reaches a remarkable milestone, traveling more than one light-day from Earth! Launched in 1977, Voyager 1 has traveled beyond our solar system into interstellar space and is now the most distant huma",
    "source_name": "Cradle of Aviation Museum",
-   "id": "21a9bd21006a292f"
+   "id": "95e5ab32165df220"
+  },
+  {
+   "source_id": "lib-levittown",
+   "source_uid": "36430@2026-11-30T22:30:00+00:00",
+   "title": "Adult Program: Dungeons & Dragons",
+   "start": "2026-11-30T22:30:00+00:00",
+   "end": "2026-12-01T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Levittown Public Library",
+    "address": "Levittown Public Library, Levittown, NY",
+    "lat": 40.7233333,
+    "lon": -73.5297222
+   },
+   "url": "https://levittown.librarycalendar.com/event/adult-program-dungeons-dragons-36430",
+   "description": "This program is a continuation from Sept - October.",
+   "source_name": "Levittown Public Library",
+   "id": "6a001aaaabc8fad3"
+  },
+  {
+   "source_id": "lib-brentwood",
+   "source_uid": "143526@2026-11-30T23:00:00+00:00",
+   "title": "Anime Night for Adults",
+   "start": "2026-11-30T23:00:00+00:00",
+   "end": "2026-12-01T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Brentwood Public Library",
+    "address": "Brentwood Public Library, Brentwood, NY",
+    "lat": 40.782634,
+    "lon": -73.2566332
+   },
+   "url": "https://brentwood.librarycalendar.com/event/anime-night-adults-143526",
+   "description": "Watch and discuss your favorite anime, discover new shows, or just come for the camaraderie.",
+   "source_name": "Brentwood Public Library",
+   "id": "85ec32fb9a92d645"
+  },
+  {
+   "source_id": "lib-longwood",
+   "source_uid": "201558@2026-11-30T23:00:00+00:00",
+   "title": "Dungeons & Dragons (Adults)",
+   "start": "2026-11-30T23:00:00+00:00",
+   "end": "2026-12-01T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Longwood Public Library",
+    "address": "Longwood Public Library, Middle Island, NY",
+    "lat": 40.8820789,
+    "lon": -72.9440591
+   },
+   "url": "https://www.longwoodlibrary.org/event/dungeons-dragons-adults-201558",
+   "description": "Join expert DM Jimmy for a D&D campaign involving mats, minifigs and higher-level characters. Bring your character from a previous campaign or create a new one prior to the first session.",
+   "source_name": "Longwood Public Library",
+   "id": "be506d55731a812e"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "129880@2026-11-30T23:30:00+00:00",
+   "title": "Magic: The Gathering",
+   "start": "2026-11-30T23:30:00+00:00",
+   "end": "2026-12-01T01:15:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/magic-gathering-129880",
+   "description": "Magic: The Gathering Do you love playing the trading card game Magic: The Gathering? Or perhaps you'd like to learn how to play, or have an interest in role playing games or the fantasy genre. If that's the case, then this program is for you! Don't worry if you don't have cards, the library has cards for you to use. This program is for ages 12 & up.",
+   "source_name": "Long Beach Public Library",
+   "id": "e3d4149e0cc7f239"
+  },
+  {
+   "source_id": "lib-longwood",
+   "source_uid": "195192@2026-12-01T15:00:00+00:00",
+   "title": "Guided Nature Hike at Hallock State Park Preserve",
+   "start": "2026-12-01T15:00:00+00:00",
+   "end": "2026-12-01T17:00:00+00:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "Longwood Public Library",
+    "address": "Longwood Public Library, Middle Island, NY",
+    "lat": 40.8820789,
+    "lon": -72.9440591
+   },
+   "url": "https://www.longwoodlibrary.org/event/guided-nature-hike-hallock-state-park-preserve-195192",
+   "description": "Explore the woods, dunes, beachfront, and freshwater pond at Hallock State Park Preserve with author and naturalist Lee McAllister. You'll also learn the history of the property, including a small battle that took place near the shore in the War of 1812. Details to know before you go: - Hallock State Park Preserve is located at 6062 Sound Avenue, Jamesport, NY 11947 - Be prepared to walk 3.5 miles over some uneven ground and high bluffs. Please wear appropriate footwear and bring water. - Dress ",
+   "source_name": "Longwood Public Library",
+   "id": "b736789f4be50dfc"
+  },
+  {
+   "source_id": "lib-levittown",
+   "source_uid": "28192@2026-12-01T15:30:00+00:00",
+   "title": "Tabletop Game Days",
+   "start": "2026-12-01T15:30:00+00:00",
+   "end": "2026-12-01T20:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Levittown Public Library",
+    "address": "Levittown Public Library, Levittown, NY",
+    "lat": 40.7233333,
+    "lon": -73.5297222
+   },
+   "url": "https://levittown.librarycalendar.com/event/tabletop-game-days-28192",
+   "description": "Tuesdays: 10:30 AM to 3:00 PM Join along or bring a group of friends. Players are welcome to bring their own cards and games.",
+   "source_name": "Levittown Public Library",
+   "id": "d433ed13261a2a41"
+  },
+  {
+   "source_id": "lib-eastislip",
+   "source_uid": "29447@2026-12-02T23:00:00+00:00",
+   "title": "Dungeons & Dragons",
+   "start": "2026-12-02T23:00:00+00:00",
+   "end": "2026-12-03T02:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "East Islip Public Library",
+    "address": "East Islip Public Library, East Islip, NY",
+    "lat": 40.7358333,
+    "lon": -73.1733333
+   },
+   "url": "https://eastislip.librarycalendar.com/event/copy-dungeons-dragons-29447",
+   "description": "Come play Dungeons & Dragons with some of the best game masters on the island! Perfect for new and experienced players alike. Join together to battle monsters, discover lost ruins, and triumph over evil! For grades 7-12.",
+   "source_name": "East Islip Public Library",
+   "id": "1fb3af87d466d243"
+  },
+  {
+   "source_id": "lib-sayville",
+   "source_uid": "91337@2026-12-02T22:00:00+00:00",
+   "title": "Vinyl Night at Buddha Belly Records",
+   "start": "2026-12-02T22:00:00+00:00",
+   "end": "2026-12-03T00:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Sayville Library",
+    "address": "Sayville Library, Sayville, NY",
+    "lat": 40.7358333,
+    "lon": -73.08
+   },
+   "url": "https://www.sayvillelibrary.org/event/vinyl-night-buddha-belly-records-91337",
+   "description": "Join librarian Peter any time between 5:00 - 7:00pm at Buddha Belly Records for the first of what will become a regular Vinyl Night! For our first night, we'll be chatting about the best record we ever got as a gift and listening to some of our favorites! Feel free to bring some to share! Space is limited.",
+   "source_name": "Sayville Library",
+   "id": "9382abb989ad0c41"
   },
   {
    "source_id": "lib-portjeff",
@@ -303,6 +730,82 @@
    "id": "8ad76425da4debb6"
   },
   {
+   "source_id": "lib-wantagh",
+   "source_uid": "LibCal-20951-17021375@2026-12-03T10:00:00-05:00",
+   "title": "Nature Walk / Guided Hike: Stillwell Woods",
+   "start": "2026-12-03T10:00:00-05:00",
+   "end": "2026-12-03T11:30:00-05:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "Wantagh Public Library",
+    "address": "Wantagh Public Library, Wantagh, NY",
+    "lat": 40.6741399,
+    "lon": -73.5112102
+   },
+   "url": "https://wantaghlibrary.libcal.com/event/17021375",
+   "description": "Led by naturalist and author Lee McAllister. Please wear appropriate attire and footwear, this is a moderate intensity, longer hike of 3 - 3.5 miles, with some hills. This is an off-site event. Meet at Stillwell Woods Main Parking Lot (25 S Woods Rd, Woodbury, NY 11797) Registration: Wantagh Public Library Cardholders: Thursday, November 12th, 2026 Out of District Cardholders: Thursday, November 19th, 2026",
+   "source_name": "Wantagh Public Library",
+   "id": "ada963db433aa9db"
+  },
+  {
+   "source_id": "lib-hamptonbays",
+   "source_uid": "50071@2026-12-03T23:30:00+00:00",
+   "title": "New Adult: Manga Club",
+   "start": "2026-12-03T23:30:00+00:00",
+   "end": "2026-12-04T00:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Hampton Bays Public Library",
+    "address": "Hampton Bays Public Library, Hampton Bays, NY",
+    "lat": 40.8729677,
+    "lon": -72.520505
+   },
+   "url": "https://hamptonbays.librarycalendar.com/event/new-adult-movie-club-50071",
+   "description": "Welcome to a new twist on a manga club! We're doing things a bit differently this time around by reading the light novel adaptations of some popular manga! You don't have to have read the manga or seen the anime to participate or read the light novels! In December, we will read the first volume of the light novel adaptation of The Summer Hikaru Died. Please contact the teen department for information on how to pick up your copy!",
+   "source_name": "Hampton Bays Public Library",
+   "id": "0fdf3739691d809e"
+  },
+  {
+   "source_id": "lib-sachem",
+   "source_uid": "155143@2026-12-04T22:30:00+00:00",
+   "title": "Adult Dungeons & Dragons (In-Person)",
+   "start": "2026-12-04T22:30:00+00:00",
+   "end": "2026-12-05T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Sachem Public Library",
+    "address": "Sachem Public Library, Holbrook, NY",
+    "lat": 40.799376,
+    "lon": -73.0697738
+   },
+   "url": "https://sachem.librarycalendar.com/event/adult-dungeons-dragons-person-155143",
+   "description": "Adult adventurers of all skill levels are invited to play Dungeons & Dragons 5th Edition run by the Quest Masters Guild.",
+   "source_name": "Sachem Public Library",
+   "id": "8a9d56efe50ff093"
+  },
+  {
+   "source_id": "lib-hamptonbays",
+   "source_uid": "50072@2026-12-04T22:30:00+00:00",
+   "title": "D&D: One Shot Wonder",
+   "start": "2026-12-04T22:30:00+00:00",
+   "end": "2026-12-04T23:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Hampton Bays Public Library",
+    "address": "Hampton Bays Public Library, Hampton Bays, NY",
+    "lat": 40.8729677,
+    "lon": -72.520505
+   },
+   "url": "https://hamptonbays.librarycalendar.com/event/dd-one-shot-wonder-50072",
+   "description": "DM James is bringing a new adventure every week! Registration Required. 10 player max.",
+   "source_name": "Hampton Bays Public Library",
+   "id": "886f9fab41aad1b9"
+  },
+  {
    "source_id": "tca",
    "source_uid": "25820-1796385600-1796479200@www.tcatrains.org@2026-12-04T12:00:00-05:00",
    "title": "TCA Terminus Chapter Meet",
@@ -360,8 +863,27 @@
    "id": "6fc49ea72730ffee"
   },
   {
+   "source_id": "lib-quogue",
+   "source_uid": "39798@2026-12-05T23:00:00+00:00",
+   "title": "Dungeons and Dragons",
+   "start": "2026-12-05T23:00:00+00:00",
+   "end": "2026-12-06T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Quogue Library",
+    "address": "Quogue Library, Quogue, NY",
+    "lat": 40.8189844,
+    "lon": -72.5993501
+   },
+   "url": "https://quogue.librarycalendar.com/event/dungeons-and-dragons-39798",
+   "description": "Quogue Library's very own Dungeon Master, Stephen Jordan invites D&D newbies and experts to join the club! Use a pre-made character or make your own. Zoom link will be emailed to all registrants 24 hours prior to program.",
+   "source_name": "Quogue Library",
+   "id": "d3a3ce46c18606c3"
+  },
+  {
    "source_id": "cradle-of-aviation",
-   "source_uid": "494cf385-40eb-4dce-a3ba-b32281ee2719@2026-12-05T10:00:00-05:00",
+   "source_uid": "88f5454d-9622-495c-978d-585f44ca1b8f@2026-12-05T10:00:00-05:00",
    "title": "Festival of Games",
    "start": "2026-12-05T10:00:00-05:00",
    "end": "2026-12-06T10:00:00-05:00",
@@ -376,7 +898,45 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Festival of Games: A Holiday Shopping & Gaming Event</b> Cradle-Con and Long Island Retro Gaming Expo are proud to present Festival of Games – a holiday-themed extravaganza of shopping and gaming experiences. Join us on Saturday, December 5th, and Sunday, December 6th, from 10:00 am to 5:00 pm, and shop a variety of local small businesses for retro video games, toys, comics, and collectibles, and enjoy a slew of unique retro gaming experiences. Admission includes free unlimited gameplay on ov",
    "source_name": "Cradle of Aviation Museum",
-   "id": "1c174c1d58067e96"
+   "id": "3f7cc47e81e138c3"
+  },
+  {
+   "source_id": "lib-goldcoast",
+   "source_uid": "19252@2026-12-05T19:00:00+00:00",
+   "title": "Magic: The Gathering: The Gathering",
+   "start": "2026-12-05T19:00:00+00:00",
+   "end": "2026-12-05T22:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Gold Coast Public Library",
+    "address": "Gold Coast Public Library, Glen Head, NY",
+    "lat": 40.8358047,
+    "lon": -73.6224555
+   },
+   "url": "https://goldcoast.librarycalendar.com/event/magic-gathering-gathering-19252",
+   "description": "For teens and adults; In the Casual Commander format (C1-C2 level decks), players of all skills are welcome, including anyone looking to get into Magic: The Gathering! Drop in, bring your deck(s) or use one provided by the library, learn, play and eat snacks!",
+   "source_name": "Gold Coast Public Library",
+   "id": "b8834cda252f666c"
+  },
+  {
+   "source_id": "lib-quogue",
+   "source_uid": "50131@2026-12-05T18:00:00+00:00",
+   "title": "Next-Level 3D Printing",
+   "start": "2026-12-05T18:00:00+00:00",
+   "end": "2026-12-05T19:00:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "Quogue Library",
+    "address": "Quogue Library, Quogue, NY",
+    "lat": 40.8189844,
+    "lon": -72.5993501
+   },
+   "url": "https://quogue.librarycalendar.com/event/next-level-3d-printing-50131",
+   "description": "Take your skills to the next level with our intermediate 3D printing workshop! This course moves beyond the basics to focus on practical and elevated design for makers ready to explore how much 3D printers have to offer. All ages are welcome.",
+   "source_name": "Quogue Library",
+   "id": "e427af8807ea2cdc"
   },
   {
    "source_id": "rmli",
@@ -436,6 +996,25 @@
    "id": "4a61dfae8d421834"
   },
   {
+   "source_id": "lib-sayville",
+   "source_uid": "71424@2026-12-05T18:00:00+00:00",
+   "title": "Welcome Winter",
+   "start": "2026-12-05T18:00:00+00:00",
+   "end": "2026-12-05T21:00:00+00:00",
+   "all_day": false,
+   "category": "trains",
+   "location": {
+    "name": "Sayville Library",
+    "address": "Sayville Library, Sayville, NY",
+    "lat": 40.7358333,
+    "lon": -73.08
+   },
+   "url": "https://www.sayvillelibrary.org/event/copy-welcome-winter-71424",
+   "description": "All Ages - Family Program Join us for our annual celebration with Crafts, Family Gingerbread House Decorating, Games, Karaoke, Letters to Santa, Tasty Treats, Trackless Train Rides, & More!",
+   "source_name": "Sayville Library",
+   "id": "522f57686a62ad1b"
+  },
+  {
    "source_id": "book-fairies",
    "source_uid": "9909-1796549400-1796562000@thebookfairies.org@2026-12-06T09:30:00-05:00",
    "title": "December Book Fair",
@@ -493,6 +1072,196 @@
    "id": "17f4a50e6aabfa34"
   },
   {
+   "source_id": "lib-brentwood",
+   "source_uid": "146679@2026-12-07T23:00:00+00:00",
+   "title": "Anime Night for Adults",
+   "start": "2026-12-07T23:00:00+00:00",
+   "end": "2026-12-08T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Brentwood Public Library",
+    "address": "Brentwood Public Library, Brentwood, NY",
+    "lat": 40.782634,
+    "lon": -73.2566332
+   },
+   "url": "https://brentwood.librarycalendar.com/event/anime-night-adults-146679",
+   "description": "Watch and discuss your favorite anime, discover new shows, or just come for the camaraderie.",
+   "source_name": "Brentwood Public Library",
+   "id": "7077f24b0bb4e502"
+  },
+  {
+   "source_id": "lib-syosset",
+   "source_uid": "61795@2026-12-07T23:30:00+00:00",
+   "title": "Dungeons & Dragons - Winter Campaign with DM Eric",
+   "start": "2026-12-07T23:30:00+00:00",
+   "end": "2026-12-08T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
+   },
+   "url": "https://syosset.librarycalendar.com/event/dungeons-dragons-winter-campaign-dm-eric-61795",
+   "description": "Sign up once and continue on your quest for 3 months. DM Eric will guide your way through this fun and exciting adventure. Adventures last for 3 months, when you register, please make sure you can come to all dates. Registration for SSD residents begins November 24, all others one week later if available. Disclaimer - All children under 12 must have a parent/guardian in the building at all times. - If you arrive more than 10 minutes past the stated start time of the program, your spot may be giv",
+   "source_name": "Syosset Public Library",
+   "id": "739dca5aab6b3165"
+  },
+  {
+   "source_id": "lib-sachem",
+   "source_uid": "206104@2026-12-07T23:30:00+00:00",
+   "title": "Introduction to Magic: The Gathering (In Person)",
+   "start": "2026-12-07T23:30:00+00:00",
+   "end": "2026-12-08T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Sachem Public Library",
+    "address": "Sachem Public Library, Holbrook, NY",
+    "lat": 40.799376,
+    "lon": -73.0697738
+   },
+   "url": "https://sachem.librarycalendar.com/event/introduction-magic-gathering-person-206104",
+   "description": "Studio classes are limited to Adult Sachem Cardholders Only, unless otherwise noted. Registered adults may be accompanied by a teen age 16 or above. Learn how to play the popular trading card game Magic: The Gathering (MTG) as well as make some custom accessories. Registration Required. $5 Materials Fee.",
+   "source_name": "Sachem Public Library",
+   "id": "b5a85d99bd87cc12"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "139709@2026-12-07T23:30:00+00:00",
+   "title": "Magic: The Gathering",
+   "start": "2026-12-07T23:30:00+00:00",
+   "end": "2026-12-08T01:15:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/magic-gathering-139709",
+   "description": "Magic: The Gathering Do you love playing the trading card game Magic: The Gathering? Or perhaps you'd like to learn how to play, or have an interest in role playing games or the fantasy genre. If that's the case, then this program is for you! Don't worry if you don't have cards, the library has cards for you to use. This program is for ages 12 & up.",
+   "source_name": "Long Beach Public Library",
+   "id": "996a3241f8506285"
+  },
+  {
+   "source_id": "lib-oceanside",
+   "source_uid": "42882@2026-12-08T01:30:00+00:00",
+   "title": "3-D Printer Class Evening",
+   "start": "2026-12-08T01:30:00+00:00",
+   "end": "2026-12-08T02:30:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "Oceanside Library",
+    "address": "Oceanside Library, Oceanside, NY",
+    "lat": 40.6415414,
+    "lon": -73.6384997
+   },
+   "url": "https://oceansidepl.librarycalendar.com/event/3-d-printer-class-evening-42882",
+   "description": "Class laptops are available for the first 9 people. The class is intended for adults, however, children are more than welcome to attend with a parent or guardian present.",
+   "source_name": "Oceanside Library",
+   "id": "eada1f7502ef5ed2"
+  },
+  {
+   "source_id": "lib-franklinsquare",
+   "source_uid": "LibCal-20873-17906873@2026-12-08T18:00:00-05:00",
+   "title": "Dungeons & Dragons for Adults \"New Campaign\"",
+   "start": "2026-12-08T18:00:00-05:00",
+   "end": "2026-12-08T19:30:00-05:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Franklin Square Public Library",
+    "address": "Franklin Square Public Library, Franklin Square, NY",
+    "lat": 40.700236,
+    "lon": -73.676448
+   },
+   "url": "https://franklinsquarepl.libcal.com/event/17906873",
+   "description": "Seeking adventurers for an adult Dungeons & Dragons game. All skill levels welcome! Hosted by local Dungeon Master Peter M.",
+   "source_name": "Franklin Square Public Library",
+   "id": "93db6025b04339ad"
+  },
+  {
+   "source_id": "lib-portjeff",
+   "source_uid": "35333@2026-12-08T22:00:00+00:00",
+   "title": "Magic the Gathering: Commander",
+   "start": "2026-12-08T22:00:00+00:00",
+   "end": "2026-12-08T23:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Port Jefferson Free Library",
+    "address": "Port Jefferson Free Library, Port Jefferson, NY",
+    "lat": 40.9469225,
+    "lon": -73.0664401
+   },
+   "url": "https://portjeff.librarycalendar.com/event/magic-gathering-commander-35333",
+   "description": "Bring a deck or borrow a ready commander deck to duel.",
+   "source_name": "Port Jefferson Free Library",
+   "id": "31783d1455c7935b"
+  },
+  {
+   "source_id": "lib-hamptonbays",
+   "source_uid": "50076@2026-12-08T20:30:00+00:00",
+   "title": "Magic: The Gathering 101",
+   "start": "2026-12-08T20:30:00+00:00",
+   "end": "2026-12-08T21:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Hampton Bays Public Library",
+    "address": "Hampton Bays Public Library, Hampton Bays, NY",
+    "lat": 40.8729677,
+    "lon": -72.520505
+   },
+   "url": "https://hamptonbays.librarycalendar.com/event/magic-gathering-101-50076",
+   "description": "Come play Magic: The Gathering with friends, whether you've been playing for years or you want to learn! Feel free to bring your own deck or use one of our pre–built ones!",
+   "source_name": "Hampton Bays Public Library",
+   "id": "df7dfe0355ed6008"
+  },
+  {
+   "source_id": "lib-levittown",
+   "source_uid": "28193@2026-12-08T15:30:00+00:00",
+   "title": "Tabletop Game Days",
+   "start": "2026-12-08T15:30:00+00:00",
+   "end": "2026-12-08T20:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Levittown Public Library",
+    "address": "Levittown Public Library, Levittown, NY",
+    "lat": 40.7233333,
+    "lon": -73.5297222
+   },
+   "url": "https://levittown.librarycalendar.com/event/tabletop-game-days-28193",
+   "description": "Tuesdays: 10:30 AM to 3:00 PM Join along or bring a group of friends. Players are welcome to bring their own cards and games.",
+   "source_name": "Levittown Public Library",
+   "id": "58429c268417068f"
+  },
+  {
+   "source_id": "lib-oceanside",
+   "source_uid": "24282@2026-12-09T01:00:00+00:00",
+   "title": "D&D for Adults",
+   "start": "2026-12-09T01:00:00+00:00",
+   "end": "2026-12-09T03:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Oceanside Library",
+    "address": "Oceanside Library, Oceanside, NY",
+    "lat": 40.6415414,
+    "lon": -73.6384997
+   },
+   "url": "https://oceansidepl.librarycalendar.com/event/dd-adults-24282",
+   "description": "The Oceanside Public Library is pleased to bring its patrons the opportunity to participate in the TTRPG, Tabletop Role play game, Dungeons and Dragons. We look forward to creating a welcoming and creative space for traveling, heist, adventures, and wherever your campaign leads you in the Oceanside Public Library's Civic Center's Community Rooms every 2nd and 4th Tuesday of the Month. For ages 18 +.",
+   "source_name": "Oceanside Library",
+   "id": "9557edb40effc6f7"
+  },
+  {
    "source_id": "limarc",
    "source_uid": "628102br2f1e300rr8nqgmope1@google.com@2026-12-09T19:00:00-05:00",
    "title": "LIMARC General Meeting",
@@ -512,23 +1281,42 @@
    "id": "ad30e9dfefabd06d"
   },
   {
-   "source_id": "li-museum",
-   "source_uid": "10000295-1796929200-1796936400@longislandmuseum.org@2026-12-10T19:00:00-05:00",
-   "title": "FILM@LIM: Free Screening of The Muppet Christmas Carol",
-   "start": "2026-12-10T19:00:00-05:00",
-   "end": "2026-12-10T21:00:00-05:00",
+   "source_id": "lib-cutchogue",
+   "source_uid": "79726@2026-12-09T14:00:00+00:00",
+   "title": "NEW YORK BOTANICAL GARDEN HOLIDAY TRAIN SHOW",
+   "start": "2026-12-09T14:00:00+00:00",
+   "end": "2026-12-09T21:00:00+00:00",
    "all_day": false,
-   "category": "museum",
+   "category": "trains",
    "location": {
-    "name": "The Long Island Museum",
-    "address": "1200 Route 25A, Stony Brook, NY 11790",
-    "lat": 40.9302945,
-    "lon": -73.1151874
+    "name": "Cutchogue-New Suffolk Free Library",
+    "address": "Cutchogue-New Suffolk Free Library, Cutchogue, NY",
+    "lat": 41.0091205,
+    "lon": -72.4857223
    },
-   "url": "https://longislandmuseum.org/event/muppet-christmas-carol/",
-   "description": "Celebrate the magic of the holiday season with a free screening of the holiday classic: The Muppet Christmas Carol (1992)! Join Kermit, Miss Piggy, and the rest of the beloved Muppet gang as they bring Charles Dickens’s timeless tale of Ebenezer Scrooge to life in this heartwarming holiday classic. Filled with humor, memorable songs, and plenty of Christmas spirit, this festive film is perfect for the whole family. Gather your loved ones and enjoy a little holiday movie magic! Screenings are hel",
-   "source_name": "The Long Island Museum",
-   "id": "0fa5205206f4fdfb"
+   "url": "https://cutchogue.librarycalendar.com/event/new-york-botanical-garden-holiday-train-show-79726",
+   "description": "NEW YORK BOTANICAL GARDEN HOLIDAY TRAIN SHOW Wednesday, December 9, 2026 9:00am Depart King Kullen Cutchogue/4:00pm Depart NYBG Registration required. Fee: $60 (non-refundable) Join us on a trip to the New York Botanical Garden's Holiday Train Show. Be transported to a winter wonderland as model trains zip through an enchanting display of more than 175 landmarks including the Statue of Liberty, Brooklyn Bridge, and Rockefeller Center, each delightfully re-created from natural materials-birch bar",
+   "source_name": "Cutchogue-New Suffolk Free Library",
+   "id": "449a32dff24d6f8e"
+  },
+  {
+   "source_id": "lib-johnjermain",
+   "source_uid": "LibCal-20156-18020048@2026-12-10T17:00:00-05:00",
+   "title": "Anime Club",
+   "start": "2026-12-10T17:00:00-05:00",
+   "end": "2026-12-10T18:00:00-05:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "John Jermain Memorial Library",
+    "address": "John Jermain Memorial Library, Sag Harbor, NY",
+    "lat": 40.9974902,
+    "lon": -72.2963635
+   },
+   "url": "https://johnjermain.libcal.com/event/18020048",
+   "description": "Calling all Otakus, come hang out to talk about all things anime and manga. Activities, crafts and refreshments will be provided.",
+   "source_name": "John Jermain Memorial Library",
+   "id": "778ec6ab5e097e24"
   },
   {
    "source_id": "lib-eastislip",
@@ -550,25 +1338,6 @@
    "id": "18eab5c2799fc1d0"
   },
   {
-   "source_id": "lib-eastislip",
-   "source_uid": "29923@2026-12-10T21:45:00+00:00",
-   "title": "Polar Express Party Volunteers",
-   "start": "2026-12-10T21:45:00+00:00",
-   "end": "2026-12-10T23:15:00+00:00",
-   "all_day": false,
-   "category": "trains",
-   "location": {
-    "name": "East Islip Public Library",
-    "address": "East Islip Public Library, East Islip, NY",
-    "lat": 40.7358333,
-    "lon": -73.1733333
-   },
-   "url": "https://eastislip.librarycalendar.com/event/polar-express-party-volunteers-29923",
-   "description": "Assist with our annual Polar Express party. Earn one and a half (1.5) service hours. Registration for volunteer opportunities begins on Tuesday, November 3 at 9:00 a.m. Call the Reference Desk at (631) 581-9200 ext. 5 to register.",
-   "source_name": "East Islip Public Library",
-   "id": "6a61a1a5ce0c03d6"
-  },
-  {
    "source_id": "li-museum",
    "source_uid": "10000234-1796997600-1797001200@longislandmuseum.org@2026-12-11T14:00:00+00:00",
    "title": "America on Screen: Small Town Life",
@@ -588,6 +1357,44 @@
    "id": "3ce94e95b57af273"
   },
   {
+   "source_id": "lib-hamptonbays",
+   "source_uid": "50073@2026-12-11T22:30:00+00:00",
+   "title": "D&D: One Shot Wonder",
+   "start": "2026-12-11T22:30:00+00:00",
+   "end": "2026-12-11T23:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Hampton Bays Public Library",
+    "address": "Hampton Bays Public Library, Hampton Bays, NY",
+    "lat": 40.8729677,
+    "lon": -72.520505
+   },
+   "url": "https://hamptonbays.librarycalendar.com/event/dd-one-shot-wonder-50073",
+   "description": "DM James is bringing a new adventure every week! Registration Required. 10 player max.",
+   "source_name": "Hampton Bays Public Library",
+   "id": "f35d43963a9166fe"
+  },
+  {
+   "source_id": "lib-levittown",
+   "source_uid": "30496@2026-12-11T23:00:00+00:00",
+   "title": "TableTop Game Night",
+   "start": "2026-12-11T23:00:00+00:00",
+   "end": "2026-12-12T01:45:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Levittown Public Library",
+    "address": "Levittown Public Library, Levittown, NY",
+    "lat": 40.7233333,
+    "lon": -73.5297222
+   },
+   "url": "https://levittown.librarycalendar.com/event/tabletop-game-nights-30496",
+   "description": "",
+   "source_name": "Levittown Public Library",
+   "id": "9246a795eccbfd66"
+  },
+  {
    "source_id": "li-museum",
    "source_uid": "10000283-1797080400-1797085800@longislandmuseum.org@2026-12-12T13:00:00-05:00",
    "title": "Artist Spotlight: David Bunn Martine",
@@ -605,6 +1412,25 @@
    "description": "Join us for a special artist talk with David Bunn Martine, a featured artist in Enduring Heart: Native American Long Island. A member of the Shinnecock/Montauk Nations and a descendant of the Nde Daa’i (Nednai) Chiricahua Apache, Martine will share insights into his artwork, creative process, and the stories and histories that inform his work. He will also present archival photographs from Long Island’s Native American communities, offering a deeper look at the people, traditions, and histories ",
    "source_name": "The Long Island Museum",
    "id": "afc7af589c68ba8e"
+  },
+  {
+   "source_id": "lib-quogue",
+   "source_uid": "39799@2026-12-12T23:00:00+00:00",
+   "title": "Dungeons and Dragons",
+   "start": "2026-12-12T23:00:00+00:00",
+   "end": "2026-12-13T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Quogue Library",
+    "address": "Quogue Library, Quogue, NY",
+    "lat": 40.8189844,
+    "lon": -72.5993501
+   },
+   "url": "https://quogue.librarycalendar.com/event/dungeons-and-dragons-39799",
+   "description": "Quogue Library's very own Dungeon Master, Stephen Jordan invites D&D newbies and experts to join the club! Use a pre-made character or make your own. Zoom link will be emailed to all registrants 24 hours prior to program.",
+   "source_name": "Quogue Library",
+   "id": "4551c4840838c416"
   },
   {
    "source_id": "rmli",
@@ -797,8 +1623,160 @@
    "id": "58a078e013833446"
   },
   {
+   "source_id": "lib-levittown",
+   "source_uid": "36432@2026-12-14T22:30:00+00:00",
+   "title": "Adult Program: Dungeons & Dragons",
+   "start": "2026-12-14T22:30:00+00:00",
+   "end": "2026-12-15T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Levittown Public Library",
+    "address": "Levittown Public Library, Levittown, NY",
+    "lat": 40.7233333,
+    "lon": -73.5297222
+   },
+   "url": "https://levittown.librarycalendar.com/event/adult-program-dungeons-dragons-36432",
+   "description": "This program is a continuation from Sept - October.",
+   "source_name": "Levittown Public Library",
+   "id": "c7f754222b796ecb"
+  },
+  {
+   "source_id": "lib-brentwood",
+   "source_uid": "146680@2026-12-14T23:00:00+00:00",
+   "title": "Anime Night for Adults",
+   "start": "2026-12-14T23:00:00+00:00",
+   "end": "2026-12-15T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Brentwood Public Library",
+    "address": "Brentwood Public Library, Brentwood, NY",
+    "lat": 40.782634,
+    "lon": -73.2566332
+   },
+   "url": "https://brentwood.librarycalendar.com/event/anime-night-adults-146680",
+   "description": "Watch and discuss your favorite anime, discover new shows, or just come for the camaraderie.",
+   "source_name": "Brentwood Public Library",
+   "id": "38b3e024dd70c021"
+  },
+  {
+   "source_id": "lib-eastislip",
+   "source_uid": "29448@2026-12-14T23:00:00+00:00",
+   "title": "Dungeons & Dragons",
+   "start": "2026-12-14T23:00:00+00:00",
+   "end": "2026-12-15T02:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "East Islip Public Library",
+    "address": "East Islip Public Library, East Islip, NY",
+    "lat": 40.7358333,
+    "lon": -73.1733333
+   },
+   "url": "https://eastislip.librarycalendar.com/event/dungeons-dragons-29448",
+   "description": "Come play Dungeons & Dragons with some of the best game masters on the island! Perfect for new and experienced players alike. Join together to battle monsters, discover lost ruins, and triumph over evil! For grades 7-12.",
+   "source_name": "East Islip Public Library",
+   "id": "087fed93e608b2ff"
+  },
+  {
+   "source_id": "lib-longwood",
+   "source_uid": "201559@2026-12-14T23:00:00+00:00",
+   "title": "Dungeons & Dragons (Adults)",
+   "start": "2026-12-14T23:00:00+00:00",
+   "end": "2026-12-15T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Longwood Public Library",
+    "address": "Longwood Public Library, Middle Island, NY",
+    "lat": 40.8820789,
+    "lon": -72.9440591
+   },
+   "url": "https://www.longwoodlibrary.org/event/dungeons-dragons-adults-201559",
+   "description": "Join expert DM Jimmy for a D&D campaign involving mats, minifigs and higher-level characters. Bring your character from a previous campaign or create a new one prior to the first session.",
+   "source_name": "Longwood Public Library",
+   "id": "cedc8733053bf6a7"
+  },
+  {
+   "source_id": "lib-commack",
+   "source_uid": "10872@2026-12-15T23:00:00+00:00",
+   "title": "Adult Dungeons & Dragons",
+   "start": "2026-12-15T23:00:00+00:00",
+   "end": "2026-12-16T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Commack Public Library",
+    "address": "Commack Public Library, Commack, NY",
+    "lat": 40.8290049,
+    "lon": -73.2937839
+   },
+   "url": "https://commack.librarycalendar.com/event/adult-dungeons-dragons-10872",
+   "description": "Dungeons & Dragons with the Quest Masters Guild: Adventurers needed! Fight monsters and collect treasure in fun fantasy worlds, filled with danger and magic. Perfect for new or experienced players. Your quest begins at the Commack Public Library. When you register, you are signed up for the entire series.",
+   "source_name": "Commack Public Library",
+   "id": "5f398c3d86192ca8"
+  },
+  {
+   "source_id": "lib-levittown",
+   "source_uid": "28194@2026-12-15T15:30:00+00:00",
+   "title": "Tabletop Game Days",
+   "start": "2026-12-15T15:30:00+00:00",
+   "end": "2026-12-15T20:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Levittown Public Library",
+    "address": "Levittown Public Library, Levittown, NY",
+    "lat": 40.7233333,
+    "lon": -73.5297222
+   },
+   "url": "https://levittown.librarycalendar.com/event/tabletop-game-days-28194",
+   "description": "Tuesdays: 10:30 AM to 3:00 PM Join along or bring a group of friends. Players are welcome to bring their own cards and games.",
+   "source_name": "Levittown Public Library",
+   "id": "7777ddc14f76bd7a"
+  },
+  {
+   "source_id": "lib-massapequa",
+   "source_uid": "60279@2026-12-16T23:30:00+00:00",
+   "title": "Adult Dungeons and Dragons",
+   "start": "2026-12-16T23:30:00+00:00",
+   "end": "2026-12-17T01:45:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Massapequa Public Library",
+    "address": "Massapequa Public Library, Massapequa, NY",
+    "lat": 40.6639871,
+    "lon": -73.4562533
+   },
+   "url": "https://massapequa.librarycalendar.com/event/adult-dungeons-and-dragons-60279",
+   "description": "",
+   "source_name": "Massapequa Public Library",
+   "id": "c382f08805ba29d9"
+  },
+  {
+   "source_id": "lib-hamptonbays",
+   "source_uid": "50079@2026-12-17T22:30:00+00:00",
+   "title": "D&D Dice Paint + Ice Cream Night",
+   "start": "2026-12-17T22:30:00+00:00",
+   "end": "2026-12-18T00:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Hampton Bays Public Library",
+    "address": "Hampton Bays Public Library, Hampton Bays, NY",
+    "lat": 40.8729677,
+    "lon": -72.520505
+   },
+   "url": "https://hamptonbays.librarycalendar.com/event/dd-dice-paint-ice-cream-night-50079",
+   "description": "Have you ever wanted to learn how D&D dice get painted AND roll for ice cream toppings? Learn how with our resident dice goblin, Rhiannon!",
+   "source_name": "Hampton Bays Public Library",
+   "id": "5a21c54e98ae9fee"
+  },
+  {
    "source_id": "cradle-of-aviation",
-   "source_uid": "6cc8d453-e680-4e5d-82ed-1818b44996bc@2026-12-18T17:30:00-05:00",
+   "source_uid": "b7482aa4-6e7b-4013-8a1c-7683faae348d@2026-12-18T17:30:00-05:00",
    "title": "A Very Grinchy Pajama Party",
    "start": "2026-12-18T17:30:00-05:00",
    "end": "2026-12-18T21:00:00-05:00",
@@ -813,7 +1791,83 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Join us on Friday, December 18th, for a Very Grinchy Pajama Party!</b> Wear your favorite pajamas and enjoy a festive evening of holiday cheer, activities, and a screening of The Grinch (2018). <b>5:30 pm</b> Doors Open <b>5:30 pm – 7:00 pm</b> Activities & Meet the Grinch • More details to come <b>7:00 pm</b> Watch The Grinch (2018) Grab your hot chocolate and cookies (nut-free) and meet in the theater for The Grinch (2018)—where a grumpy green grouch tries to stop Christmas until Cindy-Lou ",
    "source_name": "Cradle of Aviation Museum",
-   "id": "c536226caab16ed1"
+   "id": "760f9a2dc35eae29"
+  },
+  {
+   "source_id": "lib-sachem",
+   "source_uid": "155144@2026-12-18T22:30:00+00:00",
+   "title": "Adult Dungeons & Dragons (In-Person)",
+   "start": "2026-12-18T22:30:00+00:00",
+   "end": "2026-12-19T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Sachem Public Library",
+    "address": "Sachem Public Library, Holbrook, NY",
+    "lat": 40.799376,
+    "lon": -73.0697738
+   },
+   "url": "https://sachem.librarycalendar.com/event/adult-dungeons-dragons-person-155144",
+   "description": "Adult adventurers of all skill levels are invited to play Dungeons & Dragons 5th Edition run by the Quest Masters Guild.",
+   "source_name": "Sachem Public Library",
+   "id": "570314dd7600e274"
+  },
+  {
+   "source_id": "lib-hamptonbays",
+   "source_uid": "50074@2026-12-18T22:30:00+00:00",
+   "title": "D&D: One Shot Wonder",
+   "start": "2026-12-18T22:30:00+00:00",
+   "end": "2026-12-18T23:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Hampton Bays Public Library",
+    "address": "Hampton Bays Public Library, Hampton Bays, NY",
+    "lat": 40.8729677,
+    "lon": -72.520505
+   },
+   "url": "https://hamptonbays.librarycalendar.com/event/dd-one-shot-wonder-50074",
+   "description": "DM James is bringing a new adventure every week! Registration Required. 10 player max.",
+   "source_name": "Hampton Bays Public Library",
+   "id": "deb5d60203b255b5"
+  },
+  {
+   "source_id": "lib-centermoriches",
+   "source_uid": "16153@2026-12-19T17:00:00+00:00",
+   "title": "Dungeons & Dragons",
+   "start": "2026-12-19T17:00:00+00:00",
+   "end": "2026-12-19T20:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Center Moriches Free Public Library",
+    "address": "Center Moriches Free Public Library, Center Moriches, NY",
+    "lat": 40.8004106,
+    "lon": -72.7882914
+   },
+   "url": "https://centermoriches.librarycalendar.com/event/dungeons-dragons-16153",
+   "description": "Transform yourself into a powerful hero and join us for an epic journey of mystery and magic where you can meet fellow adventurers, battle monsters, and win treasure. Beginner friendly. This program is for adults only. Bring a pen and paper. CMOR Cardholders only, space is limited.",
+   "source_name": "Center Moriches Free Public Library",
+   "id": "f356d61765553f0b"
+  },
+  {
+   "source_id": "lib-islandpark",
+   "source_uid": "LibCal-21090-17833631@2026-12-19T10:30:00-05:00",
+   "title": "Long Island Chess Tournament",
+   "start": "2026-12-19T10:30:00-05:00",
+   "end": "2026-12-19T14:30:00-05:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Island Park Public Library",
+    "address": "Island Park Public Library, Island Park, NY",
+    "lat": 40.6022222,
+    "lon": -73.6561111
+   },
+   "url": "https://islandparklibrary.libcal.com/event/17833631",
+   "description": "",
+   "source_name": "Island Park Public Library",
+   "id": "c7bfe9d218848901"
   },
   {
    "source_id": "tca",
@@ -835,23 +1889,194 @@
    "id": "829173fb4a1fd938"
   },
   {
-   "source_id": "lib-portjeff",
-   "source_uid": "34547@2026-12-21T23:30:00+00:00",
-   "title": "Holiday Movie: Polar Express",
+   "source_id": "lib-hamptonbays",
+   "source_uid": "50112@2026-12-21T23:30:00+00:00",
+   "title": "3rd Annual Polar Express Night",
    "start": "2026-12-21T23:30:00+00:00",
-   "end": "2026-12-22T01:30:00+00:00",
+   "end": "2026-12-22T01:45:00+00:00",
    "all_day": false,
    "category": "trains",
+   "location": {
+    "name": "Hampton Bays Public Library",
+    "address": "Hampton Bays Public Library, Hampton Bays, NY",
+    "lat": 40.8729677,
+    "lon": -72.520505
+   },
+   "url": "https://hamptonbays.librarycalendar.com/event/3rd-annual-polar-express-night-50112",
+   "description": "Join us for our Third Annual Polar Express Night! Come dressed in your favorite pajamas and enjoy a cozy evening with hot chocolate and a special screening of The Polar Express.",
+   "source_name": "Hampton Bays Public Library",
+   "id": "f1f707488b6c80fe"
+  },
+  {
+   "source_id": "lib-levittown",
+   "source_uid": "36433@2026-12-21T22:30:00+00:00",
+   "title": "Adult Program: Dungeons & Dragons",
+   "start": "2026-12-21T22:30:00+00:00",
+   "end": "2026-12-22T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Levittown Public Library",
+    "address": "Levittown Public Library, Levittown, NY",
+    "lat": 40.7233333,
+    "lon": -73.5297222
+   },
+   "url": "https://levittown.librarycalendar.com/event/adult-program-dungeons-dragons-36433",
+   "description": "This program is a continuation from Sept - October.",
+   "source_name": "Levittown Public Library",
+   "id": "4961d377a69aa8c8"
+  },
+  {
+   "source_id": "lib-portjeff",
+   "source_uid": "33947@2026-12-21T23:00:00+00:00",
+   "title": "Dungeons and Dragons Adult",
+   "start": "2026-12-21T23:00:00+00:00",
+   "end": "2026-12-22T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
    "location": {
     "name": "Port Jefferson Free Library",
     "address": "Port Jefferson Free Library, Port Jefferson, NY",
     "lat": 40.9469225,
     "lon": -73.0664401
    },
-   "url": "https://portjeff.librarycalendar.com/event/holiday-movie-polar-express-34547",
-   "description": "Get ready in the spirit with the Polar Express and some Hot Hot Hot Hot Chocolate. Registration is not required May not be suitable for those with food allergies.",
+   "url": "https://portjeff.librarycalendar.com/event/dungeons-and-dragons-adult-33947",
+   "description": "Journey through a one-shot story. Veteran or novice, all are welcome to create a character and bring a fantasy world to life. Every session is unique, so feel free to attend one or both!",
    "source_name": "Port Jefferson Free Library",
-   "id": "b41c133da4ffd0c9"
+   "id": "66cc81ffb479c48b"
+  },
+  {
+   "source_id": "lib-oceanside",
+   "source_uid": "50806@2026-12-22T00:00:00+00:00",
+   "title": "3-D Printer Hands-On Help & Live Demos",
+   "start": "2026-12-22T00:00:00+00:00",
+   "end": "2026-12-22T02:00:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "Oceanside Library",
+    "address": "Oceanside Library, Oceanside, NY",
+    "lat": 40.6415414,
+    "lon": -73.6384997
+   },
+   "url": "https://oceansidepl.librarycalendar.com/event/3-d-printer-hands-help-live-demos-50806",
+   "description": "Bring your questions and see or participate in a hands-on demo. This is a drop-in style workshop, no registration is required. For the regular 3D printer class, held on the 1st Monday of the month, please click here.",
+   "source_name": "Oceanside Library",
+   "id": "ec3975462de3da80"
+  },
+  {
+   "source_id": "lib-franklinsquare",
+   "source_uid": "LibCal-20873-17906874@2026-12-22T18:00:00-05:00",
+   "title": "Dungeons & Dragons for Adults \"New Campaign\"",
+   "start": "2026-12-22T18:00:00-05:00",
+   "end": "2026-12-22T19:30:00-05:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Franklin Square Public Library",
+    "address": "Franklin Square Public Library, Franklin Square, NY",
+    "lat": 40.700236,
+    "lon": -73.676448
+   },
+   "url": "https://franklinsquarepl.libcal.com/event/17906874",
+   "description": "Seeking adventurers for an adult Dungeons & Dragons game. All skill levels welcome! Hosted by local Dungeon Master Peter M.",
+   "source_name": "Franklin Square Public Library",
+   "id": "aa5a1de4c193aa5e"
+  },
+  {
+   "source_id": "lib-uniondale",
+   "source_uid": "15687@2026-12-22T21:00:00+00:00",
+   "title": "Manga/Anime Club",
+   "start": "2026-12-22T21:00:00+00:00",
+   "end": "2026-12-22T22:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Uniondale Public Library",
+    "address": "Uniondale Public Library, Uniondale, NY",
+    "lat": 40.7061793,
+    "lon": -73.5928575
+   },
+   "url": "https://uniondale.librarycalendar.com/event/copy-mangaanime-club-15687",
+   "description": "Join Ms. Lois and other teens to hang out to watch Anime and talk about your favorite Manga/Anime series.",
+   "source_name": "Uniondale Public Library",
+   "id": "2efc0cb29fb18b3e"
+  },
+  {
+   "source_id": "lib-quogue",
+   "source_uid": "49053@2026-12-26T19:00:00+00:00",
+   "title": "3D Printing Innovators",
+   "start": "2026-12-26T19:00:00+00:00",
+   "end": "2026-12-26T19:45:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "Quogue Library",
+    "address": "Quogue Library, Quogue, NY",
+    "lat": 40.8189844,
+    "lon": -72.5993501
+   },
+   "url": "https://quogue.librarycalendar.com/event/3d-printing-innovators-49053",
+   "description": "3D printing fun for everyone! Bring the whole family to this all-ages, beginner-friendly workshop. Learn how 3D printing works and design a unique project. Because 3D prints take time to create, your finished items will be ready for pickup within two weeks.",
+   "source_name": "Quogue Library",
+   "id": "b879742119968b32"
+  },
+  {
+   "source_id": "lib-portjeff",
+   "source_uid": "35241@2026-12-27T18:30:00+00:00",
+   "title": "Dungeons & Dragons",
+   "start": "2026-12-27T18:30:00+00:00",
+   "end": "2026-12-27T20:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Port Jefferson Free Library",
+    "address": "Port Jefferson Free Library, Port Jefferson, NY",
+    "lat": 40.9469225,
+    "lon": -73.0664401
+   },
+   "url": "https://portjeff.librarycalendar.com/event/dungeons-dragons-35241",
+   "description": "Journey on a side quest story. See Khan for help to build your character ahead of the program.",
+   "source_name": "Port Jefferson Free Library",
+   "id": "2783707464208343"
+  },
+  {
+   "source_id": "lib-longbeach",
+   "source_uid": "139710@2026-12-28T23:30:00+00:00",
+   "title": "Magic: The Gathering",
+   "start": "2026-12-28T23:30:00+00:00",
+   "end": "2026-12-29T01:15:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Long Beach Public Library",
+    "address": "Long Beach Public Library, Long Beach, NY",
+    "lat": 40.5889343,
+    "lon": -73.6675057
+   },
+   "url": "https://longbeachpl.librarycalendar.com/event/magic-gathering-139710",
+   "description": "Magic: The Gathering Do you love playing the trading card game Magic: The Gathering? Or perhaps you'd like to learn how to play, or have an interest in role playing games or the fantasy genre. If that's the case, then this program is for you! Don't worry if you don't have cards, the library has cards for you to use. This program is for ages 12 & up.",
+   "source_name": "Long Beach Public Library",
+   "id": "6fad69e057e5f380"
+  },
+  {
+   "source_id": "lib-northbellmore",
+   "source_uid": "LibCal-20879-17864010@2026-12-28T13:00:00-05:00",
+   "title": "Under the Dome: A Planetarium Adventure Session 2",
+   "start": "2026-12-28T13:00:00-05:00",
+   "end": "2026-12-28T13:50:00-05:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "North Bellmore Public Library",
+    "address": "North Bellmore Public Library, North Bellmore, NY",
+    "lat": 40.6892935,
+    "lon": -73.5369169
+   },
+   "url": "https://northbellmorelibrary.libcal.com/event/17864010",
+   "description": "Ages Grades 4-8 ONLY! Event Description Get ready for an out-of-this-world adventure! Join us Under the Dome for an exciting planetarium experience where we’ll explore the wonders of space, discover amazing celestial sights, and journey through the universe. This program will be held at Newbridge Road Elementary School Registration *Please be mindful of the grade limits, you will be removed if you are outside the grade limits NBPL registration begins on Monday, December 21st at 10 AM Out of Dist",
+   "source_name": "North Bellmore Public Library",
+   "id": "4cb77eb000708a2c"
   },
   {
    "source_id": "lib-eastislip",
@@ -873,6 +2098,82 @@
    "id": "411ae1827258f0a6"
   },
   {
+   "source_id": "lib-sachem",
+   "source_uid": "205433@2026-12-31T00:00:00+00:00",
+   "title": "Anime Night: Omamori",
+   "start": "2026-12-31T00:00:00+00:00",
+   "end": "2026-12-31T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Sachem Public Library",
+    "address": "Sachem Public Library, Holbrook, NY",
+    "lat": 40.799376,
+    "lon": -73.0697738
+   },
+   "url": "https://sachem.librarycalendar.com/event/anime-night-omamori-205433",
+   "description": "Watch anime and make a paper good luck charm!",
+   "source_name": "Sachem Public Library",
+   "id": "0a91defed24131a7"
+  },
+  {
+   "source_id": "lib-oceanside",
+   "source_uid": "42883@2027-01-05T01:30:00+00:00",
+   "title": "3-D Printer Class Evening",
+   "start": "2027-01-05T01:30:00+00:00",
+   "end": "2027-01-05T02:30:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "Oceanside Library",
+    "address": "Oceanside Library, Oceanside, NY",
+    "lat": 40.6415414,
+    "lon": -73.6384997
+   },
+   "url": "https://oceansidepl.librarycalendar.com/event/3-d-printer-class-evening-42883",
+   "description": "Class laptops are available for the first 9 people. The class is intended for adults, however, children are more than welcome to attend with a parent or guardian present.",
+   "source_name": "Oceanside Library",
+   "id": "c9a57a766a80a0bd"
+  },
+  {
+   "source_id": "lib-commack",
+   "source_uid": "14248@2027-01-05T23:00:00+00:00",
+   "title": "Adult Dungeons & Dragons (Jan-April)",
+   "start": "2027-01-05T23:00:00+00:00",
+   "end": "2027-01-06T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Commack Public Library",
+    "address": "Commack Public Library, Commack, NY",
+    "lat": 40.8290049,
+    "lon": -73.2937839
+   },
+   "url": "https://commack.librarycalendar.com/event/adult-dungeons-dragons-jan-april-14248",
+   "description": "Dungeons & Dragons with the Quest Masters Guild: Adventurers needed! Fight monsters and collect treasure in fun fantasy worlds, filled with danger and magic. Perfect for new or experienced players. Your quest begins at the Commack Public Library. When you register, you are signed up for the entire series (January - April).",
+   "source_name": "Commack Public Library",
+   "id": "ff414a8d584bc899"
+  },
+  {
+   "source_id": "lib-hamptonbays",
+   "source_uid": "51856@2027-01-07T23:30:00+00:00",
+   "title": "D&D Mini Paint Night",
+   "start": "2027-01-07T23:30:00+00:00",
+   "end": "2027-01-08T00:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Hampton Bays Public Library",
+    "address": "Hampton Bays Public Library, Hampton Bays, NY",
+    "lat": 40.8729677,
+    "lon": -72.520505
+   },
+   "url": "https://hamptonbays.librarycalendar.com/event/dd-mini-paint-night-51856",
+   "description": "Paint your own D&D tabletop mini figure!",
+   "source_name": "Hampton Bays Public Library",
+   "id": "16ae81d18e118116"
+  },
+  {
    "source_id": "lib-syosset",
    "source_uid": "58627@2027-01-07T23:00:00+00:00",
    "title": "Long Island Coin club",
@@ -890,6 +2191,25 @@
    "description": "All community group meetings must be open to the public as per New York State Education Law.",
    "source_name": "Syosset Public Library",
    "id": "d7b42257b1e7e312"
+  },
+  {
+   "source_id": "lib-sachem",
+   "source_uid": "193579@2027-01-08T22:30:00+00:00",
+   "title": "Adult Dungeons & Dragons (In-Person)",
+   "start": "2027-01-08T22:30:00+00:00",
+   "end": "2027-01-09T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Sachem Public Library",
+    "address": "Sachem Public Library, Holbrook, NY",
+    "lat": 40.799376,
+    "lon": -73.0697738
+   },
+   "url": "https://sachem.librarycalendar.com/event/adult-dungeons-dragons-person-193579",
+   "description": "Adult adventurers of all skill levels are invited to play Dungeons & Dragons 5th Edition run by the Quest Masters Guild.",
+   "source_name": "Sachem Public Library",
+   "id": "dbd1374aaa7a3f24"
   },
   {
    "source_id": "tca",
@@ -949,6 +2269,101 @@
    "id": "e0fe6a025e9300bc"
   },
   {
+   "source_id": "lib-syosset",
+   "source_uid": "61796@2027-01-11T23:30:00+00:00",
+   "title": "Dungeons & Dragons - Winter Campaign with DM Eric",
+   "start": "2027-01-11T23:30:00+00:00",
+   "end": "2027-01-12T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
+   },
+   "url": "https://syosset.librarycalendar.com/event/dungeons-dragons-winter-campaign-dm-eric-61796",
+   "description": "Sign up once and continue on your quest for 3 months. DM Eric will guide your way through this fun and exciting adventure. Adventures last for 3 months, when you register, please make sure you can come to all dates. Registration for SSD residents begins November 24, all others one week later if available. Disclaimer - All children under 12 must have a parent/guardian in the building at all times. - If you arrive more than 10 minutes past the stated start time of the program, your spot may be giv",
+   "source_name": "Syosset Public Library",
+   "id": "1ffbe3caf43768a1"
+  },
+  {
+   "source_id": "lib-hamptonbays",
+   "source_uid": "51860@2027-01-12T00:00:00+00:00",
+   "title": "D&D Dice Paint Night",
+   "start": "2027-01-12T00:00:00+00:00",
+   "end": "2027-01-12T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Hampton Bays Public Library",
+    "address": "Hampton Bays Public Library, Hampton Bays, NY",
+    "lat": 40.8729677,
+    "lon": -72.520505
+   },
+   "url": "https://hamptonbays.librarycalendar.com/event/dd-dice-paint-night-51860",
+   "description": "Learn to paint D&D dice!",
+   "source_name": "Hampton Bays Public Library",
+   "id": "954f012398573284"
+  },
+  {
+   "source_id": "lib-levittown",
+   "source_uid": "29579@2027-01-12T23:30:00+00:00",
+   "title": "Dungeons & Dragons",
+   "start": "2027-01-12T23:30:00+00:00",
+   "end": "2027-01-13T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Levittown Public Library",
+    "address": "Levittown Public Library, Levittown, NY",
+    "lat": 40.7233333,
+    "lon": -73.5297222
+   },
+   "url": "https://levittown.librarycalendar.com/event/hold-dd-29579",
+   "description": "Join us for a new adventure! Work together to battle monsters and solve fantastical mysteries.",
+   "source_name": "Levittown Public Library",
+   "id": "b9cc77c89a9ebdc1"
+  },
+  {
+   "source_id": "lib-hamptonbays",
+   "source_uid": "51803@2027-01-12T20:30:00+00:00",
+   "title": "Magic: The Gathering 101",
+   "start": "2027-01-12T20:30:00+00:00",
+   "end": "2027-01-12T21:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Hampton Bays Public Library",
+    "address": "Hampton Bays Public Library, Hampton Bays, NY",
+    "lat": 40.8729677,
+    "lon": -72.520505
+   },
+   "url": "https://hamptonbays.librarycalendar.com/event/magic-gathering-101-51803",
+   "description": "Come play Magic: The Gathering with friends, whether you've been playing for years or you want to learn! Feel free to bring your own deck or use one of our pre–built ones!",
+   "source_name": "Hampton Bays Public Library",
+   "id": "077096c64c2ca721"
+  },
+  {
+   "source_id": "lib-oceanside",
+   "source_uid": "24283@2027-01-13T01:00:00+00:00",
+   "title": "D&D for Adults",
+   "start": "2027-01-13T01:00:00+00:00",
+   "end": "2027-01-13T03:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Oceanside Library",
+    "address": "Oceanside Library, Oceanside, NY",
+    "lat": 40.6415414,
+    "lon": -73.6384997
+   },
+   "url": "https://oceansidepl.librarycalendar.com/event/dd-adults-24283",
+   "description": "The Oceanside Public Library is pleased to bring its patrons the opportunity to participate in the TTRPG, Tabletop Role play game, Dungeons and Dragons. We look forward to creating a welcoming and creative space for traveling, heist, adventures, and wherever your campaign leads you in the Oceanside Public Library's Civic Center's Community Rooms every 2nd and 4th Tuesday of the Month. For ages 18 +.",
+   "source_name": "Oceanside Library",
+   "id": "157482a20aa5472e"
+  },
+  {
    "source_id": "limarc",
    "source_uid": "628102br2f1e300rr8nqgmope1@google.com@2027-01-13T19:00:00-05:00",
    "title": "LIMARC General Meeting",
@@ -966,6 +2381,25 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "357afc548efc917e"
+  },
+  {
+   "source_id": "lib-johnjermain",
+   "source_uid": "LibCal-20156-18020049@2027-01-14T17:00:00-05:00",
+   "title": "Anime Club",
+   "start": "2027-01-14T17:00:00-05:00",
+   "end": "2027-01-14T18:00:00-05:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "John Jermain Memorial Library",
+    "address": "John Jermain Memorial Library, Sag Harbor, NY",
+    "lat": 40.9974902,
+    "lon": -72.2963635
+   },
+   "url": "https://johnjermain.libcal.com/event/18020049",
+   "description": "Calling all Otakus, come hang out to talk about all things anime and manga. Activities, crafts and refreshments will be provided.",
+   "source_name": "John Jermain Memorial Library",
+   "id": "7820efdfa7b0a4e0"
   },
   {
    "source_id": "lib-comsewogue",
@@ -1006,6 +2440,25 @@
    "id": "10529f5aec8785b0"
   },
   {
+   "source_id": "lib-islandpark",
+   "source_uid": "LibCal-21090-18029193@2027-01-16T10:30:00-05:00",
+   "title": "Dungeons & Dragons",
+   "start": "2027-01-16T10:30:00-05:00",
+   "end": "2027-01-16T12:00:00-05:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Island Park Public Library",
+    "address": "Island Park Public Library, Island Park, NY",
+    "lat": 40.6022222,
+    "lon": -73.6561111
+   },
+   "url": "https://islandparklibrary.libcal.com/event/18029193",
+   "description": "Grades 4 through 8. (Adults 18 may not attend.) Learn about this classic TRPG (tabletop role-playing game), then join a campaign with our own DM (“Dungeon Master”) and other players in the months ahead! Registration required, online or by phone.",
+   "source_name": "Island Park Public Library",
+   "id": "3d03154abd4acca6"
+  },
+  {
    "source_id": "tca",
    "source_uid": "27797-1800172800-1800190800@www.tcatrains.org@2027-01-17T08:00:00-05:00",
    "title": "TCA Atlantic Division Train Meet",
@@ -1023,6 +2476,44 @@
    "description": "Family Admission: $5 Food and Drink available for Purchase Over 120 Tables of New and Old Trains & Train-Related Items For tables and Pricing, call: David Herman (856-745-8065) or Russ Keil (609-320-3957) Interactive Running Layout, Door Prizes, Fun for Adults & Kids!",
    "source_name": "Train Collectors Association",
    "id": "1c7686b75a91552c"
+  },
+  {
+   "source_id": "lib-portjeff",
+   "source_uid": "37828@2027-01-18T23:00:00+00:00",
+   "title": "Adult Dungeons and Dragons",
+   "start": "2027-01-18T23:00:00+00:00",
+   "end": "2027-01-19T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Port Jefferson Free Library",
+    "address": "Port Jefferson Free Library, Port Jefferson, NY",
+    "lat": 40.9469225,
+    "lon": -73.0664401
+   },
+   "url": "https://portjeff.librarycalendar.com/event/adult-dungeons-and-dragons-37828",
+   "description": "Veterans and novices are welcome. Create a character and bring a fantasy world to life. Each session is unique so attend one or both sessions.",
+   "source_name": "Port Jefferson Free Library",
+   "id": "d483889ff97cb082"
+  },
+  {
+   "source_id": "lib-oceanside",
+   "source_uid": "50807@2027-01-19T00:00:00+00:00",
+   "title": "3-D Printer Hands-On Help & Live Demos",
+   "start": "2027-01-19T00:00:00+00:00",
+   "end": "2027-01-19T02:00:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "Oceanside Library",
+    "address": "Oceanside Library, Oceanside, NY",
+    "lat": 40.6415414,
+    "lon": -73.6384997
+   },
+   "url": "https://oceansidepl.librarycalendar.com/event/3-d-printer-hands-help-live-demos-50807",
+   "description": "Bring your questions and see or participate in a hands-on demo. This is a drop-in style workshop, no registration is required. For the regular 3D printer class, held on the 1st Monday of the month, please click here.",
+   "source_name": "Oceanside Library",
+   "id": "a7140a176fd884f1"
   },
   {
    "source_id": "lib-massapequa",
@@ -1044,6 +2535,25 @@
    "id": "ffc03e6a5b6153d0"
   },
   {
+   "source_id": "lib-levittown",
+   "source_uid": "29580@2027-01-19T23:30:00+00:00",
+   "title": "Dungeons & Dragons",
+   "start": "2027-01-19T23:30:00+00:00",
+   "end": "2027-01-20T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Levittown Public Library",
+    "address": "Levittown Public Library, Levittown, NY",
+    "lat": 40.7233333,
+    "lon": -73.5297222
+   },
+   "url": "https://levittown.librarycalendar.com/event/hold-dd-29580",
+   "description": "Join us for a new adventure! Work together to battle monsters and solve fantastical mysteries.",
+   "source_name": "Levittown Public Library",
+   "id": "392b3a2fe0bbd636"
+  },
+  {
    "source_id": "lib-portwashington",
    "source_uid": "122156@2027-01-20T00:00:00+00:00",
    "title": "RecordTrax Listening Party: \"Endings and Beginnings\"",
@@ -1063,6 +2573,82 @@
    "id": "31c707ecad255aef"
   },
   {
+   "source_id": "lib-sachem",
+   "source_uid": "208855@2027-01-21T00:00:00+00:00",
+   "title": "Anime Night: Anime Journaling",
+   "start": "2027-01-21T00:00:00+00:00",
+   "end": "2027-01-21T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Sachem Public Library",
+    "address": "Sachem Public Library, Holbrook, NY",
+    "lat": 40.799376,
+    "lon": -73.0697738
+   },
+   "url": "https://sachem.librarycalendar.com/event/anime-night-anime-journaling-208855",
+   "description": "Use old magazines and craft supplies to start a journal about your favorite anime and manga!",
+   "source_name": "Sachem Public Library",
+   "id": "b5ffc30ea97d6a8e"
+  },
+  {
+   "source_id": "lib-sayville",
+   "source_uid": "95045@2027-01-22T22:30:00+00:00",
+   "title": "Dungeons & Dragons",
+   "start": "2027-01-22T22:30:00+00:00",
+   "end": "2027-01-23T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Sayville Library",
+    "address": "Sayville Library, Sayville, NY",
+    "lat": 40.7358333,
+    "lon": -73.08
+   },
+   "url": "https://www.sayvillelibrary.org/event/dungeons-dragons-95045",
+   "description": "Dungeons & Dragons is a collaborative experience that inspires creativity. This program is for someone who has never seen a twenty sided die or for someone who knows the game like the back of their hand. D & D is about fun, making new friendships, learning new things and fostering a good-inviting-community. All players are welcome to join professional Game Master Jimmy.",
+   "source_name": "Sayville Library",
+   "id": "329f9fcce5e8d557"
+  },
+  {
+   "source_id": "lib-goldcoast",
+   "source_uid": "19256@2027-01-22T00:00:00+00:00",
+   "title": "Dungeons and Dragons: How-To Play",
+   "start": "2027-01-22T00:00:00+00:00",
+   "end": "2027-01-22T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Gold Coast Public Library",
+    "address": "Gold Coast Public Library, Glen Head, NY",
+    "lat": 40.8358047,
+    "lon": -73.6224555
+   },
+   "url": "https://goldcoast.librarycalendar.com/event/dungeons-and-dragons-learn-how-play-and-build-character-19256",
+   "description": "For grades 6-12; This is not a Campaign or a One-Shot Learn the rules of Dungeons and Dragons! What is a d20? What does \"advantage\" mean? And, we'll build your first character! Use it in any campaign or session you would like.",
+   "source_name": "Gold Coast Public Library",
+   "id": "aa7ab62cafa64e8f"
+  },
+  {
+   "source_id": "lib-sayville",
+   "source_uid": "92922@2027-01-22T00:00:00+00:00",
+   "title": "Great South Bay Audubon Society",
+   "start": "2027-01-22T00:00:00+00:00",
+   "end": "2027-01-22T01:45:00+00:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "Sayville Library",
+    "address": "Sayville Library, Sayville, NY",
+    "lat": 40.7358333,
+    "lon": -73.08
+   },
+   "url": "https://www.sayvillelibrary.org/event/great-south-bay-audubon-society-92922",
+   "description": "Membership Meeting",
+   "source_name": "Sayville Library",
+   "id": "5ddc0b997d3eecae"
+  },
+  {
    "source_id": "lib-eastislip",
    "source_uid": "30027@2027-01-22T00:00:00+00:00",
    "title": "Makerspace Night",
@@ -1080,6 +2666,44 @@
    "description": "One registration per child.",
    "source_name": "East Islip Public Library",
    "id": "cabc6275f8f82cac"
+  },
+  {
+   "source_id": "lib-uniondale",
+   "source_uid": "18767@2027-01-22T21:00:00+00:00",
+   "title": "Manga/Anime Club",
+   "start": "2027-01-22T21:00:00+00:00",
+   "end": "2027-01-22T22:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Uniondale Public Library",
+    "address": "Uniondale Public Library, Uniondale, NY",
+    "lat": 40.7061793,
+    "lon": -73.5928575
+   },
+   "url": "https://uniondale.librarycalendar.com/event/mangaanime-club-librarian-lois-new-day-18767",
+   "description": "Join Ms. Lois and other teens to hang out to watch Anime and talk about your favorite Manga/Anime series. New day of the week from 2026",
+   "source_name": "Uniondale Public Library",
+   "id": "f0b4a61ab54e55a2"
+  },
+  {
+   "source_id": "lib-goldcoast",
+   "source_uid": "19253@2027-01-23T19:00:00+00:00",
+   "title": "Magic: The Gathering: The Gathering",
+   "start": "2027-01-23T19:00:00+00:00",
+   "end": "2027-01-23T22:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Gold Coast Public Library",
+    "address": "Gold Coast Public Library, Glen Head, NY",
+    "lat": 40.8358047,
+    "lon": -73.6224555
+   },
+   "url": "https://goldcoast.librarycalendar.com/event/copy-magic-gathering-gathering-19253",
+   "description": "For teens and adults; In the Casual Commander format (C1-C2 level decks), players of all skills are welcome, including anyone looking to get into Magic: The Gathering! Drop in, bring your deck(s) or use one provided by the library, learn, play and eat snacks!",
+   "source_name": "Gold Coast Public Library",
+   "id": "9ca2d9331a7632be"
   },
   {
    "source_id": "tca",
@@ -1120,6 +2744,63 @@
    "id": "ce1f382c98dcda39"
   },
   {
+   "source_id": "lib-levittown",
+   "source_uid": "29581@2027-01-26T23:30:00+00:00",
+   "title": "Dungeons & Dragons",
+   "start": "2027-01-26T23:30:00+00:00",
+   "end": "2027-01-27T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Levittown Public Library",
+    "address": "Levittown Public Library, Levittown, NY",
+    "lat": 40.7233333,
+    "lon": -73.5297222
+   },
+   "url": "https://levittown.librarycalendar.com/event/hold-dd-29581",
+   "description": "Join us for a new adventure! Work together to battle monsters and solve fantastical mysteries.",
+   "source_name": "Levittown Public Library",
+   "id": "a0f37039bba21bd8"
+  },
+  {
+   "source_id": "lib-oceanside",
+   "source_uid": "24284@2027-01-27T01:00:00+00:00",
+   "title": "D&D for Adults",
+   "start": "2027-01-27T01:00:00+00:00",
+   "end": "2027-01-27T03:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Oceanside Library",
+    "address": "Oceanside Library, Oceanside, NY",
+    "lat": 40.6415414,
+    "lon": -73.6384997
+   },
+   "url": "https://oceansidepl.librarycalendar.com/event/dd-adults-24284",
+   "description": "The Oceanside Public Library is pleased to bring its patrons the opportunity to participate in the TTRPG, Tabletop Role play game, Dungeons and Dragons. We look forward to creating a welcoming and creative space for traveling, heist, adventures, and wherever your campaign leads you in the Oceanside Public Library's Civic Center's Community Rooms every 2nd and 4th Tuesday of the Month. For ages 18 +.",
+   "source_name": "Oceanside Library",
+   "id": "b6a6680f33984a19"
+  },
+  {
+   "source_id": "lib-sayville",
+   "source_uid": "94064@2027-01-27T22:00:00+00:00",
+   "title": "Vinyl Night at Buddha Belly Records",
+   "start": "2027-01-27T22:00:00+00:00",
+   "end": "2027-01-28T00:00:00+00:00",
+   "all_day": false,
+   "category": "records",
+   "location": {
+    "name": "Sayville Library",
+    "address": "Sayville Library, Sayville, NY",
+    "lat": 40.7358333,
+    "lon": -73.08
+   },
+   "url": "https://www.sayvillelibrary.org/event/vinyl-night-buddha-belly-records-94064",
+   "description": "Join librarian Peter any time between 5:00 - 7:00pm at Buddha Belly Records for our regular Vinyl Night! This session we'll be discussing our top 5 favorite albums of all time and listening to some of our favorites! Feel free to bring some to share! Space is limited.",
+   "source_name": "Sayville Library",
+   "id": "e332a9ace26050cd"
+  },
+  {
    "source_id": "lib-massapequa",
    "source_uid": "60812@2027-01-29T14:00:00+00:00",
    "title": "Book Fair (Barbara Gannon)",
@@ -1137,6 +2818,44 @@
    "description": "",
    "source_name": "Massapequa Public Library",
    "id": "2697081251be0359"
+  },
+  {
+   "source_id": "lib-sayville",
+   "source_uid": "95046@2027-01-29T22:30:00+00:00",
+   "title": "Dungeons & Dragons",
+   "start": "2027-01-29T22:30:00+00:00",
+   "end": "2027-01-30T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Sayville Library",
+    "address": "Sayville Library, Sayville, NY",
+    "lat": 40.7358333,
+    "lon": -73.08
+   },
+   "url": "https://www.sayvillelibrary.org/event/dungeons-dragons-95046",
+   "description": "Dungeons & Dragons is a collaborative experience that inspires creativity. This program is for someone who has never seen a twenty sided die or for someone who knows the game like the back of their hand. D & D is about fun, making new friendships, learning new things and fostering a good-inviting-community. All players are welcome to join professional Game Master Jimmy.",
+   "source_name": "Sayville Library",
+   "id": "601f9dc60ad139c0"
+  },
+  {
+   "source_id": "lib-portwashington",
+   "source_uid": "114016@2027-01-29T17:00:00+00:00",
+   "title": "Sandwiched In with Eco-Photo Explorers - Shackleton's Shipwreck",
+   "start": "2027-01-29T17:00:00+00:00",
+   "end": "2027-01-29T18:30:00+00:00",
+   "all_day": false,
+   "category": "museum",
+   "location": {
+    "name": "Port Washington Public Library",
+    "address": "Port Washington Public Library, Port Washington, NY",
+    "lat": 40.8319463,
+    "lon": -73.6968479
+   },
+   "url": "https://portwashington.librarycalendar.com/event/sandwiched-114016",
+   "description": "Antarctica represented the last great adventure in the golden age of exploration during the early parts of the 20th century. Three years after Robert Scott became the first to reach the South Pole, Ernest Shackleton launched a futile expedition to trek across the continent in 1914. In this program, Eco-Photo Explorers will examine the story of this legendary journey, which was famously halted when the expedition ship Endurance became trapped in ice forcing the crew to survive the harsh Antarctic",
+   "source_name": "Port Washington Public Library",
+   "id": "86ec81423f39ac25"
   },
   {
    "source_id": "lib-massapequa",
@@ -1177,6 +2896,25 @@
    "id": "8bb5a01c67eb5126"
   },
   {
+   "source_id": "lib-oceanside",
+   "source_uid": "42884@2027-02-02T01:30:00+00:00",
+   "title": "3-D Printer Class Evening",
+   "start": "2027-02-02T01:30:00+00:00",
+   "end": "2027-02-02T02:30:00+00:00",
+   "all_day": false,
+   "category": "makers",
+   "location": {
+    "name": "Oceanside Library",
+    "address": "Oceanside Library, Oceanside, NY",
+    "lat": 40.6415414,
+    "lon": -73.6384997
+   },
+   "url": "https://oceansidepl.librarycalendar.com/event/3-d-printer-class-evening-42884",
+   "description": "Class laptops are available for the first 9 people. The class is intended for adults, however, children are more than welcome to attend with a parent or guardian present.",
+   "source_name": "Oceanside Library",
+   "id": "edcb91b913052c10"
+  },
+  {
    "source_id": "lib-syosset",
    "source_uid": "58628@2027-02-04T23:00:00+00:00",
    "title": "Long Island Coin club",
@@ -1194,6 +2932,25 @@
    "description": "All community group meetings must be open to the public as per New York State Education Law.",
    "source_name": "Syosset Public Library",
    "id": "f2752d36094a40e0"
+  },
+  {
+   "source_id": "lib-sayville",
+   "source_uid": "95047@2027-02-05T22:30:00+00:00",
+   "title": "Dungeons & Dragons",
+   "start": "2027-02-05T22:30:00+00:00",
+   "end": "2027-02-06T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Sayville Library",
+    "address": "Sayville Library, Sayville, NY",
+    "lat": 40.7358333,
+    "lon": -73.08
+   },
+   "url": "https://www.sayvillelibrary.org/event/dungeons-dragons-95047",
+   "description": "Dungeons & Dragons is a collaborative experience that inspires creativity. This program is for someone who has never seen a twenty sided die or for someone who knows the game like the back of their hand. D & D is about fun, making new friendships, learning new things and fostering a good-inviting-community. All players are welcome to join professional Game Master Jimmy.",
+   "source_name": "Sayville Library",
+   "id": "603debf853b67a97"
   },
   {
    "source_id": "book-fairies",
@@ -1215,23 +2972,23 @@
    "id": "dfbcc222f3108663"
   },
   {
-   "source_id": "lib-comsewogue",
-   "source_uid": "43531@2027-02-09T00:00:00+00:00",
-   "title": "Design a 3D Printed Bookmark",
-   "start": "2027-02-09T00:00:00+00:00",
-   "end": "2027-02-09T01:30:00+00:00",
+   "source_id": "lib-floralpark",
+   "source_uid": "LibCal-20970-18077871@2027-02-08T13:00:00-05:00",
+   "title": "Get Birding!",
+   "start": "2027-02-08T13:00:00-05:00",
+   "end": "2027-02-08T14:00:00-05:00",
    "all_day": false,
-   "category": "makers",
+   "category": "outdoors",
    "location": {
-    "name": "Comsewogue Public Library",
-    "address": "Comsewogue Public Library, Port Jefferson Station, NY",
-    "lat": 40.9238344,
-    "lon": -73.0532492
+    "name": "Floral Park Public Library",
+    "address": "Floral Park Public Library, Floral Park, NY",
+    "lat": 40.7252297,
+    "lon": -73.7064372
    },
-   "url": "https://comsewogue.librarycalendar.com/event/design-3d-printed-bookmark-43531",
-   "description": "Learn the basics of 3D design software Tinkercad & customize a bookmark to be 3D printed. Comfort with computer use recommended. You will be notified after the program when your item is ready to be picked up. This program will take place in The Space, the library's newest area for all things creative!",
-   "source_name": "Comsewogue Public Library",
-   "id": "ee13b52a399a11e2"
+   "url": "https://floralparklibrary.libcal.com/event/18077871",
+   "description": "Doug Cioffi and Marina Horan lead a talk about birding while showing award winning bird photographs taken by Doug for the Floral Park Centennial Gardens and Bird Sanctuary. This program is an annual gift to the Library from Doug and Marina. They are big supporters of the Library, the Gardens and the Great American Bird Count. Please support them with your attendance! Register on line at the Reference Desk, or call 516 326-6330 beginning December 28th. If you feel you may have difficulty using th",
+   "source_name": "Floral Park Public Library",
+   "id": "d62d825e157ec395"
   },
   {
    "source_id": "limarc",
@@ -1253,23 +3010,42 @@
    "id": "8e749e38b1b54f22"
   },
   {
-   "source_id": "lib-portjeff",
-   "source_uid": "37702@2027-02-12T00:00:00+00:00",
-   "title": "3D Print Valentine Gnomes",
-   "start": "2027-02-12T00:00:00+00:00",
-   "end": "2027-02-12T01:00:00+00:00",
+   "source_id": "lib-johnjermain",
+   "source_uid": "LibCal-20156-18020050@2027-02-11T17:00:00-05:00",
+   "title": "Anime Club",
+   "start": "2027-02-11T17:00:00-05:00",
+   "end": "2027-02-11T18:00:00-05:00",
    "all_day": false,
-   "category": "makers",
+   "category": "computers",
    "location": {
-    "name": "Port Jefferson Free Library",
-    "address": "Port Jefferson Free Library, Port Jefferson, NY",
-    "lat": 40.9469225,
-    "lon": -73.0664401
+    "name": "John Jermain Memorial Library",
+    "address": "John Jermain Memorial Library, Sag Harbor, NY",
+    "lat": 40.9974902,
+    "lon": -72.2963635
    },
-   "url": "https://portjeff.librarycalendar.com/event/3d-print-valentine-gnomes-37702",
-   "description": "Paint a gnome for your Valentine.",
-   "source_name": "Port Jefferson Free Library",
-   "id": "efbe370e32cfb552"
+   "url": "https://johnjermain.libcal.com/event/18020050",
+   "description": "Calling all Otakus, come hang out to talk about all things anime and manga. Activities, crafts and refreshments will be provided.",
+   "source_name": "John Jermain Memorial Library",
+   "id": "60e557f2c466a1f4"
+  },
+  {
+   "source_id": "lib-longwood",
+   "source_uid": "188547@2027-02-12T05:00:00+00:00",
+   "title": "Great Backyard Bird Count",
+   "start": "2027-02-12T05:00:00+00:00",
+   "end": "2027-02-12T05:00:00+00:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "Longwood Public Library",
+    "address": "Longwood Public Library, Middle Island, NY",
+    "lat": 40.8820789,
+    "lon": -72.9440591
+   },
+   "url": "https://www.longwoodlibrary.org/event/great-backyard-bird-count-188547",
+   "description": "Join us in the Great Backyard Bird Count, a global citizen science project! For four days in February, everyone is invited to spend time in their favorite places watching and counting as many birds as they can find and reporting them. You don’t even have to go outside - you can count the birds you see on your feeder while looking out the window! Pick up the Great Backyard Bird Count packets at the library starting February 1. Tally sheets from the Bird Counting Packet should be returned to the l",
+   "source_name": "Longwood Public Library",
+   "id": "52b3bf896f943a2a"
   },
   {
    "source_id": "lib-eastislip",
@@ -1291,23 +3067,156 @@
    "id": "12616029cda3253c"
   },
   {
-   "source_id": "lib-sachem",
-   "source_uid": "209099@2027-02-17T00:00:00+00:00",
-   "title": "3D Printed Snowflake Light",
-   "start": "2027-02-17T00:00:00+00:00",
-   "end": "2027-02-17T01:30:00+00:00",
+   "source_id": "lib-islandpark",
+   "source_uid": "LibCal-21090-18031947@2027-02-13T10:30:00-05:00",
+   "title": "Dungeons & Dragons",
+   "start": "2027-02-13T10:30:00-05:00",
+   "end": "2027-02-13T12:00:00-05:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Island Park Public Library",
+    "address": "Island Park Public Library, Island Park, NY",
+    "lat": 40.6022222,
+    "lon": -73.6561111
+   },
+   "url": "https://islandparklibrary.libcal.com/event/18031947",
+   "description": "Grades 4 through 8. (Adults 18 may not attend.) Learn about this classic TRPG (tabletop role-playing game), then join a campaign with our own DM (“Dungeon Master”) and other players in the months ahead! Registration required, online or by phone.",
+   "source_name": "Island Park Public Library",
+   "id": "755ea9c3fc2d705a"
+  },
+  {
+   "source_id": "lib-longwood",
+   "source_uid": "188548@2027-02-13T05:00:00+00:00",
+   "title": "Great Backyard Bird Count",
+   "start": "2027-02-13T05:00:00+00:00",
+   "end": "2027-02-13T05:00:00+00:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "Longwood Public Library",
+    "address": "Longwood Public Library, Middle Island, NY",
+    "lat": 40.8820789,
+    "lon": -72.9440591
+   },
+   "url": "https://www.longwoodlibrary.org/event/great-backyard-bird-count-188548",
+   "description": "Join us in the Great Backyard Bird Count, a global citizen science project! For four days in February, everyone is invited to spend time in their favorite places watching and counting as many birds as they can find and reporting them. You don’t even have to go outside - you can count the birds you see on your feeder while looking out the window! Pick up the Great Backyard Bird Count packets at the library starting February 1. Tally sheets from the Bird Counting Packet should be returned to the l",
+   "source_name": "Longwood Public Library",
+   "id": "e8bdeab7802470c1"
+  },
+  {
+   "source_id": "lib-longwood",
+   "source_uid": "188550@2027-02-14T05:00:00+00:00",
+   "title": "Great Backyard Bird Count",
+   "start": "2027-02-14T05:00:00+00:00",
+   "end": "2027-02-14T05:00:00+00:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "Longwood Public Library",
+    "address": "Longwood Public Library, Middle Island, NY",
+    "lat": 40.8820789,
+    "lon": -72.9440591
+   },
+   "url": "https://www.longwoodlibrary.org/event/great-backyard-bird-count-188550",
+   "description": "Join us in the Great Backyard Bird Count, a global citizen science project! For four days in February, everyone is invited to spend time in their favorite places watching and counting as many birds as they can find and reporting them. You don’t even have to go outside - you can count the birds you see on your feeder while looking out the window! Pick up the Great Backyard Bird Count packets at the library starting February 1. Tally sheets from the Bird Counting Packet should be returned to the l",
+   "source_name": "Longwood Public Library",
+   "id": "da0bbbb7a35f6fe6"
+  },
+  {
+   "source_id": "lib-portjeff",
+   "source_uid": "37829@2027-02-15T23:00:00+00:00",
+   "title": "Adult Dungeons and Dragons",
+   "start": "2027-02-15T23:00:00+00:00",
+   "end": "2027-02-16T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Port Jefferson Free Library",
+    "address": "Port Jefferson Free Library, Port Jefferson, NY",
+    "lat": 40.9469225,
+    "lon": -73.0664401
+   },
+   "url": "https://portjeff.librarycalendar.com/event/adult-dungeons-and-dragons-37829",
+   "description": "Veterans and novices are welcome. Create a character and bring a fantasy world to life. Each session is unique so attend one or both sessions.",
+   "source_name": "Port Jefferson Free Library",
+   "id": "9d095371c89727e5"
+  },
+  {
+   "source_id": "lib-syosset",
+   "source_uid": "61797@2027-02-15T23:30:00+00:00",
+   "title": "Dungeons & Dragons - Winter Campaign with DM Eric",
+   "start": "2027-02-15T23:30:00+00:00",
+   "end": "2027-02-16T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Syosset Public Library",
+    "address": "Syosset Public Library, Syosset, NY",
+    "lat": 40.7987691,
+    "lon": -73.5021128
+   },
+   "url": "https://syosset.librarycalendar.com/event/dungeons-dragons-winter-campaign-dm-eric-61797",
+   "description": "Sign up once and continue on your quest for 3 months. DM Eric will guide your way through this fun and exciting adventure. Adventures last for 3 months, when you register, please make sure you can come to all dates. Registration for SSD residents begins November 24, all others one week later if available. Disclaimer - All children under 12 must have a parent/guardian in the building at all times. - If you arrive more than 10 minutes past the stated start time of the program, your spot may be giv",
+   "source_name": "Syosset Public Library",
+   "id": "39573936def969b6"
+  },
+  {
+   "source_id": "lib-oceanside",
+   "source_uid": "50808@2027-02-16T00:00:00+00:00",
+   "title": "3-D Printer Hands-On Help & Live Demos",
+   "start": "2027-02-16T00:00:00+00:00",
+   "end": "2027-02-16T02:00:00+00:00",
    "all_day": false,
    "category": "makers",
    "location": {
-    "name": "Sachem Public Library",
-    "address": "Sachem Public Library, Holbrook, NY",
-    "lat": 40.799376,
-    "lon": -73.0697738
+    "name": "Oceanside Library",
+    "address": "Oceanside Library, Oceanside, NY",
+    "lat": 40.6415414,
+    "lon": -73.6384997
    },
-   "url": "https://sachem.librarycalendar.com/event/teen-program-tba-209099",
-   "description": "Build a custom glowing light display in the shape of a snowflake!",
-   "source_name": "Sachem Public Library",
-   "id": "cb63533fcd5e81f0"
+   "url": "https://oceansidepl.librarycalendar.com/event/3-d-printer-hands-help-live-demos-50808",
+   "description": "Bring your questions and see or participate in a hands-on demo. This is a drop-in style workshop, no registration is required. For the regular 3D printer class, held on the 1st Monday of the month, please click here.",
+   "source_name": "Oceanside Library",
+   "id": "9363e0175243ea24"
+  },
+  {
+   "source_id": "lib-commack",
+   "source_uid": "14249@2027-02-16T23:00:00+00:00",
+   "title": "Adult Dungeons & Dragons (Jan-April)",
+   "start": "2027-02-16T23:00:00+00:00",
+   "end": "2027-02-17T01:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Commack Public Library",
+    "address": "Commack Public Library, Commack, NY",
+    "lat": 40.8290049,
+    "lon": -73.2937839
+   },
+   "url": "https://commack.librarycalendar.com/event/adult-dungeons-dragons-jan-april-14249",
+   "description": "Dungeons & Dragons with the Quest Masters Guild: Adventurers needed! Fight monsters and collect treasure in fun fantasy worlds, filled with danger and magic. Perfect for new or experienced players. Your quest begins at the Commack Public Library. When you register, you are signed up for the entire series (January - April).",
+   "source_name": "Commack Public Library",
+   "id": "7b1e145a8e28a143"
+  },
+  {
+   "source_id": "lib-hamptonbays",
+   "source_uid": "51804@2027-02-16T20:30:00+00:00",
+   "title": "Magic: The Gathering 101",
+   "start": "2027-02-16T20:30:00+00:00",
+   "end": "2027-02-16T21:30:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Hampton Bays Public Library",
+    "address": "Hampton Bays Public Library, Hampton Bays, NY",
+    "lat": 40.8729677,
+    "lon": -72.520505
+   },
+   "url": "https://hamptonbays.librarycalendar.com/event/magic-gathering-101-51804",
+   "description": "Come play Magic: The Gathering with friends, whether you've been playing for years or you want to learn! Feel free to bring your own deck or use one of our pre–built ones!",
+   "source_name": "Hampton Bays Public Library",
+   "id": "20501f0764d97667"
   },
   {
    "source_id": "lib-portwashington",
@@ -1348,6 +3257,63 @@
    "id": "1a2c254ce4e6f4ac"
   },
   {
+   "source_id": "lib-sachem",
+   "source_uid": "211382@2027-02-18T00:00:00+00:00",
+   "title": "Anime Night: Isekai",
+   "start": "2027-02-18T00:00:00+00:00",
+   "end": "2027-02-18T01:00:00+00:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Sachem Public Library",
+    "address": "Sachem Public Library, Holbrook, NY",
+    "lat": 40.799376,
+    "lon": -73.0697738
+   },
+   "url": "https://sachem.librarycalendar.com/event/anime-night-isekai-211382",
+   "description": "Hang out and watch an isekai anime!",
+   "source_name": "Sachem Public Library",
+   "id": "fc77c66a8ecf1ca2"
+  },
+  {
+   "source_id": "lib-sayville",
+   "source_uid": "92923@2027-02-19T00:00:00+00:00",
+   "title": "Great South Bay Audubon Society",
+   "start": "2027-02-19T00:00:00+00:00",
+   "end": "2027-02-19T01:45:00+00:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "Sayville Library",
+    "address": "Sayville Library, Sayville, NY",
+    "lat": 40.7358333,
+    "lon": -73.08
+   },
+   "url": "https://www.sayvillelibrary.org/event/great-south-bay-audubon-society-92923",
+   "description": "Membership Meeting",
+   "source_name": "Sayville Library",
+   "id": "87a512f584f0b5f5"
+  },
+  {
+   "source_id": "lib-cutchogue",
+   "source_uid": "83756@2027-02-20T21:30:00+00:00",
+   "title": "Full Moon Walk at Downs Farm",
+   "start": "2027-02-20T21:30:00+00:00",
+   "end": "2027-02-20T22:30:00+00:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "Cutchogue-New Suffolk Free Library",
+    "address": "Cutchogue-New Suffolk Free Library, Cutchogue, NY",
+    "lat": 41.0091205,
+    "lon": -72.4857223
+   },
+   "url": "https://cutchogue.librarycalendar.com/event/full-moon-walk-downs-farm-83756",
+   "description": "FULL MOON WALK AT DOWN'S FARM Saturday, February 20, 4:30pm Registration required. Fee: $5 Join the library and Group for the East End for a magical evening under the full moon at Downs Farm in Cutchogue! Enjoy a guided walk through the natural beauty of the North Fork as we explore the sights and sounds of the evening landscape. Discover the wonders of the local environment, connect with nature, and experience the peaceful beauty of the outdoors by moonlight. All are welcome to enjoy this speci",
+   "source_name": "Cutchogue-New Suffolk Free Library",
+   "id": "e6f63f1c64e46ecb"
+  },
+  {
    "source_id": "lib-farmingdale",
    "source_uid": "30979@2027-02-22T21:15:00+00:00",
    "title": "Great Backyard Bird Count",
@@ -1365,6 +3331,25 @@
    "description": "Gr. K-2 Discover the birds in your backyard, then create a birdseed ornament to hang outside and attract feathered friends!",
    "source_name": "Farmingdale Public Library",
    "id": "b0fb7a7b556ca970"
+  },
+  {
+   "source_id": "lib-cutchogue",
+   "source_uid": "84050@2027-02-22T19:00:00+00:00",
+   "title": "WALKING TOUR OF DIKE SYSTEM",
+   "start": "2027-02-22T19:00:00+00:00",
+   "end": "2027-02-22T20:30:00+00:00",
+   "all_day": false,
+   "category": "outdoors",
+   "location": {
+    "name": "Cutchogue-New Suffolk Free Library",
+    "address": "Cutchogue-New Suffolk Free Library, Cutchogue, NY",
+    "lat": 41.0091205,
+    "lon": -72.4857223
+   },
+   "url": "https://cutchogue.librarycalendar.com/event/walking-tour-dike-system-84050",
+   "description": "WALKING TOUR OF DIKE SYSTEM Monday, February 22 at 2:00pm Registration required. Fee: $10 Long Island’s East End farms operate within a unique micro-climate that balances soil and water. Join us at Salt Air Farm in Cutchogue to walk the longest dike system on our beautiful East End, created in the 1940s. Along the way, learn from farmer Prudence Wickham Heston how this unique system works, why it is important to their farm, and the challenges (and joys) of farming in a seaside environment. Meet ",
+   "source_name": "Cutchogue-New Suffolk Free Library",
+   "id": "762d5087967b283a"
   },
   {
    "source_id": "lib-farmingdale",
@@ -1386,42 +3371,42 @@
    "id": "276739d03a415012"
   },
   {
-   "source_id": "lib-portwashington",
-   "source_uid": "123395@2027-02-27T19:00:00+00:00",
-   "title": "Museum of Technology",
-   "start": "2027-02-27T19:00:00+00:00",
-   "end": "2027-02-27T21:00:00+00:00",
+   "source_id": "lib-uniondale",
+   "source_uid": "18768@2027-02-26T21:00:00+00:00",
+   "title": "Manga/Anime Club",
+   "start": "2027-02-26T21:00:00+00:00",
+   "end": "2027-02-26T22:00:00+00:00",
    "all_day": false,
    "category": "computers",
    "location": {
-    "name": "Port Washington Public Library",
-    "address": "Port Washington Public Library, Port Washington, NY",
-    "lat": 40.8319463,
-    "lon": -73.6968479
+    "name": "Uniondale Public Library",
+    "address": "Uniondale Public Library, Uniondale, NY",
+    "lat": 40.7061793,
+    "lon": -73.5928575
    },
-   "url": "https://portwashington.librarycalendar.com/event/hold-old-tech-showcase-123395",
-   "description": "Families and people of all ages are invited to explore the technology of years gone by. This hands-on program will feature items such as vintage computers, old telephones and cell phones, manual typewriter, cameras, cassette players, radios, video games, and more. Are you nostalgic for old tech? Join us to revisit the technology you grew up with and take a trip down memory lane at our museum of technology.",
-   "source_name": "Port Washington Public Library",
-   "id": "ac73a7fe7051288d"
+   "url": "https://uniondale.librarycalendar.com/event/mangaanime-club-librarian-lois-new-day-18768",
+   "description": "Join Ms. Lois and other teens to hang out to watch Anime and talk about your favorite Manga/Anime series.",
+   "source_name": "Uniondale Public Library",
+   "id": "52a9289c51b8414e"
   },
   {
-   "source_id": "lib-syosset",
-   "source_uid": "58629@2027-03-04T23:00:00+00:00",
-   "title": "Long Island Coin club",
-   "start": "2027-03-04T23:00:00+00:00",
-   "end": "2027-03-05T02:00:00+00:00",
+   "source_id": "lib-commack",
+   "source_uid": "14250@2027-03-02T23:00:00+00:00",
+   "title": "Adult Dungeons & Dragons (Jan-April)",
+   "start": "2027-03-02T23:00:00+00:00",
+   "end": "2027-03-03T01:30:00+00:00",
    "all_day": false,
-   "category": "records",
+   "category": "computers",
    "location": {
-    "name": "Syosset Public Library",
-    "address": "Syosset Public Library, Syosset, NY",
-    "lat": 40.7987691,
-    "lon": -73.5021128
+    "name": "Commack Public Library",
+    "address": "Commack Public Library, Commack, NY",
+    "lat": 40.8290049,
+    "lon": -73.2937839
    },
-   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58629",
-   "description": "All community group meetings must be open to the public as per New York State Education Law.",
-   "source_name": "Syosset Public Library",
-   "id": "eac9c0b27b7f5ef4"
+   "url": "https://commack.librarycalendar.com/event/adult-dungeons-dragons-jan-april-14250",
+   "description": "Dungeons & Dragons with the Quest Masters Guild: Adventurers needed! Fight monsters and collect treasure in fun fantasy worlds, filled with danger and magic. Perfect for new or experienced players. Your quest begins at the Commack Public Library. When you register, you are signed up for the entire series (January - April).",
+   "source_name": "Commack Public Library",
+   "id": "e8e67792001ff4a0"
   },
   {
    "source_id": "tca",
@@ -1557,25 +3542,6 @@
    "id": "b1fe100da28c06d4"
   },
   {
-   "source_id": "lib-syosset",
-   "source_uid": "58630@2027-04-01T22:00:00+00:00",
-   "title": "Long Island Coin club",
-   "start": "2027-04-01T22:00:00+00:00",
-   "end": "2027-04-02T01:00:00+00:00",
-   "all_day": false,
-   "category": "records",
-   "location": {
-    "name": "Syosset Public Library",
-    "address": "Syosset Public Library, Syosset, NY",
-    "lat": 40.7987691,
-    "lon": -73.5021128
-   },
-   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58630",
-   "description": "All community group meetings must be open to the public as per New York State Education Law.",
-   "source_name": "Syosset Public Library",
-   "id": "77ea38b4e811d9b7"
-  },
-  {
    "source_id": "manual",
    "source_uid": "Vintage Computer Festival East 2027@2027-04-02",
    "title": "Vintage Computer Festival East 2027",
@@ -1709,6 +3675,25 @@
    "id": "482ea03760f5ea94"
   },
   {
+   "source_id": "lib-hillside",
+   "source_uid": "LibCal-21040-17583380@2027-04-27T18:00:00-04:00",
+   "title": "George Lucas & the Creation of Star Wars!",
+   "start": "2027-04-27T18:00:00-04:00",
+   "end": "2027-04-27T19:30:00-04:00",
+   "all_day": false,
+   "category": "computers",
+   "location": {
+    "name": "Hillside Public Library",
+    "address": "Hillside Public Library, New Hyde Park, NY",
+    "lat": 40.7344446,
+    "lon": -73.6882302
+   },
+   "url": "https://hillsidelibrary.libcal.com/event/17583380",
+   "description": "2027 is the 50th anniversary of this sci-fi classic! Featuring rare footage, this program traces the surprising, inspiring life of Star Wars creator George Lucas. Designed for casual and die-hard fans of all ages, this multimedia program explores Lucas’ inspirations for the series; follows the backstage drama behind all his films leading up to the original Star Wars; and shows clips from the forgotten films that influenced Lucas' classic.",
+   "source_name": "Hillside Public Library",
+   "id": "8bee6c07c2fd88c7"
+  },
+  {
    "source_id": "book-fairies",
    "source_uid": "10119-1809250200-1809262800@thebookfairies.org@2027-05-02T09:30:00-04:00",
    "title": "May Book Fair",
@@ -1726,25 +3711,6 @@
    "description": "[vc_row][vc_column][vc_column_text]Register For May Book Fair Book Fairies hosts monthly Book Fairs for schools and organizations supporting under-resourced areas across Long Island and New York City. Attendees can hand pick an unlimited number of gently used, high-interest, age-appropriate books to support literacy programming.*Schools must have Title I status or have at least 50% of their student body eligible to receive free/reduced lunch. The books will be separated into the following catego",
    "source_name": "The Book Fairies",
    "id": "1e4de340a9ef3958"
-  },
-  {
-   "source_id": "lib-syosset",
-   "source_uid": "58631@2027-05-06T22:00:00+00:00",
-   "title": "Long Island Coin club",
-   "start": "2027-05-06T22:00:00+00:00",
-   "end": "2027-05-07T01:00:00+00:00",
-   "all_day": false,
-   "category": "records",
-   "location": {
-    "name": "Syosset Public Library",
-    "address": "Syosset Public Library, Syosset, NY",
-    "lat": 40.7987691,
-    "lon": -73.5021128
-   },
-   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58631",
-   "description": "All community group meetings must be open to the public as per New York State Education Law.",
-   "source_name": "Syosset Public Library",
-   "id": "0ddec257d5d5f673"
   },
   {
    "source_id": "limarc",
@@ -1783,25 +3749,6 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "e7a932c6c67c74bc"
-  },
-  {
-   "source_id": "lib-syosset",
-   "source_uid": "58632@2027-06-03T22:00:00+00:00",
-   "title": "Long Island Coin club",
-   "start": "2027-06-03T22:00:00+00:00",
-   "end": "2027-06-04T01:00:00+00:00",
-   "all_day": false,
-   "category": "records",
-   "location": {
-    "name": "Syosset Public Library",
-    "address": "Syosset Public Library, Syosset, NY",
-    "lat": 40.7987691,
-    "lon": -73.5021128
-   },
-   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58632",
-   "description": "All community group meetings must be open to the public as per New York State Education Law.",
-   "source_name": "Syosset Public Library",
-   "id": "09c8b3c2f56870cd"
   },
   {
    "source_id": "tca",
@@ -1859,25 +3806,6 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "f61b8899c1cbc08e"
-  },
-  {
-   "source_id": "lib-syosset",
-   "source_uid": "58633@2027-07-01T22:00:00+00:00",
-   "title": "Long Island Coin club",
-   "start": "2027-07-01T22:00:00+00:00",
-   "end": "2027-07-02T01:00:00+00:00",
-   "all_day": false,
-   "category": "records",
-   "location": {
-    "name": "Syosset Public Library",
-    "address": "Syosset Public Library, Syosset, NY",
-    "lat": 40.7987691,
-    "lon": -73.5021128
-   },
-   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58633",
-   "description": "All community group meetings must be open to the public as per New York State Education Law.",
-   "source_name": "Syosset Public Library",
-   "id": "e69ac915198b7710"
   },
   {
    "source_id": "li-museum",
@@ -1956,25 +3884,6 @@
    "id": "6d012fa2322a8875"
   },
   {
-   "source_id": "lib-syosset",
-   "source_uid": "58634@2027-08-05T22:00:00+00:00",
-   "title": "Long Island Coin club",
-   "start": "2027-08-05T22:00:00+00:00",
-   "end": "2027-08-06T01:00:00+00:00",
-   "all_day": false,
-   "category": "records",
-   "location": {
-    "name": "Syosset Public Library",
-    "address": "Syosset Public Library, Syosset, NY",
-    "lat": 40.7987691,
-    "lon": -73.5021128
-   },
-   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58634",
-   "description": "All community group meetings must be open to the public as per New York State Education Law.",
-   "source_name": "Syosset Public Library",
-   "id": "a05e1488449a3969"
-  },
-  {
    "source_id": "limarc",
    "source_uid": "628102br2f1e300rr8nqgmope1@google.com@2027-08-11T19:00:00-04:00",
    "title": "LIMARC General Meeting",
@@ -1992,25 +3901,6 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "c541da840b217ba8"
-  },
-  {
-   "source_id": "lib-syosset",
-   "source_uid": "58635@2027-09-02T22:00:00+00:00",
-   "title": "Long Island Coin club",
-   "start": "2027-09-02T22:00:00+00:00",
-   "end": "2027-09-03T01:00:00+00:00",
-   "all_day": false,
-   "category": "records",
-   "location": {
-    "name": "Syosset Public Library",
-    "address": "Syosset Public Library, Syosset, NY",
-    "lat": 40.7987691,
-    "lon": -73.5021128
-   },
-   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58635",
-   "description": "All community group meetings must be open to the public as per New York State Education Law.",
-   "source_name": "Syosset Public Library",
-   "id": "e3ed053218bc775b"
   },
   {
    "source_id": "limarc",
@@ -2070,44 +3960,6 @@
    "id": "f53a3441ddd10312"
   },
   {
-   "source_id": "lib-sachem",
-   "source_uid": "209090@2027-10-05T23:00:00+00:00",
-   "title": "3D Printed Pull Copter",
-   "start": "2027-10-05T23:00:00+00:00",
-   "end": "2027-10-06T00:30:00+00:00",
-   "all_day": false,
-   "category": "makers",
-   "location": {
-    "name": "Sachem Public Library",
-    "address": "Sachem Public Library, Holbrook, NY",
-    "lat": 40.799376,
-    "lon": -73.0697738
-   },
-   "url": "https://sachem.librarycalendar.com/event/teen-program-tba-209090",
-   "description": "Build your own mechanical pull-copter featuring a custom 3D-printed launcher mechanism and high-flying rotor blades.",
-   "source_name": "Sachem Public Library",
-   "id": "066dadeb2564aebe"
-  },
-  {
-   "source_id": "lib-syosset",
-   "source_uid": "58636@2027-10-07T22:00:00+00:00",
-   "title": "Long Island Coin club",
-   "start": "2027-10-07T22:00:00+00:00",
-   "end": "2027-10-08T01:00:00+00:00",
-   "all_day": false,
-   "category": "records",
-   "location": {
-    "name": "Syosset Public Library",
-    "address": "Syosset Public Library, Syosset, NY",
-    "lat": 40.7987691,
-    "lon": -73.5021128
-   },
-   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58636",
-   "description": "All community group meetings must be open to the public as per New York State Education Law.",
-   "source_name": "Syosset Public Library",
-   "id": "99dd95217fedecaf"
-  },
-  {
    "source_id": "limarc",
    "source_uid": "628102br2f1e300rr8nqgmope1@google.com@2027-10-13T19:00:00-04:00",
    "title": "LIMARC General Meeting",
@@ -2144,25 +3996,6 @@
    "description": "Presented by the Eastern Division, Train Collectors Association (TCA)October 19–23, 2027 | York Expo Center, York, Pennsylvania Get ready for the October 2027 York Train Fair, the world’s largest model train event, proudly hosted by the Eastern Division of the Train Collectors Association (TCA). Held at the expansive York Expo Center, this multi-day celebration brings together train collectors, operators, dealers, and enthusiasts from across the country for an unforgettable week of trains, tradi",
    "source_name": "TCA Eastern Division (York Train Fair)",
    "id": "814dbe891f2476ba"
-  },
-  {
-   "source_id": "lib-syosset",
-   "source_uid": "58637@2027-11-04T22:00:00+00:00",
-   "title": "Long Island Coin club",
-   "start": "2027-11-04T22:00:00+00:00",
-   "end": "2027-11-05T01:00:00+00:00",
-   "all_day": false,
-   "category": "records",
-   "location": {
-    "name": "Syosset Public Library",
-    "address": "Syosset Public Library, Syosset, NY",
-    "lat": 40.7987691,
-    "lon": -73.5021128
-   },
-   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58637",
-   "description": "All community group meetings must be open to the public as per New York State Education Law.",
-   "source_name": "Syosset Public Library",
-   "id": "b0a721982aac6f84"
   },
   {
    "source_id": "tca",
@@ -2220,44 +4053,6 @@
    "description": "",
    "source_name": "Long Island Mobile Amateur Radio Club",
    "id": "b36d1da3f5b83318"
-  },
-  {
-   "source_id": "lib-syosset",
-   "source_uid": "58638@2027-12-02T23:00:00+00:00",
-   "title": "Long Island Coin club",
-   "start": "2027-12-02T23:00:00+00:00",
-   "end": "2027-12-03T02:00:00+00:00",
-   "all_day": false,
-   "category": "records",
-   "location": {
-    "name": "Syosset Public Library",
-    "address": "Syosset Public Library, Syosset, NY",
-    "lat": 40.7987691,
-    "lon": -73.5021128
-   },
-   "url": "https://syosset.librarycalendar.com/event/long-island-coin-club-58638",
-   "description": "All community group meetings must be open to the public as per New York State Education Law.",
-   "source_name": "Syosset Public Library",
-   "id": "24228ebfe2b461cc"
-  },
-  {
-   "source_id": "lib-sachem",
-   "source_uid": "209091@2027-12-08T00:00:00+00:00",
-   "title": "3D Printed Wind-Up Cars",
-   "start": "2027-12-08T00:00:00+00:00",
-   "end": "2027-12-08T01:30:00+00:00",
-   "all_day": false,
-   "category": "makers",
-   "location": {
-    "name": "Sachem Public Library",
-    "address": "Sachem Public Library, Holbrook, NY",
-    "lat": 40.799376,
-    "lon": -73.0697738
-   },
-   "url": "https://sachem.librarycalendar.com/event/teen-program-tba-209091",
-   "description": "Build your own mechanical wind-up car using simple gears and spring mechanisms to race across the floor.",
-   "source_name": "Sachem Public Library",
-   "id": "1f5e87fd01140df3"
   },
   {
    "source_id": "limarc",

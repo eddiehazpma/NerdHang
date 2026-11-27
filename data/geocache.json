@@ -89,6 +89,10 @@
   40.782634,
   -73.2566332
  ],
+ "center moriches free public library, center moriches, ny": [
+  40.8004106,
+  -72.7882914
+ ],
  "charles lindbergh blvd, garden city, ny 11530": [
   40.7271175,
   -73.6044605
@@ -105,23 +109,64 @@
   40.9238344,
   -73.0532492
  ],
+ "cutchogue-new suffolk free library, cutchogue, ny": [
+  41.0091205,
+  -72.4857223
+ ],
  "dover lodge of elks #184, 282 durham road, dover, new hampshire, 03820": null,
  "east islip public library, east islip, ny": [
   40.7358333,
   -73.1733333
+ ],
+ "emma s. clark memorial library, setauket, ny": [
+  40.9448735,
+  -73.1119697
  ],
  "faith lutheran church hall, 2740 fuller ave ne, grand rapids, mi, 49505": null,
  "farmingdale public library, farmingdale, ny": [
   40.7285764,
   -73.4604067
  ],
+ "floral park public library, floral park, ny": [
+  40.7252297,
+  -73.7064372
+ ],
+ "franklin square public library, franklin square, ny": null,
+ "franklin square, ny": [
+  40.700236,
+  -73.676448
+ ],
+ "garden city public library, garden city, ny": [
+  40.7237394,
+  -73.6392638
+ ],
+ "gold coast public library, glen head, ny": [
+  40.8358047,
+  -73.6224555
+ ],
+ "hampton bays public library, hampton bays, ny": [
+  40.8729677,
+  -72.520505
+ ],
  "hicksville, ny": [
   40.7695303,
   -73.5293246
  ],
+ "hillside public library, new hyde park, ny": [
+  40.7344446,
+  -73.6882302
+ ],
  "holbrook, ny": [
   40.799376,
   -73.0697738
+ ],
+ "island park public library, island park, ny": [
+  40.6022222,
+  -73.6561111
+ ],
+ "john jermain memorial library, sag harbor, ny": [
+  40.9974902,
+  -72.2963635
  ],
  "john p. murzyn hall, 530 mill street ne, columbia heights, mn, 55421": null,
  "knights of columbus hall, 2320 hatfield rd, pearland, texas, 77581": null,
@@ -146,6 +191,10 @@
   40.5889343,
   -73.6675057
  ],
+ "longwood public library, middle island, ny": [
+  40.8820789,
+  -72.9440591
+ ],
  "massapequa public library, massapequa, ny": [
   40.6639871,
   -73.4562533
@@ -158,7 +207,16 @@
   35.1023903,
   -106.5877669
  ],
+ "north bellmore public library, north bellmore, ny": null,
+ "north bellmore, ny": [
+  40.6892935,
+  -73.5369169
+ ],
  "north shore oceanfront resort, 201 75th avenue north, myrtle beach, sc, 29572": null,
+ "oceanside library, oceanside, ny": [
+  40.6415414,
+  -73.6384997
+ ],
  "orlando\u2019s, 4300 hoffmeister ave, saint louis, missouri, 63125": null,
  "pittsburgh shrine center, 1877 shriners way, cheswick, pa, 15024": null,
  "polish-american social club, 343 nw prima vista blvd, port saint lucie, florida, 34983": null,
@@ -170,7 +228,15 @@
   40.8319463,
   -73.6968479
  ],
+ "quogue library, quogue, ny": [
+  40.8189844,
+  -72.5993501
+ ],
  "sachem public library, holbrook, ny": null,
+ "sayville library, sayville, ny": [
+  40.7358333,
+  -73.08
+ ],
  "sayville, ny": [
   40.745349,
   -73.0885161
@@ -191,7 +257,15 @@
   40.7987691,
   -73.5021128
  ],
+ "uniondale public library, uniondale, ny": [
+  40.7061793,
+  -73.5928575
+ ],
  "vfw post 5408, 4764 cobb parkway nw, acworth, georgia, 30101": null,
+ "wantagh public library, wantagh, ny": [
+  40.6741399,
+  -73.5112102
+ ],
  "wilson county fairgrounds, \"made in tennessee bldg\" \u2022 945 e baddour pkwy, lebanon, tennessee, 37087": null,
  "york expo center, 334 carlisle ave, york, pa, 17404": null,
  "york fairgrounds, 334 carlisle ave., york, pa, 17404": null
