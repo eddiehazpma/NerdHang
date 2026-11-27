@@ -37,7 +37,9 @@ def load_sources(path: Path = ROOT / "collector" / "sources.yaml") -> list[dict]
 
 def fetch_source(source: dict, window_start: date, window_end: date, http_get=None) -> list[Event]:
     events = filter_events(_fetch_raw(source, window_start, window_end, http_get), source)
-    return limit_repeats(events, source.get("max_repeats", 3))
+    # Club calendars list each meeting once; general calendars repeat weekly clubs.
+    keep = source.get("max_repeats", 3 if source.get("filter") == "keywords" else 0)
+    return limit_repeats(events, keep) if keep else events
 
 
 def limit_repeats(events: list[Event], keep: int) -> list[Event]:

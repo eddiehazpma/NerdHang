@@ -78,7 +78,7 @@ categories:
     - hackers?
     - 2600 (meeting|meetup)s?
     - lock ?picking
-    - (3-?D|three-?D) print\w*
+    - (3-?D|three-?D) print(ing|ers?)
     - laser cut\w*
     - soldering
     - robotics?
@@ -186,6 +186,11 @@ exclude:
   - beginners?
   - board games?
   - closed
+  - youth
+  - trivia
+  - (athletes?|sports)
+  - (chef|cooking|tasting|recipe)
+  - \d+(st|nd|rd|th) ?- ?\d+(st|nd|rd|th)
   - cancell?ed
   - postponed
   - movie

@@ -311,17 +311,6 @@ sources:
     default_location: { name: "Center Moriches Free Public Library", address: "Center Moriches Free Public Library, Center Moriches, NY" }
     enabled: true
 
-  - id: lib-centralislip
-    name: Central Islip Public Library
-    type: ics
-    url: https://centralislip.librarycalendar.com/events/feed/ical
-    category: auto
-    filter: keywords
-    homepage: https://centralislip.librarycalendar.com/
-    always_default_location: true
-    default_location: { name: "Central Islip Public Library", address: "Central Islip Public Library, Central Islip, NY" }
-    enabled: true
-
   - id: lib-coldspringharbor
     name: Cold Spring Harbor Library
     type: ics
@@ -443,17 +432,6 @@ sources:
     default_location: { name: "Quogue Library", address: "Quogue Library, Quogue, NY" }
     enabled: true
 
-  - id: lib-riverhead
-    name: Riverhead Free Library
-    type: ics
-    url: https://riverhead.librarycalendar.com/events/feed/ical
-    category: auto
-    filter: keywords
-    homepage: https://riverhead.librarycalendar.com/
-    always_default_location: true
-    default_location: { name: "Riverhead Free Library", address: "Riverhead Free Library, Riverhead, NY" }
-    enabled: true
-
   - id: lib-southcountry
     name: South Country Library
     type: ics
@@ -485,17 +463,6 @@ sources:
     homepage: https://uniondale.librarycalendar.com/
     always_default_location: true
     default_location: { name: "Uniondale Public Library", address: "Uniondale Public Library, Uniondale, NY" }
-    enabled: true
-
-  - id: lib-westbabylon
-    name: West Babylon Public Library
-    type: ics
-    url: https://westbabylon.librarycalendar.com/events/feed/ical
-    category: auto
-    filter: keywords
-    homepage: https://westbabylon.librarycalendar.com/
-    always_default_location: true
-    default_location: { name: "West Babylon Public Library", address: "West Babylon Public Library, West Babylon, NY" }
     enabled: true
 
   - id: lib-harborfields

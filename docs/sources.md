@@ -77,3 +77,11 @@ Newsletters and calendar invites sent to the project's Gmail inbox are read on e
 - Pages & Pictures (Long Island Museum) already comes through the museum's feed each September.
 - **Area search** (`type: search`): searches each topic + area through the Brave Search API every day, then reads schema.org Event data from the result pages. Needs the `BRAVE_SEARCH_API_KEY` repository secret; skipped without it. Google's Custom Search API is closed to new sign-ups and shuts down on January 1, 2027, so it isn't used.
 - Not added: bookevents.nyc (its API is marked internal-only), Getman's Virtual Marketplace (online only, no location), the Gold Coast Book Fair and the LI Antiquarian Book & Paper Fair (no feed or 2027 date yet; the search may pick them up), Ephemera Society calendar (no feed; Ephemera 47 is March 18–21, 2027 but the venue isn't confirmed on the page).
+
+## Added 2026-11-27: the rest of the Long Island libraries
+
+- 45 more library calendars: 22 LibraryMarket iCal feeds and 23 LibCal (Springshare) libraries. For LibCal, the new `libcal` source type finds each library's public calendar ids from its event list and reads their iCal feeds.
+- Central Islip, Riverhead and West Babylon block automated requests (403), so they're left out.
+- Keywords now also catch tabletop gaming (D&D, Magic: The Gathering, RPGs), anime and manga, Star Wars and Star Trek, chess tournaments, and space and astronomy talks. The Computers chip is now "Computers & gaming".
+- Weekly clubs from library and town calendars show only their next 3 dates, so one club can't fill the list.
+- More library noise filtered out: kids' and school programs, virtual/Zoom events, movie screenings, cooking demos, cancelled events.
