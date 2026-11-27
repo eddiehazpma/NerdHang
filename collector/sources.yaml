@@ -277,6 +277,536 @@ sources:
     enabled: true
 
 
+  # More Long Island libraries (added 2026-11-27). LibraryMarket feeds:
+  - id: lib-babylon
+    name: Babylon Public Library
+    type: ics
+    url: https://babylonpl.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://babylonpl.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Babylon Public Library", address: "Babylon Public Library, Babylon, NY" }
+    enabled: true
+
+  - id: lib-baldwin
+    name: Baldwin Public Library
+    type: ics
+    url: https://baldwinpl.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://baldwinpl.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Baldwin Public Library", address: "Baldwin Public Library, Baldwin, NY" }
+    enabled: true
+
+  - id: lib-centermoriches
+    name: Center Moriches Free Public Library
+    type: ics
+    url: https://centermoriches.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://centermoriches.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Center Moriches Free Public Library", address: "Center Moriches Free Public Library, Center Moriches, NY" }
+    enabled: true
+
+  - id: lib-centralislip
+    name: Central Islip Public Library
+    type: ics
+    url: https://centralislip.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://centralislip.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Central Islip Public Library", address: "Central Islip Public Library, Central Islip, NY" }
+    enabled: true
+
+  - id: lib-coldspringharbor
+    name: Cold Spring Harbor Library
+    type: ics
+    url: https://coldspringharbor.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://coldspringharbor.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Cold Spring Harbor Library", address: "Cold Spring Harbor Library, Cold Spring Harbor, NY" }
+    enabled: true
+
+  - id: lib-copiague
+    name: Copiague Memorial Public Library
+    type: ics
+    url: https://copiague.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://copiague.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Copiague Memorial Public Library", address: "Copiague Memorial Public Library, Copiague, NY" }
+    enabled: true
+
+  - id: lib-cutchogue
+    name: Cutchogue-New Suffolk Free Library
+    type: ics
+    url: https://cutchogue.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://cutchogue.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Cutchogue-New Suffolk Free Library", address: "Cutchogue-New Suffolk Free Library, Cutchogue, NY" }
+    enabled: true
+
+  - id: lib-easthampton
+    name: East Hampton Library
+    type: ics
+    url: https://easthampton.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://easthampton.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "East Hampton Library", address: "East Hampton Library, East Hampton, NY" }
+    enabled: true
+
+  - id: lib-elwood
+    name: Elwood Public Library
+    type: ics
+    url: https://elwood.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://elwood.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Elwood Public Library", address: "Elwood Public Library, East Northport, NY" }
+    enabled: true
+
+  - id: lib-goldcoast
+    name: Gold Coast Public Library
+    type: ics
+    url: https://goldcoast.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://goldcoast.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Gold Coast Public Library", address: "Gold Coast Public Library, Glen Head, NY" }
+    enabled: true
+
+  - id: lib-hamptonbays
+    name: Hampton Bays Public Library
+    type: ics
+    url: https://hamptonbays.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://hamptonbays.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Hampton Bays Public Library", address: "Hampton Bays Public Library, Hampton Bays, NY" }
+    enabled: true
+
+  - id: lib-mineola
+    name: Mineola Memorial Library
+    type: ics
+    url: https://mineola.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://mineola.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Mineola Memorial Library", address: "Mineola Memorial Library, Mineola, NY" }
+    enabled: true
+
+  - id: lib-montauk
+    name: Montauk Library
+    type: ics
+    url: https://montauk.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://montauk.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Montauk Library", address: "Montauk Library, Montauk, NY" }
+    enabled: true
+
+  - id: lib-oceanside
+    name: Oceanside Library
+    type: ics
+    url: https://oceansidepl.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://oceansidepl.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Oceanside Library", address: "Oceanside Library, Oceanside, NY" }
+    enabled: true
+
+  - id: lib-quogue
+    name: Quogue Library
+    type: ics
+    url: https://quogue.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://quogue.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Quogue Library", address: "Quogue Library, Quogue, NY" }
+    enabled: true
+
+  - id: lib-riverhead
+    name: Riverhead Free Library
+    type: ics
+    url: https://riverhead.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://riverhead.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Riverhead Free Library", address: "Riverhead Free Library, Riverhead, NY" }
+    enabled: true
+
+  - id: lib-southcountry
+    name: South Country Library
+    type: ics
+    url: https://southcountry.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://southcountry.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "South Country Library", address: "South Country Library, Bellport, NY" }
+    enabled: true
+
+  - id: lib-southold
+    name: Southold Free Library
+    type: ics
+    url: https://southold.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://southold.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Southold Free Library", address: "Southold Free Library, Southold, NY" }
+    enabled: true
+
+  - id: lib-uniondale
+    name: Uniondale Public Library
+    type: ics
+    url: https://uniondale.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://uniondale.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Uniondale Public Library", address: "Uniondale Public Library, Uniondale, NY" }
+    enabled: true
+
+  - id: lib-westbabylon
+    name: West Babylon Public Library
+    type: ics
+    url: https://westbabylon.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://westbabylon.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "West Babylon Public Library", address: "West Babylon Public Library, West Babylon, NY" }
+    enabled: true
+
+  - id: lib-harborfields
+    name: Harborfields Public Library
+    type: ics
+    url: https://www.harborfieldslibrary.org/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://www.harborfieldslibrary.org/
+    always_default_location: true
+    default_location: { name: "Harborfields Public Library", address: "Harborfields Public Library, Greenlawn, NY" }
+    enabled: true
+
+  - id: lib-jericho
+    name: Jericho Public Library
+    type: ics
+    url: https://www.jericholibrary.org/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://www.jericholibrary.org/
+    always_default_location: true
+    default_location: { name: "Jericho Public Library", address: "Jericho Public Library, Jericho, NY" }
+    enabled: true
+
+  - id: lib-longwood
+    name: Longwood Public Library
+    type: ics
+    url: https://www.longwoodlibrary.org/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://www.longwoodlibrary.org/
+    always_default_location: true
+    default_location: { name: "Longwood Public Library", address: "Longwood Public Library, Middle Island, NY" }
+    enabled: true
+
+  - id: lib-sayville
+    name: Sayville Library
+    type: ics
+    url: https://www.sayvillelibrary.org/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://www.sayvillelibrary.org/
+    always_default_location: true
+    default_location: { name: "Sayville Library", address: "Sayville Library, Sayville, NY" }
+    enabled: true
+
+  - id: lib-wyandanch
+    name: Wyandanch Public Library
+    type: ics
+    url: https://wyandanch.librarycalendar.com/events/feed/ical
+    category: auto
+    filter: keywords
+    homepage: https://wyandanch.librarycalendar.com/
+    always_default_location: true
+    default_location: { name: "Wyandanch Public Library", address: "Wyandanch Public Library, Wyandanch, NY" }
+    enabled: true
+
+  # LibCal (Springshare) libraries: calendar ids are found automatically.
+  - id: lib-bryant
+    name: Bryant Library
+    type: libcal
+    host: bryantlibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://bryantlibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Bryant Library", address: "Bryant Library, Roslyn, NY" }
+    enabled: true
+
+  - id: lib-eastmeadow
+    name: East Meadow Public Library
+    type: libcal
+    host: eastmeadow.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://eastmeadow.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "East Meadow Public Library", address: "East Meadow Public Library, East Meadow, NY" }
+    enabled: true
+
+  - id: lib-elmont
+    name: Elmont Memorial Library
+    type: libcal
+    host: elmontlibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://elmontlibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Elmont Memorial Library", address: "Elmont Memorial Library, Elmont, NY" }
+    enabled: true
+
+  - id: lib-floralpark
+    name: Floral Park Public Library
+    type: libcal
+    host: floralparklibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://floralparklibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Floral Park Public Library", address: "Floral Park Public Library, Floral Park, NY" }
+    enabled: true
+
+  - id: lib-franklinsquare
+    name: Franklin Square Public Library
+    type: libcal
+    host: franklinsquarepl.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://franklinsquarepl.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Franklin Square Public Library", address: "Franklin Square Public Library, Franklin Square, NY" }
+    enabled: true
+
+  - id: lib-freeport
+    name: Freeport Memorial Library
+    type: libcal
+    host: freeportlibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://freeportlibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Freeport Memorial Library", address: "Freeport Memorial Library, Freeport, NY" }
+    enabled: true
+
+  - id: lib-gardencity
+    name: Garden City Public Library
+    type: libcal
+    host: gardencitypl.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://gardencitypl.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Garden City Public Library", address: "Garden City Public Library, Garden City, NY" }
+    enabled: true
+
+  - id: lib-glencove
+    name: Glen Cove Public Library
+    type: libcal
+    host: glencovelibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://glencovelibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Glen Cove Public Library", address: "Glen Cove Public Library, Glen Cove, NY" }
+    enabled: true
+
+  - id: lib-greatneck
+    name: Great Neck Library
+    type: libcal
+    host: greatnecklibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://greatnecklibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Great Neck Library", address: "Great Neck Library, Great Neck, NY" }
+    enabled: true
+
+  - id: lib-hempstead
+    name: Hempstead Public Library
+    type: libcal
+    host: hempsteadlibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://hempsteadlibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Hempstead Public Library", address: "Hempstead Public Library, Hempstead, NY" }
+    enabled: true
+
+  - id: lib-hicksville
+    name: Hicksville Public Library
+    type: libcal
+    host: hicksvillelibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://hicksvillelibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Hicksville Public Library", address: "Hicksville Public Library, Hicksville, NY" }
+    enabled: true
+
+  - id: lib-hillside
+    name: Hillside Public Library
+    type: libcal
+    host: hillsidelibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://hillsidelibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Hillside Public Library", address: "Hillside Public Library, New Hyde Park, NY" }
+    enabled: true
+
+  - id: lib-huntington
+    name: Huntington Public Library
+    type: libcal
+    host: huntingtonlibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://huntingtonlibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Huntington Public Library", address: "Huntington Public Library, Huntington, NY" }
+    enabled: true
+
+  - id: lib-hewlettwoodmere
+    name: Hewlett-Woodmere Public Library
+    type: libcal
+    host: hwpl.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://hwpl.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Hewlett-Woodmere Public Library", address: "Hewlett-Woodmere Public Library, Hewlett, NY" }
+    enabled: true
+
+  - id: lib-islandpark
+    name: Island Park Public Library
+    type: libcal
+    host: islandparklibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://islandparklibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Island Park Public Library", address: "Island Park Public Library, Island Park, NY" }
+    enabled: true
+
+  - id: lib-johnjermain
+    name: John Jermain Memorial Library
+    type: libcal
+    host: johnjermain.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://johnjermain.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "John Jermain Memorial Library", address: "John Jermain Memorial Library, Sag Harbor, NY" }
+    enabled: true
+
+  - id: lib-lakeview
+    name: Lakeview Public Library
+    type: libcal
+    host: lakeviewlibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://lakeviewlibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Lakeview Public Library", address: "Lakeview Public Library, Rockville Centre, NY" }
+    enabled: true
+
+  - id: lib-northbellmore
+    name: North Bellmore Public Library
+    type: libcal
+    host: northbellmorelibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://northbellmorelibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "North Bellmore Public Library", address: "North Bellmore Public Library, North Bellmore, NY" }
+    enabled: true
+
+  - id: lib-plainedge
+    name: Plainedge Public Library
+    type: libcal
+    host: plainedgelibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://plainedgelibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Plainedge Public Library", address: "Plainedge Public Library, North Massapequa, NY" }
+    enabled: true
+
+  - id: lib-rockvillecentre
+    name: Rockville Centre Public Library
+    type: libcal
+    host: rvcpl.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://rvcpl.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Rockville Centre Public Library", address: "Rockville Centre Public Library, Rockville Centre, NY" }
+    enabled: true
+
+  - id: lib-seacliff
+    name: Sea Cliff Village Library
+    type: libcal
+    host: seaclifflibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://seaclifflibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Sea Cliff Village Library", address: "Sea Cliff Village Library, Sea Cliff, NY" }
+    enabled: true
+
+  - id: lib-wantagh
+    name: Wantagh Public Library
+    type: libcal
+    host: wantaghlibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://wantaghlibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Wantagh Public Library", address: "Wantagh Public Library, Wantagh, NY" }
+    enabled: true
+
+  - id: lib-westbury
+    name: Westbury Memorial Public Library
+    type: libcal
+    host: westburylibrary.libcal.com
+    category: auto
+    filter: keywords
+    homepage: https://westburylibrary.libcal.com/calendar
+    always_default_location: true
+    default_location: { name: "Westbury Memorial Public Library", address: "Westbury Memorial Public Library, Westbury, NY" }
+    enabled: true
+
   # Town and county calendars (CivicPlus). Mostly meetings and closures,
   # so only keyword matches are kept: open houses, astronomy nights, train
   # displays, retro gaming and so on.

@@ -54,6 +54,20 @@ categories:
     - arcades?
     - LAN party
     - (8|16)-?bit
+    - dungeons (and|&) dragons
+    - D&D
+    - tabletop (rpg|role-?playing|gaming|games?)
+    - role-?playing games?
+    - magic:? the gathering
+    - warhammer
+    - pok[eé]mon (cards?|tcg|league|club)
+    - cosplay
+    - anime
+    - manga
+    - star (wars|trek)
+    - sci-?fi
+    - science fiction
+    - chess (club|tournament|night)s?
     - chiptunes?
     - raspberry pi
     - arduino
@@ -124,6 +138,17 @@ categories:
     - aircraft
     - tesla
     - science (museum|center)
+    - NASA
+    - astronauts?
+    - apollo (program|mission|\d+)
+    - moon landing
+    - (solar|lunar) eclipse
+    - meteor showers?
+    - night sky
+    - titanic
+    - shipwrecks?
+    - submarines?
+    - (history|science) of (flight|aviation|computing|radio|television|the railroad|railroads)
     # Government and lab open houses, only when about science or tech.
     - (lab|laboratory|observatory|weather service|NOAA|coast guard|air (national )?guard|air station|power plant|water (treatment|pollution control)|radio station|fire ?boat) (open house|tours?|day)
     - open house at (the )?(lab|laboratory|observatory|weather|NOAA|coast guard|air station|planetarium)
@@ -160,6 +185,10 @@ exclude:
   - beginners?
   - board games?
   - closed
+  - virtual
+  - (via|on) zoom
+  - zoom
+  - online
   - little learners
   - storytime\W.*
   - bingo

@@ -52,6 +52,8 @@ def _fetch_raw(source: dict, window_start: date, window_end: date, http_get=None
         return fetch_email(source, window_start, window_end)
     if kind == "search":
         return fetch_search(source, window_start, window_end, get)
+    if kind == "libcal":
+        return _fetch_libcal(source, window_start, window_end, get)
     if kind == "civicplus_rss":
         resp = get(source["url"])
         resp.raise_for_status()
@@ -72,6 +74,33 @@ def _fetch_raw(source: dict, window_start: date, window_end: date, http_get=None
             events.extend(parse_ics(r.content, source, window_start, window_end))
         return events
     raise ValueError(f"unknown source type {kind!r}")
+
+
+def _fetch_libcal(source: dict, window_start: date, window_end: date, get) -> list[Event]:
+    """Springshare LibCal: find the library's public calendar ids from its event
+    list, then read each calendar's iCal feed."""
+    host = source["host"]
+    cids = [str(c) for c in source.get("calendar_ids") or []]
+    if not cids:
+        for page in (1, 2, 3):
+            resp = get(f"https://{host}/ajax/calendar/list?c=-1&date=0000-00-00&perpage=48&page={page}"
+                       "&audience=&cats=&camps=&inc=0")
+            resp.raise_for_status()
+            results = resp.json().get("results") or []
+            for e in results:
+                cid = str(e.get("calendar_id") or "")
+                if cid and cid not in cids:
+                    cids.append(cid)
+            if len(results) < 48:
+                break
+    if not cids:
+        raise ValueError("no LibCal calendars found")
+    events: list[Event] = []
+    for cid in cids:
+        r = get(f"https://{host}/ical_subscribe.php?src=p&cid={cid}")
+        r.raise_for_status()
+        events.extend(parse_ics(r.content, source, window_start, window_end))
+    return events
 
 
 def _words(title: str) -> set[str]:
