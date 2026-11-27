@@ -1,0 +1,25 @@
+name: Probe feeds (temporary)
+on:
+  push:
+    branches: ["probe/**"]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python -m collector.build 2>&1 | grep -E "^lib-|FAILED|wrote"
+      - run: |
+          python - <<'PY'
+          import json, collections
+          evs = json.load(open("data/events.json"))
+          evs = evs["events"] if isinstance(evs, dict) else evs
+          print(collections.Counter(e["category"] for e in evs))
+          for e in sorted(evs, key=lambda e: (e["category"], e["start"])):
+              if e["source_id"].startswith("lib-"):
+                  print(e["start"][:10], e["category"], e["source_id"], "|", e["title"][:90])
+          PY
