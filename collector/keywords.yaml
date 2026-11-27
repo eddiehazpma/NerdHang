@@ -20,7 +20,7 @@ categories:
     - railfans?
     - HO scale
     - O gauge
-    - steam (train|locomotive|engine)
+    - steam (train|locomotive)s?
     - (polar express|santa('s)? (train|express)|north pole express)
     - (rail|train) (excursion|ride|tour)s?
     - excursion trains?
@@ -60,14 +60,14 @@ categories:
     - role-?playing games?
     - magic:? the gathering
     - warhammer
-    - pok[eé]mon (cards?|tcg|league|club)
+    - pok[eé]mon (tcg|league)
     - cosplay
     - anime
     - manga
     - star (wars|trek)
     - sci-?fi
     - science fiction
-    - chess (club|tournament|night)s?
+    - chess tournaments?
     - chiptunes?
     - raspberry pi
     - arduino
@@ -88,7 +88,8 @@ categories:
     - model rocketry
     - electronics (workshop|lab|club)
   records:
-    - (vinyl|record|records|cd|music|lp) (fair|show|swap|sale|expo|convention|collecting)s?
+    - (vinyl|record|records|cd|lp) (fair|show|swap|sale|expo|convention|collecting)s?
+    - music (fair|swap|expo|convention)s?
     - record (store|shop) day
     - vinyl (collect\w*|records?|night|listening)
     - listening (party|session)
@@ -157,9 +158,9 @@ categories:
     - summer sundays
     - (aviation|air) (show|day)s?
 
-# These categories use everyday words ("tour", "3D printing", "market"), so
-# they only count when they appear in the event title, not the description.
-title_only: [makers, records, outdoors, fairs]
+# Library descriptions mention all sorts of things, so most categories only
+# count when the words appear in the event title, not the description.
+title_only: [computers, makers, records, outdoors, fairs, museum]
 
 # Matching titles are dropped even if they matched above: kids' crafts,
 # day trips, classes for beginners, and other false friends.
@@ -185,6 +186,16 @@ exclude:
   - beginners?
   - board games?
   - closed
+  - cancell?ed
+  - postponed
+  - movie
+  - film
+  - screening
+  - volunteers?
+  - community service
+  - waitlist
+  - school
+  - students?
   - virtual
   - (via|on) zoom
   - zoom

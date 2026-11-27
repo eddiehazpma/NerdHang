@@ -36,7 +36,21 @@ def load_sources(path: Path = ROOT / "collector" / "sources.yaml") -> list[dict]
 
 
 def fetch_source(source: dict, window_start: date, window_end: date, http_get=None) -> list[Event]:
-    return filter_events(_fetch_raw(source, window_start, window_end, http_get), source)
+    events = filter_events(_fetch_raw(source, window_start, window_end, http_get), source)
+    return limit_repeats(events, source.get("max_repeats", 3))
+
+
+def limit_repeats(events: list[Event], keep: int) -> list[Event]:
+    """A weekly club would fill the list with the same title, so only its next
+    few dates are kept."""
+    seen: dict[str, int] = {}
+    out = []
+    for e in sorted(events, key=lambda e: e.start_date):
+        key = re.sub(r"\W+", " ", e.title.lower()).strip()
+        seen[key] = seen.get(key, 0) + 1
+        if seen[key] <= keep:
+            out.append(e)
+    return out
 
 
 def _fetch_raw(source: dict, window_start: date, window_end: date, http_get=None) -> list[Event]:
