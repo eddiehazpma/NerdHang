@@ -1,19 +1,17 @@
 {
- "generated_at": "2026-11-27T23:55:37+00:00",
+ "generated_at": "2026-11-28T18:21:53+00:00",
  "sources": {
   "rmli": {
    "ok": true,
    "count": 6
   },
   "tca": {
-   "ok": false,
-   "error": "Content line could not be parsed into parts: '<!DOCTYPE html>': <!DOCTYPEhtml>",
+   "ok": true,
    "count": 21
   },
   "eastern-tca": {
-   "ok": false,
-   "error": "Content line could not be parsed into parts: '<!DOCTYPE html>': <!DOCTYPEhtml>",
-   "count": 1
+   "ok": true,
+   "count": 2
   },
   "limarc": {
    "ok": true,
@@ -297,7 +295,7 @@
   },
   "sofo": {
    "ok": true,
-   "count": 2
+   "count": 1
   },
   "li-museum": {
    "ok": true,
@@ -330,25 +328,6 @@
   }
  },
  "events": [
-  {
-   "source_id": "sofo",
-   "source_uid": "40463-1795773600-1795780800@sofo.org@2026-11-27T10:00:00-05:00",
-   "title": "Black Friday Beach Cleanup",
-   "start": "2026-11-27T10:00:00-05:00",
-   "end": "2026-11-27T12:00:00-05:00",
-   "all_day": false,
-   "category": "outdoors",
-   "location": {
-    "name": "Southampton",
-    "address": "",
-    "lat": 36.6959378,
-    "lon": -77.1586002
-   },
-   "url": "https://sofo.org/calendar/black-friday-beach-cleanup/",
-   "description": "Join SOFO for a beach cleanup this Black Friday! Spend the day after Thanksgiving outside and help protect our beaches and wildlife from accumulated trash! Rain or shine; severe weather cancels. Program Leader: Rebecca Rogers, SOFO Environmental Educator This FREE program is for all ages. Advanced reservations are required for all events. Sign Up Here!",
-   "source_name": "South Fork Natural History Museum (SoFo)",
-   "id": "7d8a42ca1a1a4343"
-  },
   {
    "source_id": "lib-quogue",
    "source_uid": "49049@2026-11-28T19:00:00+00:00",
@@ -503,7 +482,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "0a7e6bc8-3d50-40e4-8648-94bf8597e96d@2026-11-29T06:00:00-05:00",
+   "source_uid": "cd63c8d1-7c84-4d37-9c20-fa47d482074e@2026-11-29T06:00:00-05:00",
    "title": "Thanksgiving Weekend at the Cradle of Aviation Museum",
    "start": "2026-11-29T06:00:00-05:00",
    "end": "2026-11-29T06:00:01-05:00",
@@ -518,7 +497,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Spend Thanksgiving weekend at the Museum! Learn about NASA's Voyager spacecraft, enjoy a free hands-on craft activity, and take in a planetarium show.</b> Friday - Sunday, November 27 - 29 Museum Hours: 10 am - 5 pm Activity: 12 pm - 4 pm <b>Celebrating Voyager</b> This November, NASA's Voyager 1 reaches a remarkable milestone, traveling more than one light-day from Earth! Launched in 1977, Voyager 1 has traveled beyond our solar system into interstellar space and is now the most distant huma",
    "source_name": "Cradle of Aviation Museum",
-   "id": "95e5ab32165df220"
+   "id": "b6f151c21f9c8945"
   },
   {
    "source_id": "lib-levittown",
@@ -611,7 +590,7 @@
     "lon": -72.9440591
    },
    "url": "https://www.longwoodlibrary.org/event/guided-nature-hike-hallock-state-park-preserve-195192",
-   "description": "Explore the woods, dunes, beachfront, and freshwater pond at Hallock State Park Preserve with author and naturalist Lee McAllister. You'll also learn the history of the property, including a small battle that took place near the shore in the War of 1812. Details to know before you go: - Hallock State Park Preserve is located at 6062 Sound Avenue, Jamesport, NY 11947 - Be prepared to walk 3.5 miles over some uneven ground and high bluffs. Please wear appropriate footwear and bring water. - Dress ",
+   "description": "Explore the woods, dunes, beachfront, and freshwater pond at Hallock State Park Preserve with author and naturalist Lee McAllister. You'll also learn the history of the property, including a small battle that took place near the shore in the War of 1812. Details to know before you go: - Hallock State Park Preserve is located at 6062 Sound Avenue, Jamesport, NY 11947 - Park in the second parking lot at the top of the hill. - Be prepared to walk 3.5 miles over some uneven ground and high bluffs. P",
    "source_name": "Longwood Public Library",
    "id": "b736789f4be50dfc"
   },
@@ -883,7 +862,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "88f5454d-9622-495c-978d-585f44ca1b8f@2026-12-05T10:00:00-05:00",
+   "source_uid": "c8050f14-383c-4da5-874e-2f043e749e6d@2026-12-05T10:00:00-05:00",
    "title": "Festival of Games",
    "start": "2026-12-05T10:00:00-05:00",
    "end": "2026-12-06T10:00:00-05:00",
@@ -898,7 +877,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Festival of Games: A Holiday Shopping & Gaming Event</b> Cradle-Con and Long Island Retro Gaming Expo are proud to present Festival of Games – a holiday-themed extravaganza of shopping and gaming experiences. Join us on Saturday, December 5th, and Sunday, December 6th, from 10:00 am to 5:00 pm, and shop a variety of local small businesses for retro video games, toys, comics, and collectibles, and enjoy a slew of unique retro gaming experiences. Admission includes free unlimited gameplay on ov",
    "source_name": "Cradle of Aviation Museum",
-   "id": "3f7cc47e81e138c3"
+   "id": "a268463fb7fcc392"
   },
   {
    "source_id": "lib-goldcoast",
@@ -1776,7 +1755,7 @@
   },
   {
    "source_id": "cradle-of-aviation",
-   "source_uid": "b7482aa4-6e7b-4013-8a1c-7683faae348d@2026-12-18T17:30:00-05:00",
+   "source_uid": "a37dad9c-0699-4315-8ea9-ad4809b59d04@2026-12-18T17:30:00-05:00",
    "title": "A Very Grinchy Pajama Party",
    "start": "2026-12-18T17:30:00-05:00",
    "end": "2026-12-18T21:00:00-05:00",
@@ -1791,7 +1770,7 @@
    "url": "https://www.cradleofaviation.org/",
    "description": "<b>Join us on Friday, December 18th, for a Very Grinchy Pajama Party!</b> Wear your favorite pajamas and enjoy a festive evening of holiday cheer, activities, and a screening of The Grinch (2018). <b>5:30 pm</b> Doors Open <b>5:30 pm – 7:00 pm</b> Activities & Meet the Grinch • More details to come <b>7:00 pm</b> Watch The Grinch (2018) Grab your hot chocolate and cookies (nut-free) and meet in the theater for The Grinch (2018)—where a grumpy green grouch tries to stop Christmas until Cindy-Lou ",
    "source_name": "Cradle of Aviation Museum",
-   "id": "760f9a2dc35eae29"
+   "id": "a7ffea14771e7156"
   },
   {
    "source_id": "lib-sachem",
